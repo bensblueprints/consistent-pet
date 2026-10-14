@@ -1,4 +1,4 @@
-﻿"""Incremental private recovery archives; never upload these archives publicly."""
+"""Incremental private recovery archives; never upload these archives publicly."""
 import argparse,json,subprocess,time,hashlib,shlex
 from pathlib import Path
 
@@ -32,7 +32,8 @@ def run(a):
     ssh=['ssh','-o','BatchMode=yes','-o','IdentitiesOnly=yes','-o','ConnectTimeout=20','-i',str(a.identity),'-p',str(a.port),a.host]
     reply=subprocess.run(ssh+['/venv/main/bin/python - '+str(prior.get('remote_time',0))],input=REMOTE,text=True,capture_output=True,check=True,timeout=600)
     result=json.loads(reply.stdout);name=time.strftime('%Y%m%dT%H%M%SZ',time.gmtime(result['remote_time']))+'.tar.gz';target=root/(name+'.partial')
-    subprocess.run(['scp','-o','BatchMode=yes','-o','IdentitiesOnly=yes','-i',str(a.identity),'-P',str(a.port),a.host+':/workspace/fpg-private-recovery.tar.gz',str(target)],check=True,timeout=1800)
+    with target.open('wb') as stream:
+        subprocess.run(ssh+['cat /workspace/fpg-private-recovery.tar.gz'],stdout=stream,check=True,timeout=1800)
     with target.open('rb') as f:sha=hashlib.file_digest(f,'sha256').hexdigest()
     if sha!=result['sha256']:raise ValueError('Recovery archive checksum mismatch')
     target.rename(root/name);result['archive']=name
