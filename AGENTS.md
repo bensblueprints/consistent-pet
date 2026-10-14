@@ -11,9 +11,9 @@ state, review databases, tokens, private sharing links and SSH details stay outs
 Git. Use explicit file lists when publishing from another workspace.
 
 Keep the independent visual reviewer fixed while optimizing generation. Acceptance
-for the newest owner-requested qualified-input policy requires input photo >=7,
-output face >=9, fur >=9, body >=7 and design >=9, high output confidence and no major
-defects. Never label a budget-limited or failed workflow accepted. Historical
+for the latest owner-requested policy requires input photo >=7 and a complete
+qualifying-dog round averaging >=8 across face, fur, body and design. There is no
+separate individual-score, confidence, defect or 85% veto in this policy. Never label a budget-limited or failed workflow accepted. Historical
 held-out evaluations must remain immutable and must not be relabeled as passes.
 
 Owner update, 2026-10-14: the new roster policy explicitly refines on every

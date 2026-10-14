@@ -1,6 +1,6 @@
 # Handoff: 725 portrait references and RTX 6000 workflow refinement
 
-Current policy: full qualifying-dog rounds, 85% set acceptance (15/17). See latest owner updates below.
+Current policy: one image per qualifying dog, then accept the complete round when its four-dimension mean is >=8/10. The former 85% individual-pass requirement is superseded. See latest owner updates below.
 
 Updated: 2026-10-14. **Start here, then read AGENTS.md and the operational documents linked below.**
 
