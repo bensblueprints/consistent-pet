@@ -1,24 +1,23 @@
 {
   "reference_id": "mobsters-020-the-most-wanted-sweetheart",
-  "status": "in_progress",
+  "status": "accepted",
   "target_hardware": "RTX PRO 6000 Blackwell 96 GB",
   "baseline_sha256": "fb4d6d0e6fa230cad49dd67a9dcd02825668549273a00de8810b368240cbd525",
   "baseline_is_reference_specific": false,
   "customer_identity_transfer_validated": false,
   "requires_design_review": false,
-  "accepted_workflow": null,
+  "accepted_workflow": "workflow.json",
   "latest_provisional_workflow": null,
   "last_run_version": "roster-eights-v4-mobsters-020-the-most-wanted-sweetheart",
-  "last_updated_utc": "2026-10-14T11:40:36Z",
-  "known_roster_identity_transfer_validated": false,
-  "evaluation_policy": "qualified-inputs-85-percent-v4",
+  "last_updated_utc": "2026-10-14T11:44:57Z",
+  "known_roster_identity_transfer_validated": true,
+  "evaluation_policy": "qualified-inputs-average-v5",
   "unseen_dog_validation": false,
   "ai_estimate_only": true,
   "rounds_started": 1,
-  "generation_candidates": 90,
+  "generation_candidates": 94,
   "roster_entries": 17,
-  "passing_current_recipe": 4,
-  "required_pass_percent": 85,
+  "passing_current_recipe": 7,
   "candidate_revisions": 6,
   "input_minimum": 7,
   "output_thresholds": {
@@ -27,5 +26,9 @@
     "body": 7,
     "template": 8
   },
-  "excluded_input_entries": 15
+  "excluded_input_entries": 15,
+  "acceptance_basis": "complete_round_average",
+  "current_recipe_average": 8.411764705882353,
+  "checked_current_recipe": 17,
+  "required_average": 8
 }
