@@ -1,6 +1,6 @@
 {
   "reference_id": "mobsters-016-the-roadhouse-rendezvous",
-  "status": "pending_gpu_refinement",
+  "status": "in_progress",
   "target_hardware": "RTX PRO 6000 Blackwell 96 GB",
   "baseline_sha256": "fb4d6d0e6fa230cad49dd67a9dcd02825668549273a00de8810b368240cbd525",
   "baseline_is_reference_specific": false,
@@ -8,6 +8,9 @@
   "requires_design_review": false,
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
-  "last_run_version": null,
-  "last_updated_utc": null
+  "last_run_version": "catalog-llm-v3-mobsters-016-the-roadhouse-rendezvous-round-1",
+  "last_updated_utc": "2026-10-14T08:28:08Z",
+  "ai_estimate_only": true,
+  "rounds_started": 1,
+  "generation_candidates": 0
 }
