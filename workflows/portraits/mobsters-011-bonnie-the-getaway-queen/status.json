@@ -9,15 +9,15 @@
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
   "last_run_version": "roster-average-v5-mobsters-011-bonnie-the-getaway-queen",
-  "last_updated_utc": "2026-10-14T12:01:44Z",
+  "last_updated_utc": "2026-10-14T12:07:24Z",
   "ai_estimate_only": true,
   "rounds_started": 1,
-  "generation_candidates": 3,
+  "generation_candidates": 10,
   "known_roster_identity_transfer_validated": false,
   "evaluation_policy": "qualified-inputs-average-v5",
   "unseen_dog_validation": false,
   "roster_entries": 17,
-  "passing_current_recipe": 2,
+  "passing_current_recipe": 6,
   "required_pass_percent": 85,
   "candidate_revisions": 1,
   "input_minimum": 7,
@@ -29,5 +29,5 @@
   },
   "excluded_input_entries": 15,
   "required_average": 8,
-  "current_recipe_average": 8.166666666666666
+  "current_recipe_average": 8.25
 }
