@@ -1,12 +1,17 @@
-# Bonnie the Getaway Queen — refinement report
+# Bonnie the Getaway Queen — development-roster report
 
-Status: **blocked**. Updated 2026-10-14T08:19:26Z.
+Status: **provisional**. Updated 2026-10-14T09:30:28Z.
 
-Queue `catalog-llm-v3`; run `catalog-llm-v3-mobsters-011-bonnie-the-getaway-queen-round-3`; 3 rounds started; 16 generated candidates.
+1 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 1 candidate recipes; 1 renders.
 
-The resident Qwen3-VL-32B proposes bounded graph changes from reference images, original tuning pets, previous outputs and training-only critiques. The independent scoring prompt and weights remain fixed.
-Graph strategies: whole-subject inpainting or fresh subject latent with protected-background compositing. FLUX.2 Klein base 4B and SAM3.1 remain the generation/segmentation stack.
+The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.
+Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.
 
-Acceptance requires every face/fur/body/design score >=9, high confidence, no major defects, and successful frozen cross-dog checks. AI scores are estimates, not proof of perfect identity or print quality.
-Exact customer images, masks, graph attempts, critiques and provisional recipes remain in the private runtime. No provisional graph has been published as an accepted workflow.
-Training failures return to the queue. Failed held-out checks are not supplied as tuning feedback. Technical failures retain their native job IDs for safe resume.
+All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.
+
+| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |
+| --- | ---: | ---: | ---: | --- | --- |
+| 1 | 1 | 1 | 9 | fresh-latent | source-compatible |
+
+Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
+Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.

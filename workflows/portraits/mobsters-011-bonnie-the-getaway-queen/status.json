@@ -1,6 +1,6 @@
 {
   "reference_id": "mobsters-011-bonnie-the-getaway-queen",
-  "status": "blocked",
+  "status": "provisional",
   "target_hardware": "RTX PRO 6000 Blackwell 96 GB",
   "baseline_sha256": "fb4d6d0e6fa230cad49dd67a9dcd02825668549273a00de8810b368240cbd525",
   "baseline_is_reference_specific": false,
@@ -8,9 +8,24 @@
   "requires_design_review": false,
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
-  "last_run_version": "catalog-llm-v3-mobsters-011-bonnie-the-getaway-queen-round-3",
-  "last_updated_utc": "2026-10-14T08:19:26Z",
+  "last_run_version": "roster-rounds-v3-mobsters-011-bonnie-the-getaway-queen",
+  "last_updated_utc": "2026-10-14T09:30:28Z",
   "ai_estimate_only": true,
-  "rounds_started": 3,
-  "generation_candidates": 16
+  "rounds_started": 1,
+  "generation_candidates": 1,
+  "known_roster_identity_transfer_validated": false,
+  "evaluation_policy": "qualified-inputs-85-percent-v3",
+  "unseen_dog_validation": false,
+  "roster_entries": 17,
+  "passing_current_recipe": 1,
+  "required_pass_percent": 85,
+  "candidate_revisions": 1,
+  "input_minimum": 7,
+  "output_thresholds": {
+    "identity": 9,
+    "fur": 9,
+    "body": 7,
+    "template": 9
+  },
+  "excluded_input_entries": 15
 }
