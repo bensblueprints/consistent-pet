@@ -1,5 +1,7 @@
 # Consistent Pet
 
+**Next LLM: read [HANDOFF.md](HANDOFF.md) first.** It locates all **725 unique portrait references**, their GitHub/Hugging Face downloads, and the [725 per-picture GPU workflow folders](workflows/portraits/index.json). It directs the RTX 6000 refinement work and explains exactly where to save each validated workflow.
+
 Local, feedback-driven pet portrait refinement on a 96 GB RTX PRO 6000 Blackwell.
 The system renders a pet in a reference artwork, asks an independent vision LLM
 to diagnose the result, changes that reference's workflow and tries again.

@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-191-captain-biscuit",
+  "name": "Captain Biscuit",
+  "sex": "unisex",
+  "category": "Original Champions",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/original-champions/superheroes-191-captain-biscuit.png",
+  "preview_path": "reference-library/previews/unisex/original-champions/superheroes-191-captain-biscuit.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/original-champions/superheroes-191-captain-biscuit.png",
+  "reference_sha256": "d76a64b5cf589aba776cfeb49c488e197d6ee8c6ee337a72b13a63748bb7a06c",
+  "workflow_folder": "workflows/portraits/superheroes-191-captain-biscuit",
+  "qa_flags": [],
+  "description": "original playful canine superhero costume based on the title, premium cinematic realism and imaginative tasteful pet-focused emblem. Scene: Captain Biscuit; atop a stone skyscraper with cinematic searchlights and a distant gothic city",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Captain Biscuit. Costume direction: original playful canine superhero costume based on the title, premium cinematic realism and imaginative tasteful pet-focused emblem. Adapt the setting specifically to the named concept: Captain Biscuit; atop a stone skyscraper with cinematic searchlights and a distant gothic city. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

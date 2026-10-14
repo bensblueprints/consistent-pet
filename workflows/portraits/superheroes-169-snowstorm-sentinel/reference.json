@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-169-snowstorm-sentinel",
+  "name": "Snowstorm Sentinel",
+  "sex": "unisex",
+  "category": "Elemental Heroes",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/elemental-heroes/superheroes-169-snowstorm-sentinel.png",
+  "preview_path": "reference-library/previews/unisex/elemental-heroes/superheroes-169-snowstorm-sentinel.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/elemental-heroes/superheroes-169-snowstorm-sentinel.png",
+  "reference_sha256": "dbfd60a49f0795473a700cff09f64542c3b6886df3cd5314ead33b34b21f27ed",
+  "workflow_folder": "workflows/portraits/superheroes-169-snowstorm-sentinel",
+  "qa_flags": [],
+  "description": "distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Scene: Snowstorm Sentinel; on a mountain overlook with cloud layers and sweeping light",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Snowstorm Sentinel. Costume direction: distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Adapt the setting specifically to the named concept: Snowstorm Sentinel; on a mountain overlook with cloud layers and sweeping light. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

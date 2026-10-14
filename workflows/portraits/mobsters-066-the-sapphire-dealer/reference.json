@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-066-the-sapphire-dealer",
+  "name": "The Sapphire Dealer",
+  "sex": "unisex",
+  "category": "Casino Royals",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/casino-royals/mobsters-066-the-sapphire-dealer.png",
+  "preview_path": "reference-library/previews/unisex/casino-royals/mobsters-066-the-sapphire-dealer.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/casino-royals/mobsters-066-the-sapphire-dealer.png",
+  "reference_sha256": "0c565a895819f0b5a609c7df63d509e39c474c02f0938951fb702ff84423a25f",
+  "workflow_folder": "workflows/portraits/mobsters-066-the-sapphire-dealer",
+  "qa_flags": [],
+  "description": "sapphire blue canine vest and silk bow, art-deco card room",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Sapphire Dealer. Scene: sapphire blue canine vest and silk bow, art-deco card room. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

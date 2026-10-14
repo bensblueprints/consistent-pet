@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-039-candy-shopkeeper",
+  "name": "Candy Shopkeeper",
+  "sex": "unisex",
+  "category": "Foodie Favorites",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/foodie-favorites/costumes300-039-candy-shopkeeper.png",
+  "preview_path": "reference-library/previews/unisex/foodie-favorites/costumes300-039-candy-shopkeeper.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/foodie-favorites/costumes300-039-candy-shopkeeper.png",
+  "reference_sha256": "0c1e731059c2c2843bf91db5e25b5161e06f5c37967261c62da03b570c6792db",
+  "workflow_folder": "workflows/portraits/costumes300-039-candy-shopkeeper",
+  "qa_flags": [],
+  "description": "striped waistcoat, candy jar shelves",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Foodie Favorites. Portrait: Candy Shopkeeper. Scene and costume: striped waistcoat, candy jar shelves."
+}

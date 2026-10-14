@@ -1,0 +1,15 @@
+{
+  "id": "vintage-006-mail-carrier-escapes-again",
+  "name": "Mail Carrier Escapes Again",
+  "sex": "unisex",
+  "category": "Newspapers",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/unisex/newspapers/vintage-006-mail-carrier-escapes-again.png",
+  "preview_path": "reference-library/previews/unisex/newspapers/vintage-006-mail-carrier-escapes-again.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/newspapers/vintage-006-mail-carrier-escapes-again.png",
+  "reference_sha256": "f2f5f7281bd3f20ecc5144fe3daa06bb4e7b8d22b2a2b3215c8d909c2f5dc4c9",
+  "workflow_folder": "workflows/portraits/vintage-006-mail-carrier-escapes-again",
+  "qa_flags": [],
+  "description": "alert dog looking through a normal front window toward a distant mailbox",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"Mail Carrier Escapes Again\". Scene: alert dog looking through a normal front window toward a distant mailbox. Art direction: aged black-and-white or sepia newspaper press photograph on subtly weathered newsprint, fine halftone reproduction, sober 1930s local newspaper design. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This female dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

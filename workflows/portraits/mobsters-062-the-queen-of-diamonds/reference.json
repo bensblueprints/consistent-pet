@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-062-the-queen-of-diamonds",
+  "name": "The Queen of Diamonds",
+  "sex": "female",
+  "category": "Casino Royals",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/casino-royals/mobsters-062-the-queen-of-diamonds.png",
+  "preview_path": "reference-library/previews/female/casino-royals/mobsters-062-the-queen-of-diamonds.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/casino-royals/mobsters-062-the-queen-of-diamonds.png",
+  "reference_sha256": "fa24808438d01c069e14fbc85ffb9c6e3353a943e6f9b0c0ae6061d61b7c5829",
+  "workflow_folder": "workflows/portraits/mobsters-062-the-queen-of-diamonds",
+  "qa_flags": [],
+  "description": "ruby canine capelet and diamond-style collar, elegant casino balcony",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Queen of Diamonds. Scene: ruby canine capelet and diamond-style collar, elegant casino balcony. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

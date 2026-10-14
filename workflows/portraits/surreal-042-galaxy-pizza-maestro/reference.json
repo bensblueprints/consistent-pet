@@ -1,0 +1,15 @@
+{
+  "id": "surreal-042-galaxy-pizza-maestro",
+  "name": "Galaxy Pizza Maestro",
+  "sex": "male",
+  "category": "Surreal adventure",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/surreal-adventure/surreal-042-galaxy-pizza-maestro.png",
+  "preview_path": "reference-library/previews/male/surreal-adventure/surreal-042-galaxy-pizza-maestro.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/surreal-adventure/surreal-042-galaxy-pizza-maestro.png",
+  "reference_sha256": "b19dabc9121b36500283e5babe117c7c18d22cafca28d9e5ceb5d09ed4a6c217",
+  "workflow_folder": "workflows/portraits/surreal-042-galaxy-pizza-maestro",
+  "qa_flags": [],
+  "description": "white chef jacket and red neckerchief, levitating pizzas as planets around a giant glowing oven",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Galaxy Pizza Maestro. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: white chef jacket and red neckerchief, levitating pizzas as planets around a giant glowing oven. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

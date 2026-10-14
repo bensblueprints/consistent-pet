@@ -1,5 +1,10 @@
 # Consistent Pet
 
+For the 725-reference library and requested RTX 6000 per-picture refinement task,
+read [HANDOFF.md](HANDOFF.md) first. Folder mappings are in
+`workflows/portraits/index.json`. Starting graphs are not accepted workflows;
+save validated sanitized exports in each reference's own folder as directed there.
+
 This repository contains source code, tests and generic examples for the local
 portrait refinement system. Model weights, uploads, generated portraits, runtime
 state, review databases, tokens, private sharing links and SSH details stay outside

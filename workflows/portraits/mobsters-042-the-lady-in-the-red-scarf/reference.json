@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-042-the-lady-in-the-red-scarf",
+  "name": "The Lady in the Red Scarf",
+  "sex": "female",
+  "category": "Noir City",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/noir-city/mobsters-042-the-lady-in-the-red-scarf.png",
+  "preview_path": "reference-library/previews/female/noir-city/mobsters-042-the-lady-in-the-red-scarf.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/noir-city/mobsters-042-the-lady-in-the-red-scarf.png",
+  "reference_sha256": "eec88e2633c63c2bb3808390067905b71886c178871e74fb19275b3372ed74e2",
+  "workflow_folder": "workflows/portraits/mobsters-042-the-lady-in-the-red-scarf",
+  "qa_flags": [],
+  "description": "black canine coat and crimson scarf, monochrome rain-lit station",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Lady in the Red Scarf. Scene: black canine coat and crimson scarf, monochrome rain-lit station. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

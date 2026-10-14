@@ -1,0 +1,15 @@
+{
+  "id": "original25-grandmaster-detective",
+  "name": "Grandmaster Detective",
+  "sex": "unisex",
+  "category": "Detectives and Secret Agents",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/detectives-and-secret-agents/original25-grandmaster-detective.png",
+  "preview_path": "reference-library/previews/unisex/detectives-and-secret-agents/original25-grandmaster-detective.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/detectives-and-secret-agents/original25-grandmaster-detective.png",
+  "reference_sha256": "7f2d487b2161edcad403464962e71efec32b44536f380f99642ccba90ed0cad6",
+  "workflow_folder": "workflows/portraits/original25-grandmaster-detective",
+  "qa_flags": [],
+  "description": "Grandmaster Detective",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a Basset hound dog. Portray the animal as Grandmaster Detective wearing Victorian detective coat, refined waistcoat and deerstalker hat, no pipe. Setting: Victorian study, books and softly lit rainy window, warm walnut and olive. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

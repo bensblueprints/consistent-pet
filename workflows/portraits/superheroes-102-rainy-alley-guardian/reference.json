@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-102-rainy-alley-guardian",
+  "name": "Rainy Alley Guardian",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-102-rainy-alley-guardian.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-102-rainy-alley-guardian.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-102-rainy-alley-guardian.png",
+  "reference_sha256": "8c5c2ff3e00696ce5c8c763910aedc98f6d30a5e3739c4f33471fcc56744979d",
+  "workflow_folder": "workflows/portraits/superheroes-102-rainy-alley-guardian",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: Rainy Alley Guardian; in a rain-lit alley with dramatic reflections and sharp rim lighting",
+  "source_generation_prompt": "A beautiful friendly golden retriever superhero pet portrait. One real golden retriever dog naturally sitting on its hind legs with its front paws visible, wearing a black dog cape and a gold collar, on a colorful lamplit brick street after rain. Original playful black-caped canine superhero. Natural dog head and ears fully visible, recognizable golden fur and warm eyes. Vertical fine-art photographic portrait, detailed fur, dramatic cinematic lighting, large visible dog face and comfortable headroom. No text or frame."
+}

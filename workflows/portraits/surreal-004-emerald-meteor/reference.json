@@ -1,0 +1,15 @@
+{
+  "id": "surreal-004-emerald-meteor",
+  "name": "Emerald Meteor",
+  "sex": "male",
+  "category": "Superhero",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/superhero/surreal-004-emerald-meteor.png",
+  "preview_path": "reference-library/previews/male/superhero/surreal-004-emerald-meteor.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/superhero/surreal-004-emerald-meteor.png",
+  "reference_sha256": "be9e05e27737e90bb065d1ef17c5cc0e3d3587fa5926ef92671cb9bf72cbaa5b",
+  "workflow_folder": "workflows/portraits/surreal-004-emerald-meteor",
+  "qa_flags": [],
+  "description": "emerald crystal armor and flowing cape, meteor fragments suspended above a verdant moon",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Emerald Meteor. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: emerald crystal armor and flowing cape, meteor fragments suspended above a verdant moon. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

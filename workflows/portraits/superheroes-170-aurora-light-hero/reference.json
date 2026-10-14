@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-170-aurora-light-hero",
+  "name": "Aurora Light Hero",
+  "sex": "unisex",
+  "category": "Elemental Heroes",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/elemental-heroes/superheroes-170-aurora-light-hero.png",
+  "preview_path": "reference-library/previews/unisex/elemental-heroes/superheroes-170-aurora-light-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/elemental-heroes/superheroes-170-aurora-light-hero.png",
+  "reference_sha256": "449e53cd3fcd248d64593155f79f3f2f277a33862dd41dbcb0ef420e459e248d",
+  "workflow_folder": "workflows/portraits/superheroes-170-aurora-light-hero",
+  "qa_flags": [],
+  "description": "distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Scene: Aurora Light Hero; at dawn with a glowing city horizon and gently flowing cape",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Aurora Light Hero. Costume direction: distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Adapt the setting specifically to the named concept: Aurora Light Hero; at dawn with a glowing city horizon and gently flowing cape. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

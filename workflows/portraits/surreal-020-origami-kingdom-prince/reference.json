@@ -1,0 +1,15 @@
+{
+  "id": "surreal-020-origami-kingdom-prince",
+  "name": "Origami Kingdom Prince",
+  "sex": "male",
+  "category": "Royal fantasy",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/royal-fantasy/surreal-020-origami-kingdom-prince.png",
+  "preview_path": "reference-library/previews/male/royal-fantasy/surreal-020-origami-kingdom-prince.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/royal-fantasy/surreal-020-origami-kingdom-prince.png",
+  "reference_sha256": "8c5f5d1acc05fbe6f30be9b3b6a47ae23d99315534889dc9bcbadde2720a9a77",
+  "workflow_folder": "workflows/portraits/surreal-020-origami-kingdom-prince",
+  "qa_flags": [],
+  "description": "indigo patterned court coat, elaborate origami castle and paper cranes suspended in moonlight",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Origami Kingdom Prince. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: indigo patterned court coat, elaborate origami castle and paper cranes suspended in moonlight. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "original25-galactic-emperor",
+  "name": "Galactic Emperor",
+  "sex": "male",
+  "category": "Science Fiction",
+  "collection": "original25",
+  "reference_path": "reference-library/references/male/science-fiction/original25-galactic-emperor.png",
+  "preview_path": "reference-library/previews/male/science-fiction/original25-galactic-emperor.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/science-fiction/original25-galactic-emperor.png",
+  "reference_sha256": "f461b9e72a4f9d32b3e0b1f9f600afe2c0cfd5dfa67665bdacba76f38aada0ce",
+  "workflow_folder": "workflows/portraits/original25-galactic-emperor",
+  "qa_flags": [],
+  "description": "Galactic Emperor",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a black short-haired cat with amber eyes. Portray the animal as Galactic Emperor wearing Original futuristic ceremonial armor, elegant dark cape. Setting: grand orbital palace, subtle planets beyond tall windows, charcoal and antique gold, no franchise designs. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

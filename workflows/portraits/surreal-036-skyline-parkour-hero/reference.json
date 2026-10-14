@@ -1,0 +1,15 @@
+{
+  "id": "surreal-036-skyline-parkour-hero",
+  "name": "Skyline Parkour Hero",
+  "sex": "male",
+  "category": "Extreme sports",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/extreme-sports/surreal-036-skyline-parkour-hero.png",
+  "preview_path": "reference-library/previews/male/extreme-sports/surreal-036-skyline-parkour-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/extreme-sports/surreal-036-skyline-parkour-hero.png",
+  "reference_sha256": "fe014361318432bbb3208a66c82d52aba0a7e7a9b26930b7067746b6137226e5",
+  "workflow_folder": "workflows/portraits/surreal-036-skyline-parkour-hero",
+  "qa_flags": [],
+  "description": "black and lime parkour clothing, twisting rooftop staircases suspended in the clouds",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Skyline Parkour Hero. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: black and lime parkour clothing, twisting rooftop staircases suspended in the clouds. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

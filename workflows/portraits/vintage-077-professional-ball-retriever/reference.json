@@ -1,0 +1,15 @@
+{
+  "id": "vintage-077-professional-ball-retriever",
+  "name": "Professional Ball Retriever",
+  "sex": "unisex",
+  "category": "Sports collectibles",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/unisex/sports-collectibles/vintage-077-professional-ball-retriever.png",
+  "preview_path": "reference-library/previews/unisex/sports-collectibles/vintage-077-professional-ball-retriever.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/sports-collectibles/vintage-077-professional-ball-retriever.png",
+  "reference_sha256": "24a23c93e818c1e10225df604de4df584c4260d413425266199144fdbc3df20f",
+  "workflow_folder": "workflows/portraits/vintage-077-professional-ball-retriever",
+  "qa_flags": [],
+  "description": "dog beside wicker basket of ordinary golf balls, real old golf-course photograph",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"Professional Ball Retriever\". Scene: dog beside wicker basket of ordinary golf balls, real old golf-course photograph. Art direction: original vintage sports collectible print, muted halftone inks, worn trading-card or event-poster paper design, no real teams or brands. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This male dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

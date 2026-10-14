@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-208-vienna-concert-guest",
+  "name": "Vienna Concert Guest",
+  "sex": "unisex",
+  "category": "Around the World",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/around-the-world/costumes300-208-vienna-concert-guest.png",
+  "preview_path": "reference-library/previews/unisex/around-the-world/costumes300-208-vienna-concert-guest.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/around-the-world/costumes300-208-vienna-concert-guest.png",
+  "reference_sha256": "fbb5dc298a6a3315c4e0cf8d97e92faa10e0bb2701cdefd73a040e22e4637d87",
+  "workflow_folder": "workflows/portraits/costumes300-208-vienna-concert-guest",
+  "qa_flags": [],
+  "description": "formal velvet jacket, Viennese concert hall",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Around the World. Portrait: Vienna Concert Guest. Scene and costume: formal velvet jacket, Viennese concert hall."
+}

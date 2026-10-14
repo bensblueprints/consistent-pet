@@ -1,0 +1,15 @@
+{
+  "id": "original25-royal-navy-admiral",
+  "name": "Royal Navy Admiral",
+  "sex": "unisex",
+  "category": "Pirates and Naval",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/pirates-and-naval/original25-royal-navy-admiral.png",
+  "preview_path": "reference-library/previews/unisex/pirates-and-naval/original25-royal-navy-admiral.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/pirates-and-naval/original25-royal-navy-admiral.png",
+  "reference_sha256": "b11136e4a597f12047d19448e58aa50945ff3b47d950d79ec8f321c6dba0d0e3",
+  "workflow_folder": "workflows/portraits/original25-royal-navy-admiral",
+  "qa_flags": [],
+  "description": "Royal Navy Admiral",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a black-and-white tuxedo cat. Portray the animal as Royal Navy Admiral wearing Decorated historic military coat, fine gold braid, restrained ceremonial medals. Setting: naval command room, maritime paintings, deep navy and brass. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

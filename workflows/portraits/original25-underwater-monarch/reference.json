@@ -1,0 +1,15 @@
+{
+  "id": "original25-underwater-monarch",
+  "name": "Underwater Monarch",
+  "sex": "unisex",
+  "category": "Fantasy and Magic",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/fantasy-and-magic/original25-underwater-monarch.png",
+  "preview_path": "reference-library/previews/unisex/fantasy-and-magic/original25-underwater-monarch.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/fantasy-and-magic/original25-underwater-monarch.png",
+  "reference_sha256": "f92e5f95f877f996f0b4c68ba33c5a762f212d9acc20f44762aa8a9569e4f816",
+  "workflow_folder": "workflows/portraits/original25-underwater-monarch",
+  "qa_flags": [],
+  "description": "Underwater Monarch",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a cream long-haired cat. Portray the animal as Underwater Monarch wearing Sculptural coral crown, flowing regal costume. Setting: dreamlike underwater palace, aquamarine and coral, no diving mask, no anatomical distortion. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

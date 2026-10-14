@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-139-valkyrie-sky-rider",
+  "name": "Valkyrie Sky Rider",
+  "sex": "female",
+  "category": "Wonder and Lightning",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/female/wonder-and-lightning/superheroes-139-valkyrie-sky-rider.png",
+  "preview_path": "reference-library/previews/female/wonder-and-lightning/superheroes-139-valkyrie-sky-rider.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/wonder-and-lightning/superheroes-139-valkyrie-sky-rider.png",
+  "reference_sha256": "2a2b6ae5e1256f082f53b19a17f713829a7d44c27bcede880648591a68b6e9f1",
+  "workflow_folder": "workflows/portraits/superheroes-139-valkyrie-sky-rider",
+  "qa_flags": [],
+  "description": "distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Scene: Valkyrie Sky Rider; on a mountain overlook with cloud layers and sweeping light",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Valkyrie Sky Rider. Costume direction: distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Adapt the setting specifically to the named concept: Valkyrie Sky Rider; on a mountain overlook with cloud layers and sweeping light. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

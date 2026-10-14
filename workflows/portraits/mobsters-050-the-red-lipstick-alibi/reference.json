@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-050-the-red-lipstick-alibi",
+  "name": "The Red Lipstick Alibi",
+  "sex": "female",
+  "category": "Noir City",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/noir-city/mobsters-050-the-red-lipstick-alibi.png",
+  "preview_path": "reference-library/previews/female/noir-city/mobsters-050-the-red-lipstick-alibi.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/noir-city/mobsters-050-the-red-lipstick-alibi.png",
+  "reference_sha256": "5e5aa0fc8ec79c983c376c18af5b14c85cf6da7cc0fe45ca369c4e6b59fe8a93",
+  "workflow_folder": "workflows/portraits/mobsters-050-the-red-lipstick-alibi",
+  "qa_flags": [],
+  "description": "deep red canine silk collar, old vanity with closed lipstick tube nearby, naturally unpainted dog face",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Red Lipstick Alibi. Scene: deep red canine silk collar, old vanity with closed lipstick tube nearby, naturally unpainted dog face. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

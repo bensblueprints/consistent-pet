@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-189-sapphire-stargirl",
+  "name": "Sapphire Stargirl",
+  "sex": "female",
+  "category": "Heroine Collection",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/female/heroine-collection/superheroes-189-sapphire-stargirl.png",
+  "preview_path": "reference-library/previews/female/heroine-collection/superheroes-189-sapphire-stargirl.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/heroine-collection/superheroes-189-sapphire-stargirl.png",
+  "reference_sha256": "1fe96cf27c48e745ae9603297ef739745f75e7c860a86762d9a5a0de71feb87a",
+  "workflow_folder": "workflows/portraits/superheroes-189-sapphire-stargirl",
+  "qa_flags": [],
+  "description": "recognizable female superhero-inspired outfit adapted to an actual dog's anatomy, short canine cape or fitted dog jacket, visible natural dog head; no human torso or bust. Scene: Sapphire Stargirl; on a mountain overlook with cloud layers and sweeping light",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Sapphire Stargirl. Costume direction: recognizable female superhero-inspired outfit adapted to an actual dog's anatomy, short canine cape or fitted dog jacket, visible natural dog head; no human torso or bust. Adapt the setting specifically to the named concept: Sapphire Stargirl; on a mountain overlook with cloud layers and sweeping light. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "original25-steampunk-explorer",
+  "name": "Steampunk Explorer",
+  "sex": "unisex",
+  "category": "Steampunk and Time Travel",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/steampunk-and-time-travel/original25-steampunk-explorer.png",
+  "preview_path": "reference-library/previews/unisex/steampunk-and-time-travel/original25-steampunk-explorer.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/steampunk-and-time-travel/original25-steampunk-explorer.png",
+  "reference_sha256": "24d98510c2a03b880515ff480d1324de759c1ca85cdb1ac4e0ae77fa180e6d07",
+  "workflow_folder": "workflows/portraits/original25-steampunk-explorer",
+  "qa_flags": [],
+  "description": "Steampunk Explorer",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a brown-and-white beagle dog. Portray the animal as Steampunk Explorer wearing Brass goggles perched above the ears, leather explorer coat, brass compass suspended from a chain. Setting: airship observatory, warm copper, leather and teal. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

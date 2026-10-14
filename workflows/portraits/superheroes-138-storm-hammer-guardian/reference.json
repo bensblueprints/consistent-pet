@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-138-storm-hammer-guardian",
+  "name": "Storm Hammer Guardian",
+  "sex": "unisex",
+  "category": "Wonder and Lightning",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/wonder-and-lightning/superheroes-138-storm-hammer-guardian.png",
+  "preview_path": "reference-library/previews/unisex/wonder-and-lightning/superheroes-138-storm-hammer-guardian.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/wonder-and-lightning/superheroes-138-storm-hammer-guardian.png",
+  "reference_sha256": "eeac75455608f234199d4284e44cc8b1a5b0c6c052afd08bd706e86efb31e578",
+  "workflow_folder": "workflows/portraits/superheroes-138-storm-hammer-guardian",
+  "qa_flags": [],
+  "description": "distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Scene: Storm Hammer Guardian; beside a futuristic vehicle in a dramatic illuminated hangar",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Storm Hammer Guardian. Costume direction: distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Adapt the setting specifically to the named concept: Storm Hammer Guardian; beside a futuristic vehicle in a dramatic illuminated hangar. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

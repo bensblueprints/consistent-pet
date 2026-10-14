@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-053-the-dockyard-fixer",
+  "name": "The Dockyard Fixer",
+  "sex": "unisex",
+  "category": "British Crime Club",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/british-crime-club/mobsters-053-the-dockyard-fixer.png",
+  "preview_path": "reference-library/previews/unisex/british-crime-club/mobsters-053-the-dockyard-fixer.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/british-crime-club/mobsters-053-the-dockyard-fixer.png",
+  "reference_sha256": "4475c7f725561e7f56a0d0eeb62551397af2cfa859f39acea0cff1674ea08262",
+  "workflow_folder": "workflows/portraits/mobsters-053-the-dockyard-fixer",
+  "qa_flags": [],
+  "description": "wool canine peacoat and knitted scarf, foggy dock cranes",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Dockyard Fixer. Scene: wool canine peacoat and knitted scarf, foggy dock cranes. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

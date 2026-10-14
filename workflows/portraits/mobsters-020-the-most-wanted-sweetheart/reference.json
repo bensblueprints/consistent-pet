@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-020-the-most-wanted-sweetheart",
+  "name": "The Most Wanted Sweetheart",
+  "sex": "female",
+  "category": "Bonnie and Clyde",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/bonnie-and-clyde/mobsters-020-the-most-wanted-sweetheart.png",
+  "preview_path": "reference-library/previews/female/bonnie-and-clyde/mobsters-020-the-most-wanted-sweetheart.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/bonnie-and-clyde/mobsters-020-the-most-wanted-sweetheart.png",
+  "reference_sha256": "6790191c054855c9c43d874f5d64c40abad33ee703b83e28b5f9d4ccbfacfc0d",
+  "workflow_folder": "workflows/portraits/mobsters-020-the-most-wanted-sweetheart",
+  "qa_flags": [],
+  "description": "ruby canine neck bow and felt hat, old sheriff noticeboard behind, no written lettering",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Most Wanted Sweetheart. Scene: ruby canine neck bow and felt hat, old sheriff noticeboard behind, no written lettering. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "original25-pirate-captain",
+  "name": "Pirate Captain",
+  "sex": "unisex",
+  "category": "Pirates and Naval",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/pirates-and-naval/original25-pirate-captain.png",
+  "preview_path": "reference-library/previews/unisex/pirates-and-naval/original25-pirate-captain.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/pirates-and-naval/original25-pirate-captain.png",
+  "reference_sha256": "aea9349bae1ee8812b5b29a441dbbfce75be546821c503f332b6e63a5f345fd8",
+  "workflow_folder": "workflows/portraits/original25-pirate-captain",
+  "qa_flags": [],
+  "description": "Pirate Captain",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a ginger tabby cat. Portray the animal as Pirate Captain wearing Tricorn hat, finely tailored naval jacket, small antique brass buttons. Setting: historic sailing ship captain's cabin, ocean window, deep navy and burgundy. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

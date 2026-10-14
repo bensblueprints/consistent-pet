@@ -1,0 +1,15 @@
+{
+  "id": "vintage-004-missing-sock-case-finally-solved",
+  "name": "Missing Sock Case Finally Solved",
+  "sex": "unisex",
+  "category": "Newspapers",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/unisex/newspapers/vintage-004-missing-sock-case-finally-solved.png",
+  "preview_path": "reference-library/previews/unisex/newspapers/vintage-004-missing-sock-case-finally-solved.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/newspapers/vintage-004-missing-sock-case-finally-solved.png",
+  "reference_sha256": "bd6052305488908cae0713cfdecc87e09600c66ad715cae9b808d38605b93a35",
+  "workflow_folder": "workflows/portraits/vintage-004-missing-sock-case-finally-solved",
+  "qa_flags": [],
+  "description": "dog with a plain detective neckerchief beside a small pile of socks on a wooden floor",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"Missing Sock Case Finally Solved\". Scene: dog with a plain detective neckerchief beside a small pile of socks on a wooden floor. Art direction: aged black-and-white or sepia newspaper press photograph on subtly weathered newsprint, fine halftone reproduction, sober 1930s local newspaper design. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This female dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

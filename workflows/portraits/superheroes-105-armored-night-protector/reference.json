@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-105-armored-night-protector",
+  "name": "Armored Night Protector",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-105-armored-night-protector.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-105-armored-night-protector.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-105-armored-night-protector.png",
+  "reference_sha256": "514f676593d01bfed9393982f3ebda08eee21648370c28f73858c7c6c4c42ecf",
+  "workflow_folder": "workflows/portraits/superheroes-105-armored-night-protector",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: Armored Night Protector; on a sunlit rooftop with heroic low-angle composition",
+  "source_generation_prompt": "A charming premium realistic portrait of the reference golden retriever wearing a comfortable dog superhero costume. Armored Night Protector. BatDog, black dog costume with a small gold bat emblem, soft black cape, natural visible dog head and ears. Armored Night Protector; on a sunlit rooftop with heroic low-angle composition. One actual dog naturally seated, canine paws and proportions, expressive recognizable golden retriever face clearly visible. Tasteful cinematic photographic lighting, detailed soft fur. Vertical 4:5 artwork, comfortable headroom, uncluttered detailed setting. No people, words, border or watermark."
+}

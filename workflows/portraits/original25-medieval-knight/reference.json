@@ -1,0 +1,15 @@
+{
+  "id": "original25-medieval-knight",
+  "name": "Medieval Knight",
+  "sex": "unisex",
+  "category": "Knights and Warriors",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/knights-and-warriors/original25-medieval-knight.png",
+  "preview_path": "reference-library/previews/unisex/knights-and-warriors/original25-medieval-knight.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/knights-and-warriors/original25-medieval-knight.png",
+  "reference_sha256": "ac4ceff5187a6326d2d07cd4f15ea660ba6af63cdc72c2d161ec5f69b2e5d98a",
+  "workflow_folder": "workflows/portraits/original25-medieval-knight",
+  "qa_flags": [],
+  "description": "Medieval Knight",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a German shepherd dog. Portray the animal as Medieval Knight wearing Ornate engraved plate armor with an open neck, no helmet covering the face. Setting: medieval castle hall, steel and forest green, noble quiet lighting. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

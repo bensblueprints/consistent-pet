@@ -1,0 +1,15 @@
+{
+  "id": "vintage-031-chief-snack-officer",
+  "name": "Chief Snack Officer",
+  "sex": "unisex",
+  "category": "Working dogs",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/unisex/working-dogs/vintage-031-chief-snack-officer.png",
+  "preview_path": "reference-library/previews/unisex/working-dogs/vintage-031-chief-snack-officer.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/working-dogs/vintage-031-chief-snack-officer.png",
+  "reference_sha256": "73bc632b7fdb8c2597f1acf4f28a32ac2d2f334ccd187151b840cfc85c5e6161",
+  "workflow_folder": "workflows/portraits/vintage-031-chief-snack-officer",
+  "qa_flags": [],
+  "description": "dog in simple loose necktie seated behind a real office desk, understated corporate headshot",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"Chief Snack Officer\". Scene: dog in simple loose necktie seated behind a real office desk, understated corporate headshot. Art direction: believable workplace portrait presented on a vintage personnel card or employer announcement, muted colors, simple practical setting. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This male dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

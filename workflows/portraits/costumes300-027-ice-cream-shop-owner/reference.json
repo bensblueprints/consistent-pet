@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-027-ice-cream-shop-owner",
+  "name": "Ice Cream Shop Owner",
+  "sex": "unisex",
+  "category": "Foodie Favorites",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/foodie-favorites/costumes300-027-ice-cream-shop-owner.png",
+  "preview_path": "reference-library/previews/unisex/foodie-favorites/costumes300-027-ice-cream-shop-owner.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/foodie-favorites/costumes300-027-ice-cream-shop-owner.png",
+  "reference_sha256": "e4a3d3b6604a9873a047892c8700d1f98a6798a0bbfd61f8bfbbff78d5de38ca",
+  "workflow_folder": "workflows/portraits/costumes300-027-ice-cream-shop-owner",
+  "qa_flags": [],
+  "description": "striped apron, pastel ice cream parlor",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Foodie Favorites. Portrait: Ice Cream Shop Owner. Scene and costume: striped apron, pastel ice cream parlor."
+}

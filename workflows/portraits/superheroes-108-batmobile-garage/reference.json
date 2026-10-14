@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-108-batmobile-garage",
+  "name": "Batmobile Garage",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-108-batmobile-garage.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-108-batmobile-garage.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-108-batmobile-garage.png",
+  "reference_sha256": "43965b933a434aee46f9a4adf95e8f5c35c7a30923400069cfd41b417fae0b57",
+  "workflow_folder": "workflows/portraits/superheroes-108-batmobile-garage",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: Batmobile Garage; beside a futuristic vehicle in a dramatic illuminated hangar",
+  "source_generation_prompt": "A beautiful friendly golden retriever superhero pet portrait. One real golden retriever dog naturally sitting on its hind legs with its front paws visible, wearing a flowing black dog cape and golden collar, beside an original black futuristic sports car in a softly illuminated private garage. Original playful black-caped canine superhero. Natural dog head and ears fully visible, recognizable golden fur and warm eyes. Vertical fine-art photographic portrait, detailed fur, dramatic cinematic lighting, large visible dog face and comfortable headroom. No text or frame."
+}

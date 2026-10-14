@@ -1,0 +1,15 @@
+{
+  "id": "original25-enchanted-garden-queen",
+  "name": "Enchanted Garden Queen",
+  "sex": "female",
+  "category": "Royalty",
+  "collection": "original25",
+  "reference_path": "reference-library/references/female/royalty/original25-enchanted-garden-queen.png",
+  "preview_path": "reference-library/previews/female/royalty/original25-enchanted-garden-queen.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/royalty/original25-enchanted-garden-queen.png",
+  "reference_sha256": "64f78651089bbc1ce1a1f37bab3736670e408a9fd45392192d9025773dbe2b39",
+  "workflow_folder": "workflows/portraits/original25-enchanted-garden-queen",
+  "qa_flags": [],
+  "description": "Enchanted Garden Queen",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a ragdoll cat. Portray the animal as Enchanted Garden Queen wearing Floral crown and elaborate botanical dress with embroidered leaves. Setting: lush enchanted garden, delicate roses, ivory and forest green, tasteful restrained fantasy. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

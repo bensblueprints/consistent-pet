@@ -1,0 +1,15 @@
+{
+  "id": "surreal-011-mooncourt-prince",
+  "name": "Mooncourt Prince",
+  "sex": "male",
+  "category": "Royal fantasy",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/royal-fantasy/surreal-011-mooncourt-prince.png",
+  "preview_path": "reference-library/previews/male/royal-fantasy/surreal-011-mooncourt-prince.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/royal-fantasy/surreal-011-mooncourt-prince.png",
+  "reference_sha256": "e9f57863266517a79ee9df4a4e5ad9106aa081162064d742d3f1ae1c16879230",
+  "workflow_folder": "workflows/portraits/surreal-011-mooncourt-prince",
+  "qa_flags": [],
+  "description": "moonstone crown and navy ceremonial coat, crescent throne floating over a silver lake",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Mooncourt Prince. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: moonstone crown and navy ceremonial coat, crescent throne floating over a silver lake. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

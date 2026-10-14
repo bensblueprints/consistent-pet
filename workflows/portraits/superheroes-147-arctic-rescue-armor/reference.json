@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-147-arctic-rescue-armor",
+  "name": "Arctic Rescue Armor",
+  "sex": "unisex",
+  "category": "Armor and Tech",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/armor-and-tech/superheroes-147-arctic-rescue-armor.png",
+  "preview_path": "reference-library/previews/unisex/armor-and-tech/superheroes-147-arctic-rescue-armor.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/armor-and-tech/superheroes-147-arctic-rescue-armor.png",
+  "reference_sha256": "746665ddced18c9d1929cd593e728d2ab86d5b69135d3f1012f36d20562203b0",
+  "workflow_folder": "workflows/portraits/superheroes-147-arctic-rescue-armor",
+  "qa_flags": [],
+  "description": "distinct high-tech dog-shaped armor corresponding to the concept, luminous chest reactor, articulate foreleg armor over natural canine forelegs. Scene: Arctic Rescue Armor; on a windswept bridge over a glittering city",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Arctic Rescue Armor. Costume direction: distinct high-tech dog-shaped armor corresponding to the concept, luminous chest reactor, articulate foreleg armor over natural canine forelegs. Adapt the setting specifically to the named concept: Arctic Rescue Armor; on a windswept bridge over a glittering city. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "surreal-072-golden-cup-soccer-star",
+  "name": "Golden Cup Soccer Star",
+  "sex": "female",
+  "category": "Sports",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/female/sports/surreal-072-golden-cup-soccer-star.png",
+  "preview_path": "reference-library/previews/female/sports/surreal-072-golden-cup-soccer-star.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/sports/surreal-072-golden-cup-soccer-star.png",
+  "reference_sha256": "042d0ca9ee3c11266d40a6cd267f6f334353d05879293f91d42577201346b9d0",
+  "workflow_folder": "workflows/portraits/surreal-072-golden-cup-soccer-star",
+  "qa_flags": [
+    "anatomy-review-required"
+  ],
+  "description": "rose-and-white soccer kit, soccer ball beside her, floating goal surrounded by golden aurora ribbons",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Golden Cup Soccer Star. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A female dog: rose-and-white soccer kit, soccer ball beside her, floating goal surrounded by golden aurora ribbons. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

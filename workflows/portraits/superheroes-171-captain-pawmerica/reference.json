@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-171-captain-pawmerica",
+  "name": "Captain Pawmerica",
+  "sex": "unisex",
+  "category": "Street Heroes",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/street-heroes/superheroes-171-captain-pawmerica.png",
+  "preview_path": "reference-library/previews/unisex/street-heroes/superheroes-171-captain-pawmerica.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/street-heroes/superheroes-171-captain-pawmerica.png",
+  "reference_sha256": "74232080c1efc02b424befb2c63822cd122725ba508a5b326e21a706d519a141",
+  "workflow_folder": "workflows/portraits/superheroes-171-captain-pawmerica",
+  "qa_flags": [],
+  "description": "recognizable superhero-inspired canine costume corresponding to the concept, clear silhouette, dog's entire face visible, cinematic urban hero setting. Scene: Captain Pawmerica; atop a stone skyscraper with cinematic searchlights and a distant gothic city",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Captain Pawmerica. Costume direction: recognizable superhero-inspired canine costume corresponding to the concept, clear silhouette, dog's entire face visible, cinematic urban hero setting. Adapt the setting specifically to the named concept: Captain Pawmerica; atop a stone skyscraper with cinematic searchlights and a distant gothic city. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "vintage-025-the-velvet-bow-portrait",
+  "name": "The Velvet-Bow Portrait",
+  "sex": "female",
+  "category": "Studio portraits",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/female/studio-portraits/vintage-025-the-velvet-bow-portrait.png",
+  "preview_path": "reference-library/previews/female/studio-portraits/vintage-025-the-velvet-bow-portrait.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/studio-portraits/vintage-025-the-velvet-bow-portrait.png",
+  "reference_sha256": "9e94d63130cb6c4a3964c1fc5dec9d3aa09bb136197882602bb96a1de0456829",
+  "workflow_folder": "workflows/portraits/vintage-025-the-velvet-bow-portrait",
+  "qa_flags": [],
+  "description": "female dog with burgundy velvet bow tied at neck, natural furry shoulders, warm brown studio backdrop",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"The Velvet-Bow Portrait\". Scene: female dog with burgundy velvet bow tied at neck, natural furry shoulders, warm brown studio backdrop. Art direction: authentic antique photographic print, realistic studio portraiture, restrained warm monochrome or faded natural colors, tasteful paper patina. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This male dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

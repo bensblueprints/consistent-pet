@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-052-the-razor-street-duchess",
+  "name": "The Razor Street Duchess",
+  "sex": "female",
+  "category": "British Crime Club",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/british-crime-club/mobsters-052-the-razor-street-duchess.png",
+  "preview_path": "reference-library/previews/female/british-crime-club/mobsters-052-the-razor-street-duchess.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/british-crime-club/mobsters-052-the-razor-street-duchess.png",
+  "reference_sha256": "39311d4f46fb3b5817534dc1edfb4b350cdc91a453cd0ad89eaebdbbf7f3f999",
+  "workflow_folder": "workflows/portraits/mobsters-052-the-razor-street-duchess",
+  "qa_flags": [],
+  "description": "charcoal dog overcoat and brooch, stone terraced street at dawn",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Razor Street Duchess. Scene: charcoal dog overcoat and brooch, stone terraced street at dawn. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

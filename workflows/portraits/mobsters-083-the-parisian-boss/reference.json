@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-083-the-parisian-boss",
+  "name": "The Parisian Boss",
+  "sex": "unisex",
+  "category": "Underworld Elegance",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/underworld-elegance/mobsters-083-the-parisian-boss.png",
+  "preview_path": "reference-library/previews/unisex/underworld-elegance/mobsters-083-the-parisian-boss.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/underworld-elegance/mobsters-083-the-parisian-boss.png",
+  "reference_sha256": "7056975b534e59cf22b5196e7be2ee8d30c7bafca6bd48b65d2c3d2031bda834",
+  "workflow_folder": "workflows/portraits/mobsters-083-the-parisian-boss",
+  "qa_flags": [],
+  "description": "navy canine coat and silk scarf, rainy Paris cafe",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Parisian Boss. Scene: navy canine coat and silk scarf, rainy Paris cafe. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

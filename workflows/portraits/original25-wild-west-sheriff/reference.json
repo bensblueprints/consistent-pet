@@ -1,0 +1,15 @@
+{
+  "id": "original25-wild-west-sheriff",
+  "name": "Wild West Sheriff",
+  "sex": "unisex",
+  "category": "Western",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/western/original25-wild-west-sheriff.png",
+  "preview_path": "reference-library/previews/unisex/western/original25-wild-west-sheriff.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/western/original25-wild-west-sheriff.png",
+  "reference_sha256": "7044dd89dcfd9a3003fe8f113f0306cd0880c238468005d497eb4b38bcbc63cb",
+  "workflow_folder": "workflows/portraits/original25-wild-west-sheriff",
+  "qa_flags": [],
+  "description": "Wild West Sheriff",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a chocolate Labrador dog. Portray the animal as Wild West Sheriff wearing Cowboy hat above the ears, worn leather vest, subtle sheriff badge without lettering. Setting: old western town, sunlit timber, warm sepia and dusty green. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

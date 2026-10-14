@@ -1,0 +1,15 @@
+{
+  "id": "surreal-001-solar-sentinel",
+  "name": "Solar Sentinel",
+  "sex": "male",
+  "category": "Superhero",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/superhero/surreal-001-solar-sentinel.png",
+  "preview_path": "reference-library/previews/male/superhero/surreal-001-solar-sentinel.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/superhero/surreal-001-solar-sentinel.png",
+  "reference_sha256": "60b0b6426f697ce1eef899fa92d4e157f0e2b7e8bb717acd03724fe4ac138a8f",
+  "workflow_folder": "workflows/portraits/surreal-001-solar-sentinel",
+  "qa_flags": [],
+  "description": "gold-and-white solar armor, cape made of sunlight, levitating above a city folded around a miniature sun",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Solar Sentinel. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: gold-and-white solar armor, cape made of sunlight, levitating above a city folded around a miniature sun. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

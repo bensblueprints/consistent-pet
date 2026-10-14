@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-109-the-dark-cape",
+  "name": "The Dark Cape",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-109-the-dark-cape.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-109-the-dark-cape.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-109-the-dark-cape.png",
+  "reference_sha256": "e75d3231b5bb56a9ea27b986f3dc7f80e5aa2720b93138a93f5dbd2f20dbe848",
+  "workflow_folder": "workflows/portraits/superheroes-109-the-dark-cape",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: The Dark Cape; on a mountain overlook with cloud layers and sweeping light",
+  "source_generation_prompt": "A charming premium realistic portrait of the reference golden retriever wearing a comfortable dog superhero costume. The Dark Cape. BatDog, black dog costume with a small gold bat emblem, soft black cape, natural visible dog head and ears. The Dark Cape; on a mountain overlook with cloud layers and sweeping light. One actual dog naturally seated, canine paws and proportions, expressive recognizable golden retriever face clearly visible. Tasteful cinematic photographic lighting, detailed soft fur. Vertical 4:5 artwork, comfortable headroom, uncluttered detailed setting. No people, words, border or watermark."
+}

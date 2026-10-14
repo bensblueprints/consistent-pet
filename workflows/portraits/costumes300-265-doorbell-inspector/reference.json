@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-265-doorbell-inspector",
+  "name": "Doorbell Inspector",
+  "sex": "unisex",
+  "category": "Funny Dogs Being Dogs",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/funny-dogs-being-dogs/costumes300-265-doorbell-inspector.png",
+  "preview_path": "reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-265-doorbell-inspector.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/funny-dogs-being-dogs/costumes300-265-doorbell-inspector.png",
+  "reference_sha256": "e258b2c56085f0f6c90b7225f2e26d07491b5a04db98c05df5c603780e1de615",
+  "workflow_folder": "workflows/portraits/costumes300-265-doorbell-inspector",
+  "qa_flags": [],
+  "description": "inspector coat, doorbell testing station",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Funny Dogs Being Dogs. Portrait: Doorbell Inspector. Scene and costume: inspector coat, doorbell testing station."
+}

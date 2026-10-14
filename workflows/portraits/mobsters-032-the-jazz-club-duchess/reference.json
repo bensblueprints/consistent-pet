@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-032-the-jazz-club-duchess",
+  "name": "The Jazz Club Duchess",
+  "sex": "female",
+  "category": "Roaring Twenties",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/roaring-twenties/mobsters-032-the-jazz-club-duchess.png",
+  "preview_path": "reference-library/previews/female/roaring-twenties/mobsters-032-the-jazz-club-duchess.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/roaring-twenties/mobsters-032-the-jazz-club-duchess.png",
+  "reference_sha256": "00769b67da9219d9b83078a4b752127bcebd7a310fc39d5931cc9366bb7152ed",
+  "workflow_folder": "workflows/portraits/mobsters-032-the-jazz-club-duchess",
+  "qa_flags": [],
+  "description": "feathered headband behind natural dog ears, pearl collar, art-deco jazz club",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Jazz Club Duchess. Scene: feathered headband behind natural dog ears, pearl collar, art-deco jazz club. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-135-lightning-trail-hero",
+  "name": "Lightning Trail Hero",
+  "sex": "unisex",
+  "category": "Wonder and Lightning",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/wonder-and-lightning/superheroes-135-lightning-trail-hero.png",
+  "preview_path": "reference-library/previews/unisex/wonder-and-lightning/superheroes-135-lightning-trail-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/wonder-and-lightning/superheroes-135-lightning-trail-hero.png",
+  "reference_sha256": "62c05e8ff82c954aae69b5790ba7ad708f11587b2b470d852635c74c5f297059",
+  "workflow_folder": "workflows/portraits/superheroes-135-lightning-trail-hero",
+  "qa_flags": [],
+  "description": "distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Scene: Lightning Trail Hero; on a sunlit rooftop with heroic low-angle composition",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Lightning Trail Hero. Costume direction: distinct canine superhero costume corresponding to the concept, cinematic gold armor or lightning suits, female outfits are fitted for an actual dog body. Adapt the setting specifically to the named concept: Lightning Trail Hero; on a sunlit rooftop with heroic low-angle composition. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

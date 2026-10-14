@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-085-hockey-goalie",
+  "name": "Hockey Goalie",
+  "sex": "unisex",
+  "category": "Snow-Day Personalities",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/snow-day-personalities/costumes300-085-hockey-goalie.png",
+  "preview_path": "reference-library/previews/unisex/snow-day-personalities/costumes300-085-hockey-goalie.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/snow-day-personalities/costumes300-085-hockey-goalie.png",
+  "reference_sha256": "956c75147df34156bbbaa6dbf9dae236ef5885e7ebbd839b2f7429b8cb314cb8",
+  "workflow_folder": "workflows/portraits/costumes300-085-hockey-goalie",
+  "qa_flags": [],
+  "description": "goalie jersey, hockey rink with helmet beside",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Snow-Day Personalities. Portrait: Hockey Goalie. Scene and costume: goalie jersey, hockey rink with helmet beside."
+}

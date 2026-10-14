@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-237-comic-book-shop-owner",
+  "name": "Comic Book Shop Owner",
+  "sex": "unisex",
+  "category": "Hobbies With Personality",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/hobbies-with-personality/costumes300-237-comic-book-shop-owner.png",
+  "preview_path": "reference-library/previews/unisex/hobbies-with-personality/costumes300-237-comic-book-shop-owner.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/hobbies-with-personality/costumes300-237-comic-book-shop-owner.png",
+  "reference_sha256": "fd9b011e949523616ec45a1330c48cca05564540ec5b64e264aee96c9737bd97",
+  "workflow_folder": "workflows/portraits/costumes300-237-comic-book-shop-owner",
+  "qa_flags": [],
+  "description": "colorful cardigan, comic shop",
+  "source_generation_prompt": "A charming premium fine art portrait of exactly one golden retriever dog with natural canine body and paws, wearing a colorful loose cardigan in a cozy comic book shop. Dog seated naturally on a cushion beside shelves of colorful illustrated books without readable text. Warm window light, detailed golden fur, face and both ears fully visible with generous margins, vertical 4:5 composition, realistic dog anatomy, no people, no other animals, no logos or captions."
+}

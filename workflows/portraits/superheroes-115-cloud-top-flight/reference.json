@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-115-cloud-top-flight",
+  "name": "Cloud-Top Flight",
+  "sex": "unisex",
+  "category": "Super Dog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/super-dog/superheroes-115-cloud-top-flight.png",
+  "preview_path": "reference-library/previews/unisex/super-dog/superheroes-115-cloud-top-flight.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/super-dog/superheroes-115-cloud-top-flight.png",
+  "reference_sha256": "ed0beff504196b701ddf6015b9602756132a1594a9983ba92f25a0e34743f6f8",
+  "workflow_folder": "workflows/portraits/superheroes-115-cloud-top-flight",
+  "qa_flags": [],
+  "description": "Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Scene: Cloud-Top Flight; on a sunlit rooftop with heroic low-angle composition",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Cloud-Top Flight. Costume direction: Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Adapt the setting specifically to the named concept: Cloud-Top Flight; on a sunlit rooftop with heroic low-angle composition. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

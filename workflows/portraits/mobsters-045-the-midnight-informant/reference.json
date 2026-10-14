@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-045-the-midnight-informant",
+  "name": "The Midnight Informant",
+  "sex": "unisex",
+  "category": "Noir City",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/noir-city/mobsters-045-the-midnight-informant.png",
+  "preview_path": "reference-library/previews/unisex/noir-city/mobsters-045-the-midnight-informant.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/noir-city/mobsters-045-the-midnight-informant.png",
+  "reference_sha256": "00d7d7a2bdd4f26092905cd989ac255a067018c7ab8f98d9f84b8bf8417e19b8",
+  "workflow_folder": "workflows/portraits/mobsters-045-the-midnight-informant",
+  "qa_flags": [],
+  "description": "gray canine jacket, dim coffee shop booth, a sealed envelope nearby",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Midnight Informant. Scene: gray canine jacket, dim coffee shop booth, a sealed envelope nearby. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

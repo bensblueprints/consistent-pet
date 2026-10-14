@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-079-the-midnight-courier",
+  "name": "The Midnight Courier",
+  "sex": "unisex",
+  "category": "Heists and Getaways",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/heists-and-getaways/mobsters-079-the-midnight-courier.png",
+  "preview_path": "reference-library/previews/unisex/heists-and-getaways/mobsters-079-the-midnight-courier.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/heists-and-getaways/mobsters-079-the-midnight-courier.png",
+  "reference_sha256": "d80e5dbf6be6cdeda5f2f7429ad102bf4b3e5025f619f0680aa99e2a49cecaa5",
+  "workflow_folder": "workflows/portraits/mobsters-079-the-midnight-courier",
+  "qa_flags": [],
+  "description": "canine messenger jacket, worn leather satchel, foggy cobblestone bridge",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Midnight Courier. Scene: canine messenger jacket, worn leather satchel, foggy cobblestone bridge. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

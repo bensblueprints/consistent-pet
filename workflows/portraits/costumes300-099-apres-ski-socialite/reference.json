@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-099-apres-ski-socialite",
+  "name": "Apres-Ski Socialite",
+  "sex": "unisex",
+  "category": "Snow-Day Personalities",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/snow-day-personalities/costumes300-099-apres-ski-socialite.png",
+  "preview_path": "reference-library/previews/unisex/snow-day-personalities/costumes300-099-apres-ski-socialite.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/snow-day-personalities/costumes300-099-apres-ski-socialite.png",
+  "reference_sha256": "393b0fc602b6a786fa87a9f2e49d6c6e0aede7d742bb92802e4964ed73fe5309",
+  "workflow_folder": "workflows/portraits/costumes300-099-apres-ski-socialite",
+  "qa_flags": [],
+  "description": "cream cable-knit sweater, mountain terrace",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Snow-Day Personalities. Portrait: Apres-Ski Socialite. Scene and costume: cream cable-knit sweater, mountain terrace."
+}

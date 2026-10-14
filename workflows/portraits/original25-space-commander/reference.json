@@ -1,0 +1,15 @@
+{
+  "id": "original25-space-commander",
+  "name": "Space Commander",
+  "sex": "unisex",
+  "category": "Science Fiction",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/science-fiction/original25-space-commander.png",
+  "preview_path": "reference-library/previews/unisex/science-fiction/original25-space-commander.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/science-fiction/original25-space-commander.png",
+  "reference_sha256": "84a7e5826ce72e1842ba4d38ae7c86f3bc59c4cedc2c2a9961c8b4b54fa9b7c3",
+  "workflow_folder": "workflows/portraits/original25-space-commander",
+  "qa_flags": [],
+  "description": "Space Commander",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a Siberian husky dog. Portray the animal as Space Commander wearing Detailed astronaut suit with open helmet collar, face fully visible. Setting: spacecraft observation deck, restrained cosmic background, cool blue and warm rim light. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

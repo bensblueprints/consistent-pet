@@ -1,0 +1,15 @@
+{
+  "id": "surreal-043-bubblegum-rock-star",
+  "name": "Bubblegum Rock Star",
+  "sex": "male",
+  "category": "Surreal adventure",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/male/surreal-adventure/surreal-043-bubblegum-rock-star.png",
+  "preview_path": "reference-library/previews/male/surreal-adventure/surreal-043-bubblegum-rock-star.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/male/surreal-adventure/surreal-043-bubblegum-rock-star.png",
+  "reference_sha256": "4abba856eb9011f268d57be867cbbf6e9aafbce455585a9176ca7a3b37c7d4fa",
+  "workflow_folder": "workflows/portraits/surreal-043-bubblegum-rock-star",
+  "qa_flags": [],
+  "description": "metallic magenta stage jacket, guitar beside him, floating candy-colored concert islands",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Bubblegum Rock Star. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A male dog: metallic magenta stage jacket, guitar beside him, floating candy-colored concert islands. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

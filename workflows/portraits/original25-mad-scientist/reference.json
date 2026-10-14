@@ -1,0 +1,15 @@
+{
+  "id": "original25-mad-scientist",
+  "name": "Mad Scientist",
+  "sex": "unisex",
+  "category": "Science and Inventors",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/science-and-inventors/original25-mad-scientist.png",
+  "preview_path": "reference-library/previews/unisex/science-and-inventors/original25-mad-scientist.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/science-and-inventors/original25-mad-scientist.png",
+  "reference_sha256": "5c8e3da6d9dd61fa93624b3f52aecf0c5bced57ddc23d163c344af50d34e406b",
+  "workflow_folder": "workflows/portraits/original25-mad-scientist",
+  "qa_flags": [],
+  "description": "Mad Scientist",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a Persian cat. Portray the animal as Mad Scientist wearing Elegant white laboratory coat over a waistcoat, goggles above the ears. Setting: whimsical laboratory with strange brass inventions and glass apparatus, subtle teal light. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

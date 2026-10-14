@@ -1,0 +1,15 @@
+{
+  "id": "original25-celestial-guardian",
+  "name": "Celestial Guardian",
+  "sex": "unisex",
+  "category": "Fantasy and Magic",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/fantasy-and-magic/original25-celestial-guardian.png",
+  "preview_path": "reference-library/previews/unisex/fantasy-and-magic/original25-celestial-guardian.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/fantasy-and-magic/original25-celestial-guardian.png",
+  "reference_sha256": "53858cb481155125e9409556b7e74d5b24d9d9c79f0b94602371acfb43f13a8d",
+  "workflow_folder": "workflows/portraits/original25-celestial-guardian",
+  "qa_flags": [],
+  "description": "Celestial Guardian",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a white Samoyed dog. Portray the animal as Celestial Guardian wearing Elegant ethereal robes with delicate embroidered stars. Setting: star-filled indigo sky, soft luminous clouds, dignified and gentle, no wings or halo. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

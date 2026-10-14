@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-116-daily-news-hero",
+  "name": "Daily News Hero",
+  "sex": "unisex",
+  "category": "Super Dog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/super-dog/superheroes-116-daily-news-hero.png",
+  "preview_path": "reference-library/previews/unisex/super-dog/superheroes-116-daily-news-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/super-dog/superheroes-116-daily-news-hero.png",
+  "reference_sha256": "ea2c71eb6a3a6a3e9f001eccf4c6c02b2ea85dcedb4ee2bdbb4078224c4d1c11",
+  "workflow_folder": "workflows/portraits/superheroes-116-daily-news-hero",
+  "qa_flags": [],
+  "description": "Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Scene: Daily News Hero; against dynamic painterly energy streaks and architectural silhouettes",
+  "source_generation_prompt": "A charming premium realistic portrait of the reference golden retriever wearing a comfortable dog superhero costume. Daily News Hero. Super Dog, cobalt blue dog costume, red flowing cape, heroic red and gold chest shield, sunny city newspaper office exterior.. One actual dog naturally seated, canine paws and proportions, expressive recognizable golden retriever face clearly visible. Tasteful cinematic photographic lighting, detailed soft fur. Vertical 4:5 artwork, comfortable headroom, uncluttered detailed setting. No people, words, border or watermark."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-103-batcave-detective",
+  "name": "Batcave Detective",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-103-batcave-detective.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-103-batcave-detective.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-103-batcave-detective.png",
+  "reference_sha256": "c1853e48d56338575e65b51717d7768f60a29789d86e2822aabfa7e268476cea",
+  "workflow_folder": "workflows/portraits/superheroes-103-batcave-detective",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: Batcave Detective; inside a magnificent high-tech underground command center",
+  "source_generation_prompt": "A beautiful friendly golden retriever superhero pet portrait. One real golden retriever dog naturally sitting on its hind legs with its front paws visible, wearing a black dog cape and comfortable gray dog jacket, inside a cozy rock cavern hero workshop with glowing computer screens. Original playful black-caped canine superhero. Natural dog head and ears fully visible, recognizable golden fur and warm eyes. Vertical fine-art photographic portrait, detailed fur, dramatic cinematic lighting, large visible dog face and comfortable headroom. No text or frame."
+}

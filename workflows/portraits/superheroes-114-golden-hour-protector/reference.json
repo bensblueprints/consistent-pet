@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-114-golden-hour-protector",
+  "name": "Golden Hour Protector",
+  "sex": "unisex",
+  "category": "Super Dog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/super-dog/superheroes-114-golden-hour-protector.png",
+  "preview_path": "reference-library/previews/unisex/super-dog/superheroes-114-golden-hour-protector.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/super-dog/superheroes-114-golden-hour-protector.png",
+  "reference_sha256": "ee3a7d3736a97539305cf43bc5399a3bd07a7a4e7817df512c2474b07aec852f",
+  "workflow_folder": "workflows/portraits/superheroes-114-golden-hour-protector",
+  "qa_flags": [],
+  "description": "Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Scene: Golden Hour Protector; on a monumental clock tower above an atmospheric skyline",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Golden Hour Protector. Costume direction: Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Adapt the setting specifically to the named concept: Golden Hour Protector; on a monumental clock tower above an atmospheric skyline. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

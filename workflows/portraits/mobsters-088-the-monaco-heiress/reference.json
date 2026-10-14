@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-088-the-monaco-heiress",
+  "name": "The Monaco Heiress",
+  "sex": "female",
+  "category": "Underworld Elegance",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/underworld-elegance/mobsters-088-the-monaco-heiress.png",
+  "preview_path": "reference-library/previews/female/underworld-elegance/mobsters-088-the-monaco-heiress.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/underworld-elegance/mobsters-088-the-monaco-heiress.png",
+  "reference_sha256": "21f169961e23465e96c5e87891dd139510a9cfe50b7502cbbb023e81e99b67d3",
+  "workflow_folder": "workflows/portraits/mobsters-088-the-monaco-heiress",
+  "qa_flags": [],
+  "description": "cream canine capelet, pearls, Mediterranean vintage convertible",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Monaco Heiress. Scene: cream canine capelet, pearls, Mediterranean vintage convertible. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

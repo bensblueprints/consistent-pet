@@ -1,0 +1,17 @@
+{
+  "id": "surreal-092-cosmic-pastry-chef",
+  "name": "Cosmic Pastry Chef",
+  "sex": "female",
+  "category": "Surreal adventure",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/female/surreal-adventure/surreal-092-cosmic-pastry-chef.png",
+  "preview_path": "reference-library/previews/female/surreal-adventure/surreal-092-cosmic-pastry-chef.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/surreal-adventure/surreal-092-cosmic-pastry-chef.png",
+  "reference_sha256": "42977a13f011bbb14291d895c347fdee7ac81687a1ad8d104717b09780f0a38e",
+  "workflow_folder": "workflows/portraits/surreal-092-cosmic-pastry-chef",
+  "qa_flags": [
+    "anatomy-review-required"
+  ],
+  "description": "white chef jacket with lilac trim, pastries floating like planets, elegant kitchen inside a pearl-colored nebula",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Cosmic Pastry Chef. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A female dog: white chef jacket with lilac trim, pastries floating like planets, elegant kitchen inside a pearl-colored nebula. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

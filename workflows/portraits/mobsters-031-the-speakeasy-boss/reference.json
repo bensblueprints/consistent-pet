@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-031-the-speakeasy-boss",
+  "name": "The Speakeasy Boss",
+  "sex": "unisex",
+  "category": "Roaring Twenties",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/roaring-twenties/mobsters-031-the-speakeasy-boss.png",
+  "preview_path": "reference-library/previews/unisex/roaring-twenties/mobsters-031-the-speakeasy-boss.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/roaring-twenties/mobsters-031-the-speakeasy-boss.png",
+  "reference_sha256": "f054e036e767c3fc62e8808d0f8ab3ce96c60785acfc3908d33ad2de804e3d22",
+  "workflow_folder": "workflows/portraits/mobsters-031-the-speakeasy-boss",
+  "qa_flags": [],
+  "description": "pinstripe canine suit, fedora, hidden jazz bar with amber lamps",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Speakeasy Boss. Scene: pinstripe canine suit, fedora, hidden jazz bar with amber lamps. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

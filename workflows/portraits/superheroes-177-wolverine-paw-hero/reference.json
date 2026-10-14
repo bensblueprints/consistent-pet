@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-177-wolverine-paw-hero",
+  "name": "Wolverine Paw Hero",
+  "sex": "unisex",
+  "category": "Street Heroes",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/street-heroes/superheroes-177-wolverine-paw-hero.png",
+  "preview_path": "reference-library/previews/unisex/street-heroes/superheroes-177-wolverine-paw-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/street-heroes/superheroes-177-wolverine-paw-hero.png",
+  "reference_sha256": "e98afb57707abb16c0e1a0990e123cd90b2d7a5434b1c63bc62a52c372f830d2",
+  "workflow_folder": "workflows/portraits/superheroes-177-wolverine-paw-hero",
+  "qa_flags": [],
+  "description": "recognizable superhero-inspired canine costume corresponding to the concept, clear silhouette, dog's entire face visible, cinematic urban hero setting. Scene: Wolverine Paw Hero; on a windswept bridge over a glittering city",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Wolverine Paw Hero. Costume direction: recognizable superhero-inspired canine costume corresponding to the concept, clear silhouette, dog's entire face visible, cinematic urban hero setting. Adapt the setting specifically to the named concept: Wolverine Paw Hero; on a windswept bridge over a glittering city. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

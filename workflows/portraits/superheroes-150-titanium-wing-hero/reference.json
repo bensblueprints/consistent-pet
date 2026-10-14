@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-150-titanium-wing-hero",
+  "name": "Titanium Wing Hero",
+  "sex": "unisex",
+  "category": "Armor and Tech",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/armor-and-tech/superheroes-150-titanium-wing-hero.png",
+  "preview_path": "reference-library/previews/unisex/armor-and-tech/superheroes-150-titanium-wing-hero.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/armor-and-tech/superheroes-150-titanium-wing-hero.png",
+  "reference_sha256": "d78e61135517881f37ac5205771fee837712710efb2f087aa402b1cf48eb0952",
+  "workflow_folder": "workflows/portraits/superheroes-150-titanium-wing-hero",
+  "qa_flags": [],
+  "description": "distinct high-tech dog-shaped armor corresponding to the concept, luminous chest reactor, articulate foreleg armor over natural canine forelegs. Scene: Titanium Wing Hero; at dawn with a glowing city horizon and gently flowing cape",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Titanium Wing Hero. Costume direction: distinct high-tech dog-shaped armor corresponding to the concept, luminous chest reactor, articulate foreleg armor over natural canine forelegs. Adapt the setting specifically to the named concept: Titanium Wing Hero; at dawn with a glowing city horizon and gently flowing cape. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

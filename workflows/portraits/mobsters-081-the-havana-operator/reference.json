@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-081-the-havana-operator",
+  "name": "The Havana Operator",
+  "sex": "unisex",
+  "category": "Underworld Elegance",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/underworld-elegance/mobsters-081-the-havana-operator.png",
+  "preview_path": "reference-library/previews/unisex/underworld-elegance/mobsters-081-the-havana-operator.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/underworld-elegance/mobsters-081-the-havana-operator.png",
+  "reference_sha256": "0a3f5dfac0cd36bd6da7dd8dd90cccfc787b2cc72155bfc53a351f6da58d594e",
+  "workflow_folder": "workflows/portraits/mobsters-081-the-havana-operator",
+  "qa_flags": [],
+  "description": "white canine guayabera shirt, old Havana pastel courtyard",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Havana Operator. Scene: white canine guayabera shirt, old Havana pastel courtyard. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

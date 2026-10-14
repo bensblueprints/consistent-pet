@@ -1,0 +1,15 @@
+{
+  "id": "original25-victorian-duchess",
+  "name": "Victorian Duchess",
+  "sex": "female",
+  "category": "Royalty",
+  "collection": "original25",
+  "reference_path": "reference-library/references/female/royalty/original25-victorian-duchess.png",
+  "preview_path": "reference-library/previews/female/royalty/original25-victorian-duchess.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/royalty/original25-victorian-duchess.png",
+  "reference_sha256": "6ae27f02dbcf32c8b458937a6e6586937512fccc38bcf24eafa154c1a7216424",
+  "workflow_folder": "workflows/portraits/original25-victorian-duchess",
+  "qa_flags": [],
+  "description": "Victorian Duchess",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a silver long-haired cat. Portray the animal as Victorian Duchess wearing Pearls and an exquisitely embroidered ivory and forest-green gown. Setting: Victorian drawing room, soft window light, restrained sage and ivory. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-036-the-charleston-belle",
+  "name": "The Charleston Belle",
+  "sex": "female",
+  "category": "Roaring Twenties",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/female/roaring-twenties/mobsters-036-the-charleston-belle.png",
+  "preview_path": "reference-library/previews/female/roaring-twenties/mobsters-036-the-charleston-belle.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/roaring-twenties/mobsters-036-the-charleston-belle.png",
+  "reference_sha256": "0910ff071a0b7935de9d29323b4c5b316bbea3ec1c2dcbf93d90f756469e2744",
+  "workflow_folder": "workflows/portraits/mobsters-036-the-charleston-belle",
+  "qa_flags": [],
+  "description": "beaded canine capelet, jeweled headband, gold art-deco ballroom",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Charleston Belle. Scene: beaded canine capelet, jeweled headband, gold art-deco ballroom. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

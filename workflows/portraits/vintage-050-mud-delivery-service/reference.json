@@ -1,0 +1,15 @@
+{
+  "id": "vintage-050-mud-delivery-service",
+  "name": "Mud Delivery Service",
+  "sex": "unisex",
+  "category": "Retro advertisements",
+  "collection": "vintage",
+  "reference_path": "reference-library/references/unisex/retro-advertisements/vintage-050-mud-delivery-service.png",
+  "preview_path": "reference-library/previews/unisex/retro-advertisements/vintage-050-mud-delivery-service.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/retro-advertisements/vintage-050-mud-delivery-service.png",
+  "reference_sha256": "9d7546b2daf5a147fdc50a15fef709a5f03b39b26affc00105ecfcce26e5fee0",
+  "workflow_folder": "workflows/portraits/vintage-050-mud-delivery-service",
+  "qa_flags": [],
+  "description": "muddy dog standing proudly in a normal back doorway, retro delivery-company illustration",
+  "source_generation_prompt": "Create the artwork layer for a premium personalized pet print. Concept: \"Mud Delivery Service\". Scene: muddy dog standing proudly in a normal back doorway, retro delivery-company illustration. Art direction: original mid-century commercial illustration, restrained lithographic colors, realistic animal anatomy, authentic worn printed-paper texture. Use the reference dog for believable canine appearance, except scenes expressly calling for another breed, age or a second dog. This female dog must have NATURAL CANINE anatomy, dog paws and dog shoulders. No human torso, no breasts, no cleavage, no human bust, no hourglass waist, no sculpted chest, no human hands. Any female clothing is a loose practical pet outfit with a closed neckline on a flat natural canine chest; no princess corsetry. Maintain clear recognizable face, eyes and ears with a face large enough for later identity replacement. Background is an ordinary believable room, street, studio or landscape exactly as specified. NO fantasy scenery, floating islands, planets, galaxies, sparkles, crowns, castles or jeweled armor. Emphasize amusing personality and authentic period print design, not childish whimsy. IMPORTANT LAYOUT: flat straight-on 4:5 page artwork. Put the complete dog portrait and scene strictly in the middle 66 percent of page (y=20% through 86%), preserve the entire head inside that area. Reserve top 20% and bottom 14% as nearly uniform aged paper matching the design, completely empty for professional typography to be added afterward. Subtle decorative border permissible. Do not draw any text, letters, headlines, placeholder names, digits, signatures or watermarks anywhere. No picture frame, no room mockup, no product mockup. This is the print artwork itself. Fine photographic detail, balanced restrained color, high-quality composition. Do not depict harm or sadness except a gentle reflective mood for the remembrance concept."
+}

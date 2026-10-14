@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-002-the-velvet-don",
+  "name": "The Velvet Don",
+  "sex": "unisex",
+  "category": "The Pawfather",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/the-pawfather/mobsters-002-the-velvet-don.png",
+  "preview_path": "reference-library/previews/unisex/the-pawfather/mobsters-002-the-velvet-don.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/the-pawfather/mobsters-002-the-velvet-don.png",
+  "reference_sha256": "84c1ad15192309376d4eed82b14f79eabe1326be00de8ce5433bfe151235cebe",
+  "workflow_folder": "workflows/portraits/mobsters-002-the-velvet-don",
+  "qa_flags": [],
+  "description": "burgundy velvet dinner jacket, smoky private library, warm chiaroscuro",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Velvet Don. Scene: burgundy velvet dinner jacket, smoky private library, warm chiaroscuro. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

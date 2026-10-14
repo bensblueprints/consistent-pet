@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-223-stained-glass-artist",
+  "name": "Stained-Glass Artist",
+  "sex": "unisex",
+  "category": "Hobbies With Personality",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/hobbies-with-personality/costumes300-223-stained-glass-artist.png",
+  "preview_path": "reference-library/previews/unisex/hobbies-with-personality/costumes300-223-stained-glass-artist.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/hobbies-with-personality/costumes300-223-stained-glass-artist.png",
+  "reference_sha256": "52b59d827e7834a94b83bf21eaaafc8e704ac16d471d2704d4be13a4c735c427",
+  "workflow_folder": "workflows/portraits/costumes300-223-stained-glass-artist",
+  "qa_flags": [],
+  "description": "artisan apron, colorful glass studio",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Hobbies With Personality. Portrait: Stained-Glass Artist. Scene and costume: artisan apron, colorful glass studio."
+}

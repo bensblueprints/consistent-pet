@@ -1,0 +1,17 @@
+{
+  "id": "surreal-059-copper-eclipse-heroine",
+  "name": "Copper Eclipse Heroine",
+  "sex": "female",
+  "category": "Superhero",
+  "collection": "surreal",
+  "reference_path": "reference-library/references/female/superhero/surreal-059-copper-eclipse-heroine.png",
+  "preview_path": "reference-library/previews/female/superhero/surreal-059-copper-eclipse-heroine.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/female/superhero/surreal-059-copper-eclipse-heroine.png",
+  "reference_sha256": "1ca8bdc7e670903304561573b3661ba1c2d55c61ca65abf21ce3a250271b1e30",
+  "workflow_folder": "workflows/portraits/surreal-059-copper-eclipse-heroine",
+  "qa_flags": [
+    "anatomy-review-required"
+  ],
+  "description": "burnished copper suit, eclipse-shaped brooch, black sun encircled by molten gold above a silent metropolis",
+  "source_generation_prompt": "Create one premium surreal pet portrait template titled conceptually Copper Eclipse Heroine. Use the reference DOG as the subject and the reference's polished fine-art realism as the quality standard, but completely replace its existing costume and setting. A female dog: burnished copper suit, eclipse-shaped brooch, black sun encircled by molten gold above a silent metropolis. Extremely imaginative surreal world with convincing cinematic light, dimensional materials, beautifully coordinated color and richly detailed fine-art composition. This is a DOG, never a cat or a human. Preserve a natural recognizable canine head, fur, muzzle and ears. Heroic anthropomorphic costumed body with canine paws; no human face or hands. The face is the principal focus, near frontal or subtle three-quarter view, both eyes and entire ears clearly visible, no mask, no helmet covering face, no fringe, no facial props. The head must be large enough for later pet-face replacement, about one quarter of image height, centered in upper third. Mid-thigh or waist-up portrait with selected sport equipment alongside, leave generous crop-safe margin around ears and face. Frame-filling finished portrait artwork only, no picture frame, no border, no mat, no room mockup, no writing, no letters, no name, no watermark, no logo, no brand symbols. Costume and set wholly original. Emotionally appealing, confident gentle expression, precise anatomy, beautifully rendered fur, rich painterly photographic realism rather than flat cartoon."
+}

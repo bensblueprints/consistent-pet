@@ -1,0 +1,15 @@
+{
+  "id": "superheroes-106-gotham-clocktower",
+  "name": "Gotham Clocktower",
+  "sex": "unisex",
+  "category": "BatDog",
+  "collection": "superheroes",
+  "reference_path": "reference-library/references/unisex/batdog/superheroes-106-gotham-clocktower.png",
+  "preview_path": "reference-library/previews/unisex/batdog/superheroes-106-gotham-clocktower.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/batdog/superheroes-106-gotham-clocktower.png",
+  "reference_sha256": "7ace528139e963e8b3486498a4792bb402c01f55cd9574e6bf4040bf198fbe00",
+  "workflow_folder": "workflows/portraits/superheroes-106-gotham-clocktower",
+  "qa_flags": [],
+  "description": "BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Scene: Gotham Clocktower; against dynamic painterly energy streaks and architectural silhouettes",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Gotham Clocktower. Costume direction: BatDog inspired by Batman: charcoal canine protective suit, short bat ears on a dog-fitted cowl that leaves muzzle and eyes recognizable, flowing black cape, gold utility collar. Adapt the setting specifically to the named concept: Gotham Clocktower; against dynamic painterly energy streaks and architectural silhouettes. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-111-county-fair-winner",
+  "name": "County Fair Winner",
+  "sex": "unisex",
+  "category": "Country Life",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/country-life/costumes300-111-county-fair-winner.png",
+  "preview_path": "reference-library/previews/unisex/country-life/costumes300-111-county-fair-winner.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/country-life/costumes300-111-county-fair-winner.png",
+  "reference_sha256": "a7db517c871b4e28123a2e56bb30257f227f2aef322dc2f5584955c52490930b",
+  "workflow_folder": "workflows/portraits/costumes300-111-county-fair-winner",
+  "qa_flags": [],
+  "description": "gingham bandana and blue ribbon, fairground",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Country Life. Portrait: County Fair Winner. Scene and costume: gingham bandana and blue ribbon, fairground."
+}

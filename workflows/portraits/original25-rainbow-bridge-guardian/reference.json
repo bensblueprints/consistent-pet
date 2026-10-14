@@ -1,0 +1,15 @@
+{
+  "id": "original25-rainbow-bridge-guardian",
+  "name": "Rainbow Bridge Guardian",
+  "sex": "unisex",
+  "category": "Memorial and Remembrance",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/memorial-and-remembrance/original25-rainbow-bridge-guardian.png",
+  "preview_path": "reference-library/previews/unisex/memorial-and-remembrance/original25-rainbow-bridge-guardian.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/memorial-and-remembrance/original25-rainbow-bridge-guardian.png",
+  "reference_sha256": "df9ae75914818e6235064d22fce283fb741f9b580a729cb2a88bdf78133739b1",
+  "workflow_folder": "workflows/portraits/original25-rainbow-bridge-guardian",
+  "qa_flags": [],
+  "description": "Rainbow Bridge Guardian",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a golden retriever dog. Portray the animal as Rainbow Bridge Guardian wearing Gentle flowing fantasy costume with subtle botanical embroidery. Setting: peaceful golden meadow and distant graceful bridge, warm sunset, tender quiet mood, no wings, no halo. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-075-tugboat-skipper",
+  "name": "Tugboat Skipper",
+  "sex": "unisex",
+  "category": "Coastal Living",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/coastal-living/costumes300-075-tugboat-skipper.png",
+  "preview_path": "reference-library/previews/unisex/coastal-living/costumes300-075-tugboat-skipper.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/coastal-living/costumes300-075-tugboat-skipper.png",
+  "reference_sha256": "aa53622fc59a15fa08d13fd97b975fcd56eeb0d3dc5ce7002cadce6f2376d0ea",
+  "workflow_folder": "workflows/portraits/costumes300-075-tugboat-skipper",
+  "qa_flags": [],
+  "description": "peacoat, working harbor tug",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Coastal Living. Portrait: Tugboat Skipper. Scene and costume: peacoat, working harbor tug."
+}

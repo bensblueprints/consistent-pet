@@ -1,0 +1,15 @@
+{
+  "id": "mobsters-094-the-kibble-kingpin",
+  "name": "The Kibble Kingpin",
+  "sex": "unisex",
+  "category": "Playful Crime Legends",
+  "collection": "mobsters",
+  "reference_path": "reference-library/references/unisex/playful-crime-legends/mobsters-094-the-kibble-kingpin.png",
+  "preview_path": "reference-library/previews/unisex/playful-crime-legends/mobsters-094-the-kibble-kingpin.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/playful-crime-legends/mobsters-094-the-kibble-kingpin.png",
+  "reference_sha256": "ae1e6482fad6ba4dd8a400e73a7869b1051f5b772ac57c09445a71b6db077e7f",
+  "workflow_folder": "workflows/portraits/mobsters-094-the-kibble-kingpin",
+  "qa_flags": [],
+  "description": "pinstripe dog jacket, silver kibble bowl and moody mansion dining room",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: cinematic mobster pet portraits. The Kibble Kingpin. Scene: pinstripe dog jacket, silver kibble bowl and moody mansion dining room. Sophisticated playful crime-movie atmosphere, not violent: no blood, no wounds, no drugs, no weapon pointed at viewer. Natural dog anatomy under the outfit."
+}

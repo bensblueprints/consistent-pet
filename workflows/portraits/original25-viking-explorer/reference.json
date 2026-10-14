@@ -1,0 +1,15 @@
+{
+  "id": "original25-viking-explorer",
+  "name": "Viking Explorer",
+  "sex": "unisex",
+  "category": "Knights and Warriors",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/knights-and-warriors/original25-viking-explorer.png",
+  "preview_path": "reference-library/previews/unisex/knights-and-warriors/original25-viking-explorer.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/knights-and-warriors/original25-viking-explorer.png",
+  "reference_sha256": "28b7c9e9cc468f7ba12f208a7c1fa27a98feb4f711248bb7571792f03d973ed7",
+  "workflow_folder": "workflows/portraits/original25-viking-explorer",
+  "qa_flags": [],
+  "description": "Viking Explorer",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: an Alaskan malamute dog. Portray the animal as Viking Explorer wearing Fur-trimmed cloak, Nordic leather and metal armor, no horned helmet. Setting: Nordic fjord at dawn, slate blue and warm fur tones. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}

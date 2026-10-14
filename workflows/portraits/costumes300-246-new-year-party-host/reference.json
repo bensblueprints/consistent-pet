@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-246-new-year-party-host",
+  "name": "New Year Party Host",
+  "sex": "unisex",
+  "category": "Holidays and Celebrations",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/holidays-and-celebrations/costumes300-246-new-year-party-host.png",
+  "preview_path": "reference-library/previews/unisex/holidays-and-celebrations/costumes300-246-new-year-party-host.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/holidays-and-celebrations/costumes300-246-new-year-party-host.png",
+  "reference_sha256": "ff15e877c14c0603d0e934e4ff04f257b59d674a7511d570c31d4e0993f270e1",
+  "workflow_folder": "workflows/portraits/costumes300-246-new-year-party-host",
+  "qa_flags": [],
+  "description": "gold party jacket, midnight celebration",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Holidays and Celebrations. Portrait: New Year Party Host. Scene and costume: gold party jacket, midnight celebration."
+}

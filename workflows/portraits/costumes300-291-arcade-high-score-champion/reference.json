@@ -1,0 +1,15 @@
+{
+  "id": "costumes300-291-arcade-high-score-champion",
+  "name": "Arcade High-Score Champion",
+  "sex": "unisex",
+  "category": "Retro Futures and Original Characters",
+  "collection": "costumes300",
+  "reference_path": "reference-library/references/unisex/retro-futures-and-original-characters/costumes300-291-arcade-high-score-champion.png",
+  "preview_path": "reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-291-arcade-high-score-champion.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/retro-futures-and-original-characters/costumes300-291-arcade-high-score-champion.png",
+  "reference_sha256": "f8747e84fd75d805adee729a3e9454bf51a7a2dda1332bb823a146b53f65185c",
+  "workflow_folder": "workflows/portraits/costumes300-291-arcade-high-score-champion",
+  "qa_flags": [],
+  "description": "retro varsity jacket, glowing arcade",
+  "source_generation_prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism, detailed natural fur, beautiful sophisticated lighting and coherent realistic materials. Use the reference golden retriever's recognizable natural canine face. Exactly ONE dog, no people or additional animals. A real dog wearing a well-fitted dog-tailored costume, natural canine body, shoulders and paws; never a human body, hands, breasts, cleavage, corset, human hips or human muscles. Feminine designs only use clothing and accessories over natural dog anatomy. Large clearly visible face, both eyes sharp, natural ears completely inside image with 12% top breathing room. Front or slight three-quarter portrait; head unobstructed for later pet identity replacement. Hats behind ears, goggles or helmets beside dog when they would obscure the face. Props rest beside the dog, never held with human hands. No lettering, logos, watermark, collage, picture frame or printed caption. Distinct attractive setting, costume and composition specific to this concept. Collection: Retro Futures and Original Characters. Portrait: Arcade High-Score Champion. Scene and costume: retro varsity jacket, glowing arcade."
+}

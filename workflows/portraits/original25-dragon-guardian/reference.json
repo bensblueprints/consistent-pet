@@ -1,0 +1,17 @@
+{
+  "id": "original25-dragon-guardian",
+  "name": "Dragon Guardian",
+  "sex": "unisex",
+  "category": "Fantasy and Magic",
+  "collection": "original25",
+  "reference_path": "reference-library/references/unisex/fantasy-and-magic/original25-dragon-guardian.png",
+  "preview_path": "reference-library/previews/unisex/fantasy-and-magic/original25-dragon-guardian.webp",
+  "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/fantasy-and-magic/original25-dragon-guardian.png",
+  "reference_sha256": "aa309be4791bbba83a9f3cfc595fe37ca62bee4e26b936f2c910053960be95df",
+  "workflow_folder": "workflows/portraits/original25-dragon-guardian",
+  "qa_flags": [
+    "secondary-creature"
+  ],
+  "description": "Dragon Guardian",
+  "source_generation_prompt": "Create a premium fine-art pet costume portrait reference for a custom pet art gallery. Single animal subject: a tabby cat. Portray the animal as Dragon Guardian wearing Refined fantasy armor, a small friendly dragon companion beside one shoulder, pet is dominant. Setting: ancient mountain sanctuary, moss green and bronze, dragon secondary and not merged with pet. Cohesive collection aesthetic: refined realistic oil-painted portrait with exquisite fine fur detail and subtle brushwork, convincing fabric and metal, emotionally expressive natural animal eyes. Upright chest-up composition with the pet's authentic animal head anatomically intact above the costume; face and ears clearly recognizable, mouth closed. Head centered in the upper middle, costume visible to mid torso, generous 10 percent safe margin around ears, crown and all important details. Animal head must never become a human face. No human hands, extra paws, extra heads, malformed ears, text, lettering, watermark, frame, mat, mockup, collage or border. Flat full-bleed artwork only, vertical 4:5, suitable for reusable costume and composition reference. One pet only except the small companion explicitly requested for Dragon Guardian."
+}
