@@ -1,32 +1,9 @@
-# The Bank Job Darling — development-roster report
+# The Bank Job Darling — owner-approved
 
-Status: **in_progress**. Updated 2026-10-14T09:40:31Z.
+Status: **Accepted by explicit owner approval; move to next costume.**
 
-7 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 16 candidate recipes; 31 renders.
+The owner explicitly instructed acceptance and continuation on 2026-10-14. This is a manual approval, not an AI threshold pass.
 
-The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.
-Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.
+10 of 17 checked qualifying inputs passed the current recipe; full qualifying roster 17. Original AI scores remain unchanged. The exact selected recipe, native graph and bound evidence are retained privately.
 
-All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.
-
-| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |
-| --- | ---: | ---: | ---: | --- | --- |
-| 1 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 2 | 1 | 0 | 5 | fresh-latent | natural-sitting |
-| 3 | 1 | 0 | 7 | inpaint | source-compatible |
-| 4 | 1 | 0 | 5 | fresh-latent | source-compatible |
-| 5 | 1 | 0 | 5 | inpaint | natural-sitting |
-| 6 | 2 | 0 | 7 | fresh-latent | source-compatible |
-| 7 | 1 | 0 | 7 | fresh-latent | natural-sitting |
-| 9 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 10 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 11 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 12 | 1 | 0 | 7 | fresh-latent | reference |
-| 13 | 3 | 1 | 7 | fresh-latent | natural-sitting |
-| 14 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 15 | 1 | 0 | 7 | fresh-latent | natural-sitting |
-| 16 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 8 | 13 | 7 | 5 | fresh-latent | natural-sitting |
-
-Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
-Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
+No unseen-dog validation or universal performance claim.
