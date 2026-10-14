@@ -105,6 +105,43 @@ document.querySelector('.labels').insertAdjacentHTML('beforebegin',`<section id=
 <label class="generation-slider">Slide through generations <input id="generation-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Slide through generations"></label>
 <div id="generation-track" tabindex="0" aria-label="Generation comparison"></div></section>`);
 $('#auto-panel').insertAdjacentHTML('afterend','<section class="stat" id="catalog-panel" hidden><strong>Costume workflow queue</strong><p id="catalog-status"></p><button id="compare-generations">Compare generations</button></section>');
+$('#summary').insertAdjacentHTML('afterend',`<section id="workflow-live" hidden aria-label="Live costume workflow progress"><h2>725 costume workflows · live progress</h2><div class="workflow-metrics">
+<div class="stat"><small>Current workflow</small><strong id="workflow-current">—</strong><p id="workflow-stage"></p></div>
+<div class="stat"><small>Dogs processed · current workflow</small><strong id="workflow-dogs">—</strong><p>Unique dog inputs with a completed photo, across all rounds.</p></div>
+<div class="stat"><small>Average AI score · current workflow</small><strong id="workflow-average">—</strong><p id="workflow-score-count"></p></div>
+<div class="stat"><small>Photos generated · costume run</small><strong id="workflow-photos">—</strong><p id="workflow-photo-count"></p></div>
+<div class="stat"><small>Workflows remaining</small><strong id="workflow-remaining">—</strong><p id="workflow-accepted"></p></div>
+</div><p id="workflow-freshness"></p></section>`);
+const workflowStyle=document.createElement('style');workflowStyle.textContent='#workflow-live h2{font-size:21px;margin:18px 0 12px}.workflow-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}.workflow-metrics .stat strong{font-size:26px;overflow-wrap:anywhere}.workflow-metrics .stat p{font-size:13px;margin-top:8px}#workflow-current{font-size:21px}#workflow-freshness{font-size:13px;margin-top:10px}';document.head.append(workflowStyle);
+function paintWorkflowProgress(){
+ const progress=state.catalog_progress||{},active=state.auto_refine||{},counts=progress.counts||{};
+ $('#workflow-live').hidden=!progress.total;if(!progress.total)return;
+ const prefix=(progress.version||'')+'-',activeMatches=!!progress.version&&!!active.run&&active.run.startsWith(prefix);
+ const rows=[...new Map(state.rows.filter(r=>progress.version&&r.auto_refine_version?.startsWith(prefix)).map(r=>[r.id,r])).values()];
+ const complete=rows.filter(r=>r.output&&r.status==='Complete');
+ const currentRows=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
+ const dogs=new Set(currentRows.map(r=>r.dog_id||r.input).filter(Boolean)).size;
+ const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
+ const average=scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null;
+ const activeRows=rows.filter(r=>r.auto_refine_version===active.run);
+ const rendering=activeRows.some(r=>r.status==='Rendering'),scoring=state.judge?.status==='Scoring'&&activeRows.some(r=>r.id===state.judge.active_row_id);
+ const accepted=counts.accepted||0,remaining=Math.max(0,progress.total-accepted),stage=activeMatches?(rendering?'Rendering on GPU':scoring?'Scoring generated portrait':active.phase||active.status):progress.status;
+ $('#workflow-current').textContent=(activeMatches?active.current_template:progress.current_reference)||'Preparing next workflow';
+ $('#workflow-stage').textContent=stage||'Waiting for update';
+ $('#workflow-dogs').textContent=`${dogs}${activeMatches&&active.dogs?' / '+active.dogs:''}`;
+ $('#workflow-average').textContent=average===null?'Awaiting scores':`${average.toFixed(1)} / 10`;
+ $('#workflow-score-count').textContent=`${scored.length} scored photos · average of face, fur, body and costume across all attempts; not a pass verdict.`;
+ $('#workflow-photos').textContent=complete.length.toLocaleString();
+ $('#workflow-photo-count').textContent=`${currentRows.length} for this workflow · includes retries; excludes the earlier batch.`;
+ $('#workflow-remaining').textContent=`${remaining} / ${progress.total}`;
+ $('#workflow-accepted').textContent=`${accepted} accepted · ${counts.blocked||0} need attention (included in remaining).`;
+ const updated=activeMatches?active.updated_at:progress.updated_at,age=Number.isFinite(updated)?Math.max(0,Math.round(Date.now()/1000-updated)):null;
+ $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} Dogs processed does not mean all passed.`;
+ $('#summary').textContent=`Costume workflow run: ${progress.status||'Waiting'} · ${accepted} / ${progress.total} accepted · ${remaining} remaining`;
+ $('#notice').textContent=state.batch?.status==='Complete'?'The earlier image batch is finished. The 725-costume workflow refinement run is separate; see its live status above.':'This status tracks the 725-costume workflow refinement run. Earlier batch counts are separate.';
+ $('#eta').previousElementSibling.textContent='Workflow completion time';$('#eta').textContent=remaining?'Depends on retries':'All accepted';
+ $('#speed').previousElementSibling.textContent='Earlier batch render speed';
+}
 const generationStyle=document.createElement('style');generationStyle.textContent=`
 #generation-view{padding:12px 4% 30px}#generation-view h2{margin:6px 0}#generation-view>label{margin-top:15px;flex-wrap:wrap}#generation-group{max-width:100%}#generation-context{display:flex;gap:16px;margin:18px 0;flex-wrap:wrap}#generation-context figure{margin:0;flex:0 1 190px}#generation-context img{width:100%;height:175px;object-fit:contain;background:#0c110e;border-radius:8px}#generation-context figcaption{font-size:14px}.generation-slider input{flex:1;min-width:180px;accent-color:#b1dba4}#generation-track{display:flex;gap:18px;overflow-x:auto;align-items:flex-start;scroll-snap-type:x proximity;padding:16px 0 22px;scrollbar-color:#b1dba4 #26342a}.generation-card{flex:0 0 min(440px,87vw);min-width:0;scroll-snap-align:start;padding:16px;background:#18241c;border:1px solid #526c57;border-radius:12px}.generation-card>.cell:not(:last-child){display:none}.generation-card h3{margin:0 0 8px}.generation-card .cell:before{display:none}.generation-card .cell img,.generation-card .pending{height:410px}.generation-card .ai-summary{border-top:0;padding-top:0}.generation-card .rating-form{border-top:1px solid #526c57;margin-top:14px;padding-top:14px}.generation-card .star-choice span{font-size:27px}.generation-card .review-box{padding:12px}.generation-card .auto-explanation{margin:10px 0;font-size:15px}.generation-card .ai-detail{font-size:14px}#catalog-panel{margin-top:10px}`;document.head.append(generationStyle);
 const generationCards=new Map();let generationKey='',generationGroupsKey='';
@@ -115,8 +152,18 @@ $('#generation-track').onscroll=()=>{const children=[...$('#generation-track').c
 const drawWithReviews=draw;
 draw=function(){
 drawWithReviews();
+paintWorkflowProgress();
 const progress=state.catalog_progress||{},counts=progress.counts||{};$('#catalog-panel').hidden=!progress.total;
-$('#catalog-status').textContent=progress.total?`${progress.status} · ${progress.total} costumes · ${counts.accepted||0} accepted · ${counts.in_progress||0} active · ${counts.retry_pending||0} awaiting more experiments · ${counts.pending||0} not started · ${counts.blocked||0} need attention. ${progress.current_reference?'Current: '+progress.current_reference+'. ':''}Workflows are being optimized; model weights remain unchanged.`:'';
+$('#catalog-status').textContent=progress.total?`${progress.status} · ${progress.total} costumes · ${counts.accepted||0} accepted · ${counts.in_progress||0} started / resumable · ${counts.retry_pending||0} awaiting more experiments · ${counts.pending||0} not started · ${counts.blocked||0} need attention. ${progress.current_reference?'Current: '+progress.current_reference+'. ':''}Workflows are being optimized; model weights remain unchanged.`:'';
+const activeRun=state.auto_refine||{};
+if(progress.total&&activeRun.run&&activeRun.run.startsWith((progress.version||'')+'-')){
+ const runRows=(state.rows||[]).filter(r=>r.auto_refine_version===activeRun.run);
+ const rendering=runRows.some(r=>r.status==='Rendering');
+ const scoring=runRows.some(r=>r.id===state.judge?.active_row_id)&&state.judge?.status==='Scoring';
+ const phase=rendering?'Rendering on GPU':scoring?'Scoring generated portrait':activeRun.phase||activeRun.status||'Waiting for update';
+ const age=Number.isFinite(activeRun.updated_at)?Math.max(0,Math.round(Date.now()/1000-activeRun.updated_at)):null;
+ $('#catalog-status').textContent+=` Current round: ${activeRun.generations||0} renders submitted. Stage: ${phase}.${age===null?'':` Stage updated ${age}s ago.`} Accepted counts fully validated costume workflows, not individual images.`;
+}
 const enabled=$('#mode').value==='generations';$('#generation-view').hidden=!enabled;$('#rows').hidden=enabled;document.querySelector('.labels').hidden=enabled;$('#pages').hidden=enabled;if(!enabled)return;
 const groups=new Map();for(const r of filtered().filter(r=>r.auto_refine_version)){const key=JSON.stringify([r.pack,r.template,r.input]);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r)}
 const entries=[...groups].sort((a,b)=>Math.max(...b[1].map(r=>r.started||0))-Math.max(...a[1].map(r=>r.started||0)));
