@@ -6,7 +6,7 @@
   "baseline_is_reference_specific": false,
   "customer_identity_transfer_validated": false,
   "requires_design_review": false,
-  "accepted_workflow": null,
+  "accepted_workflow": "workflow.json",
   "latest_provisional_workflow": null,
   "last_run_version": "roster-rounds-v3-mobsters-014-the-bank-job-darling",
   "last_updated_utc": "2026-10-14T09:44:54Z",

@@ -7,3 +7,5 @@ The owner explicitly instructed acceptance and continuation on 2026-10-14. This 
 10 of 17 checked qualifying inputs passed the current recipe; full qualifying roster 17. Original AI scores remain unchanged. The exact selected recipe, native graph and bound evidence are retained privately.
 
 No unseen-dog validation or universal performance claim.
+
+The parameterized owner-approved workflow is saved in workflow.json. Original customer inputs, outputs and native job bindings are excluded.
