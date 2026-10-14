@@ -1,10 +1,10 @@
 # The Bank Job Darling — development-roster report
 
-Status: **provisional**. Updated 2026-10-14T08:50:34Z.
+Status: **in_progress**. Updated 2026-10-14T08:56:16Z.
 
-0 / 32 input records pass the current shared recipe. 9 candidate recipes; 10 renders.
+0 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 2 candidate recipes; 1 renders.
 
-The local Qwen vision LLM inspects failures and proposes bounded workflow changes. FLUX.2 Klein base 4B renders; SAM3.1 creates whole-subject masks. The critic prompt, model and 9/10 threshold stay fixed.
+The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.
 Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. Only one exact recipe passing the entire roster can lock this costume.
 
 All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.
@@ -12,14 +12,7 @@ All submitted photos are development data under the owner-requested policy. Hist
 | Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |
 | --- | ---: | ---: | ---: | --- | --- |
 | 1 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 2 | 1 | 0 | 5 | fresh-latent | natural-sitting |
-| 3 | 1 | 0 | 7 | inpaint | source-compatible |
-| 4 | 1 | 0 | 5 | fresh-latent | source-compatible |
-| 5 | 1 | 0 | 5 | inpaint | natural-sitting |
-| 6 | 2 | 0 | 7 | fresh-latent | source-compatible |
-| 7 | 1 | 0 | 7 | fresh-latent | natural-sitting |
-| 8 | 1 | 0 | 7 | fresh-latent | natural-sitting |
-| 9 | 1 | 0 | 7 | fresh-latent | source-compatible |
+| 2 | 0 | 0 | pending | fresh-latent | natural-sitting |
 
 Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
 Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
