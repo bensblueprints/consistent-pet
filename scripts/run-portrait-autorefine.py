@@ -19,7 +19,7 @@ from PIL import Image,ImageFilter
 from portrait_reviews import ROOT,digest,attach
 from portrait_body_repair import segmentation_graph,make_masks,neutral_reference,repair_graph
 from portrait_benchmark_progress import ComfyProgress
-from portrait_autorefine import TARGET,signature,dog_splits,meets_target,result_rank,next_recipe,seed_for,validate_plan,freeze_recipe,tuning_finished,dog_instruction,apply_recipe
+from portrait_autorefine import TARGET,signature,dog_splits,meets_target,result_rank,next_recipe,seed_for,validate_plan,freeze_recipe,tuning_finished,dog_instruction,apply_recipe,choose_tuning_dogs
 from portrait_fur_body_rubric import RUBRIC
 
 M=ROOT/'media';I=Path(os.environ.get('COMFY_INPUT_DIR','/workspace/ComfyUI/input'));API=os.environ.get('COMFY_API','http://127.0.0.1:18188').rstrip('/')
@@ -37,13 +37,13 @@ class Refiner:
         self.plan=validate_plan(plan);self.run=plan['version'];self.home=ROOT/'auto-refinement'/self.run
         self.home.mkdir(parents=True,exist_ok=True);self.jobs=self.home/'jobs';self.jobs.mkdir(exist_ok=True)
         self.state_path=self.home/'state.json'
-        self.dogs={d['id']:d for d in json.loads((ROOT/'selected-dogs.json').read_text())['dogs']}
+        self.dogs={d['id']:d for d in json.loads((ROOT/plan.get('dogs_manifest','selected-dogs.json')).read_text())['dogs']}
         self.splits=dog_splits(list(self.dogs.values()))
         sources=[r for f in ('dog-library-batch.json','dog-batch.json') if (ROOT/f).exists() for r in json.loads((ROOT/f).read_text())['rows']]
         self.sources={r['id']:r for r in sources}
         self.fingerprint=signature({'plan':plan,'dogs':{d['id']:{**{k:d[k] for k in ('source_sha256','input','crop')},'input_sha256':digest(M/d['input']),'crop_sha256':digest(M/d['crop'])} for d in self.dogs.values()},
-            'judge_model':digest(ROOT/'judge32-model.json'),
-            'code':{name:digest(Path(__file__).with_name(name)) for name in ('run-portrait-autorefine.py','portrait_autorefine.py','portrait_body_repair.py','score-portrait-outputs.py','portrait_fur_body_rubric.py')}})
+            'cohort':self.dogs,'judge_model':digest(ROOT/'judge32-model.json'),
+            'code':{name:digest(Path(__file__).with_name(name)) for name in ('run-portrait-autorefine.py','portrait_autorefine.py','portrait_body_repair.py','score-portrait-outputs.py','portrait_fur_body_rubric.py','portrait_input_registry.py')}})
         if self.state_path.exists():
             self.state=json.loads(self.state_path.read_text())
             if self.state['fingerprint']!=self.fingerprint:raise ValueError('Changed recipe/code/inputs: use a new run version')
@@ -54,7 +54,7 @@ class Refiner:
         self.state['updated_at']=time.time();atomic(self.state_path,self.state)
         summary={k:self.state.get(k) for k in ('run','status','generations','current_template','phase','updated_at')}
         summary.update(target=f'At least {TARGET}/10 in face, fur, body and design',max_generations=self.plan['max_generations'],
-                       templates=len(self.plan['templates']),finished=sum(bool(t.get('finished')) for t in self.state['templates'].values()),
+                       dogs=len(self.dogs),templates=len(self.plan['templates']),finished=sum(bool(t.get('finished')) for t in self.state['templates'].values()),
                        passed=sum(t.get('status')=='AI target met across dogs' for t in self.state['templates'].values()))
         atomic(ROOT/'auto-refine-status.json',summary)
 
@@ -171,6 +171,7 @@ class Refiner:
         if not row:
             row={k:source[k] for k in ('pack','category','template','reference')}
             row.update(id=key,dog_id=dog_id,label=dog['label'],input=dog['input'],prepared=dog['input'],
+                       identity_crop=dog['crop'],input_quality=dog.get('quality_tier'),input_quality_notes=dog.get('quality_notes'),
                        preparation='Intact original dog; no cutout loss',status='Queued',
                        mode=f'Automatic refinement · {stage} · recipe {recipe["version"]}',
                        auto_refine_version=self.run,auto_stage=stage,auto_attempt=recipe['version'],auto_target=TARGET,
@@ -225,8 +226,10 @@ class Refiner:
         self.state.update(current_template=t['id'],phase='Preparing whole-animal mask');self.save()
         source,base=self.prepare(t,state)
         train=self.splits['train'];preferred=source['dog_id']
-        tune=([preferred] if preferred in train else [])+[d for d in train if d!=preferred]
-        tune=tune[:2];validation=self.splits['validation']+[d for d in train if d not in tune][:1];test=self.splits['test']
+        tune=choose_tuning_dogs(self.dogs,train,preferred)
+        tune_groups={self.dogs[d].get('identity_group',self.dogs[d].get('source_sha256',d)) for d in tune}
+        remaining=[d for d in train if d not in tune and self.dogs[d].get('identity_group',self.dogs[d].get('source_sha256',d)) not in tune_groups]
+        validation=self.splits['validation']+(remaining if self.plan.get('validate_all_dogs') else remaining[:1]);test=self.splits['test']
         state.update(tune_dogs=tune,validation_dogs=validation,test_dogs=test);self.save()
         if any(a.get('dog_id') not in tune for a in t.get('initial_feedback',[])):
             raise ValueError('Bootstrap feedback includes a non-tuning dog')

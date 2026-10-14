@@ -33,5 +33,15 @@ class ExportTests(unittest.TestCase):
             else:item['workflow']['scene']='Changed'
             with self.assertRaises(ValueError):exporter.sanitized(item)
 
+    def test_expanded_cohort_requires_every_frozen_validation_assessment(self):
+        item=self.fixture();frozen=item['workflow']
+        for i in range(25):
+            dog='additional-'+str(i);frozen['validation_dogs'].append(dog)
+            item['scores']['validation'].append(dict(dog_id=dog,**dict.fromkeys(DIMENSIONS,9),confidence='high',defects=[]))
+        frozen['recipe_sha256']=signature({k:v for k,v in frozen.items() if k!='recipe_sha256'})
+        self.assertEqual(exporter.sanitized(item)['evaluation']['validation_dogs'],28)
+        item['scores']['validation'][-1]['fur']=8
+        with self.assertRaises(ValueError):exporter.sanitized(item)
+
 
 if __name__=='__main__':unittest.main()

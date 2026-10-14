@@ -76,7 +76,7 @@ version, preserving earlier outputs and assessments.
 
 ## Public studio
 
-Only explicitly staged rows and their allowlisted images are served. Private
+Only explicitly staged rows, approved input-catalog crops and their allowlisted images are served. Private
 plans, job graphs, SQLite files, model configuration and GPU controls are not
 HTTP endpoints. The view token is generated once and retained across restarts.
 Use a trusted HTTPS proxy; never expose the raw ComfyUI control port for viewers.

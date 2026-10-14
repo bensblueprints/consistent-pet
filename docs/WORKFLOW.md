@@ -14,7 +14,7 @@
    sampling steps and guidance; give each attempt a deterministic new seed.
 5. Repeat on the two tuning dogs until both pass every dimension or the configured
    limit is reached. Keep every candidate and critique, including failed attempts.
-6. Freeze the best recipe and its generic API graph, then evaluate three different
+6. Freeze the best recipe and its generic API graph, then evaluate at least three different
    validation dogs. Only when tuning and validation all pass, run the final two
    dogs once. Their feedback never selects another recipe within this run.
 7. Save an accepted workflow only when all required dogs pass. Otherwise save the
@@ -63,7 +63,31 @@ python scripts/export-accepted-workflow.py \
 
 The exported file is a reusable API-graph configuration. Matching model weights
 and the operator's reference/mask assets are still required. The exporter refuses
-provisional workflows and rechecks all seven dog assessments before exporting.
+provisional workflows and rechecks every assessment in the frozen evaluation
+groups before exporting, including all dogs in an expanded validation cohort.
+
+## Expanding the submitted-dog cohort
+
+A plan can set `dogs_manifest` to a private JSON basename and
+`validate_all_dogs: true`. Keep the old manifest and files intact. New registry
+entries require `id`, `source_sha256`, `input` and `crop`; use `identity_group`
+to keep alternate photographs of a possible same dog in one split. When extending
+an existing evaluation, pin every entry's `split` to `train`, `validation` or
+`test`, preserving the earlier holdouts.
+
+Visually reviewed inputs may include `quality_tier` (`clear` or `challenging`),
+`quality_rank`, `quality_notes` and `tuning_eligible`. Tuning then requires two
+clear, eligible training identities. Remaining training inputs and the pinned
+validation inputs run against the frozen recipe. Final test identities remain
+conditional on preceding stages passing and never drive candidate selection.
+Use a new version and frozen runner whenever the registry or its policy changes.
+
+Copy the approved private registry to `input-catalog.json` to show its selected
+pet crops in the token-protected studio. The server projects display fields and
+allowlisted image basenames only; source hashes, split groups and audit records
+are not exposed. Rows carry their exact `identity_crop`, so new crops never
+silently replace the evidence used for older scores. The reviewer records that
+crop's checksum alongside the input, reference and output hashes.
 
 ## Limits and interpretation
 

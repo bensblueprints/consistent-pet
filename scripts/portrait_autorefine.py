@@ -20,11 +20,33 @@ def signature(value):return hashlib.sha256(json.dumps(value,sort_keys=True,separ
 
 
 def dog_splits(dogs):
-    """Match the existing identity-grouped judge dataset; test dogs stay untouched."""
-    identities=sorted({d['source_sha256'] for d in dogs},key=lambda s:hashlib.sha256(('fpg-judge-split-v1/'+s).encode()).hexdigest())
+    """Honor pinned identity groups when expanding a cohort; never reshuffle holdouts."""
+    identity=lambda d:d.get('identity_group',d['source_sha256'])
+    identities=sorted({identity(d) for d in dogs},key=lambda s:hashlib.sha256(('fpg-judge-split-v1/'+s).encode()).hexdigest())
     if len(identities)<7:raise ValueError('Need at least seven distinct dog identities')
-    split={v:'test' if i<2 else 'validation' if i<4 else 'train' for i,v in enumerate(identities)}
-    return {kind:[d['id'] for d in dogs if split[d['source_sha256']]==kind] for kind in ('train','validation','test')}
+    if any('split' in d for d in dogs):
+        split={}
+        for d in dogs:
+            kind=d.get('split');group=identity(d)
+            if kind not in ('train','validation','test'):raise ValueError('Pin every dog split when extending a cohort')
+            if group in split and split[group]!=kind:raise ValueError('One pet identity crosses evaluation splits')
+            split[group]=kind
+        if any(sum(k==kind for k in split.values())<2 for kind in ('validation','test')):
+            raise ValueError('Keep at least two distinct validation and test identities')
+    else:split={v:'test' if i<2 else 'validation' if i<4 else 'train' for i,v in enumerate(identities)}
+    return {kind:[d['id'] for d in dogs if split[identity(d)]==kind] for kind in ('train','validation','test')}
+
+
+def choose_tuning_dogs(dogs,train,preferred):
+    if any('quality_tier' in d for d in dogs.values()):
+        eligible=sorted((d for d in dogs.values() if d['id'] in train and d.get('quality_tier')=='clear' and d.get('tuning_eligible',True)),key=lambda d:(d.get('quality_rank',100),d['id']))
+        selected=[];groups=set()
+        for d in eligible:
+            group=d.get('identity_group',d['source_sha256'])
+            if group not in groups:selected.append(d['id']);groups.add(group)
+            if len(selected)==2:return selected
+        raise ValueError('Need two clear, distinct training dogs')
+    return (([preferred] if preferred in train else [])+[d for d in train if d!=preferred])[:2]
 
 
 def meets_target(assessment):
@@ -116,6 +138,9 @@ def validate_plan(plan):
     for key,maximum in [('max_attempts',12),('patience',12),('max_generations',5000)]:
         if type(plan.get(key)) is not int or not 1<=plan[key]<=maximum:raise ValueError('Invalid '+key)
     if type(plan.get('max_hours')) not in (int,float) or not 0<plan['max_hours']<=48:raise ValueError('Invalid max_hours')
+    if 'dogs_manifest' in plan and (not isinstance(plan['dogs_manifest'],str) or not re.fullmatch(r'[a-z0-9-]+\.json',plan['dogs_manifest'])):
+        raise ValueError('Dog registry must be a private JSON basename')
+    if 'validate_all_dogs' in plan and type(plan['validate_all_dogs']) is not bool:raise ValueError('Invalid validate_all_dogs')
     if not plan.get('templates') or len({t['id'] for t in plan['templates']})!=len(plan['templates']):raise ValueError('Missing or duplicate templates')
     for template in plan['templates']:
         if not template.get('id') or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in template['id']):raise ValueError('Invalid template ID')

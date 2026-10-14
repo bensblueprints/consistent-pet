@@ -37,7 +37,7 @@ quality, not a guarantee of a perfect likeness or print readiness.
   steps, guidance, seed and correction instructions. The critic never executes code.
 - Dog-specific feedback applies only to the dog the critic actually reviewed.
   A correction for one dog's coat is not transferred to a different dog.
-- Two tuning dogs, three separate validation dogs and two final test dogs. The
+- Two tuning dogs, at least three separate validation dogs and two final test dogs. The
   final dogs run only after tuning and validation pass. Their results never feed
   back into candidate selection in that run.
 - Saved native ComfyUI graphs, exact output hashes, assessments, change history,
@@ -49,8 +49,11 @@ quality, not a guarantee of a perfect likeness or print readiness.
 
 Retries stop at the configured generation/time limit or stagnation limit. A
 below-target result is retained as provisional and never mislabeled accepted.
-The current three-reference pilot uses up to eight recipes per reference, 90
-renders and six hours. It has not established that every reference can reach 9.
+The expanded three-reference pilot uses a visually audited input registry, two
+clear tuning inputs and all remaining eligible dogs for frozen validation. It
+allows up to eight recipes per reference, 160 renders and six hours. Difficult
+photos remain labeled as such; limited visible detail cannot justify invented
+identity claims. It has not established that every reference can reach 9.
 
 ## Stack
 

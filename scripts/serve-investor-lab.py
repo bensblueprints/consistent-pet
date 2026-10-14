@@ -7,6 +7,7 @@ are served. Review writes are allowed; private job graphs and GPU controls are e
 import json,os,secrets,urllib.parse
 from portrait_reviews import ROOT,attach,handle_post
 from portrait_judge_runtime import snapshot as judge_snapshot
+from portrait_input_registry import public_catalog,MEDIA_FIELDS
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 R=ROOT;R.mkdir(parents=True,exist_ok=True);M=R/'media';TOKEN_FILE=R/'investor-share-token'
@@ -15,7 +16,7 @@ PREFIX='/view/'+TOKEN_FILE.read_text().strip()+'/'
 def read(name,default):
  try:return json.loads((R/name).read_text())
  except (OSError,ValueError):return default
-FIELDS=('id','index','pack','category','template','mode','input','reference','label','status','review','output','thumbnail','seconds','started','finished_at','preview','progress_max','progress_value','progress_seq','workflow_id','dog_id','prepared','preparation','baseline_output','baseline_label','repair_version','repair_mask','repair_design','auto_refine_version','auto_stage','auto_attempt','auto_target','auto_changes','auto_corrections','auto_rationale')
+FIELDS=('id','index','pack','category','template','mode','input','reference','label','status','review','output','thumbnail','seconds','started','finished_at','preview','progress_max','progress_value','progress_seq','workflow_id','dog_id','prepared','preparation','baseline_output','baseline_label','repair_version','repair_mask','repair_design','auto_refine_version','auto_stage','auto_attempt','auto_target','auto_changes','auto_corrections','auto_rationale','input_quality','input_quality_notes')
 def public_state():
  prior=read('dog-batch.json',{'rows':[]});full=read('dog-library-batch.json',{'rows':[]})
  batch=full if full['rows'] else prior
@@ -31,8 +32,8 @@ def public_state():
  safe_batch['rows']=[{'id':r['id'],'status':r['status']} for r in batch['rows']]
  result=attach(result)
  auto=read('auto-refine-status.json',{})
- auto={k:auto[k] for k in ('run','status','generations','current_template','phase','target','max_generations','templates','finished','passed','updated_at') if k in auto}
- return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto}
+ auto={k:auto[k] for k in ('run','status','generations','current_template','phase','target','max_generations','templates','finished','passed','updated_at','dogs') if k in auto}
+ return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{}))}
 class Handler(BaseHTTPRequestHandler):
  def do_POST(self):
   if urllib.parse.urlparse(self.path).path!=PREFIX+'review':self.send_error(404);return
@@ -53,6 +54,7 @@ class Handler(BaseHTTPRequestHandler):
   elif suffix=='state':data=json.dumps(state).encode();kind='application/json'
   elif suffix.startswith('media/'):
    name=urllib.parse.unquote(suffix[6:]);allowed={r.get(k) for r in state['rows'] for k in ('input','prepared','reference','output','thumbnail','preview','baseline_output','repair_mask','repair_design')}
+   allowed.update(d.get(k) for d in state['input_catalog']['dogs'] for k in MEDIA_FIELDS)
    if Path(name).name!=name or name not in allowed or not (M/name).is_file():self.send_error(404);return
    data=(M/name).read_bytes();kind='image/png' if name.endswith('.png') else 'image/jpeg'
   else:self.send_error(404);return

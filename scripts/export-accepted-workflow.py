@@ -11,11 +11,13 @@ def sanitized(item):
     frozen=item['workflow']
     if frozen.get('recipe_sha256')!=signature({k:v for k,v in frozen.items() if k!='recipe_sha256'}):
         raise ValueError('Frozen workflow checksum differs')
-    seen=set()
-    for stage,amount in [('tuning',2),('validation',3),('test',2)]:
+    seen=set();counts={}
+    for stage,minimum in [('tuning',2),('validation',3),('test',2)]:
         reviews=item[stage] if stage=='tuning' else item['scores'][stage]
         ids=[r.get('dog_id') for r in reviews]
         group=frozen['tune_dogs' if stage=='tuning' else stage+'_dogs']
+        amount=len(group);counts[stage]=amount
+        if amount<minimum or (stage!='validation' and amount!=minimum):raise ValueError('Invalid evaluation group size')
         if len(reviews)!=amount or not all(meets_target(r) for r in reviews):raise ValueError('Required assessments did not pass')
         if None in ids or len(set(ids))!=amount or set(ids)!=set(group) or seen&set(ids):
             raise ValueError('Evaluation identities overlap or do not match the frozen groups')
@@ -28,7 +30,7 @@ def sanitized(item):
     recipe={k:frozen['recipe'][k] for k in ('version','steps','cfg','grow','feather','original_megapixels','face_megapixels','design_megapixels','focus','instruction')}
     result=dict(format='consistent-pet-api-recipe-v1',template_id=frozen['template_id'],target=9,
                 scene=frozen['scene'],clothing=frozen['clothing'],recipe=recipe,graph=graph,
-                status='AI target met across dogs',evaluation=dict(tuning_dogs=2,validation_dogs=3,test_dogs=2,ai_estimate_only=True),
+                status='AI target met across dogs',evaluation=dict(tuning_dogs=counts['tuning'],validation_dogs=counts['validation'],test_dogs=counts['test'],ai_estimate_only=True),
                 binding='Use repair_graph, dog_instruction and apply_recipe with operator-supplied private reference assets.')
     result['sha256']=signature(result)
     return result

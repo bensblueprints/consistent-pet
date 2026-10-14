@@ -13,6 +13,7 @@ from PIL import Image
 from portrait_reviews import ROOT, attach, digest, output_hash, save_ai
 from portrait_fur_body_rubric import RUBRIC as BODY_RUBRIC,PROMPT as BODY_PROMPT,validate as validate_body
 from portrait_judge_runtime import PROFILE,LiveJudge,pending_rows
+from portrait_input_registry import identity_crop
 
 COMPACT_PROMPT=BODY_PROMPT.split('Return ONLY one JSON object')[0]+'''Return ONLY compact JSON with these keys:
 identity,fur,body,template: integer 1-10;
@@ -101,9 +102,10 @@ class Judge:
         for name,im in zip(('A: Actual dog','B: Target artwork template','C: Generated result'),images):
             content.extend([{'type':'text','text':name},{'type':'image','image':im}])
         dogs=json.loads((ROOT/'selected-dogs.json').read_text())['dogs']
-        dog=next((d for d in dogs if d['id']==row.get('dog_id')),None)
-        if dog:
-            with Image.open(ROOT/'media'/dog['crop']) as im:closeup=im.convert('RGB')
+        crop=identity_crop(row,dogs)
+        if crop:
+            if Path(crop).name!=crop:raise ValueError('Invalid identity crop name')
+            with Image.open(ROOT/'media'/crop) as im:closeup=im.convert('RGB')
             content.extend([{'type':'text','text':'D: Original dog face close-up, same dog as A'},{'type':'image','image':closeup}])
         if row.get('prepared') and row['prepared']!=row['input']:
             name=row['prepared']
@@ -123,6 +125,7 @@ class Judge:
         evidence=dict(row_id=row['id'],rubric=BODY_RUBRIC,raw=raw,seconds=round(time.time()-started,2),
                       model=self.spec['model'],revision=self.spec['revision'],
                       input_sha256=digest(ROOT/'media'/row['input']),
+                      identity_crop_sha256=digest(ROOT/'media'/crop) if crop else None,
                       reference_sha256=digest(ROOT/'media'/row['reference']),
                       output_sha256=output_hash(row),prompt_sha256=__import__('hashlib').sha256(COMPACT_PROMPT.encode()).hexdigest(),
                       prepared_sha256=digest(ROOT/'media'/row['prepared']) if row.get('prepared') else None,
@@ -141,7 +144,7 @@ def run(once=False,controls=False,live=None):
     if controls:
         rows=json.loads((ROOT/'dog-batch.json').read_text())['rows']
         row=next(r for r in rows if r.get('output'));other=next(r for r in rows if r['dog_id']!=row['dog_id'])
-        tests=[('wrong-dog',{**row,'input':other['input'],'dog_id':other['dog_id'],'prepared':other.get('prepared')}),('unchanged-input',{**row,'output':row['input']})]
+        tests=[('wrong-dog',{**row,'input':other['input'],'dog_id':other['dog_id'],'identity_crop':other.get('identity_crop'),'prepared':other.get('prepared')}),('unchanged-input',{**row,'output':row['input']})]
         results=[]
         for name,test in tests:
             test['id']='judge-control-'+name;assessment=judge.assess(test)

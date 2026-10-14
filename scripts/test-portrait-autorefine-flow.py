@@ -56,6 +56,16 @@ class FlowTests(unittest.TestCase):
             self.assertEqual(len(result['validation']),3)
             self.assertFalse((Path(path)/'accepted/costume.json').exists())
 
+    def test_expanded_validation_includes_remaining_dogs_with_frozen_recipe(self):
+        with tempfile.TemporaryDirectory() as path:
+            r=self.make_runner(path);r.plan['validate_all_dogs']=True
+            for k in ('h','i','j'):r.dogs[k]={'input':k+'.png','crop':k+'-face.png'}
+            r.splits['train'].extend(['h','i','j'])
+            r.template({'id':'costume','scene':'Garden','clothing':'Suit'})
+            check=next(c for c in r.calls if c[0]=='validation')
+            self.assertEqual(set(check[2]),set('cdehij'))
+            self.assertEqual(check[3],r.calls[-1][3])
+
     def test_stagnation_keeps_earliest_best_and_still_checks_other_dogs(self):
         with tempfile.TemporaryDirectory() as path:
             r=self.make_runner(path,always_low=True);r.template({'id':'costume','scene':'Garden','clothing':'Suit'})
