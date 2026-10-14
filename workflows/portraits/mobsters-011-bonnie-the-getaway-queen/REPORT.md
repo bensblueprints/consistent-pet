@@ -1,8 +1,8 @@
 # Bonnie the Getaway Queen — refinement report
 
-Status: **in_progress**. Updated 2026-10-14T06:52:05Z.
+Status: **in_progress**. Updated 2026-10-14T07:08:25Z.
 
-Queue `catalog-llm-v3`; run `catalog-llm-v2-mobsters-011-bonnie-the-getaway-queen-round-1`; 1 rounds started; 0 generated candidates.
+Queue `catalog-llm-v3`; run `catalog-llm-v3-mobsters-011-bonnie-the-getaway-queen-round-2`; 2 rounds started; 8 generated candidates.
 
 The resident Qwen3-VL-32B proposes bounded graph changes from reference images, original tuning pets, previous outputs and training-only critiques. The independent scoring prompt and weights remain fixed.
 Graph strategies: whole-subject inpainting or fresh subject latent with protected-background compositing. FLUX.2 Klein base 4B and SAM3.1 remain the generation/segmentation stack.
