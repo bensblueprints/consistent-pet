@@ -145,7 +145,12 @@ function paintWorkflowProgress(){
  $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.${progress.required_average===8?' Acceptance: complete round average >=8/10. ':''}${progress.required_pass_percent===85?` Current recipe: ${progress.checked_current_recipe||0}/${progress.roster_total||0} scored; ${progress.passed_current_recipe||0} passing; ${progress.required_passing_entries||0} required (85%).`:''}`;
  $('#summary').textContent=`Costume workflow run: ${progress.status||'Waiting'} · ${accepted} / ${progress.total} accepted · ${remaining} remaining`;
  $('#notice').textContent=state.batch?.status==='Complete'?'The earlier image batch is finished. The 725-costume workflow refinement run is separate; see its live status above.':'This status tracks the 725-costume workflow refinement run. Earlier batch counts are separate.';
- $('#eta').previousElementSibling.textContent='Workflow completion time';$('#eta').textContent=remaining?'Depends on retries':'All accepted';
+ const timing=state.approval_timing||{},duration=s=>s>=86400?`${(s/86400).toFixed(1)} days`:`${(s/3600).toFixed(1)} hours`;
+ $('#eta').previousElementSibling.textContent='Estimated workflow time remaining';
+ $('#eta').textContent=!remaining?'All accepted':Number.isFinite(timing.remaining_seconds)?duration(timing.remaining_seconds):'Measuring approval pace';
+ let detail=$('#approval-timing');if(!detail){detail=document.createElement('p');detail.id='approval-timing';$('#workflow-freshness').before(detail)}
+ detail.textContent=timing.samples?`Last approval: ${(timing.last_seconds/60).toFixed(1)} min · Average: ${(timing.mean_seconds/60).toFixed(1)} min/approval (${timing.samples} recent intervals, including retries) · Since last approval: ${(timing.current_elapsed_seconds/60).toFixed(1)} min · Estimated finish: ${new Date(timing.estimated_finish*1000).toLocaleString()} (your local time). Assumes continuous running.`:'Timing each approval; estimate appears after two approvals.';
+ if(timing.estimated_finish>timing.submission_deadline)detail.textContent+=' Current worker time limit ends before this estimate; the run will need extending.';
  $('#speed').previousElementSibling.textContent='Earlier batch render speed';
 }
 const generationStyle=document.createElement('style');generationStyle.textContent=`

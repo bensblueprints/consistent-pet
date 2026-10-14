@@ -10,6 +10,7 @@ from portrait_judge_runtime import snapshot as judge_snapshot
 from portrait_input_registry import public_catalog,MEDIA_FIELDS
 from portrait_input_quality import public_scores
 from pathlib import Path
+from portrait_approval_timing import snapshot as approval_snapshot
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 R=ROOT;R.mkdir(parents=True,exist_ok=True);M=R/'media';TOKEN_FILE=R/'investor-share-token'
 if not TOKEN_FILE.exists():TOKEN_FILE.write_text(secrets.token_urlsafe(24));TOKEN_FILE.chmod(0o600)
@@ -34,7 +35,7 @@ def public_state():
  result=attach(result)
  auto=read('auto-refine-status.json',{})
  auto={k:auto[k] for k in ('run','status','generations','current_template','phase','target','max_generations','templates','finished','passed','updated_at','dogs') if k in auto}
- return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{})),'catalog_progress':read('catalog-public-status.json',{}),'input_photo_scores':public_scores(R)}
+ return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{})),'catalog_progress':read('catalog-public-status.json',{}),'approval_timing':approval_snapshot(R),'input_photo_scores':public_scores(R)}
 class Handler(BaseHTTPRequestHandler):
  def do_POST(self):
   if urllib.parse.urlparse(self.path).path!=PREFIX+'review':self.send_error(404);return
