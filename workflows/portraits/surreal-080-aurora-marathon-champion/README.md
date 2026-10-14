@@ -1,6 +1,6 @@
 # Aurora Marathon Champion
 
-Reference ID: `surreal-080-aurora-marathon-champion`  
+Reference ID: `surreal-080-aurora-marathon-champion`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-080-aurora-marathon-champion.webp)

@@ -1,6 +1,6 @@
 # Funk Band Leader
 
-Reference ID: `costumes300-168-funk-band-leader`  
+Reference ID: `costumes300-168-funk-band-leader`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-168-funk-band-leader.webp)

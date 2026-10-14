@@ -1,6 +1,6 @@
 # Detective Raccoon-Cape Dog
 
-Reference ID: `superheroes-179-detective-raccoon-cape-dog`  
+Reference ID: `superheroes-179-detective-raccoon-cape-dog`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-179-detective-raccoon-cape-dog.webp)

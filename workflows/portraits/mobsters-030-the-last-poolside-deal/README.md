@@ -1,6 +1,6 @@
 # The Last Poolside Deal
 
-Reference ID: `mobsters-030-the-last-poolside-deal`  
+Reference ID: `mobsters-030-the-last-poolside-deal`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-030-the-last-poolside-deal.webp)

@@ -1,6 +1,6 @@
 # Wild West Sheriff
 
-Reference ID: `original25-wild-west-sheriff`  
+Reference ID: `original25-wild-west-sheriff`
 Category: Western | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/western/original25-wild-west-sheriff.webp)

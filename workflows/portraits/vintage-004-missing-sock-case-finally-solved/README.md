@@ -1,6 +1,6 @@
 # Missing Sock Case Finally Solved
 
-Reference ID: `vintage-004-missing-sock-case-finally-solved`  
+Reference ID: `vintage-004-missing-sock-case-finally-solved`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-004-missing-sock-case-finally-solved.webp)

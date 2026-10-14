@@ -1,6 +1,6 @@
 # Pumpkin Farmer
 
-Reference ID: `costumes300-103-pumpkin-farmer`  
+Reference ID: `costumes300-103-pumpkin-farmer`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-103-pumpkin-farmer.webp)

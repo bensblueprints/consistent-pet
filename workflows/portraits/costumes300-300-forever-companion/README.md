@@ -1,6 +1,6 @@
 # Forever Companion
 
-Reference ID: `costumes300-300-forever-companion`  
+Reference ID: `costumes300-300-forever-companion`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-300-forever-companion.webp)

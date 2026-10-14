@@ -1,6 +1,6 @@
 # The Midnight Consigliere
 
-Reference ID: `mobsters-005-the-midnight-consigliere`  
+Reference ID: `mobsters-005-the-midnight-consigliere`
 Category: The Pawfather | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/the-pawfather/mobsters-005-the-midnight-consigliere.webp)

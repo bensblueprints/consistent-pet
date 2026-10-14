@@ -1,6 +1,6 @@
 # Sunrise Bridge Swing
 
-Reference ID: `superheroes-128-sunrise-bridge-swing`  
+Reference ID: `superheroes-128-sunrise-bridge-swing`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-128-sunrise-bridge-swing.webp)

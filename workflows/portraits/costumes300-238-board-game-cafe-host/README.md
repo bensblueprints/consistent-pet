@@ -1,6 +1,6 @@
 # Board-Game Cafe Host
 
-Reference ID: `costumes300-238-board-game-cafe-host`  
+Reference ID: `costumes300-238-board-game-cafe-host`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-238-board-game-cafe-host.webp)

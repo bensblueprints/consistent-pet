@@ -1,6 +1,6 @@
 # Retirement from Being a Menace
 
-Reference ID: `vintage-070-retirement-from-being-a-menace`  
+Reference ID: `vintage-070-retirement-from-being-a-menace`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-070-retirement-from-being-a-menace.webp)

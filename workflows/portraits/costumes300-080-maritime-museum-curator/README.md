@@ -1,6 +1,6 @@
 # Maritime Museum Curator
 
-Reference ID: `costumes300-080-maritime-museum-curator`  
+Reference ID: `costumes300-080-maritime-museum-curator`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-080-maritime-museum-curator.webp)

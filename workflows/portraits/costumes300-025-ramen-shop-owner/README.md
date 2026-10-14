@@ -1,6 +1,6 @@
 # Ramen Shop Owner
 
-Reference ID: `costumes300-025-ramen-shop-owner`  
+Reference ID: `costumes300-025-ramen-shop-owner`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-025-ramen-shop-owner.webp)

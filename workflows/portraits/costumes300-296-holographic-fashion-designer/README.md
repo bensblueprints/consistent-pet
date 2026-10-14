@@ -1,6 +1,6 @@
 # Holographic Fashion Designer
 
-Reference ID: `costumes300-296-holographic-fashion-designer`  
+Reference ID: `costumes300-296-holographic-fashion-designer`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-296-holographic-fashion-designer.webp)

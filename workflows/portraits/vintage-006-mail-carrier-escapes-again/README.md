@@ -1,6 +1,6 @@
 # Mail Carrier Escapes Again
 
-Reference ID: `vintage-006-mail-carrier-escapes-again`  
+Reference ID: `vintage-006-mail-carrier-escapes-again`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-006-mail-carrier-escapes-again.webp)

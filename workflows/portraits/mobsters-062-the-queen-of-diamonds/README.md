@@ -1,6 +1,6 @@
 # The Queen of Diamonds
 
-Reference ID: `mobsters-062-the-queen-of-diamonds`  
+Reference ID: `mobsters-062-the-queen-of-diamonds`
 Category: Casino Royals | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/casino-royals/mobsters-062-the-queen-of-diamonds.webp)

@@ -1,6 +1,6 @@
 # Greetings from the Sofa
 
-Reference ID: `vintage-092-greetings-from-the-sofa`  
+Reference ID: `vintage-092-greetings-from-the-sofa`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-092-greetings-from-the-sofa.webp)

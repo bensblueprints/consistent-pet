@@ -1,6 +1,6 @@
 # Aurora Light Hero
 
-Reference ID: `superheroes-170-aurora-light-hero`  
+Reference ID: `superheroes-170-aurora-light-hero`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-170-aurora-light-hero.webp)

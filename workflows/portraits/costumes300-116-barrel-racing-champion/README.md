@@ -1,6 +1,6 @@
 # Barrel Racing Champion
 
-Reference ID: `costumes300-116-barrel-racing-champion`  
+Reference ID: `costumes300-116-barrel-racing-champion`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-116-barrel-racing-champion.webp)

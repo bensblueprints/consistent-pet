@@ -1,6 +1,6 @@
 # The Lady in the Red Scarf
 
-Reference ID: `mobsters-042-the-lady-in-the-red-scarf`  
+Reference ID: `mobsters-042-the-lady-in-the-red-scarf`
 Category: Noir City | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/noir-city/mobsters-042-the-lady-in-the-red-scarf.webp)

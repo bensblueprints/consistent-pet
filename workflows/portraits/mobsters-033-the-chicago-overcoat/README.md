@@ -1,6 +1,6 @@
 # The Chicago Overcoat
 
-Reference ID: `mobsters-033-the-chicago-overcoat`  
+Reference ID: `mobsters-033-the-chicago-overcoat`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-033-the-chicago-overcoat.webp)

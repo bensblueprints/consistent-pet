@@ -1,6 +1,6 @@
 # Gotham Clocktower
 
-Reference ID: `superheroes-106-gotham-clocktower`  
+Reference ID: `superheroes-106-gotham-clocktower`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-106-gotham-clocktower.webp)

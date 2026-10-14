@@ -1,6 +1,6 @@
 # Neon Web Guardian
 
-Reference ID: `superheroes-123-neon-web-guardian`  
+Reference ID: `superheroes-123-neon-web-guardian`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-123-neon-web-guardian.webp)

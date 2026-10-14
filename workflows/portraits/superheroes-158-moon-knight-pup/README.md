@@ -1,6 +1,6 @@
 # Moon Knight Pup
 
-Reference ID: `superheroes-158-moon-knight-pup`  
+Reference ID: `superheroes-158-moon-knight-pup`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-158-moon-knight-pup.webp)

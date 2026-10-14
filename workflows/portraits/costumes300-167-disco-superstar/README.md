@@ -1,6 +1,6 @@
 # Disco Superstar
 
-Reference ID: `costumes300-167-disco-superstar`  
+Reference ID: `costumes300-167-disco-superstar`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-167-disco-superstar.webp)

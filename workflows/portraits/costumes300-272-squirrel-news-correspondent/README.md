@@ -1,6 +1,6 @@
 # Squirrel News Correspondent
 
-Reference ID: `costumes300-272-squirrel-news-correspondent`  
+Reference ID: `costumes300-272-squirrel-news-correspondent`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-272-squirrel-news-correspondent.webp)

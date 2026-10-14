@@ -1,6 +1,6 @@
 # Household Rules
 
-Reference ID: `vintage-065-household-rules`  
+Reference ID: `vintage-065-household-rules`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-065-household-rules.webp)

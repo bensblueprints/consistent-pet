@@ -1,6 +1,6 @@
 # Solar Cape Hero
 
-Reference ID: `superheroes-112-solar-cape-hero`  
+Reference ID: `superheroes-112-solar-cape-hero`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-112-solar-cape-hero.webp)

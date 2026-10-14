@@ -1,6 +1,6 @@
 # Kitchen Inspector Demands Second Sample
 
-Reference ID: `vintage-008-kitchen-inspector-demands-second-sample`  
+Reference ID: `vintage-008-kitchen-inspector-demands-second-sample`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-008-kitchen-inspector-demands-second-sample.webp)

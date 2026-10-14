@@ -1,6 +1,6 @@
 # The Family Album Favorite
 
-Reference ID: `vintage-026-the-family-album-favorite`  
+Reference ID: `vintage-026-the-family-album-favorite`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-026-the-family-album-favorite.webp)

@@ -1,6 +1,6 @@
 # Paramedic
 
-Reference ID: `costumes300-002-paramedic`  
+Reference ID: `costumes300-002-paramedic`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-002-paramedic.webp)

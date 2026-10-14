@@ -1,6 +1,6 @@
 # Celestial Shield Dog
 
-Reference ID: `superheroes-159-celestial-shield-dog`  
+Reference ID: `superheroes-159-celestial-shield-dog`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-159-celestial-shield-dog.webp)

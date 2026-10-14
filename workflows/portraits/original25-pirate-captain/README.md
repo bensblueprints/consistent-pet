@@ -1,6 +1,6 @@
 # Pirate Captain
 
-Reference ID: `original25-pirate-captain`  
+Reference ID: `original25-pirate-captain`
 Category: Pirates and Naval | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/pirates-and-naval/original25-pirate-captain.webp)

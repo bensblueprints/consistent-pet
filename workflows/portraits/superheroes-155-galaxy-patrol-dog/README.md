@@ -1,6 +1,6 @@
 # Galaxy Patrol Dog
 
-Reference ID: `superheroes-155-galaxy-patrol-dog`  
+Reference ID: `superheroes-155-galaxy-patrol-dog`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-155-galaxy-patrol-dog.webp)

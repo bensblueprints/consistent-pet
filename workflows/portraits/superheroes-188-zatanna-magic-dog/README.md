@@ -1,6 +1,6 @@
 # Zatanna Magic Dog
 
-Reference ID: `superheroes-188-zatanna-magic-dog`  
+Reference ID: `superheroes-188-zatanna-magic-dog`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-188-zatanna-magic-dog.webp)

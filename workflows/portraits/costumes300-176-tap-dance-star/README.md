@@ -1,6 +1,6 @@
 # Tap Dance Star
 
-Reference ID: `costumes300-176-tap-dance-star`  
+Reference ID: `costumes300-176-tap-dance-star`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-176-tap-dance-star.webp)

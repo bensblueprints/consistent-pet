@@ -1,6 +1,6 @@
 # Hall of Fame Good Dog
 
-Reference ID: `vintage-072-hall-of-fame-good-dog`  
+Reference ID: `vintage-072-hall-of-fame-good-dog`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-072-hall-of-fame-good-dog.webp)

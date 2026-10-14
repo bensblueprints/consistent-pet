@@ -1,6 +1,6 @@
 # Peacock Jewel Princess
 
-Reference ID: `surreal-069-peacock-jewel-princess`  
+Reference ID: `surreal-069-peacock-jewel-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-069-peacock-jewel-princess.webp)

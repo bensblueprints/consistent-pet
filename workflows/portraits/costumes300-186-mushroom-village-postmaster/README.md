@@ -1,6 +1,6 @@
 # Mushroom Village Postmaster
 
-Reference ID: `costumes300-186-mushroom-village-postmaster`  
+Reference ID: `costumes300-186-mushroom-village-postmaster`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-186-mushroom-village-postmaster.webp)

@@ -1,6 +1,6 @@
 # Ski Patrol Rescuer
 
-Reference ID: `costumes300-081-ski-patrol-rescuer`  
+Reference ID: `costumes300-081-ski-patrol-rescuer`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-081-ski-patrol-rescuer.webp)

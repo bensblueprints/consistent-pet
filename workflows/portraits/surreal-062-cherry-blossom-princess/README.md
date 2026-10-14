@@ -1,6 +1,6 @@
 # Cherry Blossom Princess
 
-Reference ID: `surreal-062-cherry-blossom-princess`  
+Reference ID: `surreal-062-cherry-blossom-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-062-cherry-blossom-princess.webp)

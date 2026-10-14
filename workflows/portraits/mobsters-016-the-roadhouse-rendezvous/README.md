@@ -1,6 +1,6 @@
 # The Roadhouse Rendezvous
 
-Reference ID: `mobsters-016-the-roadhouse-rendezvous`  
+Reference ID: `mobsters-016-the-roadhouse-rendezvous`
 Category: Bonnie and Clyde | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/bonnie-and-clyde/mobsters-016-the-roadhouse-rendezvous.webp)

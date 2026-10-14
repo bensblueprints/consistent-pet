@@ -1,6 +1,6 @@
 # A Fistful of Treats
 
-Reference ID: `vintage-085-a-fistful-of-treats`  
+Reference ID: `vintage-085-a-fistful-of-treats`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-085-a-fistful-of-treats.webp)

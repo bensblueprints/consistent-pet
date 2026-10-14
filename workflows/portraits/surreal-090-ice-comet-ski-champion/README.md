@@ -1,6 +1,6 @@
 # Ice Comet Ski Champion
 
-Reference ID: `surreal-090-ice-comet-ski-champion`  
+Reference ID: `surreal-090-ice-comet-ski-champion`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-090-ice-comet-ski-champion.webp)

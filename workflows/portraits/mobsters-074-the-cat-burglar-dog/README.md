@@ -1,6 +1,6 @@
 # The Cat Burglar Dog
 
-Reference ID: `mobsters-074-the-cat-burglar-dog`  
+Reference ID: `mobsters-074-the-cat-burglar-dog`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-074-the-cat-burglar-dog.webp)

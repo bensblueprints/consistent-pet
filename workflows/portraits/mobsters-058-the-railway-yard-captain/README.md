@@ -1,6 +1,6 @@
 # The Railway Yard Captain
 
-Reference ID: `mobsters-058-the-railway-yard-captain`  
+Reference ID: `mobsters-058-the-railway-yard-captain`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-058-the-railway-yard-captain.webp)

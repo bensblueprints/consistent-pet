@@ -1,6 +1,6 @@
 # Pizza Maker
 
-Reference ID: `costumes300-022-pizza-maker`  
+Reference ID: `costumes300-022-pizza-maker`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-022-pizza-maker.webp)

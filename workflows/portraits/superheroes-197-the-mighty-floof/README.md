@@ -1,6 +1,6 @@
 # The Mighty Floof
 
-Reference ID: `superheroes-197-the-mighty-floof`  
+Reference ID: `superheroes-197-the-mighty-floof`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-197-the-mighty-floof.webp)

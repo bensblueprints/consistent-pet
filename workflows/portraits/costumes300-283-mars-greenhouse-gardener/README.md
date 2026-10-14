@@ -1,6 +1,6 @@
 # Mars Greenhouse Gardener
 
-Reference ID: `costumes300-283-mars-greenhouse-gardener`  
+Reference ID: `costumes300-283-mars-greenhouse-gardener`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-283-mars-greenhouse-gardener.webp)

@@ -1,6 +1,6 @@
 # Solar Nova Hound
 
-Reference ID: `superheroes-157-solar-nova-hound`  
+Reference ID: `superheroes-157-solar-nova-hound`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-157-solar-nova-hound.webp)

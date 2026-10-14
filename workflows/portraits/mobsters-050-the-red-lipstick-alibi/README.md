@@ -1,6 +1,6 @@
 # The Red Lipstick Alibi
 
-Reference ID: `mobsters-050-the-red-lipstick-alibi`  
+Reference ID: `mobsters-050-the-red-lipstick-alibi`
 Category: Noir City | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/noir-city/mobsters-050-the-red-lipstick-alibi.webp)

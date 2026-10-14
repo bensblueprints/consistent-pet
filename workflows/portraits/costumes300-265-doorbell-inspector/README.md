@@ -1,6 +1,6 @@
 # Doorbell Inspector
 
-Reference ID: `costumes300-265-doorbell-inspector`  
+Reference ID: `costumes300-265-doorbell-inspector`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-265-doorbell-inspector.webp)

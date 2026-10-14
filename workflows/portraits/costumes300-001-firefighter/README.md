@@ -1,6 +1,6 @@
 # Firefighter
 
-Reference ID: `costumes300-001-firefighter`  
+Reference ID: `costumes300-001-firefighter`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-001-firefighter.webp)

@@ -1,6 +1,6 @@
 # Batmobile Garage
 
-Reference ID: `superheroes-108-batmobile-garage`  
+Reference ID: `superheroes-108-batmobile-garage`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-108-batmobile-garage.webp)

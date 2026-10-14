@@ -1,6 +1,6 @@
 # Tractor Pull Champion
 
-Reference ID: `costumes300-110-tractor-pull-champion`  
+Reference ID: `costumes300-110-tractor-pull-champion`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-110-tractor-pull-champion.webp)

@@ -1,6 +1,6 @@
 # Dinner Table Observer
 
-Reference ID: `costumes300-277-dinner-table-observer`  
+Reference ID: `costumes300-277-dinner-table-observer`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-277-dinner-table-observer.webp)

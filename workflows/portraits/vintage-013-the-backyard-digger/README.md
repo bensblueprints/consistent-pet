@@ -1,6 +1,6 @@
 # The Backyard Digger
 
-Reference ID: `vintage-013-the-backyard-digger`  
+Reference ID: `vintage-013-the-backyard-digger`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-013-the-backyard-digger.webp)

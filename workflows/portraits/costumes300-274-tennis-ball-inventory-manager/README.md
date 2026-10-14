@@ -1,6 +1,6 @@
 # Tennis Ball Inventory Manager
 
-Reference ID: `costumes300-274-tennis-ball-inventory-manager`  
+Reference ID: `costumes300-274-tennis-ball-inventory-manager`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-274-tennis-ball-inventory-manager.webp)

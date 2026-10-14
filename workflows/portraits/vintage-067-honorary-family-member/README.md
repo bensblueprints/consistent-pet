@@ -1,6 +1,6 @@
 # Honorary Family Member
 
-Reference ID: `vintage-067-honorary-family-member`  
+Reference ID: `vintage-067-honorary-family-member`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-067-honorary-family-member.webp)

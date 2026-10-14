@@ -1,6 +1,6 @@
 # The Razor Street Duchess
 
-Reference ID: `mobsters-052-the-razor-street-duchess`  
+Reference ID: `mobsters-052-the-razor-street-duchess`
 Category: British Crime Club | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/british-crime-club/mobsters-052-the-razor-street-duchess.webp)

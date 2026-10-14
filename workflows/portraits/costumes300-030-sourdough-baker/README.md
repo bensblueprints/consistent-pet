@@ -1,6 +1,6 @@
 # Sourdough Baker
 
-Reference ID: `costumes300-030-sourdough-baker`  
+Reference ID: `costumes300-030-sourdough-baker`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-030-sourdough-baker.webp)

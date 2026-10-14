@@ -1,6 +1,6 @@
 # Good Dog Monthly
 
-Reference ID: `vintage-051-good-dog-monthly`  
+Reference ID: `vintage-051-good-dog-monthly`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-051-good-dog-monthly.webp)

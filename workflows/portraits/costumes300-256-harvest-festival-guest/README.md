@@ -1,6 +1,6 @@
 # Harvest Festival Guest
 
-Reference ID: `costumes300-256-harvest-festival-guest`  
+Reference ID: `costumes300-256-harvest-festival-guest`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-256-harvest-festival-guest.webp)

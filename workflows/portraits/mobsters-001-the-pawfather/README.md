@@ -1,6 +1,6 @@
 # The Pawfather
 
-Reference ID: `mobsters-001-the-pawfather`  
+Reference ID: `mobsters-001-the-pawfather`
 Category: The Pawfather | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/the-pawfather/mobsters-001-the-pawfather.webp)

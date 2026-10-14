@@ -1,6 +1,6 @@
 # Broadway Performer
 
-Reference ID: `costumes300-175-broadway-performer`  
+Reference ID: `costumes300-175-broadway-performer`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-175-broadway-performer.webp)

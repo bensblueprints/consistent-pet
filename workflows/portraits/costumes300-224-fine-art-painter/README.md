@@ -1,6 +1,6 @@
 # Fine-Art Painter
 
-Reference ID: `costumes300-224-fine-art-painter`  
+Reference ID: `costumes300-224-fine-art-painter`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-224-fine-art-painter.webp)

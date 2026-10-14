@@ -1,6 +1,6 @@
 # Lighthouse Keeper
 
-Reference ID: `costumes300-061-lighthouse-keeper`  
+Reference ID: `costumes300-061-lighthouse-keeper`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-061-lighthouse-keeper.webp)

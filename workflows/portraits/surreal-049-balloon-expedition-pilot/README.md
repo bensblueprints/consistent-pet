@@ -1,6 +1,6 @@
 # Balloon Expedition Pilot
 
-Reference ID: `surreal-049-balloon-expedition-pilot`  
+Reference ID: `surreal-049-balloon-expedition-pilot`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-049-balloon-expedition-pilot.webp)

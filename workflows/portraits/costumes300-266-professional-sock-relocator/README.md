@@ -1,6 +1,6 @@
 # Professional Sock Relocator
 
-Reference ID: `costumes300-266-professional-sock-relocator`  
+Reference ID: `costumes300-266-professional-sock-relocator`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-266-professional-sock-relocator.webp)

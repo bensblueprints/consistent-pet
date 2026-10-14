@@ -1,6 +1,6 @@
 # Prism Wave Surfer
 
-Reference ID: `surreal-081-prism-wave-surfer`  
+Reference ID: `surreal-081-prism-wave-surfer`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-081-prism-wave-surfer.webp)

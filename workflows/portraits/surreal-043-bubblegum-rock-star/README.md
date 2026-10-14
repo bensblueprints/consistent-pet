@@ -1,6 +1,6 @@
 # Bubblegum Rock Star
 
-Reference ID: `surreal-043-bubblegum-rock-star`  
+Reference ID: `surreal-043-bubblegum-rock-star`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-043-bubblegum-rock-star.webp)

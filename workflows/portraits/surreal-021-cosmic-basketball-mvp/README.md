@@ -1,6 +1,6 @@
 # Cosmic Basketball MVP
 
-Reference ID: `surreal-021-cosmic-basketball-mvp`  
+Reference ID: `surreal-021-cosmic-basketball-mvp`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-021-cosmic-basketball-mvp.webp)

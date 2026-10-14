@@ -1,6 +1,6 @@
 # Wanted: Grand Theft Chicken
 
-Reference ID: `vintage-011-wanted-grand-theft-chicken`  
+Reference ID: `vintage-011-wanted-grand-theft-chicken`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-011-wanted-grand-theft-chicken.webp)

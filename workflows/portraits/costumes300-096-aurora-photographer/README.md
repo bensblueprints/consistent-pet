@@ -1,6 +1,6 @@
 # Aurora Photographer
 
-Reference ID: `costumes300-096-aurora-photographer`  
+Reference ID: `costumes300-096-aurora-photographer`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-096-aurora-photographer.webp)

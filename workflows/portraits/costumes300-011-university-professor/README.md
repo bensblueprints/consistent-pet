@@ -1,6 +1,6 @@
 # University Professor
 
-Reference ID: `costumes300-011-university-professor`  
+Reference ID: `costumes300-011-university-professor`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-011-university-professor.webp)

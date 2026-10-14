@@ -1,6 +1,6 @@
 # Coffee Roaster
 
-Reference ID: `costumes300-035-coffee-roaster`  
+Reference ID: `costumes300-035-coffee-roaster`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-035-coffee-roaster.webp)

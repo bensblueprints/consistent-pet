@@ -1,6 +1,6 @@
 # Ancient Pharaoh
 
-Reference ID: `original25-ancient-pharaoh`  
+Reference ID: `original25-ancient-pharaoh`
 Category: Royalty | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/royalty/original25-ancient-pharaoh.webp)

@@ -1,6 +1,6 @@
 # Forest Wizard
 
-Reference ID: `original25-forest-wizard`  
+Reference ID: `original25-forest-wizard`
 Category: Fantasy and Magic | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/fantasy-and-magic/original25-forest-wizard.webp)

@@ -1,6 +1,6 @@
 # Golden Goal Striker
 
-Reference ID: `surreal-024-golden-goal-striker`  
+Reference ID: `surreal-024-golden-goal-striker`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-024-golden-goal-striker.webp)

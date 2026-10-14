@@ -1,6 +1,6 @@
 # Winter Market Vendor
 
-Reference ID: `costumes300-095-winter-market-vendor`  
+Reference ID: `costumes300-095-winter-market-vendor`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-095-winter-market-vendor.webp)

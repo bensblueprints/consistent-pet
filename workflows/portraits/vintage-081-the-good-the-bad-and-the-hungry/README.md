@@ -1,6 +1,6 @@
 # The Good, the Bad, and the Hungry
 
-Reference ID: `vintage-081-the-good-the-bad-and-the-hungry`  
+Reference ID: `vintage-081-the-good-the-bad-and-the-hungry`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-081-the-good-the-bad-and-the-hungry.webp)

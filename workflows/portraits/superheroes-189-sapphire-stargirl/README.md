@@ -1,6 +1,6 @@
 # Sapphire Stargirl
 
-Reference ID: `superheroes-189-sapphire-stargirl`  
+Reference ID: `superheroes-189-sapphire-stargirl`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-189-sapphire-stargirl.webp)

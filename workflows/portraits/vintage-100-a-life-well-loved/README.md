@@ -1,6 +1,6 @@
 # A Life Well Loved
 
-Reference ID: `vintage-100-a-life-well-loved`  
+Reference ID: `vintage-100-a-life-well-loved`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-100-a-life-well-loved.webp)

@@ -1,6 +1,6 @@
 # Deep-Sea Researcher
 
-Reference ID: `costumes300-070-deep-sea-researcher`  
+Reference ID: `costumes300-070-deep-sea-researcher`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-070-deep-sea-researcher.webp)

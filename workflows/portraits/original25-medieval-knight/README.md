@@ -1,6 +1,6 @@
 # Medieval Knight
 
-Reference ID: `original25-medieval-knight`  
+Reference ID: `original25-medieval-knight`
 Category: Knights and Warriors | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/knights-and-warriors/original25-medieval-knight.webp)

@@ -1,6 +1,6 @@
 # Enchanted Teacup Princess
 
-Reference ID: `surreal-067-enchanted-teacup-princess`  
+Reference ID: `surreal-067-enchanted-teacup-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-067-enchanted-teacup-princess.webp)

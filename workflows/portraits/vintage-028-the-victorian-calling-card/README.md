@@ -1,6 +1,6 @@
 # The Victorian Calling Card
 
-Reference ID: `vintage-028-the-victorian-calling-card`  
+Reference ID: `vintage-028-the-victorian-calling-card`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-028-the-victorian-calling-card.webp)

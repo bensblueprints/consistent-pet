@@ -1,6 +1,6 @@
 # Stardust Motocross Queen
 
-Reference ID: `surreal-087-stardust-motocross-queen`  
+Reference ID: `surreal-087-stardust-motocross-queen`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-087-stardust-motocross-queen.webp)

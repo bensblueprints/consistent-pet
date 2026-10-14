@@ -1,6 +1,6 @@
 # The Department Store Glamour Shot
 
-Reference ID: `vintage-027-the-department-store-glamour-shot`  
+Reference ID: `vintage-027-the-department-store-glamour-shot`
 Category: Studio portraits | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/studio-portraits/vintage-027-the-department-store-glamour-shot.webp)

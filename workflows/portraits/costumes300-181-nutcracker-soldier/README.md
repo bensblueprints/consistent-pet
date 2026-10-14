@@ -1,6 +1,6 @@
 # Nutcracker Soldier
 
-Reference ID: `costumes300-181-nutcracker-soldier`  
+Reference ID: `costumes300-181-nutcracker-soldier`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-181-nutcracker-soldier.webp)

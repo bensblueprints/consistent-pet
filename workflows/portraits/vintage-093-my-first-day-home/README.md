@@ -1,6 +1,6 @@
 # My First Day Home
 
-Reference ID: `vintage-093-my-first-day-home`  
+Reference ID: `vintage-093-my-first-day-home`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-093-my-first-day-home.webp)

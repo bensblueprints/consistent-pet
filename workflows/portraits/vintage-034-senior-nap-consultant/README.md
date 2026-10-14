@@ -1,6 +1,6 @@
 # Senior Nap Consultant
 
-Reference ID: `vintage-034-senior-nap-consultant`  
+Reference ID: `vintage-034-senior-nap-consultant`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-034-senior-nap-consultant.webp)

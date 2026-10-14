@@ -1,6 +1,6 @@
 # The Red Cape Returns
 
-Reference ID: `superheroes-119-the-red-cape-returns`  
+Reference ID: `superheroes-119-the-red-cape-returns`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-119-the-red-cape-returns.webp)

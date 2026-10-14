@@ -1,6 +1,6 @@
 # The Silent Partner
 
-Reference ID: `mobsters-007-the-silent-partner`  
+Reference ID: `mobsters-007-the-silent-partner`
 Category: The Pawfather | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/the-pawfather/mobsters-007-the-silent-partner.webp)

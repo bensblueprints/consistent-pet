@@ -1,6 +1,6 @@
 # Deep Blue Swim Champion
 
-Reference ID: `surreal-030-deep-blue-swim-champion`  
+Reference ID: `surreal-030-deep-blue-swim-champion`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-030-deep-blue-swim-champion.webp)

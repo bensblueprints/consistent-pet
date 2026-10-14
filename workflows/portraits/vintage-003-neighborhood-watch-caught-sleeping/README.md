@@ -1,6 +1,6 @@
 # Neighborhood Watch Caught Sleeping
 
-Reference ID: `vintage-003-neighborhood-watch-caught-sleeping`  
+Reference ID: `vintage-003-neighborhood-watch-caught-sleeping`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-003-neighborhood-watch-caught-sleeping.webp)

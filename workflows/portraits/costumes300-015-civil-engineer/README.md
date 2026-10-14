@@ -1,6 +1,6 @@
 # Civil Engineer
 
-Reference ID: `costumes300-015-civil-engineer`  
+Reference ID: `costumes300-015-civil-engineer`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-015-civil-engineer.webp)

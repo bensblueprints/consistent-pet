@@ -1,6 +1,6 @@
 # Field Botanist
 
-Reference ID: `costumes300-048-field-botanist`  
+Reference ID: `costumes300-048-field-botanist`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-048-field-botanist.webp)

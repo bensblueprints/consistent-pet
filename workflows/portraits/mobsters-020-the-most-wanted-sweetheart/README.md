@@ -1,6 +1,6 @@
 # The Most Wanted Sweetheart
 
-Reference ID: `mobsters-020-the-most-wanted-sweetheart`  
+Reference ID: `mobsters-020-the-most-wanted-sweetheart`
 Category: Bonnie and Clyde | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/bonnie-and-clyde/mobsters-020-the-most-wanted-sweetheart.webp)

@@ -1,6 +1,6 @@
 # Gravity Guardian
 
-Reference ID: `surreal-003-gravity-guardian`  
+Reference ID: `surreal-003-gravity-guardian`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-003-gravity-guardian.webp)

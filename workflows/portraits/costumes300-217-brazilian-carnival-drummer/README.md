@@ -1,6 +1,6 @@
 # Brazilian Carnival Drummer
 
-Reference ID: `costumes300-217-brazilian-carnival-drummer`  
+Reference ID: `costumes300-217-brazilian-carnival-drummer`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-217-brazilian-carnival-drummer.webp)

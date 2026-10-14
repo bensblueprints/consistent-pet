@@ -1,6 +1,6 @@
 # Undercover Lap Dog
 
-Reference ID: `costumes300-279-undercover-lap-dog`  
+Reference ID: `costumes300-279-undercover-lap-dog`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-279-undercover-lap-dog.webp)

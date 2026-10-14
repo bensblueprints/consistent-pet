@@ -1,6 +1,6 @@
 # Black Widow Pup
 
-Reference ID: `superheroes-187-black-widow-pup`  
+Reference ID: `superheroes-187-black-widow-pup`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-187-black-widow-pup.webp)

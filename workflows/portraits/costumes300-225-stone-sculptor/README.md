@@ -1,6 +1,6 @@
 # Stone Sculptor
 
-Reference ID: `costumes300-225-stone-sculptor`  
+Reference ID: `costumes300-225-stone-sculptor`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-225-stone-sculptor.webp)

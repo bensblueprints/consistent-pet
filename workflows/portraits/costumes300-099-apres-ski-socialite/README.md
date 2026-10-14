@@ -1,6 +1,6 @@
 # Apres-Ski Socialite
 
-Reference ID: `costumes300-099-apres-ski-socialite`  
+Reference ID: `costumes300-099-apres-ski-socialite`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-099-apres-ski-socialite.webp)

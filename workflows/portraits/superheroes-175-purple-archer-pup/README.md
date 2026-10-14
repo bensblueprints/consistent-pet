@@ -1,6 +1,6 @@
 # Purple Archer Pup
 
-Reference ID: `superheroes-175-purple-archer-pup`  
+Reference ID: `superheroes-175-purple-archer-pup`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-175-purple-archer-pup.webp)

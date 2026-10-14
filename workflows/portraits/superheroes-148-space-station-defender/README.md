@@ -1,6 +1,6 @@
 # Space Station Defender
 
-Reference ID: `superheroes-148-space-station-defender`  
+Reference ID: `superheroes-148-space-station-defender`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-148-space-station-defender.webp)

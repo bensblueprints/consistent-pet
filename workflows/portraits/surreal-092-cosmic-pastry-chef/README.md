@@ -1,6 +1,6 @@
 # Cosmic Pastry Chef
 
-Reference ID: `surreal-092-cosmic-pastry-chef`  
+Reference ID: `surreal-092-cosmic-pastry-chef`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-092-cosmic-pastry-chef.webp)

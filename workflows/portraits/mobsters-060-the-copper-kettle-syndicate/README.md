@@ -1,6 +1,6 @@
 # The Copper Kettle Syndicate
 
-Reference ID: `mobsters-060-the-copper-kettle-syndicate`  
+Reference ID: `mobsters-060-the-copper-kettle-syndicate`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-060-the-copper-kettle-syndicate.webp)

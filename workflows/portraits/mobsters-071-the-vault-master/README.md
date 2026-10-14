@@ -1,6 +1,6 @@
 # The Vault Master
 
-Reference ID: `mobsters-071-the-vault-master`  
+Reference ID: `mobsters-071-the-vault-master`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-071-the-vault-master.webp)

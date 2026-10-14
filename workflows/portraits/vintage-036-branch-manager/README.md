@@ -1,6 +1,6 @@
 # Branch Manager
 
-Reference ID: `vintage-036-branch-manager`  
+Reference ID: `vintage-036-branch-manager`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-036-branch-manager.webp)

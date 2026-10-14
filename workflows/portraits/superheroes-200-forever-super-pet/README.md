@@ -1,6 +1,6 @@
 # Forever Super Pet
 
-Reference ID: `superheroes-200-forever-super-pet`  
+Reference ID: `superheroes-200-forever-super-pet`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-200-forever-super-pet.webp)

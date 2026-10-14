@@ -1,6 +1,6 @@
 # The Backyard All-Star
 
-Reference ID: `vintage-075-the-backyard-all-star`  
+Reference ID: `vintage-075-the-backyard-all-star`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-075-the-backyard-all-star.webp)

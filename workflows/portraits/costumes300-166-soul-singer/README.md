@@ -1,6 +1,6 @@
 # Soul Singer
 
-Reference ID: `costumes300-166-soul-singer`  
+Reference ID: `costumes300-166-soul-singer`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-166-soul-singer.webp)

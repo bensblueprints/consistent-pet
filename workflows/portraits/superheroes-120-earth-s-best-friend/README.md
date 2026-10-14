@@ -1,6 +1,6 @@
 # Earth's Best Friend
 
-Reference ID: `superheroes-120-earth-s-best-friend`  
+Reference ID: `superheroes-120-earth-s-best-friend`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-120-earth-s-best-friend.webp)

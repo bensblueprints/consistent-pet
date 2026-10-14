@@ -1,6 +1,6 @@
 # Sapphire Frost Sentinel
 
-Reference ID: `surreal-057-sapphire-frost-sentinel`  
+Reference ID: `surreal-057-sapphire-frost-sentinel`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-057-sapphire-frost-sentinel.webp)

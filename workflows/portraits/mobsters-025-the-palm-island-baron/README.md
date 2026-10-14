@@ -1,6 +1,6 @@
 # The Palm Island Baron
 
-Reference ID: `mobsters-025-the-palm-island-baron`  
+Reference ID: `mobsters-025-the-palm-island-baron`
 Category: Miami Crime Drama | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/miami-crime-drama/mobsters-025-the-palm-island-baron.webp)

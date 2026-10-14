@@ -1,6 +1,6 @@
 # The Wedding Boss
 
-Reference ID: `mobsters-004-the-wedding-boss`  
+Reference ID: `mobsters-004-the-wedding-boss`
 Category: The Pawfather | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/the-pawfather/mobsters-004-the-wedding-boss.webp)

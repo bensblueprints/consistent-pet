@@ -1,6 +1,6 @@
 # Golden Lasso Guardian
 
-Reference ID: `superheroes-132-golden-lasso-guardian`  
+Reference ID: `superheroes-132-golden-lasso-guardian`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-132-golden-lasso-guardian.webp)

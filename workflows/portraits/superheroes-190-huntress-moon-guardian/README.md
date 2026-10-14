@@ -1,6 +1,6 @@
 # Huntress Moon Guardian
 
-Reference ID: `superheroes-190-huntress-moon-guardian`  
+Reference ID: `superheroes-190-huntress-moon-guardian`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-190-huntress-moon-guardian.webp)

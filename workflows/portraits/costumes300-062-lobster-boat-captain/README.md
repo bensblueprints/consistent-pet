@@ -1,6 +1,6 @@
 # Lobster Boat Captain
 
-Reference ID: `costumes300-062-lobster-boat-captain`  
+Reference ID: `costumes300-062-lobster-boat-captain`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-062-lobster-boat-captain.webp)

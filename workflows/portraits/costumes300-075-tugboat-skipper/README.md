@@ -1,6 +1,6 @@
 # Tugboat Skipper
 
-Reference ID: `costumes300-075-tugboat-skipper`  
+Reference ID: `costumes300-075-tugboat-skipper`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-075-tugboat-skipper.webp)

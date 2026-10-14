@@ -1,6 +1,6 @@
 # Spring Blossom Keeper
 
-Reference ID: `costumes300-193-spring-blossom-keeper`  
+Reference ID: `costumes300-193-spring-blossom-keeper`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-193-spring-blossom-keeper.webp)

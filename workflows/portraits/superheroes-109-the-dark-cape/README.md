@@ -1,6 +1,6 @@
 # The Dark Cape
 
-Reference ID: `superheroes-109-the-dark-cape`  
+Reference ID: `superheroes-109-the-dark-cape`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-109-the-dark-cape.webp)

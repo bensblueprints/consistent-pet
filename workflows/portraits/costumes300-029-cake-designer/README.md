@@ -1,6 +1,6 @@
 # Cake Designer
 
-Reference ID: `costumes300-029-cake-designer`  
+Reference ID: `costumes300-029-cake-designer`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-029-cake-designer.webp)

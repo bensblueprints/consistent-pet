@@ -1,6 +1,6 @@
 # Then and Now
 
-Reference ID: `vintage-094-then-and-now`  
+Reference ID: `vintage-094-then-and-now`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-094-then-and-now.webp)

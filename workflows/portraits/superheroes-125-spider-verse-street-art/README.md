@@ -1,6 +1,6 @@
 # Spider-Verse Street Art
 
-Reference ID: `superheroes-125-spider-verse-street-art`  
+Reference ID: `superheroes-125-spider-verse-street-art`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-125-spider-verse-street-art.webp)

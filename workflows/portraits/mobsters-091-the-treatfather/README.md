@@ -1,6 +1,6 @@
 # The Treatfather
 
-Reference ID: `mobsters-091-the-treatfather`  
+Reference ID: `mobsters-091-the-treatfather`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-091-the-treatfather.webp)

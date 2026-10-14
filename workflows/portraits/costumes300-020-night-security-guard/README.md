@@ -1,6 +1,6 @@
 # Night Security Guard
 
-Reference ID: `costumes300-020-night-security-guard`  
+Reference ID: `costumes300-020-night-security-guard`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-020-night-security-guard.webp)

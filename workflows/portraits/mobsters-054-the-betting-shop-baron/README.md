@@ -1,6 +1,6 @@
 # The Betting Shop Baron
 
-Reference ID: `mobsters-054-the-betting-shop-baron`  
+Reference ID: `mobsters-054-the-betting-shop-baron`
 Category: British Crime Club | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/british-crime-club/mobsters-054-the-betting-shop-baron.webp)

@@ -1,6 +1,6 @@
 # Lotus Lake Princess
 
-Reference ID: `surreal-066-lotus-lake-princess`  
+Reference ID: `surreal-066-lotus-lake-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-066-lotus-lake-princess.webp)

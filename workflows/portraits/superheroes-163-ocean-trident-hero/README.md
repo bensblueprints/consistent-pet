@@ -1,6 +1,6 @@
 # Ocean Trident Hero
 
-Reference ID: `superheroes-163-ocean-trident-hero`  
+Reference ID: `superheroes-163-ocean-trident-hero`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-163-ocean-trident-hero.webp)

@@ -1,6 +1,6 @@
 # Barbecue Pitmaster
 
-Reference ID: `costumes300-023-barbecue-pitmaster`  
+Reference ID: `costumes300-023-barbecue-pitmaster`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-023-barbecue-pitmaster.webp)

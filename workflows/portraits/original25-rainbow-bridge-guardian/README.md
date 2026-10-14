@@ -1,6 +1,6 @@
 # Rainbow Bridge Guardian
 
-Reference ID: `original25-rainbow-bridge-guardian`  
+Reference ID: `original25-rainbow-bridge-guardian`
 Category: Memorial and Remembrance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/memorial-and-remembrance/original25-rainbow-bridge-guardian.webp)

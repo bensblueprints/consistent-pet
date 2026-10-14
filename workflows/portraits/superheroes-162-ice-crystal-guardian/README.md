@@ -1,6 +1,6 @@
 # Ice Crystal Guardian
 
-Reference ID: `superheroes-162-ice-crystal-guardian`  
+Reference ID: `superheroes-162-ice-crystal-guardian`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-162-ice-crystal-guardian.webp)

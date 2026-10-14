@@ -1,6 +1,6 @@
 # Operation Dinner Time
 
-Reference ID: `vintage-086-operation-dinner-time`  
+Reference ID: `vintage-086-operation-dinner-time`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-086-operation-dinner-time.webp)

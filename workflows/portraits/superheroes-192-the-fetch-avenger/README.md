@@ -1,6 +1,6 @@
 # The Fetch Avenger
 
-Reference ID: `superheroes-192-the-fetch-avenger`  
+Reference ID: `superheroes-192-the-fetch-avenger`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-192-the-fetch-avenger.webp)

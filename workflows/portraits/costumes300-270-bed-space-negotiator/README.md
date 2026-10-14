@@ -1,6 +1,6 @@
 # Bed Space Negotiator
 
-Reference ID: `costumes300-270-bed-space-negotiator`  
+Reference ID: `costumes300-270-bed-space-negotiator`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-270-bed-space-negotiator.webp)

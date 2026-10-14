@@ -1,6 +1,6 @@
 # Snowboard Champion
 
-Reference ID: `costumes300-083-snowboard-champion`  
+Reference ID: `costumes300-083-snowboard-champion`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-083-snowboard-champion.webp)

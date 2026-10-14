@@ -1,6 +1,6 @@
 # The Sunday Best Portrait
 
-Reference ID: `vintage-024-the-sunday-best-portrait`  
+Reference ID: `vintage-024-the-sunday-best-portrait`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-024-the-sunday-best-portrait.webp)

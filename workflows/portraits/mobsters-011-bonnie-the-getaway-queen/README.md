@@ -1,6 +1,6 @@
 # Bonnie the Getaway Queen
 
-Reference ID: `mobsters-011-bonnie-the-getaway-queen`  
+Reference ID: `mobsters-011-bonnie-the-getaway-queen`
 Category: Bonnie and Clyde | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/bonnie-and-clyde/mobsters-011-bonnie-the-getaway-queen.webp)

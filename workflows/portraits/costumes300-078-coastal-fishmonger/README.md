@@ -1,6 +1,6 @@
 # Coastal Fishmonger
 
-Reference ID: `costumes300-078-coastal-fishmonger`  
+Reference ID: `costumes300-078-coastal-fishmonger`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-078-coastal-fishmonger.webp)

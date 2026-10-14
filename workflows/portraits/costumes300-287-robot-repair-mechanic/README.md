@@ -1,6 +1,6 @@
 # Robot Repair Mechanic
 
-Reference ID: `costumes300-287-robot-repair-mechanic`  
+Reference ID: `costumes300-287-robot-repair-mechanic`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-287-robot-repair-mechanic.webp)

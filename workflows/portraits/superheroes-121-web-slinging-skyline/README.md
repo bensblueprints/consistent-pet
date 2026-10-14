@@ -1,6 +1,6 @@
 # Web-Slinging Skyline
 
-Reference ID: `superheroes-121-web-slinging-skyline`  
+Reference ID: `superheroes-121-web-slinging-skyline`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-121-web-slinging-skyline.webp)

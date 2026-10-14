@@ -1,6 +1,6 @@
 # Yacht Commodore
 
-Reference ID: `costumes300-073-yacht-commodore`  
+Reference ID: `costumes300-073-yacht-commodore`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-073-yacht-commodore.webp)

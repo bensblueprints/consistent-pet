@@ -1,6 +1,6 @@
 # New Year Party Host
 
-Reference ID: `costumes300-246-new-year-party-host`  
+Reference ID: `costumes300-246-new-year-party-host`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-246-new-year-party-host.webp)

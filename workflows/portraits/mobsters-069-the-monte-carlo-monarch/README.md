@@ -1,6 +1,6 @@
 # The Monte Carlo Monarch
 
-Reference ID: `mobsters-069-the-monte-carlo-monarch`  
+Reference ID: `mobsters-069-the-monte-carlo-monarch`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-069-the-monte-carlo-monarch.webp)

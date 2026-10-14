@@ -1,6 +1,6 @@
 # Figure Skating Star
 
-Reference ID: `costumes300-086-figure-skating-star`  
+Reference ID: `costumes300-086-figure-skating-star`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-086-figure-skating-star.webp)

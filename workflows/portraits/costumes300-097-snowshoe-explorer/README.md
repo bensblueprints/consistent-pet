@@ -1,6 +1,6 @@
 # Snowshoe Explorer
 
-Reference ID: `costumes300-097-snowshoe-explorer`  
+Reference ID: `costumes300-097-snowshoe-explorer`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-097-snowshoe-explorer.webp)

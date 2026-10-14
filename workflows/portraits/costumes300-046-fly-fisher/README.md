@@ -1,6 +1,6 @@
 # Fly-Fisher
 
-Reference ID: `costumes300-046-fly-fisher`  
+Reference ID: `costumes300-046-fly-fisher`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-046-fly-fisher.webp)

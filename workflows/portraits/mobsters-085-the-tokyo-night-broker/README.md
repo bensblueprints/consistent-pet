@@ -1,6 +1,6 @@
 # The Tokyo Night Broker
 
-Reference ID: `mobsters-085-the-tokyo-night-broker`  
+Reference ID: `mobsters-085-the-tokyo-night-broker`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-085-the-tokyo-night-broker.webp)

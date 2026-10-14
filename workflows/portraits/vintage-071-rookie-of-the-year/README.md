@@ -1,6 +1,6 @@
 # Rookie of the Year
 
-Reference ID: `vintage-071-rookie-of-the-year`  
+Reference ID: `vintage-071-rookie-of-the-year`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-071-rookie-of-the-year.webp)

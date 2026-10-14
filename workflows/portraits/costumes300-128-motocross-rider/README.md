@@ -1,6 +1,6 @@
 # Motocross Rider
 
-Reference ID: `costumes300-128-motocross-rider`  
+Reference ID: `costumes300-128-motocross-rider`
 Category: Wheels and Racing | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wheels-and-racing/costumes300-128-motocross-rider.webp)

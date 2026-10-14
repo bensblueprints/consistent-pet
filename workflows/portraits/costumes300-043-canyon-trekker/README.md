@@ -1,6 +1,6 @@
 # Canyon Trekker
 
-Reference ID: `costumes300-043-canyon-trekker`  
+Reference ID: `costumes300-043-canyon-trekker`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-043-canyon-trekker.webp)

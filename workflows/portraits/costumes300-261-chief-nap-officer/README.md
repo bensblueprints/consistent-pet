@@ -1,6 +1,6 @@
 # Chief Nap Officer
 
-Reference ID: `costumes300-261-chief-nap-officer`  
+Reference ID: `costumes300-261-chief-nap-officer`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-261-chief-nap-officer.webp)

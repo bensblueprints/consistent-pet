@@ -1,6 +1,6 @@
 # Steampunk Explorer
 
-Reference ID: `original25-steampunk-explorer`  
+Reference ID: `original25-steampunk-explorer`
 Category: Steampunk and Time Travel | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/steampunk-and-time-travel/original25-steampunk-explorer.webp)

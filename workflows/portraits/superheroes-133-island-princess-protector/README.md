@@ -1,6 +1,6 @@
 # Island Princess Protector
 
-Reference ID: `superheroes-133-island-princess-protector`  
+Reference ID: `superheroes-133-island-princess-protector`
 Category: Wonder and Lightning | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/wonder-and-lightning/superheroes-133-island-princess-protector.webp)

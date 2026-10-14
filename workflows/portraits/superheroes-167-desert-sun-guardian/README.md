@@ -1,6 +1,6 @@
 # Desert Sun Guardian
 
-Reference ID: `superheroes-167-desert-sun-guardian`  
+Reference ID: `superheroes-167-desert-sun-guardian`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-167-desert-sun-guardian.webp)

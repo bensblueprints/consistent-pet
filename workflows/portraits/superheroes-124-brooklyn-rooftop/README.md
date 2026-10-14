@@ -1,6 +1,6 @@
 # Brooklyn Rooftop
 
-Reference ID: `superheroes-124-brooklyn-rooftop`  
+Reference ID: `superheroes-124-brooklyn-rooftop`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-124-brooklyn-rooftop.webp)

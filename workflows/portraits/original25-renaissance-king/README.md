@@ -1,6 +1,6 @@
 # Renaissance King
 
-Reference ID: `original25-renaissance-king`  
+Reference ID: `original25-renaissance-king`
 Category: Royalty | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royalty/original25-renaissance-king.webp)

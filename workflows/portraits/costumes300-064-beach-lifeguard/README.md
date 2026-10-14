@@ -1,6 +1,6 @@
 # Beach Lifeguard
 
-Reference ID: `costumes300-064-beach-lifeguard`  
+Reference ID: `costumes300-064-beach-lifeguard`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-064-beach-lifeguard.webp)

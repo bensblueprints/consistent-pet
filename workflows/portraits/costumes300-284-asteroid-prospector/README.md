@@ -1,6 +1,6 @@
 # Asteroid Prospector
 
-Reference ID: `costumes300-284-asteroid-prospector`  
+Reference ID: `costumes300-284-asteroid-prospector`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-284-asteroid-prospector.webp)

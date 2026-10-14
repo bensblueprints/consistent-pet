@@ -1,6 +1,6 @@
 # Butterfly Palace Princess
 
-Reference ID: `surreal-063-butterfly-palace-princess`  
+Reference ID: `surreal-063-butterfly-palace-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-063-butterfly-palace-princess.webp)

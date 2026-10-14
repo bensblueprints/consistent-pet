@@ -1,6 +1,6 @@
 # Neon BMX Freestyler
 
-Reference ID: `surreal-039-neon-bmx-freestyler`  
+Reference ID: `surreal-039-neon-bmx-freestyler`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-039-neon-bmx-freestyler.webp)

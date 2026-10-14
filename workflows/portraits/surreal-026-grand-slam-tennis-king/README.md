@@ -1,6 +1,6 @@
 # Grand Slam Tennis King
 
-Reference ID: `surreal-026-grand-slam-tennis-king`  
+Reference ID: `surreal-026-grand-slam-tennis-king`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-026-grand-slam-tennis-king.webp)

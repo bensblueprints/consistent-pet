@@ -1,6 +1,6 @@
 # The Treat Defender
 
-Reference ID: `superheroes-198-the-treat-defender`  
+Reference ID: `superheroes-198-the-treat-defender`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-198-the-treat-defender.webp)

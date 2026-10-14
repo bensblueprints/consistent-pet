@@ -1,6 +1,6 @@
 # The Raincoat Portrait
 
-Reference ID: `vintage-029-the-raincoat-portrait`  
+Reference ID: `vintage-029-the-raincoat-portrait`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-029-the-raincoat-portrait.webp)

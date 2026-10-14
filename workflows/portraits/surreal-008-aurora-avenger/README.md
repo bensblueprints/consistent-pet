@@ -1,6 +1,6 @@
 # Aurora Avenger
 
-Reference ID: `surreal-008-aurora-avenger`  
+Reference ID: `surreal-008-aurora-avenger`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-008-aurora-avenger.webp)

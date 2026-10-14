@@ -1,6 +1,6 @@
 # Lava Ridge Snowboarder
 
-Reference ID: `surreal-032-lava-ridge-snowboarder`  
+Reference ID: `surreal-032-lava-ridge-snowboarder`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-032-lava-ridge-snowboarder.webp)

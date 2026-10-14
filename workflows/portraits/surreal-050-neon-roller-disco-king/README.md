@@ -1,6 +1,6 @@
 # Neon Roller Disco King
 
-Reference ID: `surreal-050-neon-roller-disco-king`  
+Reference ID: `surreal-050-neon-roller-disco-king`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-050-neon-roller-disco-king.webp)

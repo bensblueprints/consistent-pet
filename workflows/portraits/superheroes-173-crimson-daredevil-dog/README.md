@@ -1,6 +1,6 @@
 # Crimson Daredevil Dog
 
-Reference ID: `superheroes-173-crimson-daredevil-dog`  
+Reference ID: `superheroes-173-crimson-daredevil-dog`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-173-crimson-daredevil-dog.webp)

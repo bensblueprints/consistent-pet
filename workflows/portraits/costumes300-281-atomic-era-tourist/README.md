@@ -1,6 +1,6 @@
 # Atomic-Era Tourist
 
-Reference ID: `costumes300-281-atomic-era-tourist`  
+Reference ID: `costumes300-281-atomic-era-tourist`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-281-atomic-era-tourist.webp)

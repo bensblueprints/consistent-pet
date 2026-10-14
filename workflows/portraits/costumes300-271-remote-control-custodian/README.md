@@ -1,6 +1,6 @@
 # Remote Control Custodian
 
-Reference ID: `costumes300-271-remote-control-custodian`  
+Reference ID: `costumes300-271-remote-control-custodian`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-271-remote-control-custodian.webp)

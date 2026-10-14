@@ -1,6 +1,6 @@
 # Sunflower Kingdom Heir
 
-Reference ID: `surreal-017-sunflower-kingdom-heir`  
+Reference ID: `surreal-017-sunflower-kingdom-heir`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-017-sunflower-kingdom-heir.webp)

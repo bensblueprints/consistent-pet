@@ -1,6 +1,6 @@
 # Sapphire Chess King
 
-Reference ID: `surreal-014-sapphire-chess-king`  
+Reference ID: `surreal-014-sapphire-chess-king`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-014-sapphire-chess-king.webp)

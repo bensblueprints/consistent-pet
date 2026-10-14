@@ -1,6 +1,6 @@
 # Record Producer
 
-Reference ID: `costumes300-179-record-producer`  
+Reference ID: `costumes300-179-record-producer`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-179-record-producer.webp)

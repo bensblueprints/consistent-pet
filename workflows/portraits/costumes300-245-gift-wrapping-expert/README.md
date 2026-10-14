@@ -1,6 +1,6 @@
 # Gift-Wrapping Expert
 
-Reference ID: `costumes300-245-gift-wrapping-expert`  
+Reference ID: `costumes300-245-gift-wrapping-expert`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-245-gift-wrapping-expert.webp)

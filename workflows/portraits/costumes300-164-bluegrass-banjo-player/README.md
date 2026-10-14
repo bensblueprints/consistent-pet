@@ -1,6 +1,6 @@
 # Bluegrass Banjo Player
 
-Reference ID: `costumes300-164-bluegrass-banjo-player`  
+Reference ID: `costumes300-164-bluegrass-banjo-player`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-164-bluegrass-banjo-player.webp)

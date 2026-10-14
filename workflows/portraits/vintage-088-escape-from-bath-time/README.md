@@ -1,6 +1,6 @@
 # Escape from Bath Time
 
-Reference ID: `vintage-088-escape-from-bath-time`  
+Reference ID: `vintage-088-escape-from-bath-time`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-088-escape-from-bath-time.webp)

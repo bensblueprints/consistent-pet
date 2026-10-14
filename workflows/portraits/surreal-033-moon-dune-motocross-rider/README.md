@@ -1,6 +1,6 @@
 # Moon Dune Motocross Rider
 
-Reference ID: `surreal-033-moon-dune-motocross-rider`  
+Reference ID: `surreal-033-moon-dune-motocross-rider`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-033-moon-dune-motocross-rider.webp)

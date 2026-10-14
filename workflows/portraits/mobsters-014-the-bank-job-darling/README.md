@@ -1,6 +1,6 @@
 # The Bank Job Darling
 
-Reference ID: `mobsters-014-the-bank-job-darling`  
+Reference ID: `mobsters-014-the-bank-job-darling`
 Category: Bonnie and Clyde | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/bonnie-and-clyde/mobsters-014-the-bank-job-darling.webp)

@@ -1,6 +1,6 @@
 # Golden Hour Protector
 
-Reference ID: `superheroes-114-golden-hour-protector`  
+Reference ID: `superheroes-114-golden-hour-protector`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-114-golden-hour-protector.webp)

@@ -1,6 +1,6 @@
 # The Original Doorbell Alternative
 
-Reference ID: `vintage-043-the-original-doorbell-alternative`  
+Reference ID: `vintage-043-the-original-doorbell-alternative`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-043-the-original-doorbell-alternative.webp)

@@ -1,6 +1,6 @@
 # Cyberpunk Hacker
 
-Reference ID: `original25-cyberpunk-hacker`  
+Reference ID: `original25-cyberpunk-hacker`
 Category: Science Fiction | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/science-fiction/original25-cyberpunk-hacker.webp)

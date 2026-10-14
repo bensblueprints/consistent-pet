@@ -1,6 +1,6 @@
 # Captain Cosmos
 
-Reference ID: `superheroes-154-captain-cosmos`  
+Reference ID: `superheroes-154-captain-cosmos`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-154-captain-cosmos.webp)

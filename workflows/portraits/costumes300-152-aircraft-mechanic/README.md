@@ -1,6 +1,6 @@
 # Aircraft Mechanic
 
-Reference ID: `costumes300-152-aircraft-mechanic`  
+Reference ID: `costumes300-152-aircraft-mechanic`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-152-aircraft-mechanic.webp)

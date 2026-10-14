@@ -1,6 +1,6 @@
 # Storm Queen Hound
 
-Reference ID: `superheroes-186-storm-queen-hound`  
+Reference ID: `superheroes-186-storm-queen-hound`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-186-storm-queen-hound.webp)

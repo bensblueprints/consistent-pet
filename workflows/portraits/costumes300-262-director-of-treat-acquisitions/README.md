@@ -1,6 +1,6 @@
 # Director of Treat Acquisitions
 
-Reference ID: `costumes300-262-director-of-treat-acquisitions`  
+Reference ID: `costumes300-262-director-of-treat-acquisitions`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-262-director-of-treat-acquisitions.webp)

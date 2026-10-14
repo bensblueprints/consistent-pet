@@ -1,6 +1,6 @@
 # The Shanghai Club Queen
 
-Reference ID: `mobsters-086-the-shanghai-club-queen`  
+Reference ID: `mobsters-086-the-shanghai-club-queen`
 Category: Underworld Elegance | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/underworld-elegance/mobsters-086-the-shanghai-club-queen.webp)

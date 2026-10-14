@@ -1,6 +1,6 @@
 # Jade Palace Sovereign
 
-Reference ID: `surreal-013-jade-palace-sovereign`  
+Reference ID: `surreal-013-jade-palace-sovereign`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-013-jade-palace-sovereign.webp)

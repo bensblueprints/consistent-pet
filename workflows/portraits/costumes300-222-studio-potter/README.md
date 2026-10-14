@@ -1,6 +1,6 @@
 # Studio Potter
 
-Reference ID: `costumes300-222-studio-potter`  
+Reference ID: `costumes300-222-studio-potter`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-222-studio-potter.webp)

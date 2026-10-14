@@ -1,6 +1,6 @@
 # Vinyl Record Collector
 
-Reference ID: `costumes300-230-vinyl-record-collector`  
+Reference ID: `costumes300-230-vinyl-record-collector`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-230-vinyl-record-collector.webp)

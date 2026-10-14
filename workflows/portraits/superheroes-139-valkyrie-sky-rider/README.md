@@ -1,6 +1,6 @@
 # Valkyrie Sky Rider
 
-Reference ID: `superheroes-139-valkyrie-sky-rider`  
+Reference ID: `superheroes-139-valkyrie-sky-rider`
 Category: Wonder and Lightning | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/wonder-and-lightning/superheroes-139-valkyrie-sky-rider.webp)

@@ -1,6 +1,6 @@
 # Town Welcomes Its Smallest Sheriff
 
-Reference ID: `vintage-010-town-welcomes-its-smallest-sheriff`  
+Reference ID: `vintage-010-town-welcomes-its-smallest-sheriff`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-010-town-welcomes-its-smallest-sheriff.webp)

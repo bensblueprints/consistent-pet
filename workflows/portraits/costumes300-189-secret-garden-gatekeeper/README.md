@@ -1,6 +1,6 @@
 # Secret Garden Gatekeeper
 
-Reference ID: `costumes300-189-secret-garden-gatekeeper`  
+Reference ID: `costumes300-189-secret-garden-gatekeeper`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-189-secret-garden-gatekeeper.webp)

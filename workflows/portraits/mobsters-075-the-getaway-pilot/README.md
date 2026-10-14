@@ -1,6 +1,6 @@
 # The Getaway Pilot
 
-Reference ID: `mobsters-075-the-getaway-pilot`  
+Reference ID: `mobsters-075-the-getaway-pilot`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-075-the-getaway-pilot.webp)

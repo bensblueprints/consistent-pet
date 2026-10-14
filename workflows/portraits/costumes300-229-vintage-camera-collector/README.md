@@ -1,6 +1,6 @@
 # Vintage Camera Collector
 
-Reference ID: `costumes300-229-vintage-camera-collector`  
+Reference ID: `costumes300-229-vintage-camera-collector`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-229-vintage-camera-collector.webp)

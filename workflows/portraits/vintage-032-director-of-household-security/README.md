@@ -1,6 +1,6 @@
 # Director of Household Security
 
-Reference ID: `vintage-032-director-of-household-security`  
+Reference ID: `vintage-032-director-of-household-security`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-032-director-of-household-security.webp)

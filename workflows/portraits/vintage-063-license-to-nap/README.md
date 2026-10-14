@@ -1,6 +1,6 @@
 # License to Nap
 
-Reference ID: `vintage-063-license-to-nap`  
+Reference ID: `vintage-063-license-to-nap`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-063-license-to-nap.webp)

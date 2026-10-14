@@ -1,6 +1,6 @@
 # Canoe Expedition Leader
 
-Reference ID: `costumes300-052-canoe-expedition-leader`  
+Reference ID: `costumes300-052-canoe-expedition-leader`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-052-canoe-expedition-leader.webp)

@@ -1,6 +1,6 @@
 # Midnight Web Shield
 
-Reference ID: `superheroes-130-midnight-web-shield`  
+Reference ID: `superheroes-130-midnight-web-shield`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-130-midnight-web-shield.webp)

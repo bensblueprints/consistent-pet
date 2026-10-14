@@ -1,6 +1,6 @@
 # Paw Prints on File
 
-Reference ID: `vintage-020-paw-prints-on-file`  
+Reference ID: `vintage-020-paw-prints-on-file`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-020-paw-prints-on-file.webp)

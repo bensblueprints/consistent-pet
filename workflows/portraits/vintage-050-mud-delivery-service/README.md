@@ -1,6 +1,6 @@
 # Mud Delivery Service
 
-Reference ID: `vintage-050-mud-delivery-service`  
+Reference ID: `vintage-050-mud-delivery-service`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-050-mud-delivery-service.webp)

@@ -1,6 +1,6 @@
 # Upside-Down Window Visit
 
-Reference ID: `superheroes-122-upside-down-window-visit`  
+Reference ID: `superheroes-122-upside-down-window-visit`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-122-upside-down-window-visit.webp)

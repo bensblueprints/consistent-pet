@@ -1,6 +1,6 @@
 # Emerald Field Hockey Star
 
-Reference ID: `surreal-078-emerald-field-hockey-star`  
+Reference ID: `surreal-078-emerald-field-hockey-star`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-078-emerald-field-hockey-star.webp)

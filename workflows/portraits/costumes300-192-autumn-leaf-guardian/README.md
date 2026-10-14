@@ -1,6 +1,6 @@
 # Autumn Leaf Guardian
 
-Reference ID: `costumes300-192-autumn-leaf-guardian`  
+Reference ID: `costumes300-192-autumn-leaf-guardian`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-192-autumn-leaf-guardian.webp)

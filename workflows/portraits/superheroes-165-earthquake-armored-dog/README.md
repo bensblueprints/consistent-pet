@@ -1,6 +1,6 @@
 # Earthquake Armored Dog
 
-Reference ID: `superheroes-165-earthquake-armored-dog`  
+Reference ID: `superheroes-165-earthquake-armored-dog`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-165-earthquake-armored-dog.webp)

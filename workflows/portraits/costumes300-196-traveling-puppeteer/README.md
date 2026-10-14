@@ -1,6 +1,6 @@
 # Traveling Puppeteer
 
-Reference ID: `costumes300-196-traveling-puppeteer`  
+Reference ID: `costumes300-196-traveling-puppeteer`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-196-traveling-puppeteer.webp)

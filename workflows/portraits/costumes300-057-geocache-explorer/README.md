@@ -1,6 +1,6 @@
 # Geocache Explorer
 
-Reference ID: `costumes300-057-geocache-explorer`  
+Reference ID: `costumes300-057-geocache-explorer`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-057-geocache-explorer.webp)

@@ -1,6 +1,6 @@
 # Pearl Pool Diving Champion
 
-Reference ID: `surreal-077-pearl-pool-diving-champion`  
+Reference ID: `surreal-077-pearl-pool-diving-champion`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-077-pearl-pool-diving-champion.webp)

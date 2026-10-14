@@ -1,6 +1,6 @@
 # The Miami Boss
 
-Reference ID: `mobsters-021-the-miami-boss`  
+Reference ID: `mobsters-021-the-miami-boss`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-021-the-miami-boss.webp)

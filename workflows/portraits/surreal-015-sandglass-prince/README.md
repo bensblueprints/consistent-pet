@@ -1,6 +1,6 @@
 # Sandglass Prince
 
-Reference ID: `surreal-015-sandglass-prince`  
+Reference ID: `surreal-015-sandglass-prince`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-015-sandglass-prince.webp)

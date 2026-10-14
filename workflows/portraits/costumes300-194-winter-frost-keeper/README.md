@@ -1,6 +1,6 @@
 # Winter Frost Keeper
 
-Reference ID: `costumes300-194-winter-frost-keeper`  
+Reference ID: `costumes300-194-winter-frost-keeper`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-194-winter-frost-keeper.webp)

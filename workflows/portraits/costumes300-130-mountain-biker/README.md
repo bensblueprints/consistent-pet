@@ -1,6 +1,6 @@
 # Mountain Biker
 
-Reference ID: `costumes300-130-mountain-biker`  
+Reference ID: `costumes300-130-mountain-biker`
 Category: Wheels and Racing | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wheels-and-racing/costumes300-130-mountain-biker.webp)

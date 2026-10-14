@@ -1,6 +1,6 @@
 # The Fogbound Fugitive
 
-Reference ID: `mobsters-047-the-fogbound-fugitive`  
+Reference ID: `mobsters-047-the-fogbound-fugitive`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-047-the-fogbound-fugitive.webp)

@@ -1,6 +1,6 @@
 # The Distinguished Gentleman
 
-Reference ID: `vintage-021-the-distinguished-gentleman`  
+Reference ID: `vintage-021-the-distinguished-gentleman`
 Category: Studio portraits | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/studio-portraits/vintage-021-the-distinguished-gentleman.webp)

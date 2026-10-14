@@ -1,6 +1,6 @@
 # The Last Train Home
 
-Reference ID: `mobsters-048-the-last-train-home`  
+Reference ID: `mobsters-048-the-last-train-home`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-048-the-last-train-home.webp)

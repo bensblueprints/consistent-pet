@@ -1,6 +1,6 @@
 # Snowy Cabin Caretaker
 
-Reference ID: `costumes300-100-snowy-cabin-caretaker`  
+Reference ID: `costumes300-100-snowy-cabin-caretaker`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-100-snowy-cabin-caretaker.webp)

@@ -1,6 +1,6 @@
 # Princess Pawer
 
-Reference ID: `superheroes-194-princess-pawer`  
+Reference ID: `superheroes-194-princess-pawer`
 Category: Original Champions | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/original-champions/superheroes-194-princess-pawer.webp)

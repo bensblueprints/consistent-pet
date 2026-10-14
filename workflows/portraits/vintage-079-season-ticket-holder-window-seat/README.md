@@ -1,6 +1,6 @@
 # Season Ticket Holder: Window Seat
 
-Reference ID: `vintage-079-season-ticket-holder-window-seat`  
+Reference ID: `vintage-079-season-ticket-holder-window-seat`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-079-season-ticket-holder-window-seat.webp)

@@ -1,6 +1,6 @@
 # Deadpool Dawg
 
-Reference ID: `superheroes-178-deadpool-dawg`  
+Reference ID: `superheroes-178-deadpool-dawg`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-178-deadpool-dawg.webp)

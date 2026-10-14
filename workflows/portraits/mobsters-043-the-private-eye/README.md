@@ -1,6 +1,6 @@
 # The Private Eye
 
-Reference ID: `mobsters-043-the-private-eye`  
+Reference ID: `mobsters-043-the-private-eye`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-043-the-private-eye.webp)

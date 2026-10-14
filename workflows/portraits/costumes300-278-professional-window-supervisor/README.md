@@ -1,6 +1,6 @@
 # Professional Window Supervisor
 
-Reference ID: `costumes300-278-professional-window-supervisor`  
+Reference ID: `costumes300-278-professional-window-supervisor`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-278-professional-window-supervisor.webp)

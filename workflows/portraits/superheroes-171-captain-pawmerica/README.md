@@ -1,6 +1,6 @@
 # Captain Pawmerica
 
-Reference ID: `superheroes-171-captain-pawmerica`  
+Reference ID: `superheroes-171-captain-pawmerica`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-171-captain-pawmerica.webp)

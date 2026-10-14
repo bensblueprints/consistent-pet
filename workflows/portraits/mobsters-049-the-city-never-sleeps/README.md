@@ -1,6 +1,6 @@
 # The City Never Sleeps
 
-Reference ID: `mobsters-049-the-city-never-sleeps`  
+Reference ID: `mobsters-049-the-city-never-sleeps`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-049-the-city-never-sleeps.webp)

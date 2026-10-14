@@ -1,6 +1,6 @@
 # Crystal Cliff Climber
 
-Reference ID: `surreal-037-crystal-cliff-climber`  
+Reference ID: `surreal-037-crystal-cliff-climber`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-037-crystal-cliff-climber.webp)

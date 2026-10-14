@@ -1,6 +1,6 @@
 # Country Music Star
 
-Reference ID: `costumes300-163-country-music-star`  
+Reference ID: `costumes300-163-country-music-star`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-163-country-music-star.webp)

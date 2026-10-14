@@ -1,6 +1,6 @@
 # Lightning Trail Hero
 
-Reference ID: `superheroes-135-lightning-trail-hero`  
+Reference ID: `superheroes-135-lightning-trail-hero`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-135-lightning-trail-hero.webp)

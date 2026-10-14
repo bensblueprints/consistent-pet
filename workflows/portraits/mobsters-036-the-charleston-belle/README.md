@@ -1,6 +1,6 @@
 # The Charleston Belle
 
-Reference ID: `mobsters-036-the-charleston-belle`  
+Reference ID: `mobsters-036-the-charleston-belle`
 Category: Roaring Twenties | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/roaring-twenties/mobsters-036-the-charleston-belle.webp)

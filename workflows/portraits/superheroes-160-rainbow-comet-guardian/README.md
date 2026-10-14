@@ -1,6 +1,6 @@
 # Rainbow Comet Guardian
 
-Reference ID: `superheroes-160-rainbow-comet-guardian`  
+Reference ID: `superheroes-160-rainbow-comet-guardian`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-160-rainbow-comet-guardian.webp)

@@ -1,6 +1,6 @@
 # Cloud Nine Golf Champion
 
-Reference ID: `surreal-027-cloud-nine-golf-champion`  
+Reference ID: `surreal-027-cloud-nine-golf-champion`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-027-cloud-nine-golf-champion.webp)

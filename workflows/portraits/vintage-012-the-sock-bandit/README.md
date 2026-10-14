@@ -1,6 +1,6 @@
 # The Sock Bandit
 
-Reference ID: `vintage-012-the-sock-bandit`  
+Reference ID: `vintage-012-the-sock-bandit`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-012-the-sock-bandit.webp)

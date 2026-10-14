@@ -1,6 +1,6 @@
 # The Alleyway Deal
 
-Reference ID: `mobsters-034-the-alleyway-deal`  
+Reference ID: `mobsters-034-the-alleyway-deal`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-034-the-alleyway-deal.webp)

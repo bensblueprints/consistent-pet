@@ -1,6 +1,6 @@
 # Disco Galaxy Diva
 
-Reference ID: `surreal-093-disco-galaxy-diva`  
+Reference ID: `surreal-093-disco-galaxy-diva`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-093-disco-galaxy-diva.webp)

@@ -1,6 +1,6 @@
 # Golden Thunder Hound
 
-Reference ID: `superheroes-137-golden-thunder-hound`  
+Reference ID: `superheroes-137-golden-thunder-hound`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-137-golden-thunder-hound.webp)

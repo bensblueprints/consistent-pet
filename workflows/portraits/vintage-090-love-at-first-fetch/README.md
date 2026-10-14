@@ -1,6 +1,6 @@
 # Love at First Fetch
 
-Reference ID: `vintage-090-love-at-first-fetch`  
+Reference ID: `vintage-090-love-at-first-fetch`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-090-love-at-first-fetch.webp)

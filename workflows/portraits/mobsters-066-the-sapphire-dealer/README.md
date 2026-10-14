@@ -1,6 +1,6 @@
 # The Sapphire Dealer
 
-Reference ID: `mobsters-066-the-sapphire-dealer`  
+Reference ID: `mobsters-066-the-sapphire-dealer`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-066-the-sapphire-dealer.webp)

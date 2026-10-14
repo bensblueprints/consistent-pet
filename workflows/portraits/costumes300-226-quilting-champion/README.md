@@ -1,6 +1,6 @@
 # Quilting Champion
 
-Reference ID: `costumes300-226-quilting-champion`  
+Reference ID: `costumes300-226-quilting-champion`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-226-quilting-champion.webp)

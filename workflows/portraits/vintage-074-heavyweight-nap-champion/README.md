@@ -1,6 +1,6 @@
 # Heavyweight Nap Champion
 
-Reference ID: `vintage-074-heavyweight-nap-champion`  
+Reference ID: `vintage-074-heavyweight-nap-champion`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-074-heavyweight-nap-champion.webp)

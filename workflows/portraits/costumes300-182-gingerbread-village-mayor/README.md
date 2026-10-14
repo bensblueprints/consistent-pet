@@ -1,6 +1,6 @@
 # Gingerbread Village Mayor
 
-Reference ID: `costumes300-182-gingerbread-village-mayor`  
+Reference ID: `costumes300-182-gingerbread-village-mayor`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-182-gingerbread-village-mayor.webp)

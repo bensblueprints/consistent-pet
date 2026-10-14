@@ -1,6 +1,6 @@
 # Neon Nano Suit
 
-Reference ID: `superheroes-146-neon-nano-suit`  
+Reference ID: `superheroes-146-neon-nano-suit`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-146-neon-nano-suit.webp)

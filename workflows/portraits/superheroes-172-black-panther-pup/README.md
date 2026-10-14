@@ -1,6 +1,6 @@
 # Black Panther Pup
 
-Reference ID: `superheroes-172-black-panther-pup`  
+Reference ID: `superheroes-172-black-panther-pup`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-172-black-panther-pup.webp)

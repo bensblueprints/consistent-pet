@@ -1,6 +1,6 @@
 # Chocolate Kingdom Prince
 
-Reference ID: `surreal-012-chocolate-kingdom-prince`  
+Reference ID: `surreal-012-chocolate-kingdom-prince`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-012-chocolate-kingdom-prince.webp)

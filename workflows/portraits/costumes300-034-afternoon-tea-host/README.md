@@ -1,6 +1,6 @@
 # Afternoon Tea Host
 
-Reference ID: `costumes300-034-afternoon-tea-host`  
+Reference ID: `costumes300-034-afternoon-tea-host`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-034-afternoon-tea-host.webp)

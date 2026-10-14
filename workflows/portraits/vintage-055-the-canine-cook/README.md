@@ -1,6 +1,6 @@
 # The Canine Cook
 
-Reference ID: `vintage-055-the-canine-cook`  
+Reference ID: `vintage-055-the-canine-cook`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-055-the-canine-cook.webp)

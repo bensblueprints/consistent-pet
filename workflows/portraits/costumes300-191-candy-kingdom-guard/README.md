@@ -1,6 +1,6 @@
 # Candy Kingdom Guard
 
-Reference ID: `costumes300-191-candy-kingdom-guard`  
+Reference ID: `costumes300-191-candy-kingdom-guard`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-191-candy-kingdom-guard.webp)

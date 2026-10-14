@@ -1,6 +1,6 @@
 # Captain Marvel Pup
 
-Reference ID: `superheroes-184-captain-marvel-pup`  
+Reference ID: `superheroes-184-captain-marvel-pup`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-184-captain-marvel-pup.webp)

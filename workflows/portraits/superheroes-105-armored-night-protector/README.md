@@ -1,6 +1,6 @@
 # Armored Night Protector
 
-Reference ID: `superheroes-105-armored-night-protector`  
+Reference ID: `superheroes-105-armored-night-protector`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-105-armored-night-protector.webp)

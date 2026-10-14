@@ -1,6 +1,6 @@
 # Ski Instructor
 
-Reference ID: `costumes300-082-ski-instructor`  
+Reference ID: `costumes300-082-ski-instructor`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-082-ski-instructor.webp)

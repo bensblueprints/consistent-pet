@@ -1,6 +1,6 @@
 # Mrs Claus Cookie Inspector
 
-Reference ID: `costumes300-242-mrs-claus-cookie-inspector`  
+Reference ID: `costumes300-242-mrs-claus-cookie-inspector`
 Category: Holidays and Celebrations | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/holidays-and-celebrations/costumes300-242-mrs-claus-cookie-inspector.webp)

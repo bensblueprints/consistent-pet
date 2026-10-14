@@ -1,6 +1,6 @@
 # Construction Foreman
 
-Reference ID: `costumes300-003-construction-foreman`  
+Reference ID: `costumes300-003-construction-foreman`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-003-construction-foreman.webp)

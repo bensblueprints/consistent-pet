@@ -1,6 +1,6 @@
 # Hockey Goalie
 
-Reference ID: `costumes300-085-hockey-goalie`  
+Reference ID: `costumes300-085-hockey-goalie`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-085-hockey-goalie.webp)

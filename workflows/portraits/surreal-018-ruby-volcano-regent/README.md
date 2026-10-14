@@ -1,6 +1,6 @@
 # Ruby Volcano Regent
 
-Reference ID: `surreal-018-ruby-volcano-regent`  
+Reference ID: `surreal-018-ruby-volcano-regent`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-018-ruby-volcano-regent.webp)

@@ -1,6 +1,6 @@
 # The High Roller
 
-Reference ID: `mobsters-063-the-high-roller`  
+Reference ID: `mobsters-063-the-high-roller`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-063-the-high-roller.webp)

@@ -1,6 +1,6 @@
 # The Diamond Club Boss
 
-Reference ID: `mobsters-027-the-diamond-club-boss`  
+Reference ID: `mobsters-027-the-diamond-club-boss`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-027-the-diamond-club-boss.webp)

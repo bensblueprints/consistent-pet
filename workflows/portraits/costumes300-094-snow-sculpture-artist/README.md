@@ -1,6 +1,6 @@
 # Snow Sculpture Artist
 
-Reference ID: `costumes300-094-snow-sculpture-artist`  
+Reference ID: `costumes300-094-snow-sculpture-artist`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-094-snow-sculpture-artist.webp)

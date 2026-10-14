@@ -1,6 +1,6 @@
 # The Neighborhood Gossip
 
-Reference ID: `vintage-098-the-neighborhood-gossip`  
+Reference ID: `vintage-098-the-neighborhood-gossip`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-098-the-neighborhood-gossip.webp)

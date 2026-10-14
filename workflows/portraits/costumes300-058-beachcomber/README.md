@@ -1,6 +1,6 @@
 # Beachcomber
 
-Reference ID: `costumes300-058-beachcomber`  
+Reference ID: `costumes300-058-beachcomber`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-058-beachcomber.webp)

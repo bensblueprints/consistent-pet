@@ -1,6 +1,6 @@
 # The Grand Hotel Caper
 
-Reference ID: `mobsters-080-the-grand-hotel-caper`  
+Reference ID: `mobsters-080-the-grand-hotel-caper`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-080-the-grand-hotel-caper.webp)

@@ -1,6 +1,6 @@
 # Airship Captain
 
-Reference ID: `costumes300-156-airship-captain`  
+Reference ID: `costumes300-156-airship-captain`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-156-airship-captain.webp)

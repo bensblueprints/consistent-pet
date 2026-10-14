@@ -1,6 +1,6 @@
 # The Country Estate Deal
 
-Reference ID: `mobsters-055-the-country-estate-deal`  
+Reference ID: `mobsters-055-the-country-estate-deal`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-055-the-country-estate-deal.webp)

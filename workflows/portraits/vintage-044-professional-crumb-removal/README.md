@@ -1,6 +1,6 @@
 # Professional Crumb Removal
 
-Reference ID: `vintage-044-professional-crumb-removal`  
+Reference ID: `vintage-044-professional-crumb-removal`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-044-professional-crumb-removal.webp)

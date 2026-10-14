@@ -1,6 +1,6 @@
 # The Snack Smuggler
 
-Reference ID: `mobsters-098-the-snack-smuggler`  
+Reference ID: `mobsters-098-the-snack-smuggler`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-098-the-snack-smuggler.webp)

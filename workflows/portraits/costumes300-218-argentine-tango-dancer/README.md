@@ -1,6 +1,6 @@
 # Argentine Tango Dancer
 
-Reference ID: `costumes300-218-argentine-tango-dancer`  
+Reference ID: `costumes300-218-argentine-tango-dancer`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-218-argentine-tango-dancer.webp)

@@ -1,6 +1,6 @@
 # Purple Nebula Guardian
 
-Reference ID: `superheroes-156-purple-nebula-guardian`  
+Reference ID: `superheroes-156-purple-nebula-guardian`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-156-purple-nebula-guardian.webp)

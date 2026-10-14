@@ -1,6 +1,6 @@
 # The Undefeated Tug Champion
 
-Reference ID: `vintage-078-the-undefeated-tug-champion`  
+Reference ID: `vintage-078-the-undefeated-tug-champion`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-078-the-undefeated-tug-champion.webp)

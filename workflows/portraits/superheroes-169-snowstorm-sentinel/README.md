@@ -1,6 +1,6 @@
 # Snowstorm Sentinel
 
-Reference ID: `superheroes-169-snowstorm-sentinel`  
+Reference ID: `superheroes-169-snowstorm-sentinel`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-169-snowstorm-sentinel.webp)

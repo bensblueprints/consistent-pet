@@ -1,6 +1,6 @@
 # Beekeeper
 
-Reference ID: `costumes300-107-beekeeper`  
+Reference ID: `costumes300-107-beekeeper`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-107-beekeeper.webp)

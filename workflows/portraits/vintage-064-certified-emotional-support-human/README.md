@@ -1,6 +1,6 @@
 # Certified Emotional Support Human
 
-Reference ID: `vintage-064-certified-emotional-support-human`  
+Reference ID: `vintage-064-certified-emotional-support-human`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-064-certified-emotional-support-human.webp)

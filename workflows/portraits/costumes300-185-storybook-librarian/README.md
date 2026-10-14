@@ -1,6 +1,6 @@
 # Storybook Librarian
 
-Reference ID: `costumes300-185-storybook-librarian`  
+Reference ID: `costumes300-185-storybook-librarian`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-185-storybook-librarian.webp)

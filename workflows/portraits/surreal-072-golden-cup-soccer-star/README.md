@@ -1,6 +1,6 @@
 # Golden Cup Soccer Star
 
-Reference ID: `surreal-072-golden-cup-soccer-star`  
+Reference ID: `surreal-072-golden-cup-soccer-star`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-072-golden-cup-soccer-star.webp)

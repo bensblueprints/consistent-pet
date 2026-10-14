@@ -1,6 +1,6 @@
 # The Sofa Syndicate
 
-Reference ID: `mobsters-093-the-sofa-syndicate`  
+Reference ID: `mobsters-093-the-sofa-syndicate`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-093-the-sofa-syndicate.webp)

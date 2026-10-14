@@ -1,6 +1,6 @@
 # Australian Beach Club Member
 
-Reference ID: `costumes300-219-australian-beach-club-member`  
+Reference ID: `costumes300-219-australian-beach-club-member`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-219-australian-beach-club-member.webp)

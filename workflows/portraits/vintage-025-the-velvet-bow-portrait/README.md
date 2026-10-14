@@ -1,6 +1,6 @@
 # The Velvet-Bow Portrait
 
-Reference ID: `vintage-025-the-velvet-bow-portrait`  
+Reference ID: `vintage-025-the-velvet-bow-portrait`
 Category: Studio portraits | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/studio-portraits/vintage-025-the-velvet-bow-portrait.webp)

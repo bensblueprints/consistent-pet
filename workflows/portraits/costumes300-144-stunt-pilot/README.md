@@ -1,6 +1,6 @@
 # Stunt Pilot
 
-Reference ID: `costumes300-144-stunt-pilot`  
+Reference ID: `costumes300-144-stunt-pilot`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-144-stunt-pilot.webp)

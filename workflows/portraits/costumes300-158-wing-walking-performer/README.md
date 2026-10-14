@@ -1,6 +1,6 @@
 # Wing-Walking Performer
 
-Reference ID: `costumes300-158-wing-walking-performer`  
+Reference ID: `costumes300-158-wing-walking-performer`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-158-wing-walking-performer.webp)

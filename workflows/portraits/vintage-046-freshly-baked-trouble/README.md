@@ -1,6 +1,6 @@
 # Freshly Baked Trouble
 
-Reference ID: `vintage-046-freshly-baked-trouble`  
+Reference ID: `vintage-046-freshly-baked-trouble`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-046-freshly-baked-trouble.webp)

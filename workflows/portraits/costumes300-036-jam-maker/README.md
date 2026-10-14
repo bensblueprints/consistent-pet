@@ -1,6 +1,6 @@
 # Jam Maker
 
-Reference ID: `costumes300-036-jam-maker`  
+Reference ID: `costumes300-036-jam-maker`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-036-jam-maker.webp)

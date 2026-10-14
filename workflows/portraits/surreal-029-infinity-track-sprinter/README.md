@@ -1,6 +1,6 @@
 # Infinity Track Sprinter
 
-Reference ID: `surreal-029-infinity-track-sprinter`  
+Reference ID: `surreal-029-infinity-track-sprinter`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-029-infinity-track-sprinter.webp)

@@ -1,6 +1,6 @@
 # The Lucky Lady
 
-Reference ID: `mobsters-067-the-lucky-lady`  
+Reference ID: `mobsters-067-the-lucky-lady`
 Category: Casino Royals | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/casino-royals/mobsters-067-the-lucky-lady.webp)

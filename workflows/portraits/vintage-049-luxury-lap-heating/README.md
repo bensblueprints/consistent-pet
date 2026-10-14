@@ -1,6 +1,6 @@
 # Luxury Lap Heating
 
-Reference ID: `vintage-049-luxury-lap-heating`  
+Reference ID: `vintage-049-luxury-lap-heating`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-049-luxury-lap-heating.webp)

@@ -1,6 +1,6 @@
 # The Union Station Boss
 
-Reference ID: `mobsters-038-the-union-station-boss`  
+Reference ID: `mobsters-038-the-union-station-boss`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-038-the-union-station-boss.webp)

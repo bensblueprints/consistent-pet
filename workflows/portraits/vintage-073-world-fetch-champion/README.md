@@ -1,6 +1,6 @@
 # World Fetch Champion
 
-Reference ID: `vintage-073-world-fetch-champion`  
+Reference ID: `vintage-073-world-fetch-champion`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-073-world-fetch-champion.webp)

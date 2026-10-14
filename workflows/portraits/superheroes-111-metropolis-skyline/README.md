@@ -1,6 +1,6 @@
 # Metropolis Skyline
 
-Reference ID: `superheroes-111-metropolis-skyline`  
+Reference ID: `superheroes-111-metropolis-skyline`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-111-metropolis-skyline.webp)

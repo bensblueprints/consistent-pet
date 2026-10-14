@@ -1,6 +1,6 @@
 # Head of Barketing
 
-Reference ID: `costumes300-263-head-of-barketing`  
+Reference ID: `costumes300-263-head-of-barketing`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-263-head-of-barketing.webp)

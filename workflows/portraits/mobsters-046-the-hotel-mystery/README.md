@@ -1,6 +1,6 @@
 # The Hotel Mystery
 
-Reference ID: `mobsters-046-the-hotel-mystery`  
+Reference ID: `mobsters-046-the-hotel-mystery`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-046-the-hotel-mystery.webp)

@@ -1,6 +1,6 @@
 # Arcade High-Score Champion
 
-Reference ID: `costumes300-291-arcade-high-score-champion`  
+Reference ID: `costumes300-291-arcade-high-score-champion`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-291-arcade-high-score-champion.webp)

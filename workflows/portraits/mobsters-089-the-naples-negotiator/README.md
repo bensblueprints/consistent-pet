@@ -1,6 +1,6 @@
 # The Naples Negotiator
 
-Reference ID: `mobsters-089-the-naples-negotiator`  
+Reference ID: `mobsters-089-the-naples-negotiator`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-089-the-naples-negotiator.webp)

@@ -1,6 +1,6 @@
 # Diploma in Advanced Begging
 
-Reference ID: `vintage-068-diploma-in-advanced-begging`  
+Reference ID: `vintage-068-diploma-in-advanced-begging`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-068-diploma-in-advanced-begging.webp)

@@ -1,6 +1,6 @@
 # The Long Walk Home
 
-Reference ID: `vintage-089-the-long-walk-home`  
+Reference ID: `vintage-089-the-long-walk-home`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-089-the-long-walk-home.webp)

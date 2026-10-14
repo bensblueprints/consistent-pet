@@ -1,6 +1,6 @@
 # The Treat Cabinet Job
 
-Reference ID: `vintage-015-the-treat-cabinet-job`  
+Reference ID: `vintage-015-the-treat-cabinet-job`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-015-the-treat-cabinet-job.webp)

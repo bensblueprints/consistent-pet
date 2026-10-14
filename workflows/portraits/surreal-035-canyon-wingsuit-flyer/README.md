@@ -1,6 +1,6 @@
 # Canyon Wingsuit Flyer
 
-Reference ID: `surreal-035-canyon-wingsuit-flyer`  
+Reference ID: `surreal-035-canyon-wingsuit-flyer`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-035-canyon-wingsuit-flyer.webp)

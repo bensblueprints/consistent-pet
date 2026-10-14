@@ -1,6 +1,6 @@
 # The Matching Siblings Photograph
 
-Reference ID: `vintage-030-the-matching-siblings-photograph`  
+Reference ID: `vintage-030-the-matching-siblings-photograph`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-030-the-matching-siblings-photograph.webp)

@@ -1,6 +1,6 @@
 # Veterinary Assistant
 
-Reference ID: `costumes300-007-veterinary-assistant`  
+Reference ID: `costumes300-007-veterinary-assistant`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-007-veterinary-assistant.webp)

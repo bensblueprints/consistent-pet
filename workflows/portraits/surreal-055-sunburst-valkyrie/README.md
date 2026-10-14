@@ -1,6 +1,6 @@
 # Sunburst Valkyrie
 
-Reference ID: `surreal-055-sunburst-valkyrie`  
+Reference ID: `surreal-055-sunburst-valkyrie`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-055-sunburst-valkyrie.webp)

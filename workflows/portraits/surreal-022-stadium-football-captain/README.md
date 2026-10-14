@@ -1,6 +1,6 @@
 # Stadium Football Captain
 
-Reference ID: `surreal-022-stadium-football-captain`  
+Reference ID: `surreal-022-stadium-football-captain`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-022-stadium-football-captain.webp)

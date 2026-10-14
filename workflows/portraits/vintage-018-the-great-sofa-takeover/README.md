@@ -1,6 +1,6 @@
 # The Great Sofa Takeover
 
-Reference ID: `vintage-018-the-great-sofa-takeover`  
+Reference ID: `vintage-018-the-great-sofa-takeover`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-018-the-great-sofa-takeover.webp)

@@ -1,6 +1,6 @@
 # Architect
 
-Reference ID: `costumes300-014-architect`  
+Reference ID: `costumes300-014-architect`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-014-architect.webp)

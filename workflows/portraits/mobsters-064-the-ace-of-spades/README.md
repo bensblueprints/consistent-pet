@@ -1,6 +1,6 @@
 # The Ace of Spades
 
-Reference ID: `mobsters-064-the-ace-of-spades`  
+Reference ID: `mobsters-064-the-ace-of-spades`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-064-the-ace-of-spades.webp)

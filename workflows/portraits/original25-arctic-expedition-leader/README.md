@@ -1,6 +1,6 @@
 # Arctic Expedition Leader
 
-Reference ID: `original25-arctic-expedition-leader`  
+Reference ID: `original25-arctic-expedition-leader`
 Category: Exploration | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/exploration/original25-arctic-expedition-leader.webp)

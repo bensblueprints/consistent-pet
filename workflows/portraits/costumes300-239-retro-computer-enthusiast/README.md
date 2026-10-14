@@ -1,6 +1,6 @@
 # Retro Computer Enthusiast
 
-Reference ID: `costumes300-239-retro-computer-enthusiast`  
+Reference ID: `costumes300-239-retro-computer-enthusiast`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-239-retro-computer-enthusiast.webp)

@@ -1,6 +1,6 @@
 # The Home Team
 
-Reference ID: `vintage-080-the-home-team`  
+Reference ID: `vintage-080-the-home-team`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-080-the-home-team.webp)

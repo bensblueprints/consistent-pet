@@ -1,6 +1,6 @@
 # Greenhouse Gardener
 
-Reference ID: `costumes300-108-greenhouse-gardener`  
+Reference ID: `costumes300-108-greenhouse-gardener`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-108-greenhouse-gardener.webp)

@@ -1,6 +1,6 @@
 # Dawn Over Gotham
 
-Reference ID: `superheroes-110-dawn-over-gotham`  
+Reference ID: `superheroes-110-dawn-over-gotham`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-110-dawn-over-gotham.webp)

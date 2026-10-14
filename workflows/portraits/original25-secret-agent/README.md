@@ -1,6 +1,6 @@
 # Secret Agent
 
-Reference ID: `original25-secret-agent`  
+Reference ID: `original25-secret-agent`
 Category: Detectives and Secret Agents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/detectives-and-secret-agents/original25-secret-agent.webp)

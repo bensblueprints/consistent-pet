@@ -1,6 +1,6 @@
 # The Dockyard Fixer
 
-Reference ID: `mobsters-053-the-dockyard-fixer`  
+Reference ID: `mobsters-053-the-dockyard-fixer`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-053-the-dockyard-fixer.webp)

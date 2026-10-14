@@ -1,6 +1,6 @@
 # Easter Egg Hunt Marshal
 
-Reference ID: `costumes300-250-easter-egg-hunt-marshal`  
+Reference ID: `costumes300-250-easter-egg-hunt-marshal`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-250-easter-egg-hunt-marshal.webp)

@@ -1,6 +1,6 @@
 # The Incredible Good Boy
 
-Reference ID: `superheroes-193-the-incredible-good-boy`  
+Reference ID: `superheroes-193-the-incredible-good-boy`
 Category: Original Champions | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/original-champions/superheroes-193-the-incredible-good-boy.webp)

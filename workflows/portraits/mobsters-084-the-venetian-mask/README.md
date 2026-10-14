@@ -1,6 +1,6 @@
 # The Venetian Mask
 
-Reference ID: `mobsters-084-the-venetian-mask`  
+Reference ID: `mobsters-084-the-venetian-mask`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-084-the-venetian-mask.webp)

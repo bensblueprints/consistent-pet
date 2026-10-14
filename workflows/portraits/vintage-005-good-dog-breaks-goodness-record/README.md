@@ -1,6 +1,6 @@
 # Good Dog Breaks Goodness Record
 
-Reference ID: `vintage-005-good-dog-breaks-goodness-record`  
+Reference ID: `vintage-005-good-dog-breaks-goodness-record`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-005-good-dog-breaks-goodness-record.webp)

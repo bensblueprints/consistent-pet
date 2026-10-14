@@ -1,6 +1,6 @@
 # Weekend Camper
 
-Reference ID: `costumes300-041-weekend-camper`  
+Reference ID: `costumes300-041-weekend-camper`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-041-weekend-camper.webp)

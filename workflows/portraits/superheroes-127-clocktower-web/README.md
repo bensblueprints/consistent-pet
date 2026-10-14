@@ -1,6 +1,6 @@
 # Clocktower Web
 
-Reference ID: `superheroes-127-clocktower-web`  
+Reference ID: `superheroes-127-clocktower-web`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-127-clocktower-web.webp)

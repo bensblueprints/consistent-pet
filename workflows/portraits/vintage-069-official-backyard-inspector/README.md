@@ -1,6 +1,6 @@
 # Official Backyard Inspector
 
-Reference ID: `vintage-069-official-backyard-inspector`  
+Reference ID: `vintage-069-official-backyard-inspector`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-069-official-backyard-inspector.webp)

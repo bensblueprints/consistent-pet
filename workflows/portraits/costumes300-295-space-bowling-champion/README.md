@@ -1,6 +1,6 @@
 # Space Bowling Champion
 
-Reference ID: `costumes300-295-space-bowling-champion`  
+Reference ID: `costumes300-295-space-bowling-champion`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-295-space-bowling-champion.webp)

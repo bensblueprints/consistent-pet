@@ -1,6 +1,6 @@
 # Neighborhood Watch Supervisor
 
-Reference ID: `costumes300-264-neighborhood-watch-supervisor`  
+Reference ID: `costumes300-264-neighborhood-watch-supervisor`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-264-neighborhood-watch-supervisor.webp)

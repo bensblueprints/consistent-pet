@@ -1,6 +1,6 @@
 # The Midnight Card Room
 
-Reference ID: `mobsters-037-the-midnight-card-room`  
+Reference ID: `mobsters-037-the-midnight-card-room`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-037-the-midnight-card-room.webp)

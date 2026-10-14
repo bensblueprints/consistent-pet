@@ -1,6 +1,6 @@
 # Galactic Emperor
 
-Reference ID: `original25-galactic-emperor`  
+Reference ID: `original25-galactic-emperor`
 Category: Science Fiction | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/science-fiction/original25-galactic-emperor.webp)

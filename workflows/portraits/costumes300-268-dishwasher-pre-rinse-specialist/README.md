@@ -1,6 +1,6 @@
 # Dishwasher Pre-Rinse Specialist
 
-Reference ID: `costumes300-268-dishwasher-pre-rinse-specialist`  
+Reference ID: `costumes300-268-dishwasher-pre-rinse-specialist`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-268-dishwasher-pre-rinse-specialist.webp)

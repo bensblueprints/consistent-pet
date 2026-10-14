@@ -1,6 +1,6 @@
 # Customer Service Supervisor
 
-Reference ID: `vintage-040-customer-service-supervisor`  
+Reference ID: `vintage-040-customer-service-supervisor`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-040-customer-service-supervisor.webp)

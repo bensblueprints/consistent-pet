@@ -1,6 +1,6 @@
 # Reliable Alarm Service
 
-Reference ID: `vintage-048-reliable-alarm-service`  
+Reference ID: `vintage-048-reliable-alarm-service`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-048-reliable-alarm-service.webp)

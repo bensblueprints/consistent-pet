@@ -1,6 +1,6 @@
 # Fastest Zoomies in the County
 
-Reference ID: `vintage-076-fastest-zoomies-in-the-county`  
+Reference ID: `vintage-076-fastest-zoomies-in-the-county`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-076-fastest-zoomies-in-the-county.webp)

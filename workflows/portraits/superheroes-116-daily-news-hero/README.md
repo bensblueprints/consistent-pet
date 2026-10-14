@@ -1,6 +1,6 @@
 # Daily News Hero
 
-Reference ID: `superheroes-116-daily-news-hero`  
+Reference ID: `superheroes-116-daily-news-hero`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-116-daily-news-hero.webp)

@@ -1,6 +1,6 @@
 # Blues Club Legend
 
-Reference ID: `costumes300-165-blues-club-legend`  
+Reference ID: `costumes300-165-blues-club-legend`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-165-blues-club-legend.webp)

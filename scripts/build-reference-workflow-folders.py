@@ -53,7 +53,7 @@ def main():
         }, indent=2) + '\n')
         create_only(folder / 'README.md', f'''# {row['name']}
 
-Reference ID: `{identifier}`  
+Reference ID: `{identifier}`
 Category: {row['category']} | Costume eligibility: {row['sex']}
 
 ![Reference preview](../../../reference-library/{row['preview']})

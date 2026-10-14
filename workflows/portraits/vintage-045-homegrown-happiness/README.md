@@ -1,6 +1,6 @@
 # Homegrown Happiness
 
-Reference ID: `vintage-045-homegrown-happiness`  
+Reference ID: `vintage-045-homegrown-happiness`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-045-homegrown-happiness.webp)

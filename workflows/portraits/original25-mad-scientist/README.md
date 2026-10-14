@@ -1,6 +1,6 @@
 # Mad Scientist
 
-Reference ID: `original25-mad-scientist`  
+Reference ID: `original25-mad-scientist`
 Category: Science and Inventors | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/science-and-inventors/original25-mad-scientist.webp)

@@ -1,6 +1,6 @@
 # Gothic Rooftop Sentinel
 
-Reference ID: `superheroes-101-gothic-rooftop-sentinel`  
+Reference ID: `superheroes-101-gothic-rooftop-sentinel`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-101-gothic-rooftop-sentinel.webp)

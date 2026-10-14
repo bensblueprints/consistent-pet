@@ -1,6 +1,6 @@
 # Attorney
 
-Reference ID: `costumes300-013-attorney`  
+Reference ID: `costumes300-013-attorney`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-013-attorney.webp)

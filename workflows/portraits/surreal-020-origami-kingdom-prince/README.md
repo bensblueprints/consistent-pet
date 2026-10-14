@@ -1,6 +1,6 @@
 # Origami Kingdom Prince
 
-Reference ID: `surreal-020-origami-kingdom-prince`  
+Reference ID: `surreal-020-origami-kingdom-prince`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-020-origami-kingdom-prince.webp)

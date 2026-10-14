@@ -1,6 +1,6 @@
 # Cloud Colossus
 
-Reference ID: `surreal-010-cloud-colossus`  
+Reference ID: `surreal-010-cloud-colossus`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-010-cloud-colossus.webp)

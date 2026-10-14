@@ -1,6 +1,6 @@
 # Sailing Champion
 
-Reference ID: `costumes300-076-sailing-champion`  
+Reference ID: `costumes300-076-sailing-champion`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-076-sailing-champion.webp)

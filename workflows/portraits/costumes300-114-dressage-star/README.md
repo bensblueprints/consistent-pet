@@ -1,6 +1,6 @@
 # Dressage Star
 
-Reference ID: `costumes300-114-dressage-star`  
+Reference ID: `costumes300-114-dressage-star`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-114-dressage-star.webp)

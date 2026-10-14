@@ -1,6 +1,6 @@
 # Storm Hammer Guardian
 
-Reference ID: `superheroes-138-storm-hammer-guardian`  
+Reference ID: `superheroes-138-storm-hammer-guardian`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-138-storm-hammer-guardian.webp)

@@ -1,6 +1,6 @@
 # The Sunday Walk
 
-Reference ID: `vintage-058-the-sunday-walk`  
+Reference ID: `vintage-058-the-sunday-walk`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-058-the-sunday-walk.webp)

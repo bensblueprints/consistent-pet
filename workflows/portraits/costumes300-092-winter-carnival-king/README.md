@@ -1,6 +1,6 @@
 # Winter Carnival King
 
-Reference ID: `costumes300-092-winter-carnival-king`  
+Reference ID: `costumes300-092-winter-carnival-king`
 Category: Snow-Day Personalities | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/snow-day-personalities/costumes300-092-winter-carnival-king.webp)

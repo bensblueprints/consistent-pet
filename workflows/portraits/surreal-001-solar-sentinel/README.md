@@ -1,6 +1,6 @@
 # Solar Sentinel
 
-Reference ID: `surreal-001-solar-sentinel`  
+Reference ID: `surreal-001-solar-sentinel`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-001-solar-sentinel.webp)

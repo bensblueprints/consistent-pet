@@ -1,6 +1,6 @@
 # Official Sofa Ownership Deed
 
-Reference ID: `vintage-062-official-sofa-ownership-deed`  
+Reference ID: `vintage-062-official-sofa-ownership-deed`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-062-official-sofa-ownership-deed.webp)

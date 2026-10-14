@@ -1,6 +1,6 @@
 # Delivery Truck Announcer
 
-Reference ID: `costumes300-273-delivery-truck-announcer`  
+Reference ID: `costumes300-273-delivery-truck-announcer`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-273-delivery-truck-announcer.webp)

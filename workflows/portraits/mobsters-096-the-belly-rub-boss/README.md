@@ -1,6 +1,6 @@
 # The Belly Rub Boss
 
-Reference ID: `mobsters-096-the-belly-rub-boss`  
+Reference ID: `mobsters-096-the-belly-rub-boss`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-096-the-belly-rub-boss.webp)

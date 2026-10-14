@@ -1,6 +1,6 @@
 # Blue Circuit Protector
 
-Reference ID: `superheroes-145-blue-circuit-protector`  
+Reference ID: `superheroes-145-blue-circuit-protector`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-145-blue-circuit-protector.webp)

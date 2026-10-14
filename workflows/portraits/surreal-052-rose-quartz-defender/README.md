@@ -1,6 +1,6 @@
 # Rose Quartz Defender
 
-Reference ID: `surreal-052-rose-quartz-defender`  
+Reference ID: `surreal-052-rose-quartz-defender`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-052-rose-quartz-defender.webp)

@@ -1,6 +1,6 @@
 # Whitewater Guide
 
-Reference ID: `costumes300-051-whitewater-guide`  
+Reference ID: `costumes300-051-whitewater-guide`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-051-whitewater-guide.webp)

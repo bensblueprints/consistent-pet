@@ -1,6 +1,6 @@
 # Best Friend
 
-Reference ID: `vintage-099-best-friend`  
+Reference ID: `vintage-099-best-friend`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-099-best-friend.webp)

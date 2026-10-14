@@ -1,6 +1,6 @@
 # Meteor Rescue
 
-Reference ID: `superheroes-118-meteor-rescue`  
+Reference ID: `superheroes-118-meteor-rescue`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-118-meteor-rescue.webp)

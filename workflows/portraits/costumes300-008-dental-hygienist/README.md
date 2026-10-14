@@ -1,6 +1,6 @@
 # Dental Hygienist
 
-Reference ID: `costumes300-008-dental-hygienist`  
+Reference ID: `costumes300-008-dental-hygienist`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-008-dental-hygienist.webp)

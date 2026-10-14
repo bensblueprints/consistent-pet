@@ -1,6 +1,6 @@
 # The Last Biscuit
 
-Reference ID: `vintage-082-the-last-biscuit`  
+Reference ID: `vintage-082-the-last-biscuit`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-082-the-last-biscuit.webp)

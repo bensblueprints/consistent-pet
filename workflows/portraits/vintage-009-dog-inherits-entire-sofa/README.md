@@ -1,6 +1,6 @@
 # Dog Inherits Entire Sofa
 
-Reference ID: `vintage-009-dog-inherits-entire-sofa`  
+Reference ID: `vintage-009-dog-inherits-entire-sofa`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-009-dog-inherits-entire-sofa.webp)

@@ -1,6 +1,6 @@
 # Wildlife Camera Operator
 
-Reference ID: `costumes300-050-wildlife-camera-operator`  
+Reference ID: `costumes300-050-wildlife-camera-operator`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-050-wildlife-camera-operator.webp)

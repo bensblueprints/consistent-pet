@@ -1,6 +1,6 @@
 # Rescue Stories
 
-Reference ID: `vintage-059-rescue-stories`  
+Reference ID: `vintage-059-rescue-stories`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-059-rescue-stories.webp)

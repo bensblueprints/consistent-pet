@@ -1,6 +1,6 @@
 # The Barkfather
 
-Reference ID: `vintage-084-the-barkfather`  
+Reference ID: `vintage-084-the-barkfather`
 Category: Cinema posters | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/cinema-posters/vintage-084-the-barkfather.webp)

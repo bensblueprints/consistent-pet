@@ -1,6 +1,6 @@
 # The Velvet Rope
 
-Reference ID: `mobsters-070-the-velvet-rope`  
+Reference ID: `mobsters-070-the-velvet-rope`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-070-the-velvet-rope.webp)

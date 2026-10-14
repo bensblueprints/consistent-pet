@@ -1,6 +1,6 @@
 # Secret Door Explorer
 
-Reference ID: `costumes300-199-secret-door-explorer`  
+Reference ID: `costumes300-199-secret-door-explorer`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-199-secret-door-explorer.webp)

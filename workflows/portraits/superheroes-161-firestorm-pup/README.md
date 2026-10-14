@@ -1,6 +1,6 @@
 # Firestorm Pup
 
-Reference ID: `superheroes-161-firestorm-pup`  
+Reference ID: `superheroes-161-firestorm-pup`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-161-firestorm-pup.webp)

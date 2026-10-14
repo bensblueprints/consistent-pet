@@ -1,6 +1,6 @@
 # The Alpine Black Tie
 
-Reference ID: `mobsters-090-the-alpine-black-tie`  
+Reference ID: `mobsters-090-the-alpine-black-tie`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-090-the-alpine-black-tie.webp)

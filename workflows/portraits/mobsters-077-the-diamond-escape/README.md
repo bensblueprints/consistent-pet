@@ -1,6 +1,6 @@
 # The Diamond Escape
 
-Reference ID: `mobsters-077-the-diamond-escape`  
+Reference ID: `mobsters-077-the-diamond-escape`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-077-the-diamond-escape.webp)

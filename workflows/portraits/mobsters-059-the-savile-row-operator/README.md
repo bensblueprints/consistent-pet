@@ -1,6 +1,6 @@
 # The Savile Row Operator
 
-Reference ID: `mobsters-059-the-savile-row-operator`  
+Reference ID: `mobsters-059-the-savile-row-operator`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-059-the-savile-row-operator.webp)

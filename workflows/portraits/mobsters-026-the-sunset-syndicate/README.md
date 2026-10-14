@@ -1,6 +1,6 @@
 # The Sunset Syndicate
 
-Reference ID: `mobsters-026-the-sunset-syndicate`  
+Reference ID: `mobsters-026-the-sunset-syndicate`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-026-the-sunset-syndicate.webp)

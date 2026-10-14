@@ -1,6 +1,6 @@
 # Celestial Guardian
 
-Reference ID: `original25-celestial-guardian`  
+Reference ID: `original25-celestial-guardian`
 Category: Fantasy and Magic | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/fantasy-and-magic/original25-celestial-guardian.webp)

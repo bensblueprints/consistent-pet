@@ -1,6 +1,6 @@
 # The Kibble Kingpin
 
-Reference ID: `mobsters-094-the-kibble-kingpin`  
+Reference ID: `mobsters-094-the-kibble-kingpin`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-094-the-kibble-kingpin.webp)

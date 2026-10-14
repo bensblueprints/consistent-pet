@@ -1,6 +1,6 @@
 # Wolverine Paw Hero
 
-Reference ID: `superheroes-177-wolverine-paw-hero`  
+Reference ID: `superheroes-177-wolverine-paw-hero`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-177-wolverine-paw-hero.webp)

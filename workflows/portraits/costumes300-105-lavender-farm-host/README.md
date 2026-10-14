@@ -1,6 +1,6 @@
 # Lavender Farm Host
 
-Reference ID: `costumes300-105-lavender-farm-host`  
+Reference ID: `costumes300-105-lavender-farm-host`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-105-lavender-farm-host.webp)

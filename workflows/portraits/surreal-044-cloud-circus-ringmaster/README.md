@@ -1,6 +1,6 @@
 # Cloud Circus Ringmaster
 
-Reference ID: `surreal-044-cloud-circus-ringmaster`  
+Reference ID: `surreal-044-cloud-circus-ringmaster`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-044-cloud-circus-ringmaster.webp)

@@ -1,6 +1,6 @@
 # Home Alone with the Sofa
 
-Reference ID: `vintage-083-home-alone-with-the-sofa`  
+Reference ID: `vintage-083-home-alone-with-the-sofa`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-083-home-alone-with-the-sofa.webp)

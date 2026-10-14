@@ -1,6 +1,6 @@
 # Mountain Supply Pilot
 
-Reference ID: `costumes300-155-mountain-supply-pilot`  
+Reference ID: `costumes300-155-mountain-supply-pilot`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-155-mountain-supply-pilot.webp)

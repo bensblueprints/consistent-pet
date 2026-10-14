@@ -1,6 +1,6 @@
 # Head of Barketing
 
-Reference ID: `vintage-033-head-of-barketing`  
+Reference ID: `vintage-033-head-of-barketing`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-033-head-of-barketing.webp)

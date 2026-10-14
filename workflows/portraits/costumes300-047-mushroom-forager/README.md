@@ -1,6 +1,6 @@
 # Mushroom Forager
 
-Reference ID: `costumes300-047-mushroom-forager`  
+Reference ID: `costumes300-047-mushroom-forager`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-047-mushroom-forager.webp)

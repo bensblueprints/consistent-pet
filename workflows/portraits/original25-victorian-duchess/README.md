@@ -1,6 +1,6 @@
 # Victorian Duchess
 
-Reference ID: `original25-victorian-duchess`  
+Reference ID: `original25-victorian-duchess`
 Category: Royalty | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/royalty/original25-victorian-duchess.webp)

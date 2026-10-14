@@ -1,6 +1,6 @@
 # Wonder Pup Amazon
 
-Reference ID: `superheroes-131-wonder-pup-amazon`  
+Reference ID: `superheroes-131-wonder-pup-amazon`
 Category: Wonder and Lightning | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/wonder-and-lightning/superheroes-131-wonder-pup-amazon.webp)

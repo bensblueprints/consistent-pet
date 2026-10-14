@@ -1,6 +1,6 @@
 # A Very Serious Review of My Human
 
-Reference ID: `vintage-097-a-very-serious-review-of-my-human`  
+Reference ID: `vintage-097-a-very-serious-review-of-my-human`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-097-a-very-serious-review-of-my-human.webp)

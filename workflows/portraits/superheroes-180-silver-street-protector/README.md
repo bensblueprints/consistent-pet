@@ -1,6 +1,6 @@
 # Silver Street Protector
 
-Reference ID: `superheroes-180-silver-street-protector`  
+Reference ID: `superheroes-180-silver-street-protector`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-180-silver-street-protector.webp)

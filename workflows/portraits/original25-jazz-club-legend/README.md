@@ -1,6 +1,6 @@
 # Jazz Club Legend
 
-Reference ID: `original25-jazz-club-legend`  
+Reference ID: `original25-jazz-club-legend`
 Category: Music and Performance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-performance/original25-jazz-club-legend.webp)

@@ -1,6 +1,6 @@
 # Terrarium Maker
 
-Reference ID: `costumes300-236-terrarium-maker`  
+Reference ID: `costumes300-236-terrarium-maker`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-236-terrarium-maker.webp)

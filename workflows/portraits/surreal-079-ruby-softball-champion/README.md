@@ -1,6 +1,6 @@
 # Ruby Softball Champion
 
-Reference ID: `surreal-079-ruby-softball-champion`  
+Reference ID: `surreal-079-ruby-softball-champion`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-079-ruby-softball-champion.webp)

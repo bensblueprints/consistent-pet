@@ -1,6 +1,6 @@
 # The Jazz Club Duchess
 
-Reference ID: `mobsters-032-the-jazz-club-duchess`  
+Reference ID: `mobsters-032-the-jazz-club-duchess`
 Category: Roaring Twenties | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/roaring-twenties/mobsters-032-the-jazz-club-duchess.webp)

@@ -1,6 +1,6 @@
 # Crystal Slipper Princess
 
-Reference ID: `surreal-061-crystal-slipper-princess`  
+Reference ID: `surreal-061-crystal-slipper-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-061-crystal-slipper-princess.webp)

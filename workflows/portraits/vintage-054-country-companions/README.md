@@ -1,6 +1,6 @@
 # Country Companions
 
-Reference ID: `vintage-054-country-companions`  
+Reference ID: `vintage-054-country-companions`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-054-country-companions.webp)

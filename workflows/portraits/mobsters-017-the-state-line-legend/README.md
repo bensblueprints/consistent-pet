@@ -1,6 +1,6 @@
 # The State Line Legend
 
-Reference ID: `mobsters-017-the-state-line-legend`  
+Reference ID: `mobsters-017-the-state-line-legend`
 Category: Bonnie and Clyde | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/bonnie-and-clyde/mobsters-017-the-state-line-legend.webp)

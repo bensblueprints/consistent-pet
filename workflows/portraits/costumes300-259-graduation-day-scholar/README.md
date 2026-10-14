@@ -1,6 +1,6 @@
 # Graduation Day Scholar
 
-Reference ID: `costumes300-259-graduation-day-scholar`  
+Reference ID: `costumes300-259-graduation-day-scholar`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-259-graduation-day-scholar.webp)

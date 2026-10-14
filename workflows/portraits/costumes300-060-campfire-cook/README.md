@@ -1,6 +1,6 @@
 # Campfire Cook
 
-Reference ID: `costumes300-060-campfire-cook`  
+Reference ID: `costumes300-060-campfire-cook`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-060-campfire-cook.webp)

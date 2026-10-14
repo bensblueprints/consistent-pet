@@ -1,6 +1,6 @@
 # Jigsaw Puzzle Champion
 
-Reference ID: `costumes300-233-jigsaw-puzzle-champion`  
+Reference ID: `costumes300-233-jigsaw-puzzle-champion`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-233-jigsaw-puzzle-champion.webp)

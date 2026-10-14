@@ -1,6 +1,6 @@
 # Beach Cleanup Captain
 
-Reference ID: `costumes300-079-beach-cleanup-captain`  
+Reference ID: `costumes300-079-beach-cleanup-captain`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-079-beach-cleanup-captain.webp)

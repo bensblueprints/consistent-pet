@@ -1,6 +1,6 @@
 # Birthday Cake Inspector
 
-Reference ID: `costumes300-257-birthday-cake-inspector`  
+Reference ID: `costumes300-257-birthday-cake-inspector`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-257-birthday-cake-inspector.webp)

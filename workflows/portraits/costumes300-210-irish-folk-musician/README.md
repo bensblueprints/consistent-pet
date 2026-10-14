@@ -1,6 +1,6 @@
 # Irish Folk Musician
 
-Reference ID: `costumes300-210-irish-folk-musician`  
+Reference ID: `costumes300-210-irish-folk-musician`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-210-irish-folk-musician.webp)

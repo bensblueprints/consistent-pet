@@ -1,6 +1,6 @@
 # The Dust Bowl Bandit
 
-Reference ID: `mobsters-015-the-dust-bowl-bandit`  
+Reference ID: `mobsters-015-the-dust-bowl-bandit`
 Category: Bonnie and Clyde | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/bonnie-and-clyde/mobsters-015-the-dust-bowl-bandit.webp)

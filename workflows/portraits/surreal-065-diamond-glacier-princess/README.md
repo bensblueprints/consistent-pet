@@ -1,6 +1,6 @@
 # Diamond Glacier Princess
 
-Reference ID: `surreal-065-diamond-glacier-princess`  
+Reference ID: `surreal-065-diamond-glacier-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-065-diamond-glacier-princess.webp)

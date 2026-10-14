@@ -1,6 +1,6 @@
 # Meteor Baseball Slugger
 
-Reference ID: `surreal-023-meteor-baseball-slugger`  
+Reference ID: `surreal-023-meteor-baseball-slugger`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-023-meteor-baseball-slugger.webp)

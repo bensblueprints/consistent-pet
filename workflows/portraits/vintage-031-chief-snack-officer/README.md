@@ -1,6 +1,6 @@
 # Chief Snack Officer
 
-Reference ID: `vintage-031-chief-snack-officer`  
+Reference ID: `vintage-031-chief-snack-officer`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-031-chief-snack-officer.webp)

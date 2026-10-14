@@ -1,6 +1,6 @@
 # The Emerald Matriarch
 
-Reference ID: `mobsters-009-the-emerald-matriarch`  
+Reference ID: `mobsters-009-the-emerald-matriarch`
 Category: The Pawfather | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/the-pawfather/mobsters-009-the-emerald-matriarch.webp)

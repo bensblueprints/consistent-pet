@@ -1,6 +1,6 @@
 # Distinguished Dogs Quarterly
 
-Reference ID: `vintage-056-distinguished-dogs-quarterly`  
+Reference ID: `vintage-056-distinguished-dogs-quarterly`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-056-distinguished-dogs-quarterly.webp)

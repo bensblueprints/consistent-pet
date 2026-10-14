@@ -1,6 +1,6 @@
 # Titanium Wing Hero
 
-Reference ID: `superheroes-150-titanium-wing-hero`  
+Reference ID: `superheroes-150-titanium-wing-hero`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-150-titanium-wing-hero.webp)

@@ -1,6 +1,6 @@
 # The Old Country Boss
 
-Reference ID: `mobsters-008-the-old-country-boss`  
+Reference ID: `mobsters-008-the-old-country-boss`
 Category: The Pawfather | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/the-pawfather/mobsters-008-the-old-country-boss.webp)

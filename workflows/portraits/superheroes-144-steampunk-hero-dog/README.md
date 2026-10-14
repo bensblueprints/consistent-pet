@@ -1,6 +1,6 @@
 # Steampunk Hero Dog
 
-Reference ID: `superheroes-144-steampunk-hero-dog`  
+Reference ID: `superheroes-144-steampunk-hero-dog`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-144-steampunk-hero-dog.webp)

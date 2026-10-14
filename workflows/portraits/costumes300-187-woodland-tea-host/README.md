@@ -1,6 +1,6 @@
 # Woodland Tea Host
 
-Reference ID: `costumes300-187-woodland-tea-host`  
+Reference ID: `costumes300-187-woodland-tea-host`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-187-woodland-tea-host.webp)

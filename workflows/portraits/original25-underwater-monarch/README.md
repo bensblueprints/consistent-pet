@@ -1,6 +1,6 @@
 # Underwater Monarch
 
-Reference ID: `original25-underwater-monarch`  
+Reference ID: `original25-underwater-monarch`
 Category: Fantasy and Magic | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/fantasy-and-magic/original25-underwater-monarch.webp)

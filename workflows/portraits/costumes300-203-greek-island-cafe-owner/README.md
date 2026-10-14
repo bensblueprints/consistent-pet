@@ -1,6 +1,6 @@
 # Greek Island Cafe Owner
 
-Reference ID: `costumes300-203-greek-island-cafe-owner`  
+Reference ID: `costumes300-203-greek-island-cafe-owner`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-203-greek-island-cafe-owner.webp)

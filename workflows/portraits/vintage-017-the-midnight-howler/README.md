@@ -1,6 +1,6 @@
 # The Midnight Howler
 
-Reference ID: `vintage-017-the-midnight-howler`  
+Reference ID: `vintage-017-the-midnight-howler`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-017-the-midnight-howler.webp)

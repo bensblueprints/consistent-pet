@@ -1,6 +1,6 @@
 # The Tango Syndicate
 
-Reference ID: `mobsters-082-the-tango-syndicate`  
+Reference ID: `mobsters-082-the-tango-syndicate`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-082-the-tango-syndicate.webp)

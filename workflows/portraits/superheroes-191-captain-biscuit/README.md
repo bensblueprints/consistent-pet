@@ -1,6 +1,6 @@
 # Captain Biscuit
 
-Reference ID: `superheroes-191-captain-biscuit`  
+Reference ID: `superheroes-191-captain-biscuit`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-191-captain-biscuit.webp)

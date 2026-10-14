@@ -1,6 +1,6 @@
 # Thundercloud Champion
 
-Reference ID: `superheroes-140-thundercloud-champion`  
+Reference ID: `superheroes-140-thundercloud-champion`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-140-thundercloud-champion.webp)

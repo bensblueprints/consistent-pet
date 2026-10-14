@@ -1,6 +1,6 @@
 # Space Commander
 
-Reference ID: `original25-space-commander`  
+Reference ID: `original25-space-commander`
 Category: Science Fiction | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/science-fiction/original25-space-commander.webp)

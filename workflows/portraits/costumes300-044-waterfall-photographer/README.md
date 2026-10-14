@@ -1,6 +1,6 @@
 # Waterfall Photographer
 
-Reference ID: `costumes300-044-waterfall-photographer`  
+Reference ID: `costumes300-044-waterfall-photographer`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-044-waterfall-photographer.webp)

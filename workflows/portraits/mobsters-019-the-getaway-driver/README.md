@@ -1,6 +1,6 @@
 # The Getaway Driver
 
-Reference ID: `mobsters-019-the-getaway-driver`  
+Reference ID: `mobsters-019-the-getaway-driver`
 Category: Bonnie and Clyde | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/bonnie-and-clyde/mobsters-019-the-getaway-driver.webp)

@@ -1,6 +1,6 @@
 # Courtroom Judge
 
-Reference ID: `costumes300-012-courtroom-judge`  
+Reference ID: `costumes300-012-courtroom-judge`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-012-courtroom-judge.webp)

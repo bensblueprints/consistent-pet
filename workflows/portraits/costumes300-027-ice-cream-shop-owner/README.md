@@ -1,6 +1,6 @@
 # Ice Cream Shop Owner
 
-Reference ID: `costumes300-027-ice-cream-shop-owner`  
+Reference ID: `costumes300-027-ice-cream-shop-owner`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-027-ice-cream-shop-owner.webp)

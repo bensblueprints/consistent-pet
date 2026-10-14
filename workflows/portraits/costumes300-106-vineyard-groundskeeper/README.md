@@ -1,6 +1,6 @@
 # Vineyard Groundskeeper
 
-Reference ID: `costumes300-106-vineyard-groundskeeper`  
+Reference ID: `costumes300-106-vineyard-groundskeeper`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-106-vineyard-groundskeeper.webp)

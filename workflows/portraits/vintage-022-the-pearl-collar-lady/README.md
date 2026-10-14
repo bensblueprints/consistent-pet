@@ -1,6 +1,6 @@
 # The Pearl-Collar Lady
 
-Reference ID: `vintage-022-the-pearl-collar-lady`  
+Reference ID: `vintage-022-the-pearl-collar-lady`
 Category: Studio portraits | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/studio-portraits/vintage-022-the-pearl-collar-lady.webp)

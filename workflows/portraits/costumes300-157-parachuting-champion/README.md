@@ -1,6 +1,6 @@
 # Parachuting Champion
 
-Reference ID: `costumes300-157-parachuting-champion`  
+Reference ID: `costumes300-157-parachuting-champion`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-157-parachuting-champion.webp)

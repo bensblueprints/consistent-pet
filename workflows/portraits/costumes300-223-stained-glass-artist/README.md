@@ -1,6 +1,6 @@
 # Stained-Glass Artist
 
-Reference ID: `costumes300-223-stained-glass-artist`  
+Reference ID: `costumes300-223-stained-glass-artist`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-223-stained-glass-artist.webp)

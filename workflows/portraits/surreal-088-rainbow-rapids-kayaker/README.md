@@ -1,6 +1,6 @@
 # Rainbow Rapids Kayaker
 
-Reference ID: `surreal-088-rainbow-rapids-kayaker`  
+Reference ID: `surreal-088-rainbow-rapids-kayaker`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-088-rainbow-rapids-kayaker.webp)

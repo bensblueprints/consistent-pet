@@ -1,6 +1,6 @@
 # Lifetime Treat Entitlement
 
-Reference ID: `vintage-066-lifetime-treat-entitlement`  
+Reference ID: `vintage-066-lifetime-treat-entitlement`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-066-lifetime-treat-entitlement.webp)

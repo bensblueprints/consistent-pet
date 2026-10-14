@@ -1,6 +1,6 @@
 # Moonlit Glider
 
-Reference ID: `superheroes-107-moonlit-glider`  
+Reference ID: `superheroes-107-moonlit-glider`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-107-moonlit-glider.webp)

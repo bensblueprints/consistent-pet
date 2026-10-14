@@ -1,6 +1,6 @@
 # The Unusual Suspect
 
-Reference ID: `mobsters-100-the-unusual-suspect`  
+Reference ID: `mobsters-100-the-unusual-suspect`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-100-the-unusual-suspect.webp)

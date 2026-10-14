@@ -1,6 +1,6 @@
 # The Last Chip
 
-Reference ID: `mobsters-068-the-last-chip`  
+Reference ID: `mobsters-068-the-last-chip`
 Category: Casino Royals | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/casino-royals/mobsters-068-the-last-chip.webp)

@@ -1,6 +1,6 @@
 # Spider-Gwen Dawg
 
-Reference ID: `superheroes-183-spider-gwen-dawg`  
+Reference ID: `superheroes-183-spider-gwen-dawg`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-183-spider-gwen-dawg.webp)

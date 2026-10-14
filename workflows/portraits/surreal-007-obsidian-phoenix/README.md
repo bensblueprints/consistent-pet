@@ -1,6 +1,6 @@
 # Obsidian Phoenix
 
-Reference ID: `surreal-007-obsidian-phoenix`  
+Reference ID: `surreal-007-obsidian-phoenix`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-007-obsidian-phoenix.webp)

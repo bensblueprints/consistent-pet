@@ -1,6 +1,6 @@
 # Walking Club
 
-Reference ID: `vintage-047-walking-club`  
+Reference ID: `vintage-047-walking-club`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-047-walking-club.webp)

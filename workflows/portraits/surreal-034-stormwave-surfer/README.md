@@ -1,6 +1,6 @@
 # Stormwave Surfer
 
-Reference ID: `surreal-034-stormwave-surfer`  
+Reference ID: `surreal-034-stormwave-surfer`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-034-stormwave-surfer.webp)

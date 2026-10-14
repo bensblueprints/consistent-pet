@@ -1,6 +1,6 @@
 # Clyde the Country Outlaw
 
-Reference ID: `mobsters-012-clyde-the-country-outlaw`  
+Reference ID: `mobsters-012-clyde-the-country-outlaw`
 Category: Bonnie and Clyde | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/bonnie-and-clyde/mobsters-012-clyde-the-country-outlaw.webp)

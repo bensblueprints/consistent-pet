@@ -1,6 +1,6 @@
 # The Walkies Enforcer
 
-Reference ID: `mobsters-097-the-walkies-enforcer`  
+Reference ID: `mobsters-097-the-walkies-enforcer`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-097-the-walkies-enforcer.webp)

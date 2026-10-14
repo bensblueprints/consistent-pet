@@ -1,6 +1,6 @@
 # Neon Boxing Champion
 
-Reference ID: `surreal-028-neon-boxing-champion`  
+Reference ID: `surreal-028-neon-boxing-champion`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-028-neon-boxing-champion.webp)

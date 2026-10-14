@@ -1,6 +1,6 @@
 # Toy Workshop Inventor
 
-Reference ID: `costumes300-183-toy-workshop-inventor`  
+Reference ID: `costumes300-183-toy-workshop-inventor`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-183-toy-workshop-inventor.webp)

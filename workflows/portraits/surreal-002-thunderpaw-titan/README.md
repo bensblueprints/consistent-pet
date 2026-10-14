@@ -1,6 +1,6 @@
 # Thunderpaw Titan
 
-Reference ID: `surreal-002-thunderpaw-titan`  
+Reference ID: `surreal-002-thunderpaw-titan`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-002-thunderpaw-titan.webp)

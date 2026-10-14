@@ -1,6 +1,6 @@
 # Rainbow Roller Skating Star
 
-Reference ID: `surreal-100-rainbow-roller-skating-star`  
+Reference ID: `surreal-100-rainbow-roller-skating-star`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-100-rainbow-roller-skating-star.webp)

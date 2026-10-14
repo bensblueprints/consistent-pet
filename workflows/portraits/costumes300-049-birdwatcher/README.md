@@ -1,6 +1,6 @@
 # Birdwatcher
 
-Reference ID: `costumes300-049-birdwatcher`  
+Reference ID: `costumes300-049-birdwatcher`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-049-birdwatcher.webp)

@@ -1,6 +1,6 @@
 # Knitting Club President
 
-Reference ID: `costumes300-227-knitting-club-president`  
+Reference ID: `costumes300-227-knitting-club-president`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-227-knitting-club-president.webp)

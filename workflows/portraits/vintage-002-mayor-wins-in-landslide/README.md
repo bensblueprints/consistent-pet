@@ -1,6 +1,6 @@
 # Mayor Wins in Landslide
 
-Reference ID: `vintage-002-mayor-wins-in-landslide`  
+Reference ID: `vintage-002-mayor-wins-in-landslide`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-002-mayor-wins-in-landslide.webp)

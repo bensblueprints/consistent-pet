@@ -1,6 +1,6 @@
 # Snowmobile Guide
 
-Reference ID: `costumes300-089-snowmobile-guide`  
+Reference ID: `costumes300-089-snowmobile-guide`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-089-snowmobile-guide.webp)

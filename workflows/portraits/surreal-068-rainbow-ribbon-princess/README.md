@@ -1,6 +1,6 @@
 # Rainbow Ribbon Princess
 
-Reference ID: `surreal-068-rainbow-ribbon-princess`  
+Reference ID: `surreal-068-rainbow-ribbon-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-068-rainbow-ribbon-princess.webp)

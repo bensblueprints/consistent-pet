@@ -1,6 +1,6 @@
 # The Ocean Drive Empress
 
-Reference ID: `mobsters-022-the-ocean-drive-empress`  
+Reference ID: `mobsters-022-the-ocean-drive-empress`
 Category: Miami Crime Drama | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/miami-crime-drama/mobsters-022-the-ocean-drive-empress.webp)

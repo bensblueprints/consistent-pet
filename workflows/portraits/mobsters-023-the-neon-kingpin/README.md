@@ -1,6 +1,6 @@
 # The Neon Kingpin
 
-Reference ID: `mobsters-023-the-neon-kingpin`  
+Reference ID: `mobsters-023-the-neon-kingpin`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-023-the-neon-kingpin.webp)

@@ -1,6 +1,6 @@
 # Pearl Cloud Baron
 
-Reference ID: `surreal-019-pearl-cloud-baron`  
+Reference ID: `surreal-019-pearl-cloud-baron`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-019-pearl-cloud-baron.webp)

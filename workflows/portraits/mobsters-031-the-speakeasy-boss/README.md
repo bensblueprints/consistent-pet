@@ -1,6 +1,6 @@
 # The Speakeasy Boss
 
-Reference ID: `mobsters-031-the-speakeasy-boss`  
+Reference ID: `mobsters-031-the-speakeasy-boss`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-031-the-speakeasy-boss.webp)

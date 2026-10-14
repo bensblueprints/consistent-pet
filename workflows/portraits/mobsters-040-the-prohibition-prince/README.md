@@ -1,6 +1,6 @@
 # The Prohibition Prince
 
-Reference ID: `mobsters-040-the-prohibition-prince`  
+Reference ID: `mobsters-040-the-prohibition-prince`
 Category: Roaring Twenties | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/roaring-twenties/mobsters-040-the-prohibition-prince.webp)

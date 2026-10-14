@@ -1,6 +1,6 @@
 # Alpine Chalet Host
 
-Reference ID: `costumes300-091-alpine-chalet-host`  
+Reference ID: `costumes300-091-alpine-chalet-host`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-091-alpine-chalet-host.webp)

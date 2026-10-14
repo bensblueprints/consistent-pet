@@ -1,6 +1,6 @@
 # Turbo Tail Hero
 
-Reference ID: `superheroes-196-turbo-tail-hero`  
+Reference ID: `superheroes-196-turbo-tail-hero`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-196-turbo-tail-hero.webp)

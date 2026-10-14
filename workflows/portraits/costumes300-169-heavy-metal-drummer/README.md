@@ -1,6 +1,6 @@
 # Heavy Metal Drummer
 
-Reference ID: `costumes300-169-heavy-metal-drummer`  
+Reference ID: `costumes300-169-heavy-metal-drummer`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-169-heavy-metal-drummer.webp)

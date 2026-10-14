@@ -1,6 +1,6 @@
 # Japanese Summer Festival Guest
 
-Reference ID: `costumes300-212-japanese-summer-festival-guest`  
+Reference ID: `costumes300-212-japanese-summer-festival-guest`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-212-japanese-summer-festival-guest.webp)

@@ -1,6 +1,6 @@
 # Wedding Ring Bearer
 
-Reference ID: `costumes300-260-wedding-ring-bearer`  
+Reference ID: `costumes300-260-wedding-ring-bearer`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-260-wedding-ring-bearer.webp)

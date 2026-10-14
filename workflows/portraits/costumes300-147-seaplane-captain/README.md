@@ -1,6 +1,6 @@
 # Seaplane Captain
 
-Reference ID: `costumes300-147-seaplane-captain`  
+Reference ID: `costumes300-147-seaplane-captain`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-147-seaplane-captain.webp)

@@ -1,6 +1,6 @@
 # The Shadow Witness
 
-Reference ID: `mobsters-044-the-shadow-witness`  
+Reference ID: `mobsters-044-the-shadow-witness`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-044-the-shadow-witness.webp)

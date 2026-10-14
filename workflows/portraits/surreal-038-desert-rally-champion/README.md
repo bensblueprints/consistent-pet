@@ -1,6 +1,6 @@
 # Desert Rally Champion
 
-Reference ID: `surreal-038-desert-rally-champion`  
+Reference ID: `surreal-038-desert-rally-champion`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-038-desert-rally-champion.webp)

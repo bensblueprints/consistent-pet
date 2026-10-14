@@ -1,6 +1,6 @@
 # World's Finest Couch Warmer
 
-Reference ID: `vintage-042-world-s-finest-couch-warmer`  
+Reference ID: `vintage-042-world-s-finest-couch-warmer`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-042-world-s-finest-couch-warmer.webp)

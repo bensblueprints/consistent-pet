@@ -1,6 +1,6 @@
 # Ranch Trail Boss
 
-Reference ID: `costumes300-117-ranch-trail-boss`  
+Reference ID: `costumes300-117-ranch-trail-boss`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-117-ranch-trail-boss.webp)

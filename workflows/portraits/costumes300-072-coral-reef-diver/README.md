@@ -1,6 +1,6 @@
 # Coral Reef Diver
 
-Reference ID: `costumes300-072-coral-reef-diver`  
+Reference ID: `costumes300-072-coral-reef-diver`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-072-coral-reef-diver.webp)

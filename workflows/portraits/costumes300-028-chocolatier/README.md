@@ -1,6 +1,6 @@
 # Chocolatier
 
-Reference ID: `costumes300-028-chocolatier`  
+Reference ID: `costumes300-028-chocolatier`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-028-chocolatier.webp)

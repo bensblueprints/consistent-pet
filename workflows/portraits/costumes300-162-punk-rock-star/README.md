@@ -1,6 +1,6 @@
 # Punk Rock Star
 
-Reference ID: `costumes300-162-punk-rock-star`  
+Reference ID: `costumes300-162-punk-rock-star`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-162-punk-rock-star.webp)

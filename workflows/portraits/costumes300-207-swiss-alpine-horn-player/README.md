@@ -1,6 +1,6 @@
 # Swiss Alpine Horn Player
 
-Reference ID: `costumes300-207-swiss-alpine-horn-player`  
+Reference ID: `costumes300-207-swiss-alpine-horn-player`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-207-swiss-alpine-horn-player.webp)

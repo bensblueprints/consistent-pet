@@ -1,6 +1,6 @@
 # Dairy Farmer
 
-Reference ID: `costumes300-101-dairy-farmer`  
+Reference ID: `costumes300-101-dairy-farmer`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-101-dairy-farmer.webp)

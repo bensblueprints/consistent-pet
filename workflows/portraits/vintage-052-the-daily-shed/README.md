@@ -1,6 +1,6 @@
 # The Daily Shed
 
-Reference ID: `vintage-052-the-daily-shed`  
+Reference ID: `vintage-052-the-daily-shed`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-052-the-daily-shed.webp)

@@ -1,6 +1,6 @@
 # The Train Depot Outlaw
 
-Reference ID: `mobsters-018-the-train-depot-outlaw`  
+Reference ID: `mobsters-018-the-train-depot-outlaw`
 Category: Bonnie and Clyde | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/bonnie-and-clyde/mobsters-018-the-train-depot-outlaw.webp)

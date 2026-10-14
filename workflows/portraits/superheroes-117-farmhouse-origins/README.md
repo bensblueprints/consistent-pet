@@ -1,6 +1,6 @@
 # Farmhouse Origins
 
-Reference ID: `superheroes-117-farmhouse-origins`  
+Reference ID: `superheroes-117-farmhouse-origins`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-117-farmhouse-origins.webp)

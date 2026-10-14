@@ -1,6 +1,6 @@
 # Green Arrow Hound
 
-Reference ID: `superheroes-174-green-arrow-hound`  
+Reference ID: `superheroes-174-green-arrow-hound`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-174-green-arrow-hound.webp)

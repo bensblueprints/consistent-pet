@@ -1,6 +1,6 @@
 # Neon Comet Champion
 
-Reference ID: `surreal-056-neon-comet-champion`  
+Reference ID: `surreal-056-neon-comet-champion`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-056-neon-comet-champion.webp)

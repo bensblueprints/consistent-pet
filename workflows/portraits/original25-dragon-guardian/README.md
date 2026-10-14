@@ -1,6 +1,6 @@
 # Dragon Guardian
 
-Reference ID: `original25-dragon-guardian`  
+Reference ID: `original25-dragon-guardian`
 Category: Fantasy and Magic | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/fantasy-and-magic/original25-dragon-guardian.webp)

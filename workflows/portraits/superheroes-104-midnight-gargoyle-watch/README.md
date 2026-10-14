@@ -1,6 +1,6 @@
 # Midnight Gargoyle Watch
 
-Reference ID: `superheroes-104-midnight-gargoyle-watch`  
+Reference ID: `superheroes-104-midnight-gargoyle-watch`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-104-midnight-gargoyle-watch.webp)

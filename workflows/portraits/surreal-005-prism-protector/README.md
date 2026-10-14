@@ -1,6 +1,6 @@
 # Prism Protector
 
-Reference ID: `surreal-005-prism-protector`  
+Reference ID: `surreal-005-prism-protector`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-005-prism-protector.webp)

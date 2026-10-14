@@ -1,6 +1,6 @@
 # Fantasy Mapmaker
 
-Reference ID: `costumes300-200-fantasy-mapmaker`  
+Reference ID: `costumes300-200-fantasy-mapmaker`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-200-fantasy-mapmaker.webp)

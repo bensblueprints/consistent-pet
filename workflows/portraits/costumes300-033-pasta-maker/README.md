@@ -1,6 +1,6 @@
 # Pasta Maker
 
-Reference ID: `costumes300-033-pasta-maker`  
+Reference ID: `costumes300-033-pasta-maker`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-033-pasta-maker.webp)

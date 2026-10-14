@@ -1,6 +1,6 @@
 # The Birmingham Boss
 
-Reference ID: `mobsters-051-the-birmingham-boss`  
+Reference ID: `mobsters-051-the-birmingham-boss`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-051-the-birmingham-boss.webp)

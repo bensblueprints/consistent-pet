@@ -1,6 +1,6 @@
 # School Principal
 
-Reference ID: `costumes300-009-school-principal`  
+Reference ID: `costumes300-009-school-principal`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-009-school-principal.webp)

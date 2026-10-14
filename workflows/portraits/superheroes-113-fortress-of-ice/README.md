@@ -1,6 +1,6 @@
 # Fortress of Ice
 
-Reference ID: `superheroes-113-fortress-of-ice`  
+Reference ID: `superheroes-113-fortress-of-ice`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-113-fortress-of-ice.webp)

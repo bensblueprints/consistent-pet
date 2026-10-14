@@ -1,6 +1,6 @@
 # Honey Competition Champion
 
-Reference ID: `costumes300-120-honey-competition-champion`  
+Reference ID: `costumes300-120-honey-competition-champion`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-120-honey-competition-champion.webp)

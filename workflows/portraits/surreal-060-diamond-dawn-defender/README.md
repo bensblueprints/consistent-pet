@@ -1,6 +1,6 @@
 # Diamond Dawn Defender
 
-Reference ID: `surreal-060-diamond-dawn-defender`  
+Reference ID: `surreal-060-diamond-dawn-defender`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-060-diamond-dawn-defender.webp)

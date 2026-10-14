@@ -1,6 +1,6 @@
 # Master Woodworker
 
-Reference ID: `costumes300-221-master-woodworker`  
+Reference ID: `costumes300-221-master-woodworker`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-221-master-woodworker.webp)

@@ -1,6 +1,6 @@
 # Small Dog, Big Opinions
 
-Reference ID: `vintage-057-small-dog-big-opinions`  
+Reference ID: `vintage-057-small-dog-big-opinions`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-057-small-dog-big-opinions.webp)

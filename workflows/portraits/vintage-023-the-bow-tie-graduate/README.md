@@ -1,6 +1,6 @@
 # The Bow-Tie Graduate
 
-Reference ID: `vintage-023-the-bow-tie-graduate`  
+Reference ID: `vintage-023-the-bow-tie-graduate`
 Category: Studio portraits | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/studio-portraits/vintage-023-the-bow-tie-graduate.webp)

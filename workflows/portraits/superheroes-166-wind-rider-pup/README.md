@@ -1,6 +1,6 @@
 # Wind Rider Pup
 
-Reference ID: `superheroes-166-wind-rider-pup`  
+Reference ID: `superheroes-166-wind-rider-pup`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-166-wind-rider-pup.webp)

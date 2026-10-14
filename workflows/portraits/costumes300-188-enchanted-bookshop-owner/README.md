@@ -1,6 +1,6 @@
 # Enchanted Bookshop Owner
 
-Reference ID: `costumes300-188-enchanted-bookshop-owner`  
+Reference ID: `costumes300-188-enchanted-bookshop-owner`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-188-enchanted-bookshop-owner.webp)

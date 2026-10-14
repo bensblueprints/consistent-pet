@@ -1,6 +1,6 @@
 # Rock Guitar Legend
 
-Reference ID: `costumes300-161-rock-guitar-legend`  
+Reference ID: `costumes300-161-rock-guitar-legend`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-161-rock-guitar-legend.webp)

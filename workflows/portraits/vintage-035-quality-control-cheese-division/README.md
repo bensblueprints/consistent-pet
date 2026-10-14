@@ -1,6 +1,6 @@
 # Quality Control: Cheese Division
 
-Reference ID: `vintage-035-quality-control-cheese-division`  
+Reference ID: `vintage-035-quality-control-cheese-division`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-035-quality-control-cheese-division.webp)

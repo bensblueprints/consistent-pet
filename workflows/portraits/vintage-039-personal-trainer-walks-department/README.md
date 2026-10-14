@@ -1,6 +1,6 @@
 # Personal Trainer: Walks Department
 
-Reference ID: `vintage-039-personal-trainer-walks-department`  
+Reference ID: `vintage-039-personal-trainer-walks-department`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-039-personal-trainer-walks-department.webp)

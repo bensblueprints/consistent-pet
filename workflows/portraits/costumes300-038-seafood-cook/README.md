@@ -1,6 +1,6 @@
 # Seafood Cook
 
-Reference ID: `costumes300-038-seafood-cook`  
+Reference ID: `costumes300-038-seafood-cook`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-038-seafood-cook.webp)

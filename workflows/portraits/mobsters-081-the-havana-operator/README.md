@@ -1,6 +1,6 @@
 # The Havana Operator
 
-Reference ID: `mobsters-081-the-havana-operator`  
+Reference ID: `mobsters-081-the-havana-operator`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-081-the-havana-operator.webp)

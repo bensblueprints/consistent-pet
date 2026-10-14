@@ -1,6 +1,6 @@
 # Golden Goose Keeper
 
-Reference ID: `costumes300-198-golden-goose-keeper`  
+Reference ID: `costumes300-198-golden-goose-keeper`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-198-golden-goose-keeper.webp)

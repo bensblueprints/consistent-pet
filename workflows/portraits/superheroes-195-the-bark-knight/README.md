@@ -1,6 +1,6 @@
 # The Bark Knight
 
-Reference ID: `superheroes-195-the-bark-knight`  
+Reference ID: `superheroes-195-the-bark-knight`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-195-the-bark-knight.webp)

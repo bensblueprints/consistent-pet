@@ -1,6 +1,6 @@
 # Vietnamese Lantern Maker
 
-Reference ID: `costumes300-215-vietnamese-lantern-maker`  
+Reference ID: `costumes300-215-vietnamese-lantern-maker`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-215-vietnamese-lantern-maker.webp)

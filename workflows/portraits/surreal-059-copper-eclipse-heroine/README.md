@@ -1,6 +1,6 @@
 # Copper Eclipse Heroine
 
-Reference ID: `surreal-059-copper-eclipse-heroine`  
+Reference ID: `surreal-059-copper-eclipse-heroine`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-059-copper-eclipse-heroine.webp)

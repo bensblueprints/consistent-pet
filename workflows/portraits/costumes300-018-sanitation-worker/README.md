@@ -1,6 +1,6 @@
 # Sanitation Worker
 
-Reference ID: `costumes300-018-sanitation-worker`  
+Reference ID: `costumes300-018-sanitation-worker`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-018-sanitation-worker.webp)

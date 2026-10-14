@@ -1,6 +1,6 @@
 # Arctic Rescue Armor
 
-Reference ID: `superheroes-147-arctic-rescue-armor`  
+Reference ID: `superheroes-147-arctic-rescue-armor`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-147-arctic-rescue-armor.webp)

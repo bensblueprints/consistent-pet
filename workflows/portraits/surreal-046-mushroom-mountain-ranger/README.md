@@ -1,6 +1,6 @@
 # Mushroom Mountain Ranger
 
-Reference ID: `surreal-046-mushroom-mountain-ranger`  
+Reference ID: `surreal-046-mushroom-mountain-ranger`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-046-mushroom-mountain-ranger.webp)

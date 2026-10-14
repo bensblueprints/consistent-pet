@@ -1,6 +1,6 @@
 # Crimson Speedster
 
-Reference ID: `superheroes-134-crimson-speedster`  
+Reference ID: `superheroes-134-crimson-speedster`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-134-crimson-speedster.webp)

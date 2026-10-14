@@ -1,6 +1,6 @@
 # Viking Explorer
 
-Reference ID: `original25-viking-explorer`  
+Reference ID: `original25-viking-explorer`
 Category: Knights and Warriors | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/knights-and-warriors/original25-viking-explorer.webp)

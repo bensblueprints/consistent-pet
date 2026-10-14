@@ -1,6 +1,6 @@
 # Ocean Opal Protector
 
-Reference ID: `surreal-054-ocean-opal-protector`  
+Reference ID: `surreal-054-ocean-opal-protector`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-054-ocean-opal-protector.webp)

@@ -1,6 +1,6 @@
 # Candy Corn Carnival Star
 
-Reference ID: `costumes300-254-candy-corn-carnival-star`  
+Reference ID: `costumes300-254-candy-corn-carnival-star`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-254-candy-corn-carnival-star.webp)

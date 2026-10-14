@@ -1,6 +1,6 @@
 # Professional Ball Retriever
 
-Reference ID: `vintage-077-professional-ball-retriever`  
+Reference ID: `vintage-077-professional-ball-retriever`
 Category: Sports collectibles | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/sports-collectibles/vintage-077-professional-ball-retriever.webp)

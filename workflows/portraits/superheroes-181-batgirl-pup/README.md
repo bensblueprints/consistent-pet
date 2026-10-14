@@ -1,6 +1,6 @@
 # Batgirl Pup
 
-Reference ID: `superheroes-181-batgirl-pup`  
+Reference ID: `superheroes-181-batgirl-pup`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-181-batgirl-pup.webp)

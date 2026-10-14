@@ -1,6 +1,6 @@
 # Royal Navy Admiral
 
-Reference ID: `original25-royal-navy-admiral`  
+Reference ID: `original25-royal-navy-admiral`
 Category: Pirates and Naval | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/pirates-and-naval/original25-royal-navy-admiral.webp)

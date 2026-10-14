@@ -1,6 +1,6 @@
 # Rainy Fire Escape
 
-Reference ID: `superheroes-126-rainy-fire-escape`  
+Reference ID: `superheroes-126-rainy-fire-escape`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-126-rainy-fire-escape.webp)

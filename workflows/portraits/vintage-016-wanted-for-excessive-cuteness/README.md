@@ -1,6 +1,6 @@
 # Wanted for Excessive Cuteness
 
-Reference ID: `vintage-016-wanted-for-excessive-cuteness`  
+Reference ID: `vintage-016-wanted-for-excessive-cuteness`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-016-wanted-for-excessive-cuteness.webp)

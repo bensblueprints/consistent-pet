@@ -1,6 +1,6 @@
 # Certificate of Exceptional Goodness
 
-Reference ID: `vintage-061-certificate-of-exceptional-goodness`  
+Reference ID: `vintage-061-certificate-of-exceptional-goodness`
 Category: Household documents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/household-documents/vintage-061-certificate-of-exceptional-goodness.webp)

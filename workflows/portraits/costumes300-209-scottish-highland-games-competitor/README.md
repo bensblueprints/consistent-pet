@@ -1,6 +1,6 @@
 # Scottish Highland Games Competitor
 
-Reference ID: `costumes300-209-scottish-highland-games-competitor`  
+Reference ID: `costumes300-209-scottish-highland-games-competitor`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-209-scottish-highland-games-competitor.webp)

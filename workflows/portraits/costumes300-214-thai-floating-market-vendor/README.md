@@ -1,6 +1,6 @@
 # Thai Floating Market Vendor
 
-Reference ID: `costumes300-214-thai-floating-market-vendor`  
+Reference ID: `costumes300-214-thai-floating-market-vendor`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-214-thai-floating-market-vendor.webp)

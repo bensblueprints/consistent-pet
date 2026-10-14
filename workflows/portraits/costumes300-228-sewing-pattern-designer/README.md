@@ -1,6 +1,6 @@
 # Sewing Pattern Designer
 
-Reference ID: `costumes300-228-sewing-pattern-designer`  
+Reference ID: `costumes300-228-sewing-pattern-designer`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-228-sewing-pattern-designer.webp)

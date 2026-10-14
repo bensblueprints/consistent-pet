@@ -1,6 +1,6 @@
 # Bobsled Captain
 
-Reference ID: `costumes300-088-bobsled-captain`  
+Reference ID: `costumes300-088-bobsled-captain`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-088-bobsled-captain.webp)

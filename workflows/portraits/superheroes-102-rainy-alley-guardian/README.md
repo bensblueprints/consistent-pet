@@ -1,6 +1,6 @@
 # Rainy Alley Guardian
 
-Reference ID: `superheroes-102-rainy-alley-guardian`  
+Reference ID: `superheroes-102-rainy-alley-guardian`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-102-rainy-alley-guardian.webp)

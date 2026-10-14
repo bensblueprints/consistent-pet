@@ -1,6 +1,6 @@
 # Appalachian Hiker
 
-Reference ID: `costumes300-042-appalachian-hiker`  
+Reference ID: `costumes300-042-appalachian-hiker`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-042-appalachian-hiker.webp)

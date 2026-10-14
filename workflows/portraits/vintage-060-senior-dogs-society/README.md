@@ -1,6 +1,6 @@
 # Senior Dogs Society
 
-Reference ID: `vintage-060-senior-dogs-society`  
+Reference ID: `vintage-060-senior-dogs-society`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-060-senior-dogs-society.webp)

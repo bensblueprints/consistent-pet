@@ -1,6 +1,6 @@
 # The Friendly Neighbor
 
-Reference ID: `superheroes-129-the-friendly-neighbor`  
+Reference ID: `superheroes-129-the-friendly-neighbor`
 Category: Spider Dawg | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/spider-dawg/superheroes-129-the-friendly-neighbor.webp)

@@ -1,6 +1,6 @@
 # Nebula Gymnastics Champion
 
-Reference ID: `surreal-075-nebula-gymnastics-champion`  
+Reference ID: `surreal-075-nebula-gymnastics-champion`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-075-nebula-gymnastics-champion.webp)

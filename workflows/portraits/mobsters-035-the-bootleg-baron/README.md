@@ -1,6 +1,6 @@
 # The Bootleg Baron
 
-Reference ID: `mobsters-035-the-bootleg-baron`  
+Reference ID: `mobsters-035-the-bootleg-baron`
 Category: Roaring Twenties | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/roaring-twenties/mobsters-035-the-bootleg-baron.webp)

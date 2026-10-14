@@ -1,6 +1,6 @@
 # Island Resort Host
 
-Reference ID: `costumes300-077-island-resort-host`  
+Reference ID: `costumes300-077-island-resort-host`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-077-island-resort-host.webp)

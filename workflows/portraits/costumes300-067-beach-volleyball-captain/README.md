@@ -1,6 +1,6 @@
 # Beach Volleyball Captain
 
-Reference ID: `costumes300-067-beach-volleyball-captain`  
+Reference ID: `costumes300-067-beach-volleyball-captain`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-067-beach-volleyball-captain.webp)

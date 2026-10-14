@@ -1,6 +1,6 @@
 # Airline Captain
 
-Reference ID: `costumes300-141-airline-captain`  
+Reference ID: `costumes300-141-airline-captain`
 Category: Up in the Air | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/up-in-the-air/costumes300-141-airline-captain.webp)

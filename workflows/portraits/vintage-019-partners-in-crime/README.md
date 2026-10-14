@@ -1,6 +1,6 @@
 # Partners in Crime
 
-Reference ID: `vintage-019-partners-in-crime`  
+Reference ID: `vintage-019-partners-in-crime`
 Category: Wanted posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wanted-posters/vintage-019-partners-in-crime.webp)

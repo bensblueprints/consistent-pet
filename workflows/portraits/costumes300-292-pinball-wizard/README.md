@@ -1,6 +1,6 @@
 # Pinball Wizard
 
-Reference ID: `costumes300-292-pinball-wizard`  
+Reference ID: `costumes300-292-pinball-wizard`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-292-pinball-wizard.webp)

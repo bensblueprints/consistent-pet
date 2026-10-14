@@ -1,6 +1,6 @@
 # Santa Workshop Helper
 
-Reference ID: `costumes300-241-santa-workshop-helper`  
+Reference ID: `costumes300-241-santa-workshop-helper`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-241-santa-workshop-helper.webp)

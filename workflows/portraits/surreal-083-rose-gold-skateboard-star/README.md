@@ -1,6 +1,6 @@
 # Rose Gold Skateboard Star
 
-Reference ID: `surreal-083-rose-gold-skateboard-star`  
+Reference ID: `surreal-083-rose-gold-skateboard-star`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-083-rose-gold-skateboard-star.webp)

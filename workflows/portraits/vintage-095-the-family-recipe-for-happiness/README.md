@@ -1,6 +1,6 @@
 # The Family Recipe for Happiness
 
-Reference ID: `vintage-095-the-family-recipe-for-happiness`  
+Reference ID: `vintage-095-the-family-recipe-for-happiness`
 Category: Keepsakes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/keepsakes/vintage-095-the-family-recipe-for-happiness.webp)

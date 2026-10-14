@@ -1,6 +1,6 @@
 # Crystal Ice Skating Star
 
-Reference ID: `surreal-074-crystal-ice-skating-star`  
+Reference ID: `surreal-074-crystal-ice-skating-star`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-074-crystal-ice-skating-star.webp)

@@ -1,6 +1,6 @@
 # Deep Sea Treasure Diver
 
-Reference ID: `surreal-045-deep-sea-treasure-diver`  
+Reference ID: `surreal-045-deep-sea-treasure-diver`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-045-deep-sea-treasure-diver.webp)

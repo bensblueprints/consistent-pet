@@ -1,6 +1,6 @@
 # Electrician
 
-Reference ID: `costumes300-004-electrician`  
+Reference ID: `costumes300-004-electrician`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-004-electrician.webp)

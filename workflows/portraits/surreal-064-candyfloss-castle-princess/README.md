@@ -1,6 +1,6 @@
 # Candyfloss Castle Princess
 
-Reference ID: `surreal-064-candyfloss-castle-princess`  
+Reference ID: `surreal-064-candyfloss-castle-princess`
 Category: Princess | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/princess/surreal-064-candyfloss-castle-princess.webp)

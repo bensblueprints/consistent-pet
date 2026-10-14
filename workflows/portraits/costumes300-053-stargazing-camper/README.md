@@ -1,6 +1,6 @@
 # Stargazing Camper
 
-Reference ID: `costumes300-053-stargazing-camper`  
+Reference ID: `costumes300-053-stargazing-camper`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-053-stargazing-camper.webp)

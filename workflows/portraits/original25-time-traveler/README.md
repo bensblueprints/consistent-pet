@@ -1,6 +1,6 @@
 # Time Traveler
 
-Reference ID: `original25-time-traveler`  
+Reference ID: `original25-time-traveler`
 Category: Steampunk and Time Travel | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/steampunk-and-time-travel/original25-time-traveler.webp)

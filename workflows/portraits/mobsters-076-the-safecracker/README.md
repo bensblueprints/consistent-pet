@@ -1,6 +1,6 @@
 # The Safecracker
 
-Reference ID: `mobsters-076-the-safecracker`  
+Reference ID: `mobsters-076-the-safecracker`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-076-the-safecracker.webp)

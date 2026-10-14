@@ -1,6 +1,6 @@
 # Pumpkin Patch Butler
 
-Reference ID: `costumes300-252-pumpkin-patch-butler`  
+Reference ID: `costumes300-252-pumpkin-patch-butler`
 Category: Holidays and Celebrations | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/holidays-and-celebrations/costumes300-252-pumpkin-patch-butler.webp)

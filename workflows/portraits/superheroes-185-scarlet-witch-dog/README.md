@@ -1,6 +1,6 @@
 # Scarlet Witch Dog
 
-Reference ID: `superheroes-185-scarlet-witch-dog`  
+Reference ID: `superheroes-185-scarlet-witch-dog`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-185-scarlet-witch-dog.webp)

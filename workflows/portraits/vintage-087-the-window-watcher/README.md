@@ -1,6 +1,6 @@
 # The Window Watcher
 
-Reference ID: `vintage-087-the-window-watcher`  
+Reference ID: `vintage-087-the-window-watcher`
 Category: Cinema posters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cinema-posters/vintage-087-the-window-watcher.webp)

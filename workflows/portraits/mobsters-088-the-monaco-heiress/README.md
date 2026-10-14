@@ -1,6 +1,6 @@
 # The Monaco Heiress
 
-Reference ID: `mobsters-088-the-monaco-heiress`  
+Reference ID: `mobsters-088-the-monaco-heiress`
 Category: Underworld Elegance | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/underworld-elegance/mobsters-088-the-monaco-heiress.webp)

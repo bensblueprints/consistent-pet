@@ -1,6 +1,6 @@
 # Premium Biscuits
 
-Reference ID: `vintage-041-premium-biscuits`  
+Reference ID: `vintage-041-premium-biscuits`
 Category: Retro advertisements | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-advertisements/vintage-041-premium-biscuits.webp)

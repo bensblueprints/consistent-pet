@@ -1,6 +1,6 @@
 # Oyster Farmer
 
-Reference ID: `costumes300-063-oyster-farmer`  
+Reference ID: `costumes300-063-oyster-farmer`
 Category: Coastal Living | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/coastal-living/costumes300-063-oyster-farmer.webp)

@@ -1,6 +1,6 @@
 # Batcave Detective
 
-Reference ID: `superheroes-103-batcave-detective`  
+Reference ID: `superheroes-103-batcave-detective`
 Category: BatDog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/batdog/superheroes-103-batcave-detective.webp)

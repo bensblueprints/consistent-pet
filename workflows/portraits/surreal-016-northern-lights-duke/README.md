@@ -1,6 +1,6 @@
 # Northern Lights Duke
 
-Reference ID: `surreal-016-northern-lights-duke`  
+Reference ID: `surreal-016-northern-lights-duke`
 Category: Royal fantasy | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/royal-fantasy/surreal-016-northern-lights-duke.webp)

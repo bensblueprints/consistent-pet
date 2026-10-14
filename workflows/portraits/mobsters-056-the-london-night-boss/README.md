@@ -1,6 +1,6 @@
 # The London Night Boss
 
-Reference ID: `mobsters-056-the-london-night-boss`  
+Reference ID: `mobsters-056-the-london-night-boss`
 Category: British Crime Club | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/british-crime-club/mobsters-056-the-london-night-boss.webp)

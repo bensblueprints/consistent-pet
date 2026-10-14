@@ -1,6 +1,6 @@
 # Bonsai Gardener
 
-Reference ID: `costumes300-234-bonsai-gardener`  
+Reference ID: `costumes300-234-bonsai-gardener`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-234-bonsai-gardener.webp)

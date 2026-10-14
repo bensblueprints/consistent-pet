@@ -1,6 +1,6 @@
 # Silver Cosmic Surfer
 
-Reference ID: `superheroes-153-silver-cosmic-surfer`  
+Reference ID: `superheroes-153-silver-cosmic-surfer`
 Category: Cosmic Guardians | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/cosmic-guardians/superheroes-153-silver-cosmic-surfer.webp)

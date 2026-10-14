@@ -1,6 +1,6 @@
 # Ice Galaxy Hockey Ace
 
-Reference ID: `surreal-025-ice-galaxy-hockey-ace`  
+Reference ID: `surreal-025-ice-galaxy-hockey-ace`
 Category: Sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/sports/surreal-025-ice-galaxy-hockey-ace.webp)

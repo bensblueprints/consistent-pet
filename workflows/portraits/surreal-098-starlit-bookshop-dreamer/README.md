@@ -1,6 +1,6 @@
 # Starlit Bookshop Dreamer
 
-Reference ID: `surreal-098-starlit-bookshop-dreamer`  
+Reference ID: `surreal-098-starlit-bookshop-dreamer`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-098-starlit-bookshop-dreamer.webp)

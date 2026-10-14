@@ -1,6 +1,6 @@
 # Route 66 Traveler
 
-Reference ID: `costumes300-140-route-66-traveler`  
+Reference ID: `costumes300-140-route-66-traveler`
 Category: Wheels and Racing | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wheels-and-racing/costumes300-140-route-66-traveler.webp)

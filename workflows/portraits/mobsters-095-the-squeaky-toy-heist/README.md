@@ -1,6 +1,6 @@
 # The Squeaky Toy Heist
 
-Reference ID: `mobsters-095-the-squeaky-toy-heist`  
+Reference ID: `mobsters-095-the-squeaky-toy-heist`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-095-the-squeaky-toy-heist.webp)

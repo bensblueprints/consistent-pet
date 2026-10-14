@@ -1,6 +1,6 @@
 # Sky Train Ticket Inspector
 
-Reference ID: `costumes300-299-sky-train-ticket-inspector`  
+Reference ID: `costumes300-299-sky-train-ticket-inspector`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-299-sky-train-ticket-inspector.webp)

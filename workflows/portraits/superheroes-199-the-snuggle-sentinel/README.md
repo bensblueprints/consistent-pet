@@ -1,6 +1,6 @@
 # The Snuggle Sentinel
 
-Reference ID: `superheroes-199-the-snuggle-sentinel`  
+Reference ID: `superheroes-199-the-snuggle-sentinel`
 Category: Original Champions | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/original-champions/superheroes-199-the-snuggle-sentinel.webp)

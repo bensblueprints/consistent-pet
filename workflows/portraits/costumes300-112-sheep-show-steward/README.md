@@ -1,6 +1,6 @@
 # Sheep Show Steward
 
-Reference ID: `costumes300-112-sheep-show-steward`  
+Reference ID: `costumes300-112-sheep-show-steward`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-112-sheep-show-steward.webp)

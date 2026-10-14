@@ -1,6 +1,6 @@
 # Synthwave Keyboard Star
 
-Reference ID: `costumes300-170-synthwave-keyboard-star`  
+Reference ID: `costumes300-170-synthwave-keyboard-star`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-170-synthwave-keyboard-star.webp)

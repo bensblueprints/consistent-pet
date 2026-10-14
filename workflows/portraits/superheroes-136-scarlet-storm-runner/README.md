@@ -1,6 +1,6 @@
 # Scarlet Storm Runner
 
-Reference ID: `superheroes-136-scarlet-storm-runner`  
+Reference ID: `superheroes-136-scarlet-storm-runner`
 Category: Wonder and Lightning | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wonder-and-lightning/superheroes-136-scarlet-storm-runner.webp)

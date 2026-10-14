@@ -1,6 +1,6 @@
 # Elementary Teacher
 
-Reference ID: `costumes300-010-elementary-teacher`  
+Reference ID: `costumes300-010-elementary-teacher`
 Category: Dogs With Day Jobs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/dogs-with-day-jobs/costumes300-010-elementary-teacher.webp)

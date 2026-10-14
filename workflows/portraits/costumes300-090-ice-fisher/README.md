@@ -1,6 +1,6 @@
 # Ice Fisher
 
-Reference ID: `costumes300-090-ice-fisher`  
+Reference ID: `costumes300-090-ice-fisher`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-090-ice-fisher.webp)

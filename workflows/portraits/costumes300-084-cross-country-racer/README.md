@@ -1,6 +1,6 @@
 # Cross-Country Racer
 
-Reference ID: `costumes300-084-cross-country-racer`  
+Reference ID: `costumes300-084-cross-country-racer`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-084-cross-country-racer.webp)

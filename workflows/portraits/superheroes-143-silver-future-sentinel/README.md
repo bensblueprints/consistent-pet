@@ -1,6 +1,6 @@
 # Silver Future Sentinel
 
-Reference ID: `superheroes-143-silver-future-sentinel`  
+Reference ID: `superheroes-143-silver-future-sentinel`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-143-silver-future-sentinel.webp)

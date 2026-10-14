@@ -1,6 +1,6 @@
 # The Master of Disguise
 
-Reference ID: `mobsters-078-the-master-of-disguise`  
+Reference ID: `mobsters-078-the-master-of-disguise`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-078-the-master-of-disguise.webp)

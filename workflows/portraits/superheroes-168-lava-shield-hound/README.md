@@ -1,6 +1,6 @@
 # Lava Shield Hound
 
-Reference ID: `superheroes-168-lava-shield-hound`  
+Reference ID: `superheroes-168-lava-shield-hound`
 Category: Elemental Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/elemental-heroes/superheroes-168-lava-shield-hound.webp)

@@ -1,6 +1,6 @@
 # Candy Shopkeeper
 
-Reference ID: `costumes300-039-candy-shopkeeper`  
+Reference ID: `costumes300-039-candy-shopkeeper`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-039-candy-shopkeeper.webp)

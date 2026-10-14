@@ -1,6 +1,6 @@
 # Storybook Shoemaker
 
-Reference ID: `costumes300-197-storybook-shoemaker`  
+Reference ID: `costumes300-197-storybook-shoemaker`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-197-storybook-shoemaker.webp)

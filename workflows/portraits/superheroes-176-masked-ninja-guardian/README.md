@@ -1,6 +1,6 @@
 # Masked Ninja Guardian
 
-Reference ID: `superheroes-176-masked-ninja-guardian`  
+Reference ID: `superheroes-176-masked-ninja-guardian`
 Category: Street Heroes | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/street-heroes/superheroes-176-masked-ninja-guardian.webp)

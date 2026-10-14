@@ -1,6 +1,6 @@
 # Pancake Cook
 
-Reference ID: `costumes300-031-pancake-cook`  
+Reference ID: `costumes300-031-pancake-cook`
 Category: Foodie Favorites | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/foodie-favorites/costumes300-031-pancake-cook.webp)

@@ -1,6 +1,6 @@
 # Telescope Maker
 
-Reference ID: `costumes300-240-telescope-maker`  
+Reference ID: `costumes300-240-telescope-maker`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-240-telescope-maker.webp)

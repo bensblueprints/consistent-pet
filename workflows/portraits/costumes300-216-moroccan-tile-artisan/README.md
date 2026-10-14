@@ -1,6 +1,6 @@
 # Moroccan Tile Artisan
 
-Reference ID: `costumes300-216-moroccan-tile-artisan`  
+Reference ID: `costumes300-216-moroccan-tile-artisan`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-216-moroccan-tile-artisan.webp)

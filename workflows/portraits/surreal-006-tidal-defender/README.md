@@ -1,6 +1,6 @@
 # Tidal Defender
 
-Reference ID: `surreal-006-tidal-defender`  
+Reference ID: `surreal-006-tidal-defender`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-006-tidal-defender.webp)

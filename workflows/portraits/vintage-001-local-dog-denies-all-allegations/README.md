@@ -1,6 +1,6 @@
 # Local Dog Denies All Allegations
 
-Reference ID: `vintage-001-local-dog-denies-all-allegations`  
+Reference ID: `vintage-001-local-dog-denies-all-allegations`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-001-local-dog-denies-all-allegations.webp)

@@ -1,6 +1,6 @@
 # Galaxy Tennis Champion
 
-Reference ID: `surreal-073-galaxy-tennis-champion`  
+Reference ID: `surreal-073-galaxy-tennis-champion`
 Category: Sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/sports/surreal-073-galaxy-tennis-champion.webp)

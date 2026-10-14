@@ -1,6 +1,6 @@
 # Comic Book Shop Owner
 
-Reference ID: `costumes300-237-comic-book-shop-owner`  
+Reference ID: `costumes300-237-comic-book-shop-owner`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-237-comic-book-shop-owner.webp)

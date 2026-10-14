@@ -1,6 +1,6 @@
 # The Pub Backroom Queen
 
-Reference ID: `mobsters-057-the-pub-backroom-queen`  
+Reference ID: `mobsters-057-the-pub-backroom-queen`
 Category: British Crime Club | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/british-crime-club/mobsters-057-the-pub-backroom-queen.webp)

@@ -1,6 +1,6 @@
 # Iron Hound Red Armor
 
-Reference ID: `superheroes-141-iron-hound-red-armor`  
+Reference ID: `superheroes-141-iron-hound-red-armor`
 Category: Armor and Tech | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/armor-and-tech/superheroes-141-iron-hound-red-armor.webp)

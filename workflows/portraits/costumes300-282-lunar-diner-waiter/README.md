@@ -1,6 +1,6 @@
 # Lunar Diner Waiter
 
-Reference ID: `costumes300-282-lunar-diner-waiter`  
+Reference ID: `costumes300-282-lunar-diner-waiter`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-282-lunar-diner-waiter.webp)

@@ -1,6 +1,6 @@
 # Emerald Meteor
 
-Reference ID: `surreal-004-emerald-meteor`  
+Reference ID: `surreal-004-emerald-meteor`
 Category: Superhero | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/superhero/surreal-004-emerald-meteor.webp)

@@ -1,6 +1,6 @@
 # The Rose Duchess
 
-Reference ID: `mobsters-006-the-rose-duchess`  
+Reference ID: `mobsters-006-the-rose-duchess`
 Category: The Pawfather | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/the-pawfather/mobsters-006-the-rose-duchess.webp)

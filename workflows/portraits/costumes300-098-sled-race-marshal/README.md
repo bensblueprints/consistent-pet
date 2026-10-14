@@ -1,6 +1,6 @@
 # Sled Race Marshal
 
-Reference ID: `costumes300-098-sled-race-marshal`  
+Reference ID: `costumes300-098-sled-race-marshal`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-098-sled-race-marshal.webp)

@@ -1,6 +1,6 @@
 # Roller Rink Superstar
 
-Reference ID: `costumes300-293-roller-rink-superstar`  
+Reference ID: `costumes300-293-roller-rink-superstar`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-293-roller-rink-superstar.webp)

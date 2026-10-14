@@ -1,6 +1,6 @@
 # Certified Crumb Collector
 
-Reference ID: `costumes300-267-certified-crumb-collector`  
+Reference ID: `costumes300-267-certified-crumb-collector`
 Category: Funny Dogs Being Dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/funny-dogs-being-dogs/costumes300-267-certified-crumb-collector.webp)

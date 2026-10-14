@@ -1,6 +1,6 @@
 # Employee of the Month
 
-Reference ID: `vintage-038-employee-of-the-month`  
+Reference ID: `vintage-038-employee-of-the-month`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-038-employee-of-the-month.webp)

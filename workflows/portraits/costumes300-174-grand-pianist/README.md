@@ -1,6 +1,6 @@
 # Grand Pianist
 
-Reference ID: `costumes300-174-grand-pianist`  
+Reference ID: `costumes300-174-grand-pianist`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-174-grand-pianist.webp)

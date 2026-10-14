@@ -1,6 +1,6 @@
 # Samurai Warrior
 
-Reference ID: `original25-samurai-warrior`  
+Reference ID: `original25-samurai-warrior`
 Category: Knights and Warriors | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/knights-and-warriors/original25-samurai-warrior.webp)

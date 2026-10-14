@@ -1,6 +1,6 @@
 # The Raincoat Detective
 
-Reference ID: `mobsters-041-the-raincoat-detective`  
+Reference ID: `mobsters-041-the-raincoat-detective`
 Category: Noir City | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/noir-city/mobsters-041-the-raincoat-detective.webp)

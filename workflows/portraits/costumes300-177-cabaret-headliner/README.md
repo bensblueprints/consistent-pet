@@ -1,6 +1,6 @@
 # Cabaret Headliner
 
-Reference ID: `costumes300-177-cabaret-headliner`  
+Reference ID: `costumes300-177-cabaret-headliner`
 Category: Music and the Spotlight | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/music-and-the-spotlight/costumes300-177-cabaret-headliner.webp)

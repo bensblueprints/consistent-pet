@@ -1,6 +1,6 @@
 # Lavender Balloon Adventurer
 
-Reference ID: `surreal-096-lavender-balloon-adventurer`  
+Reference ID: `surreal-096-lavender-balloon-adventurer`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-096-lavender-balloon-adventurer.webp)

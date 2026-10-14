@@ -1,6 +1,6 @@
 # Grandmaster Detective
 
-Reference ID: `original25-grandmaster-detective`  
+Reference ID: `original25-grandmaster-detective`
 Category: Detectives and Secret Agents | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/detectives-and-secret-agents/original25-grandmaster-detective.webp)

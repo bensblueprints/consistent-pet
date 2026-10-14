@@ -1,6 +1,6 @@
 # Local Celebrity Refuses to Walk in Rain
 
-Reference ID: `vintage-007-local-celebrity-refuses-to-walk-in-rain`  
+Reference ID: `vintage-007-local-celebrity-refuses-to-walk-in-rain`
 Category: Newspapers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/newspapers/vintage-007-local-celebrity-refuses-to-walk-in-rain.webp)

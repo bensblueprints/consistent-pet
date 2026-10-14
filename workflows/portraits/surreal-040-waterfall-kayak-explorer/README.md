@@ -1,6 +1,6 @@
 # Waterfall Kayak Explorer
 
-Reference ID: `surreal-040-waterfall-kayak-explorer`  
+Reference ID: `surreal-040-waterfall-kayak-explorer`
 Category: Extreme sports | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/extreme-sports/surreal-040-waterfall-kayak-explorer.webp)

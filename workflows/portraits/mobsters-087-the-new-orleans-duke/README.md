@@ -1,6 +1,6 @@
 # The New Orleans Duke
 
-Reference ID: `mobsters-087-the-new-orleans-duke`  
+Reference ID: `mobsters-087-the-new-orleans-duke`
 Category: Underworld Elegance | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/underworld-elegance/mobsters-087-the-new-orleans-duke.webp)

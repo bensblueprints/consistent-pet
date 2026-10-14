@@ -1,6 +1,6 @@
 # Hot Springs Adventurer
 
-Reference ID: `costumes300-054-hot-springs-adventurer`  
+Reference ID: `costumes300-054-hot-springs-adventurer`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-054-hot-springs-adventurer.webp)

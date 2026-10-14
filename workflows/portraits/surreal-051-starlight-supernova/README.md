@@ -1,6 +1,6 @@
 # Starlight Supernova
 
-Reference ID: `surreal-051-starlight-supernova`  
+Reference ID: `surreal-051-starlight-supernova`
 Category: Superhero | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/superhero/surreal-051-starlight-supernova.webp)

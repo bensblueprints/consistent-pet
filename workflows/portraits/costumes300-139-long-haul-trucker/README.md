@@ -1,6 +1,6 @@
 # Long-Haul Trucker
 
-Reference ID: `costumes300-139-long-haul-trucker`  
+Reference ID: `costumes300-139-long-haul-trucker`
 Category: Wheels and Racing | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wheels-and-racing/costumes300-139-long-haul-trucker.webp)

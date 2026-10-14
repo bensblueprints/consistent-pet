@@ -1,6 +1,6 @@
 # Modern Mutt
 
-Reference ID: `vintage-053-modern-mutt`  
+Reference ID: `vintage-053-modern-mutt`
 Category: Magazine covers | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/magazine-covers/vintage-053-modern-mutt.webp)

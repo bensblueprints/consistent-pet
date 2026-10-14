@@ -1,6 +1,6 @@
 # The Velvet Curtain Queen
 
-Reference ID: `mobsters-039-the-velvet-curtain-queen`  
+Reference ID: `mobsters-039-the-velvet-curtain-queen`
 Category: Roaring Twenties | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/roaring-twenties/mobsters-039-the-velvet-curtain-queen.webp)

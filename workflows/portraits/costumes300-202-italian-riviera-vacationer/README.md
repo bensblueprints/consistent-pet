@@ -1,6 +1,6 @@
 # Italian Riviera Vacationer
 
-Reference ID: `costumes300-202-italian-riviera-vacationer`  
+Reference ID: `costumes300-202-italian-riviera-vacationer`
 Category: Around the World | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/around-the-world/costumes300-202-italian-riviera-vacationer.webp)

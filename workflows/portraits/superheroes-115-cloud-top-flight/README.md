@@ -1,6 +1,6 @@
 # Cloud-Top Flight
 
-Reference ID: `superheroes-115-cloud-top-flight`  
+Reference ID: `superheroes-115-cloud-top-flight`
 Category: Super Dog | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/super-dog/superheroes-115-cloud-top-flight.webp)

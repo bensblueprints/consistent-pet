@@ -1,6 +1,6 @@
 # Winter Carnival Queen
 
-Reference ID: `costumes300-093-winter-carnival-queen`  
+Reference ID: `costumes300-093-winter-carnival-queen`
 Category: Snow-Day Personalities | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/snow-day-personalities/costumes300-093-winter-carnival-queen.webp)

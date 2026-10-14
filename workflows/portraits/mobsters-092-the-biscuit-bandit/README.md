@@ -1,6 +1,6 @@
 # The Biscuit Bandit
 
-Reference ID: `mobsters-092-the-biscuit-bandit`  
+Reference ID: `mobsters-092-the-biscuit-bandit`
 Category: Playful Crime Legends | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/playful-crime-legends/mobsters-092-the-biscuit-bandit.webp)

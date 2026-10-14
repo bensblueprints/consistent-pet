@@ -1,6 +1,6 @@
 # Starlight Orchestra Maestro
 
-Reference ID: `surreal-047-starlight-orchestra-maestro`  
+Reference ID: `surreal-047-starlight-orchestra-maestro`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-047-starlight-orchestra-maestro.webp)

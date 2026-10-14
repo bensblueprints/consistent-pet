@@ -1,6 +1,6 @@
 # Enchanted Garden Queen
 
-Reference ID: `original25-enchanted-garden-queen`  
+Reference ID: `original25-enchanted-garden-queen`
 Category: Royalty | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/royalty/original25-enchanted-garden-queen.webp)

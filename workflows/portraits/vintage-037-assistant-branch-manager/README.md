@@ -1,6 +1,6 @@
 # Assistant Branch Manager
 
-Reference ID: `vintage-037-assistant-branch-manager`  
+Reference ID: `vintage-037-assistant-branch-manager`
 Category: Working dogs | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/working-dogs/vintage-037-assistant-branch-manager.webp)

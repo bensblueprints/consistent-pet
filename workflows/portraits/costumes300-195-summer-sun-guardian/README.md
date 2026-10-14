@@ -1,6 +1,6 @@
 # Summer Sun Guardian
 
-Reference ID: `costumes300-195-summer-sun-guardian`  
+Reference ID: `costumes300-195-summer-sun-guardian`
 Category: Storybook Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/storybook-adventures/costumes300-195-summer-sun-guardian.webp)

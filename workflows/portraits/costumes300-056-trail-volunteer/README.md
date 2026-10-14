@@ -1,6 +1,6 @@
 # Trail Volunteer
 
-Reference ID: `costumes300-056-trail-volunteer`  
+Reference ID: `costumes300-056-trail-volunteer`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-056-trail-volunteer.webp)

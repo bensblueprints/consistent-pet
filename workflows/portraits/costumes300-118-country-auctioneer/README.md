@@ -1,6 +1,6 @@
 # Country Auctioneer
 
-Reference ID: `costumes300-118-country-auctioneer`  
+Reference ID: `costumes300-118-country-auctioneer`
 Category: Country Life | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/country-life/costumes300-118-country-auctioneer.webp)

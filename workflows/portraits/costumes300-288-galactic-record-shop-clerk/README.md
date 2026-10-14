@@ -1,6 +1,6 @@
 # Galactic Record Shop Clerk
 
-Reference ID: `costumes300-288-galactic-record-shop-clerk`  
+Reference ID: `costumes300-288-galactic-record-shop-clerk`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-288-galactic-record-shop-clerk.webp)

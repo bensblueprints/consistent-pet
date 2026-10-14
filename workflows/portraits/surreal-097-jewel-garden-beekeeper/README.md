@@ -1,6 +1,6 @@
 # Jewel Garden Beekeeper
 
-Reference ID: `surreal-097-jewel-garden-beekeeper`  
+Reference ID: `surreal-097-jewel-garden-beekeeper`
 Category: Surreal adventure | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/surreal-adventure/surreal-097-jewel-garden-beekeeper.webp)

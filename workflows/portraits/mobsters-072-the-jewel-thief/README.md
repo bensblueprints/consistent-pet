@@ -1,6 +1,6 @@
 # The Jewel Thief
 
-Reference ID: `mobsters-072-the-jewel-thief`  
+Reference ID: `mobsters-072-the-jewel-thief`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-072-the-jewel-thief.webp)

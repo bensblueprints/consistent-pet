@@ -1,6 +1,6 @@
 # The Penthouse Ruler
 
-Reference ID: `mobsters-024-the-penthouse-ruler`  
+Reference ID: `mobsters-024-the-penthouse-ruler`
 Category: Miami Crime Drama | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/miami-crime-drama/mobsters-024-the-penthouse-ruler.webp)

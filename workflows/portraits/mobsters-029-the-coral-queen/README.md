@@ -1,6 +1,6 @@
 # The Coral Queen
 
-Reference ID: `mobsters-029-the-coral-queen`  
+Reference ID: `mobsters-029-the-coral-queen`
 Category: Miami Crime Drama | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/miami-crime-drama/mobsters-029-the-coral-queen.webp)

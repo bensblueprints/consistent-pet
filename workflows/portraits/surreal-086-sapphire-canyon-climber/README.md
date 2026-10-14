@@ -1,6 +1,6 @@
 # Sapphire Canyon Climber
 
-Reference ID: `surreal-086-sapphire-canyon-climber`  
+Reference ID: `surreal-086-sapphire-canyon-climber`
 Category: Extreme sports | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/extreme-sports/surreal-086-sapphire-canyon-climber.webp)

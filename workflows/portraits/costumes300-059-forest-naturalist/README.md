@@ -1,6 +1,6 @@
 # Forest Naturalist
 
-Reference ID: `costumes300-059-forest-naturalist`  
+Reference ID: `costumes300-059-forest-naturalist`
 Category: Outdoor Adventures | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/outdoor-adventures/costumes300-059-forest-naturalist.webp)

@@ -1,6 +1,6 @@
 # Aquarium Designer
 
-Reference ID: `costumes300-235-aquarium-designer`  
+Reference ID: `costumes300-235-aquarium-designer`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-235-aquarium-designer.webp)

@@ -1,6 +1,6 @@
 # Curling Champion
 
-Reference ID: `costumes300-087-curling-champion`  
+Reference ID: `costumes300-087-curling-champion`
 Category: Snow-Day Personalities | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/snow-day-personalities/costumes300-087-curling-champion.webp)

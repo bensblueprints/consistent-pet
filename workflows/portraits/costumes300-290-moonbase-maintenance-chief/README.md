@@ -1,6 +1,6 @@
 # Moonbase Maintenance Chief
 
-Reference ID: `costumes300-290-moonbase-maintenance-chief`  
+Reference ID: `costumes300-290-moonbase-maintenance-chief`
 Category: Retro Futures and Original Characters | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/retro-futures-and-original-characters/costumes300-290-moonbase-maintenance-chief.webp)

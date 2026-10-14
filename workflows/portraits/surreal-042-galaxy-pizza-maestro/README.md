@@ -1,6 +1,6 @@
 # Galaxy Pizza Maestro
 
-Reference ID: `surreal-042-galaxy-pizza-maestro`  
+Reference ID: `surreal-042-galaxy-pizza-maestro`
 Category: Surreal adventure | Costume eligibility: male
 
 ![Reference preview](../../../reference-library/previews/male/surreal-adventure/surreal-042-galaxy-pizza-maestro.webp)

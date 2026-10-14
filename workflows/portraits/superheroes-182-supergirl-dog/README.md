@@ -1,6 +1,6 @@
 # Supergirl Dog
 
-Reference ID: `superheroes-182-supergirl-dog`  
+Reference ID: `superheroes-182-supergirl-dog`
 Category: Heroine Collection | Costume eligibility: female
 
 ![Reference preview](../../../reference-library/previews/female/heroine-collection/superheroes-182-supergirl-dog.webp)

@@ -1,6 +1,6 @@
 # Chess Grandmaster
 
-Reference ID: `costumes300-232-chess-grandmaster`  
+Reference ID: `costumes300-232-chess-grandmaster`
 Category: Hobbies With Personality | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/hobbies-with-personality/costumes300-232-chess-grandmaster.webp)

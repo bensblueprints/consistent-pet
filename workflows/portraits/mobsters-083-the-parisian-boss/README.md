@@ -1,6 +1,6 @@
 # The Parisian Boss
 
-Reference ID: `mobsters-083-the-parisian-boss`  
+Reference ID: `mobsters-083-the-parisian-boss`
 Category: Underworld Elegance | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/underworld-elegance/mobsters-083-the-parisian-boss.webp)

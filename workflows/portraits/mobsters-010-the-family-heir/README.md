@@ -1,6 +1,6 @@
 # The Family Heir
 
-Reference ID: `mobsters-010-the-family-heir`  
+Reference ID: `mobsters-010-the-family-heir`
 Category: The Pawfather | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/the-pawfather/mobsters-010-the-family-heir.webp)

@@ -1,6 +1,6 @@
 # BMX Champion
 
-Reference ID: `costumes300-129-bmx-champion`  
+Reference ID: `costumes300-129-bmx-champion`
 Category: Wheels and Racing | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/wheels-and-racing/costumes300-129-bmx-champion.webp)

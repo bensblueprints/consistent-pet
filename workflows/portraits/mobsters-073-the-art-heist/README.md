@@ -1,6 +1,6 @@
 # The Art Heist
 
-Reference ID: `mobsters-073-the-art-heist`  
+Reference ID: `mobsters-073-the-art-heist`
 Category: Heists and Getaways | Costume eligibility: unisex
 
 ![Reference preview](../../../reference-library/previews/unisex/heists-and-getaways/mobsters-073-the-art-heist.webp)
