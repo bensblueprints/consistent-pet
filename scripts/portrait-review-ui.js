@@ -59,8 +59,10 @@ card.querySelector('.ai-score').textContent=ai?`${wholePet?'Whole-pet AI score':
 card.querySelector('.ai-summary .ai-dimensions').textContent=wholePet?`Face ${ai.identity}/10 · Fur ${ai.fur}/10 · Body ${ai.body}/10 · Design ${ai.template}/10`:ai?'Fur/body re-review pending.':'';
 const priorAi=(r.ai_previous||[]).filter(a=>a.rubric==='pet-identity-v2-qwen32b').at(-1);
 const target=r.auto_target||10;
-const autoTarget=wholePet&&['identity','fur','body','template'].every(k=>ai[k]>=target)&&!(ai.defects||[]).some(d=>d.severity==='major')&&ai.confidence==='high';
-card.querySelector('.ai-verdict').textContent=wholePet?(r.auto_refine_version?(autoTarget?'AI target met on this image; cross-dog checks still apply':`Below automatic ${target}/10 target`):(ai.verdict||'Human review required'))+(priorAi?` · Earlier AI score ${priorAi.score}/10`:''):'';
+const limits=r.output_thresholds||{identity:target,fur:target,body:target,template:target};
+const autoTarget=wholePet&&Object.keys(limits).every(k=>ai[k]>=limits[k])&&!(ai.defects||[]).some(d=>d.severity==='major')&&ai.confidence==='high'&&(!r.output_thresholds||r.input_photo_score>=7);
+const limitLabel=r.output_thresholds?'Input 7+; face 9, fur 9, body 7, design 9':`${target}/10 in every dimension`;
+card.querySelector('.ai-verdict').textContent=wholePet?(r.auto_refine_version?(autoTarget?'AI target met on this image; cross-dog checks still apply':`Below target: ${limitLabel}`)+(r.output_thresholds?'':' · Earlier acceptance rule'):(ai.verdict||'Human review required'))+(priorAi?` · Earlier AI score ${priorAi.score}/10`:''):'';
 const changes=card.querySelector('.auto-changes');if(changes)changes.textContent=[r.auto_rationale,...(r.auto_corrections||[]),...(r.auto_changes||[]).map(c=>`${c.parameter}: ${c.before??'initial'} → ${c.after}`)].filter(Boolean).join('\n')||'Earlier policy: workflow settings selected from the lowest scoring dimensions.';
 card.querySelector('.ai-findings').textContent=wholePet?(ai.defects||[]).slice(0,3).map(d=>`${d.area.toUpperCase()}: ${d.evidence}\nSuggested fix: ${d.correction}`).join('\n\n'):'';
 card.querySelector('.ai-reason').textContent=ai?ai.reason||'':r.ai_status==='Needs attention'?'Assessment needs attention; your review is still available.':'';
@@ -118,7 +120,9 @@ function paintWorkflowProgress(){
  // Preserve totals when a new queue policy resumes the same 725-reference project.
  const rows=[...new Map(state.rows.filter(r=>r.reference_id&&r.auto_refine_version&&r.planner==='local-vision-llm-v1').map(r=>[r.id,r])).values()];
  const complete=rows.filter(r=>r.output&&r.status==='Complete');
- const currentRows=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
+ const currentAll=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
+ const qualified=progress.policy==='qualified-inputs-development-v2';
+ const currentRows=qualified?currentAll.filter(r=>{const q=state.input_photo_scores?.[r.input];return q?.score>=7&&['medium','high'].includes(q.confidence)}):currentAll;
  const dogs=new Set(currentRows.map(r=>r.dog_id||r.input).filter(Boolean)).size;
  const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
  const average=scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null;
@@ -129,13 +133,13 @@ function paintWorkflowProgress(){
  $('#workflow-stage').textContent=stage||'Waiting for update';
  $('#workflow-dogs').textContent=`${dogs}${activeMatches&&active.dogs?' / '+active.dogs:''}`;
  $('#workflow-average').textContent=average===null?'Awaiting scores':`${average.toFixed(1)} / 10`;
- $('#workflow-score-count').textContent=`${scored.length} scored photos · average of face, fur, body and costume across all attempts; not a pass verdict.`;
+ $('#workflow-score-count').textContent=`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
  $('#workflow-photos').textContent=complete.length.toLocaleString();
- $('#workflow-photo-count').textContent=`${currentRows.length} for this workflow · includes retries; excludes the earlier batch.`;
+ $('#workflow-photo-count').textContent=`${currentAll.length} for this workflow · includes retries; excludes the earlier batch.`;
  $('#workflow-remaining').textContent=`${remaining} / ${progress.total}`;
  $('#workflow-accepted').textContent=`${accepted} accepted · ${counts.blocked||0} need attention (included in remaining).`;
  const updated=activeMatches?active.updated_at:progress.updated_at,age=Number.isFinite(updated)?Math.max(0,Math.round(Date.now()/1000-updated)):null;
- $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} Dogs processed does not mean all passed.`;
+ $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.`;
  $('#summary').textContent=`Costume workflow run: ${progress.status||'Waiting'} · ${accepted} / ${progress.total} accepted · ${remaining} remaining`;
  $('#notice').textContent=state.batch?.status==='Complete'?'The earlier image batch is finished. The 725-costume workflow refinement run is separate; see its live status above.':'This status tracks the 725-costume workflow refinement run. Earlier batch counts are separate.';
  $('#eta').previousElementSibling.textContent='Workflow completion time';$('#eta').textContent=remaining?'Depends on retries':'All accepted';
@@ -150,7 +154,7 @@ $('#generation-group').onchange=()=>{generationKey=$('#generation-group').value;
 function dogSection(key,first){
  let section=dogSections.get(key);if(section)return section;
  section=document.createElement('section');section.className='generation-dog';
- section.innerHTML='<h3 class="dog-heading"></h3><p class="dog-count"></p><div class="generation-context"></div><label class="generation-slider">Slide through generations for this dog <input type="range" min="0" max="0" value="0" step="1"></label><div class="generation-track" tabindex="0"></div>';
+ section.innerHTML='<h3 class="dog-heading"></h3><p class="dog-count"></p><p class="input-photo-quality"></p><div class="generation-context"></div><label class="generation-slider">Slide through generations for this dog <input type="range" min="0" max="0" value="0" step="1"></label><div class="generation-track" tabindex="0"></div>';
  section.querySelector('.dog-heading').textContent=first.label||'Dog';
  const track=section.querySelector('.generation-track'),slider=section.querySelector('input');
  track.setAttribute('aria-label','Generations for '+(first.label||'dog'));slider.setAttribute('aria-label','Slide generations for '+(first.label||'dog'));
@@ -188,6 +192,8 @@ let dogIndex=0;
 for(const [key,rows] of dogs){
 const section=dogSection(key,rows[0]),host=$('#generation-dogs');if(host.children[dogIndex]!==section)host.insertBefore(section,host.children[dogIndex]||null);dogIndex++;
 const track=section.querySelector('.generation-track'),slider=section.querySelector('input');section.querySelector('.dog-count').textContent=`${rows.length} generations for this dog`;
+const inputScore=state.input_photo_scores?.[rows[0].input];
+section.querySelector('.input-photo-quality').textContent=inputScore?.score?`Input photo: ${inputScore.score}/10 · Face visibility ${inputScore.face}, coat detail ${inputScore.fur}, body visibility ${inputScore.body}. ${inputScore.score>=7&&inputScore.confidence!=='low'?'Qualifies for workflow checks.':'Clearer customer photo recommended; excluded from workflow acceptance.'} ${inputScore.reason} ${inputScore.suggestion}`:'Input photo quality: awaiting separate source-only audit.';
 const keep=new Set(rows.map(r=>r.id));for(const card of [...track.children])if(!keep.has(card.current?.id))card.remove();
 rows.forEach((r,i)=>{let card=generationCards.get(r.id);if(!card){card=document.createElement('article');card.className='generation-card';card.innerHTML='<div class="cell"></div><div class="cell"></div><div class="cell"><h3></h3><a class="generation-output" target="_blank" rel="noopener"><img loading="lazy" hidden alt="Generated portrait"></a><div class="pending"></div><p class="generation-meta"></p></div>';makeReview(card,r);const box=card.querySelector('.review-box');box.insertBefore(card.querySelector('.ai-summary'),card.querySelector('form'));const explanation=card.querySelector('.auto-explanation');if(explanation)explanation.open=true;generationCards.set(r.id,card);track.append(card)}
 if(track.children[i]!==card)track.insertBefore(card,track.children[i]||null);

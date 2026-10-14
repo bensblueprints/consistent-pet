@@ -17,7 +17,7 @@ class RosterTests(unittest.TestCase):
         record_check(candidate,dog,ai,row)
 
     def fixture(self):
-        state=dict(roster=list('abcdefg'),candidates=[],locked=False)
+        state=dict(roster=list('abcdefg'),candidates=[],locked=False,input_quality={d:dict(score=7,confidence='high') for d in 'abcdefg'})
         candidate=new_candidate(state,self.recipe())
         graph={k:dict(class_type='LoadImage',inputs=dict(image='private-customer.png')) for k in ('76','detailimage','81','repair-base','repair-mask')}
         graph.update({'9':dict(class_type='SaveImage',inputs=dict(filename_prefix='private-path')),
@@ -66,7 +66,19 @@ class RosterTests(unittest.TestCase):
         for d in state['roster']:self.check(c,d)
         artifact=export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
         self.assertNotIn('private-',str(artifact));self.assertEqual(artifact['evaluation']['passing_entries'],7)
-        self.assertFalse(artifact['evaluation']['unseen_dog_validation']);self.assertEqual(artifact['status'],'locked_on_development_roster')
+        self.assertFalse(artifact['evaluation']['unseen_dog_validation']);self.assertEqual(artifact['status'],'locked_on_qualified_roster')
+
+    def test_body_seven_passes_but_face_fur_design_still_require_nine(self):
+        from portrait_roster import meets_target
+        a=dict(identity=9,fur=9,body=7,template=9,confidence='high',defects=[])
+        self.assertTrue(meets_target(a))
+        for key,value in [('identity',8),('fur',8),('body',6),('template',8)]:self.assertFalse(meets_target({**a,key:value}))
+
+    def test_low_quality_input_cannot_lock(self):
+        state,c,graph=self.fixture()
+        for d in state['roster']:self.check(c,d)
+        state['input_quality']['a']['score']=6
+        with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
 
     def test_changed_recipe_or_duplicate_job_evidence_cannot_lock(self):
         for mode in ('recipe','job'):

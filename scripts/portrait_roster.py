@@ -1,9 +1,16 @@
 """One shared recipe must pass the entire development roster before locking."""
 import copy
-from portrait_autorefine import signature,meets_target
+from portrait_autorefine import signature
 from portrait_llm_planner import BOUNDS
 
-POLICY='all-submitted-dogs-development-v1'
+POLICY='qualified-inputs-development-v2'
+THRESHOLDS=dict(identity=9,fur=9,body=7,template=9)
+
+
+def meets_target(assessment):
+    return (assessment.get('confidence')=='high'
+            and all(type(assessment.get(k)) is int and minimum<=assessment[k]<=10 for k,minimum in THRESHOLDS.items())
+            and not any(d.get('severity')=='major' for d in assessment.get('defects',[])))
 RECIPE_FIELDS=(*BOUNDS,'strategy','pose_policy','focus','instruction')
 
 
@@ -62,9 +69,13 @@ def export_locked(state,template,graph):
         if node['class_type'] in ('LoadImage','LoadImageMask'):
             name=node['inputs']['image']
             if not (name.startswith('__') and name.endswith('__')):raise ValueError('Private image remains in graph')
-    result=dict(format='consistent-pet-roster-recipe-v1',template_id=template['id'],status='locked_on_development_roster',target=9,
+    quality=state.get('input_quality',{})
+    from portrait_input_quality import eligible
+    if not all(eligible(quality.get(d,{})) for d in roster):raise ValueError('Each qualifying input must score at least 7')
+    result=dict(format='consistent-pet-roster-recipe-v2',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
                 recipe=functional_recipe(candidate['recipe']),scene=template['scene'],clothing=template['clothing'],graph=graph,
                 evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(roster),same_recipe_for_all=True,
-                                unseen_dog_validation=False,ai_estimate_only=True),production_enabled=False,
+                                unseen_dog_validation=False,ai_estimate_only=True,input_minimum=7,
+                                excluded_input_entries=state.get('excluded_input_entries',0)),production_enabled=False,
                 binding='Bind original dog, real face crop, reference assets and seed through repair_graph and apply_recipe. Do not add dog-specific review corrections.')
     result['sha256']=signature(result);return result

@@ -8,9 +8,10 @@ import shutil
 import time
 from pathlib import Path
 from portrait_reviews import ROOT,digest
-from portrait_autorefine import DIMENSIONS,meets_target,signature
+from portrait_autorefine import DIMENSIONS,signature
 from portrait_llm_planner import request as request_plan,recipe as make_recipe,atomic
-from portrait_roster import POLICY,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
+from portrait_roster import POLICY,THRESHOLDS,meets_target,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
+from portrait_input_quality import eligible,read_scores,RUBRIC as INPUT_RUBRIC
 
 
 def module(name,file):
@@ -27,7 +28,7 @@ class RosterCatalog(catalog_module.Catalog):
         path=ROOT/'catalog-public-status.json';public=json.loads(path.read_text())
         public.update(policy=POLICY,roster_total=self.state.get('roster_total',0),
                       current_dog=self.state.get('current_dog'),passed_current_recipe=self.state.get('passed_current_recipe',0),
-                      note='One recipe must pass every submitted dog. These are development checks, not unseen-dog validation.',
+                      note='Qualifying input >=7; output face >=9, fur >=9, body >=7, design >=9. Development checks, not unseen-dog validation.',
                       submission_deadline=self.state['started_at']+self.state['max_hours']*3600)
         atomic(path,public)
 
@@ -49,11 +50,12 @@ class RosterCatalog(catalog_module.Catalog):
         candidates=(development or {}).get('candidates',[]);current=candidates[-1] if candidates else None
         status.update(roster_entries=len((development or {}).get('roster',[])),
                       passing_current_recipe=len(passing(current)) if current else 0,
-                      candidate_revisions=len(candidates))
+                      candidate_revisions=len(candidates),input_minimum=7,output_thresholds=THRESHOLDS,
+                      excluded_input_entries=(development or {}).get('excluded_input_entries',0))
         atomic(path,status)
         lines=[f"# {ref['name']} — development-roster report",'',f"Status: **{status['status']}**. Updated {status['last_updated_utc']}.",'',
-            f"{status['passing_current_recipe']} / {status['roster_entries']} input records pass the current shared recipe. {len(candidates)} candidate recipes; {item.get('generations',0)} renders.",'',
-            'The local Qwen vision LLM inspects failures and proposes bounded workflow changes. FLUX.2 Klein base 4B renders; SAM3.1 creates whole-subject masks. The critic prompt, model and 9/10 threshold stay fixed.',
+            f"{status['passing_current_recipe']} / {status['roster_entries']} qualifying input records pass the current shared recipe. {status['excluded_input_entries']} source photos excluded by the input-quality gate. {len(candidates)} candidate recipes; {item.get('generations',0)} renders.",'',
+            'The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.',
             'Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. Only one exact recipe passing the entire roster can lock this costume.','',
             'All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.','',
             '| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |',
@@ -127,13 +129,32 @@ class RosterCatalog(catalog_module.Catalog):
         original_budget=refiner.budget
         def budget():self.check_window();original_budget()
         refiner.budget=budget
+        original_save=refiner.save
+        def save():
+            original_save()
+            p=ROOT/'auto-refine-status.json';s=json.loads(p.read_text());s['target']='Input >=7; face >=9, fur >=9, body >=7, design >=9';s['dogs']=getattr(refiner,'qualified_count',len(refiner.dogs));atomic(p,s)
+        refiner.save=save
         refiner.state.update(current_template=ref['name'],phase='Preparing costume workflow')
         template=refiner.state['templates'].setdefault(t['id'],{'attempts':[]});source,base=refiner.prepare(t,template)
-        roster=sorted(refiner.dogs,key=lambda d:(refiner.dogs[d].get('quality_tier')!='clear',refiner.dogs[d].get('quality_rank',100),d))
+        pinned=refiner.home/'input-quality-snapshot.json'
+        if pinned.exists():quality=json.loads(pinned.read_text())
+        else:
+            scores=read_scores(ROOT);quality={}
+            for dog,data in refiner.dogs.items():
+                value=scores.get(data['input'],{})
+                if value.get('input_sha256')!=digest(ROOT/'media'/data['input']) or value.get('rubric')!=INPUT_RUBRIC:raise ValueError('Input audit missing or stale')
+                quality[dog]=value
+            atomic(pinned,quality)
+        quality_hash=digest(pinned)
+        if refiner.state.get('input_quality_sha256',quality_hash)!=quality_hash:raise ValueError('Pinned input scores changed')
+        refiner.state['input_quality_sha256']=quality_hash
+        roster=sorted([d for d in refiner.dogs if eligible(quality[d])],key=lambda d:(refiner.dogs[d].get('quality_rank',100),d))
+        if len(roster)<7:raise ValueError('Fewer than seven qualifying inputs; cannot validate a shared workflow')
         if t.get('dog_order'):
-            if set(t['dog_order'])!=set(roster) or len(t['dog_order'])!=len(roster):raise ValueError('Invalid development roster ordering')
-            roster=t['dog_order']
-        development=template.setdefault('roster_development',dict(policy=POLICY,roster=roster,candidates=[],locked=False))
+            if set(t['dog_order'])!=set(refiner.dogs) or len(t['dog_order'])!=len(refiner.dogs):raise ValueError('Invalid dog ordering')
+            roster=[d for d in t['dog_order'] if d in roster]
+        refiner.qualified_count=len(roster)
+        development=template.setdefault('roster_development',dict(policy=POLICY,roster=roster,candidates=[],locked=False,input_quality=quality,excluded_input_entries=len(refiner.dogs)-len(roster)))
         if development['roster']!=roster:raise ValueError('Roster changed; use a new version')
         if development.get('visit')!=item['round']:
             development.update(visit=item['round'],visit_attempts={},focus_dog=None)
@@ -159,6 +180,7 @@ class RosterCatalog(catalog_module.Catalog):
             attempt=development['visit_attempts'].get(dog,0)+1
             refiner.state.update(status='Running',phase=f"Rendering {refiner.dogs[dog]['label']} - attempt {attempt}/6 this pass");refiner.save()
             row=refiner.render(t,template,source,base,candidate['recipe'],dog,'roster')
+            row.update(output_thresholds=THRESHOLDS,input_photo_score=quality[dog]['score'],acceptance_policy=POLICY)
             refiner.state['phase']='Scoring development dog '+str(roster.index(dog)+1);refiner.save()
             assessment={**refiner.score(row),'dog_id':dog};record_check(candidate,dog,assessment,row)
             row['review']='Pass checkpoint saved for this recipe' if meets_target(assessment) else 'Below target; LLM will revise the shared workflow'

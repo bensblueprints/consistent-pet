@@ -47,8 +47,10 @@ def run(args):
             data=json.loads(text)
             historical=data.get('status')=='AI target met across dogs' and data.get('format')=='consistent-pet-api-recipe-v1'
             roster=data.get('status')=='locked_on_development_roster' and data.get('format')=='consistent-pet-roster-recipe-v1'
-            if not (historical or roster):raise ValueError('Unaccepted workflow export')
-            if roster:
+            qualified=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v2'
+            if qualified and (data.get('thresholds')!=dict(identity=9,fur=9,body=7,template=9) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong quality thresholds')
+            if not (historical or roster or qualified):raise ValueError('Unaccepted workflow export')
+            if roster or qualified:
                 e=data.get('evaluation',{})
                 if not (e.get('roster_entries',0)>=7 and e.get('roster_entries')==e.get('passing_entries') and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
             unsigned={k:v for k,v in data.items() if k!='sha256'}

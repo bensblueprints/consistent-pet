@@ -8,6 +8,7 @@ import json,os,secrets,urllib.parse
 from portrait_reviews import ROOT,attach,handle_post
 from portrait_judge_runtime import snapshot as judge_snapshot
 from portrait_input_registry import public_catalog,MEDIA_FIELDS
+from portrait_input_quality import public_scores
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 R=ROOT;R.mkdir(parents=True,exist_ok=True);M=R/'media';TOKEN_FILE=R/'investor-share-token'
@@ -23,7 +24,7 @@ def public_state():
  rows=read('dog-revisions.json',{'rows':[]})['rows']+full['rows']+prior['rows']
  result=[]
  for item in rows:
-  row={k:item[k] for k in FIELDS if k in item}
+  row={k:item[k] for k in (*FIELDS,'output_thresholds','input_photo_score','acceptance_policy') if k in item}
   if row['status']=='Rendering':
    progress=read('progress/'+row['id']+'.json',{})
    row.update({k:v for k,v in progress.items() if k in FIELDS})
@@ -33,7 +34,7 @@ def public_state():
  result=attach(result)
  auto=read('auto-refine-status.json',{})
  auto={k:auto[k] for k in ('run','status','generations','current_template','phase','target','max_generations','templates','finished','passed','updated_at','dogs') if k in auto}
- return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{})),'catalog_progress':read('catalog-public-status.json',{})}
+ return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{})),'catalog_progress':read('catalog-public-status.json',{}),'input_photo_scores':public_scores(R)}
 class Handler(BaseHTTPRequestHandler):
  def do_POST(self):
   if urllib.parse.urlparse(self.path).path!=PREFIX+'review':self.send_error(404);return

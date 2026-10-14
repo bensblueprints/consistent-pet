@@ -11,7 +11,8 @@ state, review databases, tokens, private sharing links and SSH details stay outs
 Git. Use explicit file lists when publishing from another workspace.
 
 Keep the independent visual reviewer fixed while optimizing generation. Acceptance
-requires every dimension to reach at least 9/10, high confidence and no major
+for the newest owner-requested qualified-input policy requires input photo >=7,
+output face >=9, fur >=9, body >=7 and design >=9, high output confidence and no major
 defects. Never label a budget-limited or failed workflow accepted. Historical
 held-out evaluations must remain immutable and must not be relabeled as passes.
 
@@ -21,6 +22,12 @@ never claim those identities are still unseen holdouts. Lock one shared costume
 recipe only after every roster entry passes that exact recipe. Any recipe change
 invalidates earlier passes until rechecked. Export this separately identified
 roster-validation format; retain the historical holdout exporter unchanged.
+
+Later owner update: independently score original inputs without seeing outputs.
+Only inputs scoring >=7 qualify for the new acceptance roster; <=6 inputs request
+a clearer source photo and do not block it. Pin the source scores per run, report
+excluded counts, and never claim that low input quality proves the cause of every
+failed output. Historical all-9 thresholds and results remain unchanged.
 
 Use a new run version and a frozen runner directory when changing active policies.
 Preserve native ComfyUI job IDs on resume. Never restart an existing sharing tunnel

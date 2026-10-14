@@ -135,6 +135,22 @@ Optional human-review export/report tools retain human and AI evidence separatel
 They prepare data for future evaluation; they do not train or deploy new weights.
 # Six-attempt refinement on every submitted dog
 
+Latest owner update: qualify inputs with an independent source-only photo score
+of at least 7. Face visibility, fur detail and body visibility are scored 1-10;
+the input score is their minimum, so a clear face cannot conceal a missing body.
+Low-confidence/unscored sources are not accepted as qualifying evidence. Photos
+at 6 or below request a clearer upload; they remain visible in the viewer.
+
+The new output acceptance thresholds are **face 9, fur 9, body 7, design 9**;
+high output confidence and no major defects remain required. These are separate
+minimums, not an average. This supersedes the all-9 acceptance language below for
+new qualified runs only. The independent output critic is unchanged.
+Pinned input-score snapshots prevent moving the eligibility threshold after
+seeing failed outputs. All qualifying dogs (minimum seven) must pass one shared
+recipe before export as `consistent-pet-roster-recipe-v2`. Reports disclose the
+excluded count and minimum input score. Low input quality suggests a source-photo
+problem; it is not proof that the generation workflow has no defect.
+
 Owner update, 2026-10-14: the previous catalog worker tuned two dogs and evaluated
 the remaining dogs once. The new `run-roster-catalog.py` policy makes the entire
 submitted roster available for development. Historical evaluations are preserved.

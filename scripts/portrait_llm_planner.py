@@ -106,6 +106,8 @@ def request(root,key,payload,timeout=1200):
 
 
 def process_next(judge,root,live=None):
+    from portrait_input_quality import process_next as score_input
+    if score_input(judge,root,live):return True
     # A bad planning request must not take the independent scoring service down.
     folder=Path(root)/'planner-requests'
     pending=[p for p in folder.glob('*.json') if not p.name.endswith('.result.json') and not p.with_name(p.stem+'.result.json').exists()]

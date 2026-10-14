@@ -26,7 +26,8 @@ class FlowTests(unittest.TestCase):
                 self.jobs=self.home/'jobs';self.jobs.mkdir(exist_ok=True)
                 self.state=dict(templates={},rows={},generations=0)
                 self.dogs={d:dict(input=d+'.png',label='Dog '+d) for d in 'abcdefg'};self.calls=[]
-            def save(self):pass
+                (self.home/'input-quality-snapshot.json').write_text(json.dumps({d:dict(score=7,confidence='high') for d in self.dogs}))
+            def save(self):(root/'auto-refine-status.json').write_text('{}')
             def budget(self):pass
             def prepare(self,t,state):return dict(reference='costume.png'),{}
             def render(self,t,state,source,base,r,dog,stage):
@@ -41,7 +42,7 @@ class FlowTests(unittest.TestCase):
                 return row
             def score(self,row):
                 failed=row['dog_id']=='b' and (always_fail or sum(d=='b' for d,_ in self.calls)<3)
-                return dict(identity=9,fur=9,body=7 if failed else 9,template=9,confidence='high',defects=[],output_sha256=row['output_sha256'])
+                return dict(identity=9,fur=9,body=6 if failed else 7,template=9,confidence='high',defects=[],output_sha256=row['output_sha256'])
             def publish(self,row):pass
         plan=dict(version='fixture-costume',templates=[dict(id='costume',scene='Garden',clothing='Jacket',initial_proposal=proposal)])
         fake=Fake(plan)

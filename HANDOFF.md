@@ -3,6 +3,13 @@
 Updated: 2026-10-14. **Start here, then read AGENTS.md and the operational documents linked below.**
 
 Latest owner-requested policy: `scripts/run-roster-catalog.py` gives each submitted
+qualifying input (source photo score >=7) up to six attempts. The new output
+minimums are face 9, fur 9, body 7, design 9, with high confidence and no major
+defects. Source photos are scored independently, without costume/output evidence;
+scores <=6 are excluded from acceptance and marked for a better customer upload.
+Historical rules remain unchanged. This supersedes the earlier all-9 roster rule.
+
+Earlier six-attempt policy: `scripts/run-roster-catalog.py` gives each submitted
 dog up to six scored generations per costume per catalog visit, stopping that dog
 early when it passes. The resident LLM revises failures immediately. Earlier dogs
 must be rechecked whenever the shared recipe changes. Unresolved costumes return
