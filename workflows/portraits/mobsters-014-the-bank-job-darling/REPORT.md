@@ -1,18 +1,20 @@
-# The Bank Job Darling — refinement report
+# The Bank Job Darling — development-roster report
 
-Status: **blocked**. Updated 2026-10-14T08:28:07Z.
+Status: **in_progress**. Updated 2026-10-14T08:40:19Z.
 
-Queue `catalog-llm-v3`; run `catalog-llm-v3-mobsters-014-the-bank-job-darling-round-2`; 2 rounds started; 38 generated candidates.
+0 / 32 input records pass the current shared recipe. 4 candidate recipes; 3 renders.
 
-The resident Qwen3-VL-32B proposes bounded graph changes from reference images, original tuning pets, previous outputs and training-only critiques. The independent scoring prompt and weights remain fixed.
-Graph strategies: whole-subject inpainting or fresh subject latent with protected-background compositing. FLUX.2 Klein base 4B and SAM3.1 remain the generation/segmentation stack.
+The local Qwen vision LLM inspects failures and proposes bounded workflow changes. FLUX.2 Klein base 4B renders; SAM3.1 creates whole-subject masks. The critic prompt, model and 9/10 threshold stay fixed.
+Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. Only one exact recipe passing the entire roster can lock this costume.
 
-| Generation in this round | Lowest face | Lowest fur | Lowest body | Lowest design | Strategy |
-| --- | ---: | ---: | ---: | ---: | --- |
-| 1 | 9 | 9 | 9 | 9 | fresh-latent |
+All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.
 
-Frozen validation assessments: 28. Final-test assessments: 0.
+| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |
+| --- | ---: | ---: | ---: | --- | --- |
+| 1 | 1 | 0 | 7 | fresh-latent | source-compatible |
+| 2 | 1 | 0 | 5 | fresh-latent | natural-sitting |
+| 3 | 1 | 0 | 7 | inpaint | source-compatible |
+| 4 | 0 | 0 | pending | fresh-latent | source-compatible |
 
-Acceptance requires every face/fur/body/design score >=9, high confidence, no major defects, and successful frozen cross-dog checks. AI scores are estimates, not proof of perfect identity or print quality.
-Exact customer images, masks, graph attempts, critiques and provisional recipes remain in the private runtime. No provisional graph has been published as an accepted workflow.
-Training failures return to the queue. Failed held-out checks are not supplied as tuning feedback. Technical failures retain their native job IDs for safe resume.
+Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
+Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
