@@ -121,11 +121,11 @@ function paintWorkflowProgress(){
  const rows=[...new Map(state.rows.filter(r=>r.reference_id&&r.auto_refine_version&&r.planner==='local-vision-llm-v1').map(r=>[r.id,r])).values()];
  const complete=rows.filter(r=>r.output&&r.status==='Complete');
  const currentAll=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
- const qualified=progress.roster_total>0&&Object.keys(state.input_photo_scores||{}).length>0;
+ const qualified=(progress.policy||'').startsWith('qualified-inputs-')&&Object.keys(state.input_photo_scores||{}).length>0;
  const currentRows=qualified?currentAll.filter(r=>{const q=state.input_photo_scores?.[r.input];return q?.score>=7&&['medium','high'].includes(q.confidence)}):currentAll;
  // Exact source photos are stable across old/new run IDs; count each once.
  const dogs=new Set(currentRows.map(r=>r.input).filter(Boolean)).size;
- const dogTotal=qualified?progress.roster_total:(activeMatches?active.dogs:0);
+ const dogTotal=qualified?(progress.roster_total||Object.values(state.input_photo_scores||{}).filter(q=>q.score>=7&&['medium','high'].includes(q.confidence)).length):(activeMatches?active.dogs:0);
  const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
  const average=progress.required_average===8?(Number.isFinite(progress.current_recipe_average)?progress.current_recipe_average:null):(scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null);
  const activeRows=rows.filter(r=>r.auto_refine_version===active.run);
@@ -135,7 +135,7 @@ function paintWorkflowProgress(){
  $('#workflow-stage').textContent=(activeMatches?active.phase:stage)||'Waiting for update';
  $('#workflow-dogs').textContent=`${dogs}${dogTotal?' / '+dogTotal:''}`;
  $('#workflow-average').textContent=average===null?'Awaiting scores':`${average.toFixed(1)} / 10`;
- $('#workflow-score-count').textContent=progress.required_average===8?`Current recipe only: ${progress.checked_current_recipe||0}/${progress.roster_total||0} dogs scored. Complete round averages of 8/10 or higher pass automatically.`:`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
+ $('#workflow-score-count').textContent=progress.required_average===8?`Current recipe only: ${progress.checked_current_recipe||0}/${dogTotal||0} dogs scored. Complete round averages of 8/10 or higher pass automatically.`:`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
  $('#workflow-photos').textContent=complete.length.toLocaleString();
  $('#workflow-photo-count').textContent=`${currentAll.length} for this workflow · includes retries; excludes the earlier batch.`;
  $('#workflow-remaining').textContent=`${remaining} / ${progress.total}`;
