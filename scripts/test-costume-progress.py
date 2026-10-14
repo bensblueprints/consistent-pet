@@ -33,14 +33,14 @@ class ProgressTests(unittest.TestCase):
 
     def test_85_percent_export_requires_fifteen_of_seventeen_and_complete_round(self):
         from portrait_autorefine import signature
-        for passing,checked in [(14,17),(15,17),(15,16)]:
+        for version,passing,checked in [(v,p,c) for v in (3,4) for p,c in [(14,17),(15,17),(15,16)]]:
             with tempfile.TemporaryDirectory() as d:
                 root=Path(d);folder=root/'workflows/portraits/costume';folder.mkdir(parents=True)
                 (folder.parent/'index.json').write_text(json.dumps([dict(workflow_folder='workflows/portraits/costume')]))
                 args=SimpleNamespace(repo=root,identity=Path('operator-key'),host='operator-host',port=22,remote_repo='/repo',publish=False)
                 def git(command,**kwargs):
                     return 'main' if command[1]=='branch' else 'https://github.com/bensblueprints/consistent-pet.git' if command[1]=='remote' else ''
-                data=dict(status='locked_on_qualified_roster',format='consistent-pet-roster-recipe-v3',thresholds=dict(identity=9,fur=9,body=7,template=9),
+                data=dict(status='locked_on_qualified_roster',format=f'consistent-pet-roster-recipe-v{version}',thresholds=dict(identity=8 if version==4 else 9,fur=8 if version==4 else 9,body=7,template=8 if version==4 else 9),
                     evaluation=dict(roster_entries=17,passing_entries=passing,checked_entries=checked,required_pass_percent=85,required_passing_entries=15,input_minimum=7,same_recipe_for_all=True,unseen_dog_validation=False),
                     graph={'1':dict(class_type='LoadImage',inputs=dict(image='__DOG_ORIGINAL__'))})
                 data['sha256']=signature(data)
