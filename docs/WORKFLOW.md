@@ -185,3 +185,7 @@ Validation: `test-portrait-roster.py` tests immutable evidence and full-roster
 acceptance; `test-roster-catalog-flow.py` runs the actual controller with simulated
 generation/scoring to verify immediate retries, earlier-dog rechecks, the six-try
 limit and continued processing of other dogs. Run controller tests on Linux.
+
+Latest owner update: accept a costume when at least 85% of the FULL qualifying input roster passes one unchanged shared recipe. Required count is ceil(0.85 * roster size): 15/17. Untested dogs are not passes. Preserve face 9, fur 9, body 7, design 9, input >=7, confidence and defect gates. v3 exports include actual passing, checked and required counts. Historical evaluations and owner visual approvals remain separate.
+
+Round order: generate and score one image per qualifying dog on the same recipe before any revision. Evaluate the complete round; >=85% locks and advances to the next costume. Otherwise the LLM revises once, then runs another complete dog sweep, up to six rounds per catalog visit. Never combine passes from different recipes.

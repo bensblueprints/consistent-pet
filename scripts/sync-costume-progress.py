@@ -48,11 +48,12 @@ def run(args):
             historical=data.get('status')=='AI target met across dogs' and data.get('format')=='consistent-pet-api-recipe-v1'
             roster=data.get('status')=='locked_on_development_roster' and data.get('format')=='consistent-pet-roster-recipe-v1'
             qualified=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v2'
-            if qualified and (data.get('thresholds')!=dict(identity=9,fur=9,body=7,template=9) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong quality thresholds')
-            if not (historical or roster or qualified):raise ValueError('Unaccepted workflow export')
-            if roster or qualified:
+            majority=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v3'
+            if (qualified or majority) and (data.get('thresholds')!=dict(identity=9,fur=9,body=7,template=9) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong quality thresholds')
+            if not (historical or roster or qualified or majority):raise ValueError('Unaccepted workflow export')
+            if roster or qualified or majority:
                 e=data.get('evaluation',{})
-                if not (e.get('roster_entries',0)>=7 and e.get('roster_entries')==e.get('passing_entries') and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
+                if not (e.get('roster_entries',0)>=7 and (e.get('roster_entries')==e.get('passing_entries') if not majority else (type(e.get('roster_entries')) is int and type(e.get('passing_entries')) is int and e.get('required_pass_percent')==85 and e.get('required_passing_entries')==(85*e['roster_entries']+99)//100 and e['required_passing_entries']<=e['passing_entries']<=e.get('checked_entries',0)==e['roster_entries'])) and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
             unsigned={k:v for k,v in data.items() if k!='sha256'}
             from portrait_autorefine import signature
             if data['sha256']!=signature(unsigned):raise ValueError('Export checksum differs')

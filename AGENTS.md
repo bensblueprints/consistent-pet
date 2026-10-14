@@ -19,7 +19,7 @@ held-out evaluations must remain immutable and must not be relabeled as passes.
 Owner update, 2026-10-14: the new roster policy explicitly refines on every
 submitted dog. Treat the entire roster as development data in that new policy;
 never claim those identities are still unseen holdouts. Lock one shared costume
-recipe only after every roster entry passes that exact recipe. Any recipe change
+recipe once at least 85% of qualifying roster entries pass that exact recipe. Any recipe change
 invalidates earlier passes until rechecked. Export this separately identified
 roster-validation format; retain the historical holdout exporter unchanged.
 
@@ -37,3 +37,7 @@ skips the flock-dependent flow tests.
 Exception explicitly authorized by the owner: approved generated reference templates
 in reference-library/ are published with Git LFS and mirrored to Hugging Face.
 This does not permit customer photographs, customer outputs, credentials or runtime files.
+
+Latest owner update: accept a costume when at least 85% of the FULL qualifying input roster passes one unchanged shared recipe. Required count is ceil(0.85 * roster size): 15/17. Untested dogs are not passes. Preserve face 9, fur 9, body 7, design 9, input >=7, confidence and defect gates. v3 exports include actual passing, checked and required counts. Historical evaluations and owner visual approvals remain separate.
+
+Round order: generate and score one image per qualifying dog on the same recipe before any revision. Evaluate the complete round; >=85% locks and advances to the next costume. Otherwise the LLM revises once, then runs another complete dog sweep, up to six rounds per catalog visit. Never combine passes from different recipes.

@@ -1,8 +1,10 @@
 # Handoff: 725 portrait references and RTX 6000 workflow refinement
 
+Current policy: full qualifying-dog rounds, 85% set acceptance (15/17). See latest owner updates below.
+
 Updated: 2026-10-14. **Start here, then read AGENTS.md and the operational documents linked below.**
 
-Latest owner-requested policy: `scripts/run-roster-catalog.py` gives each submitted
+Earlier owner-requested policy: `scripts/run-roster-catalog.py` gives each submitted
 qualifying input (source photo score >=7) up to six attempts. The new output
 minimums are face 9, fur 9, body 7, design 9, with high confidence and no major
 defects. Source photos are scored independently, without costume/output evidence;
@@ -145,3 +147,7 @@ The image library is complete and verified. The 725 dedicated GPU folders provid
 Older surreal female templates have `anatomy-review-required` flags; some vintage references contain multiple subjects or age variants; Dragon Guardian contains a secondary creature. Review those before automatic customer use. No masks, weights, customer originals, runtime jobs or credentials are included in these public folders.
 
 Boardly project 56, card 625 records the library publication and verification. The root README and AGENTS.md link to this handoff for future agents.
+
+Latest owner update: accept a costume when at least 85% of the FULL qualifying input roster passes one unchanged shared recipe. Required count is ceil(0.85 * roster size): 15/17. Untested dogs are not passes. Preserve face 9, fur 9, body 7, design 9, input >=7, confidence and defect gates. v3 exports include actual passing, checked and required counts. Historical evaluations and owner visual approvals remain separate.
+
+Round order: generate and score one image per qualifying dog on the same recipe before any revision. Evaluate the complete round; >=85% locks and advances to the next costume. Otherwise the LLM revises once, then runs another complete dog sweep, up to six rounds per catalog visit. Never combine passes from different recipes.

@@ -41,7 +41,7 @@ class FlowTests(unittest.TestCase):
                 (self.jobs/(key+'.json')).write_text(json.dumps(dict(graph=graph)))
                 return row
             def score(self,row):
-                failed=row['dog_id']=='b' and (always_fail or sum(d=='b' for d,_ in self.calls)<3)
+                failed=row['dog_id'] in ('b','c') and (always_fail or sum(d=='b' for d,_ in self.calls)<3)
                 return dict(identity=9,fur=9,body=6 if failed else 7,template=9,confidence='high',defects=[],output_sha256=row['output_sha256'])
             def publish(self,row):pass
         plan=dict(version='fixture-costume',templates=[dict(id='costume',scene='Garden',clothing='Jacket',initial_proposal=proposal)])
@@ -60,13 +60,13 @@ class FlowTests(unittest.TestCase):
             c.process(dict(id='costume',name='Costume'))
         return c,fake
 
-    def test_failed_second_dog_retries_immediately_then_prior_dog_is_rechecked(self):
+    def test_full_sweeps_before_revising_then_locks_at_threshold(self):
         with tempfile.TemporaryDirectory() as d:
             c,fake=self.exercise(Path(d))
-            self.assertEqual([dog for dog,_ in fake.calls[:5]],['a','b','b','b','a'])
+            self.assertEqual([dog for dog,_ in fake.calls[:14]],list('abcdefg')*2)
             self.assertEqual(c.state['items']['costume']['status'],'accepted')
             export=json.loads((fake.home/'accepted/costume.json').read_text())
-            self.assertEqual(export['evaluation']['passing_entries'],7)
+            self.assertGreaterEqual(export['evaluation']['passing_entries'],6)
 
     def test_six_failures_keep_costume_unaccepted_and_other_dogs_still_render(self):
         with tempfile.TemporaryDirectory() as d:

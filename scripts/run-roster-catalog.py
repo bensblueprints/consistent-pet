@@ -10,7 +10,7 @@ from pathlib import Path
 from portrait_reviews import ROOT,digest
 from portrait_autorefine import DIMENSIONS,signature
 from portrait_llm_planner import request as request_plan,recipe as make_recipe,atomic
-from portrait_roster import POLICY,THRESHOLDS,meets_target,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
+from portrait_roster import POLICY,THRESHOLDS,required_passes,set_passes,meets_target,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
 from portrait_input_quality import eligible,read_scores,RUBRIC as INPUT_RUBRIC
 
 
@@ -27,8 +27,9 @@ class RosterCatalog(catalog_module.Catalog):
         super().save()
         path=ROOT/'catalog-public-status.json';public=json.loads(path.read_text())
         public.update(policy=POLICY,roster_total=self.state.get('roster_total',0),
-                      current_dog=self.state.get('current_dog'),passed_current_recipe=self.state.get('passed_current_recipe',0),
-                      note='Qualifying input >=7; output face >=9, fur >=9, body >=7, design >=9. Development checks, not unseen-dog validation.',
+                      checked_current_recipe=self.state.get('checked_current_recipe',0),current_dog=self.state.get('current_dog'),passed_current_recipe=self.state.get('passed_current_recipe',0),
+                      required_pass_percent=85,required_passing_entries=required_passes(self.state.get('roster_total',0)),
+                      note='At least 85% of qualifying dogs must pass one recipe. Qualifying input >=7; output face >=9, fur >=9, body >=7, design >=9. Development checks, not unseen-dog validation.',
                       submission_deadline=self.state['started_at']+self.state['max_hours']*3600)
         atomic(path,public)
 
@@ -49,14 +50,14 @@ class RosterCatalog(catalog_module.Catalog):
             rounds_started=item['round'],generation_candidates=item.get('generations',0))
         candidates=(development or {}).get('candidates',[]);current=candidates[-1] if candidates else None
         status.update(roster_entries=len((development or {}).get('roster',[])),
-                      passing_current_recipe=len(passing(current)) if current else 0,
+                      passing_current_recipe=len(passing(current)) if current else 0,required_pass_percent=85,
                       candidate_revisions=len(candidates),input_minimum=7,output_thresholds=THRESHOLDS,
                       excluded_input_entries=(development or {}).get('excluded_input_entries',0))
         atomic(path,status)
         lines=[f"# {ref['name']} — development-roster report",'',f"Status: **{status['status']}**. Updated {status['last_updated_utc']}.",'',
             f"{status['passing_current_recipe']} / {status['roster_entries']} qualifying input records pass the current shared recipe. {status['excluded_input_entries']} source photos excluded by the input-quality gate. {len(candidates)} candidate recipes; {item.get('generations',0)} renders.",'',
             'The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.',
-            'Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. Only one exact recipe passing the entire roster can lock this costume.','',
+            'Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.','',
             'All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.','',
             '| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |',
             '| --- | ---: | ---: | ---: | --- | --- |']
@@ -71,6 +72,7 @@ class RosterCatalog(catalog_module.Catalog):
         item['generations']=refiner.state['generations'];candidate=development['candidates'][-1] if development['candidates'] else None
         self.state['roster_total']=len(development['roster'])
         self.state['passed_current_recipe']=len(passing(candidate)) if candidate else 0
+        self.state['checked_current_recipe']=len(candidate['checks']) if candidate else 0
         self.save();refiner.save();self.report(ref,item,development)
 
     def propose(self,ref,source,refiner,t,development,initial=False):
@@ -93,7 +95,7 @@ class RosterCatalog(catalog_module.Catalog):
             self.check_window()
             proposal=request_plan(ROOT,f"{refiner.run}-visit-{development['visit']}-candidate-{len(candidates)+1}-proposal-{attempt+1}",dict(images=images,context=dict(
                 reference=ref['name'],scene=t['scene'],development_history=history,
-                instruction='All shown dogs are development examples. Correct the failing dog without losing earlier successes. A shared recipe must work for every dog. Do not copy a specific dog color or anatomy into generic instructions. If steps or mask growth failed repeatedly, change pose policy, conditioning balance or latent strategy. Avoid prior identical recipes.',
+                instruction='All shown dogs are development examples. Correct the failing dog without losing earlier successes. A shared recipe must pass at least 85% of the qualifying roster. Do not copy a specific dog color or anatomy into generic instructions. If steps or mask growth failed repeatedly, change pose policy, conditioning balance or latent strategy. Avoid prior identical recipes.',
                 retry='An identical functional recipe is not a new experiment.' if attempt else '')))
             if not proposal['single_subject']:raise ValueError('Reference requires multi-subject handling')
             reviews=[e['assessment'] for e in previous['checks'].values()] if previous else []
@@ -132,7 +134,7 @@ class RosterCatalog(catalog_module.Catalog):
         original_save=refiner.save
         def save():
             original_save()
-            p=ROOT/'auto-refine-status.json';s=json.loads(p.read_text());s['target']='Input >=7; face >=9, fur >=9, body >=7, design >=9';s['dogs']=getattr(refiner,'qualified_count',len(refiner.dogs));atomic(p,s)
+            p=ROOT/'auto-refine-status.json';s=json.loads(p.read_text());s['target']='Set >=85%; input >=7; face >=9, fur >=9, body >=7, design >=9';s['dogs']=getattr(refiner,'qualified_count',len(refiner.dogs));atomic(p,s)
         refiner.save=save
         refiner.state.update(current_template=ref['name'],phase='Preparing costume workflow')
         template=refiner.state['templates'].setdefault(t['id'],{'attempts':[]});source,base=refiner.prepare(t,template)
@@ -164,26 +166,26 @@ class RosterCatalog(catalog_module.Catalog):
             if shutil.disk_usage(ROOT).free<10*1024**3:raise RuntimeError('Runtime storage needs attention')
             candidate=development['candidates'][-1];dog=next_dog(development)
             if dog is None:
-                if passing(candidate)!=set(roster):break
-                first=candidate['checks'][roster[0]];graph=json.loads((refiner.jobs/(first['row_id']+'.json')).read_text())['graph']
+                if not set_passes(development):break
+                first=candidate['checks'][next(d for d in roster if d in passing(candidate))];graph=json.loads((refiner.jobs/(first['row_id']+'.json')).read_text())['graph']
                 artifact=export_locked(development,t,graph)
                 accepted=refiner.home/'accepted';accepted.mkdir(exist_ok=True);atomic(accepted/(t['id']+'.json'),artifact)
                 development['locked']=True;item.update(status='accepted',errors=0)
-                refiner.state.update(status='Roster workflow locked',phase='Every submitted dog passed the same recipe');refiner.save()
+                refiner.state.update(status='Roster workflow locked',phase=f"{len(passing(candidate))}/{len(roster)} qualifying dogs passed the same recipe (85% minimum)");refiner.save()
                 self.report(ref,item,development,artifact);self.save();return
             self.state['current_dog']=roster.index(dog)+1
             development['focus_dog']=dog
             if dog in candidate['checks']:
                 # Failed check: request an actual new recipe, then recheck prior dogs.
-                refiner.state.update(status='Running',phase='LLM revising shared roster workflow');refiner.save()
+                refiner.state.update(status='Running',phase='Full dog round below 85%; LLM revising shared workflow');refiner.save()
                 new_candidate(development,self.propose(ref,source,refiner,t,development));self.progress(ref,item,refiner,development);continue
             attempt=development['visit_attempts'].get(dog,0)+1
-            refiner.state.update(status='Running',phase=f"Rendering {refiner.dogs[dog]['label']} - attempt {attempt}/6 this pass");refiner.save()
+            refiner.state.update(status='Running',phase=f"Round sweep: {len(candidate['checks'])}/{len(roster)} scored, {len(passing(candidate))}/{required_passes(len(roster))} passes needed. Rendering {refiner.dogs[dog]['label']} ({attempt}/6)");refiner.save()
             row=refiner.render(t,template,source,base,candidate['recipe'],dog,'roster')
             row.update(output_thresholds=THRESHOLDS,input_photo_score=quality[dog]['score'],acceptance_policy=POLICY)
             refiner.state['phase']='Scoring development dog '+str(roster.index(dog)+1);refiner.save()
             assessment={**refiner.score(row),'dog_id':dog};record_check(candidate,dog,assessment,row)
-            row['review']='Pass checkpoint saved for this recipe' if meets_target(assessment) else 'Below target; LLM will revise the shared workflow'
+            row['review']='Pass checkpoint saved for this recipe' if meets_target(assessment) else 'Below target; finish the dog round before deciding whether to revise'
             # Idempotent: resume may find a completed native row that has not been checkpointed.
             if row['id'] not in development.setdefault('counted_rows',[]):
                 development['visit_attempts'][dog]=attempt;development['counted_rows'].append(row['id'])

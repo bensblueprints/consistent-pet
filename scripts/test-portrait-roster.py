@@ -25,40 +25,41 @@ class RosterTests(unittest.TestCase):
             '92:113':dict(class_type='CLIPTextEncode',inputs=dict(text='private-dog-description'))})
         return state,candidate,graph
 
-    def test_next_dog_waits_for_current_dog_to_pass(self):
-        state,c,_=self.fixture();self.assertEqual(next_dog(state),'a')
-        self.check(c,'a',8);self.assertEqual(next_dog(state),'a')
-        self.assertEqual(passing(c),set())
-
-    def test_later_change_rechecks_previously_passing_dogs(self):
-        state,c,_=self.fixture();self.check(c,'a');self.assertEqual(next_dog(state),'b')
-        self.check(c,'b',7);new_candidate(state,self.recipe(1))
-        self.assertEqual(next_dog(state),'a');self.assertEqual(len(state['candidates'][0]['checks']),2)
-
-    def test_failing_dog_gets_six_attempts_then_other_dogs_get_a_turn(self):
-        state,c,graph=self.fixture();state.update(focus_dog='b',visit_attempts={})
-        for n in range(6):
-            self.assertEqual(next_dog(state),'b')
-            self.check(c,'b',7);state['visit_attempts']['b']=n+1
-            if n<5:c=new_candidate(state,self.recipe(n+1))
+    def test_full_roster_sweep_before_retry(self):
+        state,c,_=self.fixture()
+        for d in state['roster']:
+            self.assertEqual(next_dog(state),d)
+            self.check(c,d,7)
         self.assertEqual(next_dog(state),'a')
-        for dog in 'acdefg':self.check(c,dog)
+        state['visit_attempts']={d:6 for d in state['roster']}
         self.assertIsNone(next_dog(state))
-        with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
-        state.update(visit_attempts={},focus_dog=None)
-        self.assertEqual(next_dog(state),'b')
 
-    def test_passing_dog_stops_early_but_changed_recipe_requires_recheck(self):
-        state,c,_=self.fixture();state.update(focus_dog='a',visit_attempts={'a':1})
-        self.check(c,'a');self.assertEqual(next_dog(state),'b')
-        c=new_candidate(state,self.recipe(1));self.assertEqual(next_dog(state),'a')
+    def test_changed_recipe_rechecks_every_dog(self):
+        state,c,_=self.fixture()
+        for d in state['roster']:self.check(c,d)
+        self.assertIsNone(next_dog(state))
+        new_candidate(state,self.recipe(1))
+        self.assertEqual(next_dog(state),'a')
 
-    def test_all_passes_must_belong_to_one_recipe(self):
+    def test_85_percent_uses_full_roster_and_requires_complete_sweep(self):
         state,c,graph=self.fixture()
-        for d in 'abcdef':self.check(c,d)
-        self.check(c,'g',7)
+        state['roster']=[str(n) for n in range(17)]
+        state['input_quality']={d:dict(score=7,confidence='high') for d in state['roster']}
+        for d in state['roster'][:14]:self.check(c,d)
+        for d in state['roster'][15:]:self.check(c,d,7)
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
-        c2=new_candidate(state,self.recipe(1));self.check(c2,'g')
+        self.check(c,'14')
+        artifact=export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
+        self.assertEqual(artifact['evaluation']['passing_entries'],15)
+        self.assertEqual(artifact['evaluation']['required_passing_entries'],15)
+        self.assertEqual(artifact['evaluation']['checked_entries'],17)
+        c2=new_candidate(state,self.recipe(1));self.check(c2,'16')
+        with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
+
+    def test_fourteen_of_seventeen_fails(self):
+        state,c,graph=self.fixture();state['roster']=[str(n) for n in range(17)]
+        state['input_quality']={d:dict(score=7,confidence='high') for d in state['roster']}
+        for n,d in enumerate(state['roster']):self.check(c,d,9 if n<14 else 7)
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
 
     def test_export_is_private_free_and_honest_about_development_data(self):

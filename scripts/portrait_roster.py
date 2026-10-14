@@ -1,9 +1,16 @@
-"""One shared recipe must pass the entire development roster before locking."""
+"""One shared recipe must pass at least 85% of the qualifying development roster before locking."""
 import copy
 from portrait_autorefine import signature
 from portrait_llm_planner import BOUNDS
 
-POLICY='qualified-inputs-development-v2'
+POLICY='qualified-inputs-85-percent-v3'
+PASS_PERCENT=85
+
+def required_passes(total):return (total*PASS_PERCENT+99)//100
+
+def set_passes(state):
+    return (set(state['candidates'][-1]['checks'])==set(state['roster']) and len(passing(state['candidates'][-1]) & set(state['roster']))>=required_passes(len(state['roster'])))
+
 THRESHOLDS=dict(identity=9,fur=9,body=7,template=9)
 
 
@@ -43,6 +50,10 @@ def passing(candidate):
 
 def next_dog(state):
     candidate=state['candidates'][-1]
+    if set_passes(state):return None
+    unchecked=[d for d in state['roster'] if d not in candidate['checks']]
+    if unchecked:
+        return next((d for d in unchecked if state.get('visit_attempts',{}).get(d,0)<6),None)
     pending=[d for d in state['roster'] if d not in passing(candidate)]
     focus=state.get('focus_dog')
     if focus in pending:pending.remove(focus);pending.insert(0,focus)
@@ -54,11 +65,11 @@ def export_locked(state,template,graph):
     candidate=state['candidates'][-1];roster=state['roster']
     if candidate['recipe_sha256']!=recipe_hash(candidate['recipe']):raise ValueError('Candidate recipe changed after scoring')
     if len(roster)<7 or len(set(roster))!=len(roster):raise ValueError('Invalid roster')
-    if set(candidate['checks'])!=set(roster) or passing(candidate)!=set(roster):raise ValueError('Every roster entry must pass the same recipe')
+    if not set(candidate['checks']).issubset(roster) or not set_passes(state):raise ValueError('At least 85% of the full qualifying roster must pass the same recipe')
     for dog,e in candidate['checks'].items():
         if e['assessment'].get('dog_id')!=dog or e['assessment'].get('output_sha256')!=e['output_sha256'] or not all(e.get(k) for k in ('row_id','output_sha256','prompt_id','graph_sha256')):
             raise ValueError('Missing bound evidence')
-    if len({e['prompt_id'] for e in candidate['checks'].values()})!=len(roster):raise ValueError('Native job evidence reused across dogs')
+    if len({e['prompt_id'] for e in candidate['checks'].values()})!=len(candidate['checks']):raise ValueError('Native job evidence reused across dogs')
     graph=copy.deepcopy(graph)
     bindings={'76':'__DOG_ORIGINAL__','detailimage':'__DOG_FACE__','81':'__COSTUME_REFERENCE__','repair-base':'__TEMPLATE_LAYOUT__','repair-mask':'__SUBJECT_MASK__'}
     for key,value in bindings.items():graph[key]['inputs']['image']=value
@@ -72,9 +83,9 @@ def export_locked(state,template,graph):
     quality=state.get('input_quality',{})
     from portrait_input_quality import eligible
     if not all(eligible(quality.get(d,{})) for d in roster):raise ValueError('Each qualifying input must score at least 7')
-    result=dict(format='consistent-pet-roster-recipe-v2',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
+    result=dict(format='consistent-pet-roster-recipe-v3',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
                 recipe=functional_recipe(candidate['recipe']),scene=template['scene'],clothing=template['clothing'],graph=graph,
-                evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(roster),same_recipe_for_all=True,
+                evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),required_pass_percent=PASS_PERCENT,required_passing_entries=required_passes(len(roster)),same_recipe_for_all=True,
                                 unseen_dog_validation=False,ai_estimate_only=True,input_minimum=7,
                                 excluded_input_entries=state.get('excluded_input_entries',0)),production_enabled=False,
                 binding='Bind original dog, real face crop, reference assets and seed through repair_graph and apply_recipe. Do not add dog-specific review corrections.')
