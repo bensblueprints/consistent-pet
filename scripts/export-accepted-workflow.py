@@ -28,6 +28,7 @@ def sanitized(item):
             value=node['inputs']['image']
             if not (value.startswith('__') and value.endswith('__')):raise ValueError('Graph contains a bound private image')
     recipe={k:frozen['recipe'][k] for k in ('version','steps','cfg','grow','feather','original_megapixels','face_megapixels','design_megapixels','focus','instruction')}
+    recipe['strategy']=frozen['recipe'].get('strategy','inpaint')
     result=dict(format='consistent-pet-api-recipe-v1',template_id=frozen['template_id'],target=9,
                 scene=frozen['scene'],clothing=frozen['clothing'],recipe=recipe,graph=graph,
                 status='AI target met across dogs',evaluation=dict(tuning_dogs=counts['tuning'],validation_dogs=counts['validation'],test_dogs=counts['test'],ai_estimate_only=True),

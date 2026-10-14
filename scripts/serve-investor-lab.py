@@ -16,7 +16,7 @@ PREFIX='/view/'+TOKEN_FILE.read_text().strip()+'/'
 def read(name,default):
  try:return json.loads((R/name).read_text())
  except (OSError,ValueError):return default
-FIELDS=('id','index','pack','category','template','mode','input','reference','label','status','review','output','thumbnail','seconds','started','finished_at','preview','progress_max','progress_value','progress_seq','workflow_id','dog_id','prepared','preparation','baseline_output','baseline_label','repair_version','repair_mask','repair_design','auto_refine_version','auto_stage','auto_attempt','auto_target','auto_changes','auto_corrections','auto_rationale','input_quality','input_quality_notes')
+FIELDS=('id','index','pack','category','template','mode','input','reference','label','status','review','output','thumbnail','seconds','started','finished_at','preview','progress_max','progress_value','progress_seq','workflow_id','dog_id','prepared','preparation','baseline_output','baseline_label','repair_version','repair_mask','repair_design','auto_refine_version','auto_stage','auto_attempt','auto_target','auto_changes','auto_corrections','auto_rationale','input_quality','input_quality_notes','reference_id','generation','planner','strategy')
 def public_state():
  prior=read('dog-batch.json',{'rows':[]});full=read('dog-library-batch.json',{'rows':[]})
  batch=full if full['rows'] else prior
@@ -33,7 +33,7 @@ def public_state():
  result=attach(result)
  auto=read('auto-refine-status.json',{})
  auto={k:auto[k] for k in ('run','status','generations','current_template','phase','target','max_generations','templates','finished','passed','updated_at','dogs') if k in auto}
- return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{}))}
+ return {'rows':result,'batch':safe_batch,'gpu':read('gpu-status.json',{}),'judge':judge_snapshot(result,R),'auto_refine':auto,'input_catalog':public_catalog(read('input-catalog.json',{})),'catalog_progress':read('catalog-public-status.json',{})}
 class Handler(BaseHTTPRequestHandler):
  def do_POST(self):
   if urllib.parse.urlparse(self.path).path!=PREFIX+'review':self.send_error(404);return

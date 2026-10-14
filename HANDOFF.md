@@ -2,6 +2,14 @@
 
 Updated: 2026-10-14. **Start here, then read AGENTS.md and the operational documents linked below.**
 
+Implementation update: `scripts/run-costume-catalog.py` now provides the persistent
+725-reference queue with resident-LLM planning. See [the workflow guide](docs/WORKFLOW.md)
+for bounded retries, frozen cross-dog checks, resource limits and report publishing.
+The studio's default generation-history view compares attempts horizontally and
+retains AI critiques, applied changes and optional human reviews. These are workflow
+optimization tools, not evidence that all references are tuned or model weights
+have been trained. Per-folder status and reports record actual progress.
+
 ## Owner's requested next task
 
 Use the rented **RTX PRO 6000 Blackwell 96 GB** to improve identity transfer for **all 725 unique portrait references**. Work through the catalog systematically. For each reference, refine the GPU workflow until it preserves the uploaded pet's face, coat, body and the intended design, evaluate it on different dogs, and save the resulting reusable workflow in that reference's own folder under `workflows/portraits/<reference-id>/`.

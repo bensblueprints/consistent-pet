@@ -66,6 +66,13 @@ class FlowTests(unittest.TestCase):
             self.assertEqual(set(check[2]),set('cdehij'))
             self.assertEqual(check[3],r.calls[-1][3])
 
+    def test_catalog_failure_retries_training_without_touching_holdouts(self):
+        with tempfile.TemporaryDirectory() as path:
+            r=self.make_runner(path,always_low=True);r.plan['validate_provisional']=False
+            r.template({'id':'costume','scene':'Garden','clothing':'Suit'})
+            self.assertTrue(all(c[0]=='tune' for c in r.calls))
+            self.assertEqual(r.state['templates']['costume']['status'],'Best saved; target not met')
+
     def test_stagnation_keeps_earliest_best_and_still_checks_other_dogs(self):
         with tempfile.TemporaryDirectory() as path:
             r=self.make_runner(path,always_low=True);r.template({'id':'costume','scene':'Garden','clothing':'Suit'})

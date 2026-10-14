@@ -21,6 +21,7 @@ from portrait_body_repair import segmentation_graph,make_masks,neutral_reference
 from portrait_benchmark_progress import ComfyProgress
 from portrait_autorefine import TARGET,signature,dog_splits,meets_target,result_rank,next_recipe,seed_for,validate_plan,freeze_recipe,tuning_finished,dog_instruction,apply_recipe,choose_tuning_dogs
 from portrait_fur_body_rubric import RUBRIC
+from portrait_llm_planner import request as request_plan,recipe as llm_recipe
 
 M=ROOT/'media';I=Path(os.environ.get('COMFY_INPUT_DIR','/workspace/ComfyUI/input'));API=os.environ.get('COMFY_API','http://127.0.0.1:18188').rstrip('/')
 
@@ -39,11 +40,11 @@ class Refiner:
         self.state_path=self.home/'state.json'
         self.dogs={d['id']:d for d in json.loads((ROOT/plan.get('dogs_manifest','selected-dogs.json')).read_text())['dogs']}
         self.splits=dog_splits(list(self.dogs.values()))
-        sources=[r for f in ('dog-library-batch.json','dog-batch.json') if (ROOT/f).exists() for r in json.loads((ROOT/f).read_text())['rows']]
+        sources=[r for f in ('dog-library-batch.json','dog-batch.json','catalog-references.json') if (ROOT/f).exists() for r in json.loads((ROOT/f).read_text())['rows']]
         self.sources={r['id']:r for r in sources}
         self.fingerprint=signature({'plan':plan,'dogs':{d['id']:{**{k:d[k] for k in ('source_sha256','input','crop')},'input_sha256':digest(M/d['input']),'crop_sha256':digest(M/d['crop'])} for d in self.dogs.values()},
             'cohort':self.dogs,'judge_model':digest(ROOT/'judge32-model.json'),
-            'code':{name:digest(Path(__file__).with_name(name)) for name in ('run-portrait-autorefine.py','portrait_autorefine.py','portrait_body_repair.py','score-portrait-outputs.py','portrait_fur_body_rubric.py','portrait_input_registry.py')}})
+            'code':{name:digest(Path(__file__).with_name(name)) for name in ('run-portrait-autorefine.py','portrait_autorefine.py','portrait_body_repair.py','score-portrait-outputs.py','portrait_fur_body_rubric.py','portrait_input_registry.py','portrait_llm_planner.py')}})
         if self.state_path.exists():
             self.state=json.loads(self.state_path.read_text())
             if self.state['fingerprint']!=self.fingerprint:raise ValueError('Changed recipe/code/inputs: use a new run version')
@@ -126,7 +127,7 @@ class Refiner:
 
     def prepare(self,t,state):
         source=self.sources[t['source_row']]
-        graph_path=ROOT/('dog-library-jobs' if source['id'].startswith('dogs10-full-library') else 'dog-jobs')/(source['id']+'.json')
+        graph_path=ROOT/('catalog-jobs' if source['id'].startswith('catalog-reference-') else 'dog-library-jobs' if source['id'].startswith('dogs10-full-library') else 'dog-jobs')/(source['id']+'.json')
         if not graph_path.exists():raise ValueError('Template needs a saved native baseline graph')
         graph=json.loads(graph_path.read_text());w=graph['92:115']['inputs']['width'];h=graph['92:115']['inputs']['height']
         source_hashes={'reference':digest(M/source['reference']),'graph':digest(graph_path)}
@@ -162,10 +163,12 @@ class Refiner:
             return row
         dog=self.dogs[dog_id];assets=state['assets']
         for name in (dog['input'],dog['crop']):self.upload(name)
-        mask_name=f"{self.run}-{t['id']}-mask-g{recipe['grow']}.png"
+        mask_name=f"{self.run}-{t['id']}-mask-g{recipe['grow']}-f{recipe['feather']}.png"
         if not (M/mask_name).exists():
-            mask=Image.open(M/assets['mask']).convert('L');extra=max(0,recipe['grow']-24)
-            if extra:mask=mask.filter(ImageFilter.MaxFilter(extra*2+1))
+            prefix=self.run+'-'+t['id']
+            paths=[self.jobs/(prefix+'-'+k+'.png') for k in ('subject','animal','clothes','subject-clothes')]
+            mask,_,_=make_masks(*(Image.open(p) for p in paths[:3]),Image.open(M/assets['layout']).size,
+                grow=recipe['grow'],feather=recipe['feather'],subject_clothes=Image.open(paths[3]),require_clothing=t.get('require_clothing',True))
             mask.save(M/mask_name)
         self.upload(mask_name)
         if not row:
@@ -175,6 +178,8 @@ class Refiner:
                        preparation='Intact original dog; no cutout loss',status='Queued',
                        mode=f'Automatic refinement · {stage} · recipe {recipe["version"]}',
                        auto_refine_version=self.run,auto_stage=stage,auto_attempt=recipe['version'],auto_target=TARGET,
+                       reference_id=t.get('reference_id',t['id']),generation=t.get('generation_offset',0)+recipe['version'],
+                       planner=recipe.get('planner','heuristic-v2'),strategy=recipe.get('strategy','inpaint'),
                        auto_changes=recipe.get('changes',[]),auto_rationale=recipe.get('rationale',''),
                        auto_corrections=[d['correction'] for d in recipe.get('diagnosis',[]) if stage=='tune' and d['dog_id']==dog_id],
                        workflow_id=t['id']+'-auto-r'+str(recipe['version']),workflow_sha256=signature(recipe),
@@ -237,7 +242,22 @@ class Refiner:
             index=len(state['attempts'])
             previous=state['attempts'][-1]['assessments'] if state['attempts'] else t.get('initial_feedback',[])
             parent=state['attempts'][-1]['recipe'] if state['attempts'] else t.get('initial_recipe')
-            recipe=next_recipe(index,previous,parent)
+            if self.plan.get('use_llm_planner'):
+                self.state['phase']='Local LLM designing generation '+str(index+1);self.save()
+                if index==0 and t.get('initial_proposal'):proposal=t['initial_proposal']
+                else:
+                    images=[{'file':source['reference'],'label':'Costume and scene reference'}]
+                    for dog in tune:
+                        images.append({'file':self.dogs[dog]['input'],'label':'Original tuning dog '+dog})
+                        prior_key=f"{self.run}-{t['id']}-r{index}-tune-{dog}"
+                        prior_row=self.state['rows'].get(prior_key)
+                        if prior_row and prior_row.get('output'):images.append({'file':prior_row['output'],'label':'Prior result for '+dog})
+                    history=[{'recipe':{k:v for k,v in a['recipe'].items() if k not in ('diagnosis','instruction')},'assessments':a['assessments']} for a in state['attempts'][-4:]]
+                    proposal=request_plan(ROOT,f"{self.run}-{t['id']}-planner-{index+1}",{'images':images,'context':{
+                        'reference':source['template'],'clothing':t['clothing'],'scene':t['scene'],'training_history':history,
+                        'earlier_training_experiments':t.get('training_history',[]),'rule':'Only training feedback is supplied; held-out reviews must never guide edits.'}})
+                recipe=llm_recipe(proposal,index,previous,parent)
+            else:recipe=next_recipe(index,previous,parent)
             assessments=self.evaluate(t,state,source,base,recipe,tune,'tune')
             state['attempts'].append(dict(recipe=recipe,assessments=assessments,rank=result_rank(assessments)))
             self.save()
@@ -252,6 +272,9 @@ class Refiner:
         if freeze_path.exists() and json.loads(freeze_path.read_text())!=frozen:raise ValueError('Frozen recipe changed')
         if not freeze_path.exists():atomic(freeze_path,frozen)
         state.update(best_recipe=recipe,frozen_sha256=digest(freeze_path),status='Frozen; checking other dogs');self.save()
+        if self.plan.get('validate_provisional') is False and not all(meets_target(a) for a in best['assessments']):
+            state.update(finished=True,status='Best saved; target not met',test_status='Untouched: training target not met')
+            atomic(self.home/(t['id']+'-report.json'),{**state,'ai_estimate_only':True,'production_enabled':False});self.save();return
         # Even a provisional best gets cross-dog diagnostics, never a false pass.
         checks=self.evaluate(t,state,source,base,recipe,validation,'validation')
         state['validation']=checks

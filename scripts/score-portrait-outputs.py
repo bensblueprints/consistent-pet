@@ -14,6 +14,7 @@ from portrait_reviews import ROOT, attach, digest, output_hash, save_ai
 from portrait_fur_body_rubric import RUBRIC as BODY_RUBRIC,PROMPT as BODY_PROMPT,validate as validate_body
 from portrait_judge_runtime import PROFILE,LiveJudge,pending_rows
 from portrait_input_registry import identity_crop
+from portrait_llm_planner import process_next as plan_next_workflow
 
 COMPACT_PROMPT=BODY_PROMPT.split('Return ONLY one JSON object')[0]+'''Return ONLY compact JSON with these keys:
 identity,fur,body,template: integer 1-10;
@@ -160,6 +161,9 @@ def run(once=False,controls=False,live=None):
         priority_path=ROOT/'judge-priority.json'
         priority=json.loads(priority_path.read_text()).get('ids',[]) if priority_path.exists() else []
         pending=pending_rows(rows,failures,priority)
+        # Reuse the resident LLM between fresh-output reviews; no second model load.
+        if not once and not any(not r.get('ai_review') for r in pending):
+            if plan_next_workflow(judge,ROOT,live):continue
         for row in pending:
             status=ROOT/'judge-status';status.mkdir(exist_ok=True);path=status/(row['id']+'.json')
             try:

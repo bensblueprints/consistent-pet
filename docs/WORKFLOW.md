@@ -91,6 +91,36 @@ crop's checksum alongside the input, reference and output hashes.
 
 ## Limits and interpretation
 
+The catalog worker `scripts/run-costume-catalog.py --repo /path/to/checkout`
+manages a durable queue for all 725 references. It uses the resident Qwen vision
+model to inspect the reference, two clear training pets, previous outputs and
+training-only critiques. The planner selects validated sampler, reference-resolution,
+mask and latent-strategy changes. Its separate planning prompt cannot edit the
+independent scoring rubric or execute generated code. This optimizes ComfyUI
+workflows; it does not train model weights.
+
+Freeze a complete copy of `scripts/` before starting a version. The default
+resource window is 48 hours, with four candidate recipes per round and up to
+three consecutive training rounds before moving to the next costume. Incomplete
+training candidates are revisited on later catalog passes. Accepted workflows
+stop; multi-subject references, repeated technical failures and failed frozen
+cross-dog checks are retained for inspection. Held-out results never become
+planner feedback. Only a workflow passing all required checks is exported.
+
+Each reference gets a sanitized `status.json` and `REPORT.md` in its own folder.
+The full attempts, LLM proposals and native ComfyUI IDs remain in private runtime
+storage. Publishing these generated reports to Git requires a separate operator
+or configured publisher. `scripts/sync-costume-progress.py` can pull the
+allowlisted reports through the operator's existing SSH connection and use
+`--publish --watch-hours 48` to commit and push only those report files every five
+minutes. It stops on conflicts or unexpected exports; its host/key arguments stay
+private. The publisher requires the operator's machine and Git credentials to
+remain available. Do not mistake a local report for a pushed Git commit.
+
+In the existing studio, choose **Generations side by side** and select a costume
+and dog. The horizontal slider compares successive outputs, AI scores, suggested
+fixes and applied changes. Human stars and notes remain available on each output.
+
 Budget exhaustion is not success. Unimproved attempts remain visible and no
 below-target workflow enters the accepted directory. Time limits gate new
 submissions; an already running native job or a score wait can finish afterward.

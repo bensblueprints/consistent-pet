@@ -23,6 +23,9 @@ class ExportTests(unittest.TestCase):
         self.assertNotIn('private-',str(result));self.assertNotIn('tune_dogs',result)
         self.assertEqual(result['graph']['76']['inputs']['image'],'__DOG_ORIGINAL__')
         self.assertEqual(original['workflow']['asset_hashes'],{'private-asset.png':'sha'})
+        original['workflow']['recipe']['strategy']='fresh-latent'
+        original['workflow']['recipe_sha256']=signature({k:v for k,v in original['workflow'].items() if k!='recipe_sha256'})
+        self.assertEqual(exporter.sanitized(original)['recipe']['strategy'],'fresh-latent')
 
     def test_export_rejects_provisional_and_failed_or_leaked_assessments(self):
         for change in ('provisional','low','overlap','checksum'):

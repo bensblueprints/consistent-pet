@@ -125,6 +125,8 @@ def apply_recipe(graph,recipe):
     graph['92:114']['inputs']['cfg']=recipe['cfg']
     for key,setting in [('92:110','original_megapixels'),('detailscale','face_megapixels'),('92:85','design_megapixels')]:
         graph[key]['inputs']['megapixels']=recipe[setting]
+    if recipe.get('strategy')=='fresh-latent':
+        graph['92:103']['inputs']['latent_image']=['92:109',0]
     return graph
 
 
@@ -141,6 +143,8 @@ def validate_plan(plan):
     if 'dogs_manifest' in plan and (not isinstance(plan['dogs_manifest'],str) or not re.fullmatch(r'[a-z0-9-]+\.json',plan['dogs_manifest'])):
         raise ValueError('Dog registry must be a private JSON basename')
     if 'validate_all_dogs' in plan and type(plan['validate_all_dogs']) is not bool:raise ValueError('Invalid validate_all_dogs')
+    for flag in ('use_llm_planner','validate_provisional'):
+        if flag in plan and type(plan[flag]) is not bool:raise ValueError('Invalid '+flag)
     if not plan.get('templates') or len({t['id'] for t in plan['templates']})!=len(plan['templates']):raise ValueError('Missing or duplicate templates')
     for template in plan['templates']:
         if not template.get('id') or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for c in template['id']):raise ValueError('Invalid template ID')
