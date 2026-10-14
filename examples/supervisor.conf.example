@@ -1,0 +1,28 @@
+; Adapt paths before installation. Never apply an unscoped supervisor update
+; to an existing GPU instance with unrelated pending configuration changes.
+[program:consistent-pet-refiner]
+command=/venv/main/bin/python -u /workspace/consistent-pet-frozen/scripts/run-portrait-autorefine.py --plan /workspace/consistent-pet-runtime/plan.json --run
+directory=/workspace/consistent-pet-frozen
+environment=FPG_REVIEW_ROOT="/workspace/consistent-pet-runtime",COMFY_API="http://127.0.0.1:18188",COMFY_INPUT_DIR="/workspace/ComfyUI/input"
+autostart=true
+autorestart=false
+stopasgroup=true
+killasgroup=true
+redirect_stderr=true
+stdout_logfile=/workspace/consistent-pet-runtime/refiner.log
+
+[program:consistent-pet-judge]
+command=/venv/main/bin/python -u /workspace/consistent-pet-frozen/scripts/score-portrait-outputs.py
+environment=FPG_REVIEW_ROOT="/workspace/consistent-pet-runtime"
+autostart=true
+autorestart=unexpected
+redirect_stderr=true
+stdout_logfile=/workspace/consistent-pet-runtime/judge.log
+
+[program:consistent-pet-studio]
+command=/venv/main/bin/python -u /workspace/consistent-pet-frozen/scripts/serve-investor-lab.py
+environment=FPG_REVIEW_ROOT="/workspace/consistent-pet-runtime",REVIEW_PORT="18300"
+autostart=true
+autorestart=unexpected
+redirect_stderr=true
+stdout_logfile=/workspace/consistent-pet-runtime/studio.log
