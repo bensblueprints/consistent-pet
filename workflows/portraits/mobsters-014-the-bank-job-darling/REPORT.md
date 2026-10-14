@@ -1,8 +1,8 @@
 # The Bank Job Darling — development-roster report
 
-Status: **provisional**. Updated 2026-10-14T09:29:05Z.
+Status: **in_progress**. Updated 2026-10-14T09:35:04Z.
 
-3 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 16 candidate recipes; 22 renders.
+4 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 16 candidate recipes; 26 renders.
 
 The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.
 Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.
@@ -26,7 +26,7 @@ All submitted photos are development data under the owner-requested policy. Hist
 | 14 | 1 | 0 | 7 | fresh-latent | source-compatible |
 | 15 | 1 | 0 | 7 | fresh-latent | natural-sitting |
 | 16 | 1 | 0 | 7 | fresh-latent | source-compatible |
-| 8 | 4 | 3 | 7 | fresh-latent | natural-sitting |
+| 8 | 8 | 4 | 5 | fresh-latent | natural-sitting |
 
 Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
 Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
