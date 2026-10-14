@@ -52,10 +52,10 @@ def run(args):
             eights=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v4'
             if eights and (data.get('thresholds')!=dict(identity=8,fur=8,body=7,template=8) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong eight-point thresholds')
             if (qualified or majority) and (data.get('thresholds')!=dict(identity=9,fur=9,body=7,template=9) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong quality thresholds')
-            average=data.get('format')=='consistent-pet-average-recipe-v1' and data.get('status')=='locked_on_average'
+            average=data.get('format') in ('consistent-pet-average-recipe-v1','consistent-pet-average-recipe-v2') and data.get('status')=='locked_on_average'
             if average:
                 e=data.get('evaluation',{});n=e.get('roster_entries',0);total=e.get('score_sum');count=e.get('score_count')
-                if not (type(n) is int and n>=7 and e.get('checked_entries')==n and type(total) is int and type(count) is int and count==n*4 and 8*count<=total<=10*count and e.get('average_score')==total/count and e.get('required_average')==8 and e.get('same_recipe_for_all') is True and e.get('input_minimum')==7 and data.get('thresholds')=={'round_average':8}):raise ValueError('Incomplete or below-average round export')
+                if not (type(n) is int and (n==5 and e.get('screening_sample') is True and e.get('qualified_pool_entries',0)>=5 if data['format']=='consistent-pet-average-recipe-v2' else n>=7) and e.get('checked_entries')==n and type(total) is int and type(count) is int and count==n*4 and 8*count<=total<=10*count and e.get('average_score')==total/count and e.get('required_average')==8 and e.get('same_recipe_for_all') is True and e.get('input_minimum')==7 and data.get('thresholds')=={'round_average':8}):raise ValueError('Incomplete or below-average round export')
             owner=data.get('format')=='consistent-pet-owner-approved-recipe-v1' and data.get('status')=='owner_approved' and data.get('acceptance_basis')=='explicit_owner_override' and data.get('ai_acceptance_claim') is False
             if not (historical or roster or qualified or majority or eights or average or owner):raise ValueError('Unaccepted workflow export')
             if roster or qualified or majority or eights:

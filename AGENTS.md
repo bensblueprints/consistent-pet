@@ -45,3 +45,5 @@ Round order: generate and score one image per qualifying dog on the same recipe 
 Latest owner change: 8/10 is sufficient for face, fur and design; body remains >=7. Full-round >=85% rule and source>=7 unchanged. New v4 runs and exports use these thresholds; historical scores and approvals remain unchanged.
 
 Latest owner correction: acceptance is the completed-round arithmetic MEAN >=8/10, not 85% individually passing dogs. Average all four dimension scores across one image of each qualifying dog on one exact recipe. All roster entries must be scored; no mix of historical candidates, no separate dimension/confidence/defect veto. Source >=7 remains. New average-v5 policy, distinct export format; historical evaluations remain immutable.
+
+Latest owner update: use five visually selected diverse dogs from the 17 qualifying source photos for screening. Private selected-screening-five.json is pinned per run. Render each once, accept complete five-dog mean >=8, otherwise revise and repeat. Exports identify screening_sample=true and untested qualifying count; this is not validation on all 17 dogs. Previously accepted workflows remain unchanged.

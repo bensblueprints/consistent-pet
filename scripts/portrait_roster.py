@@ -3,9 +3,16 @@ import copy
 from portrait_autorefine import signature
 from portrait_llm_planner import BOUNDS
 
-POLICY='qualified-inputs-average-v5'
+POLICY='qualified-inputs-screening-five-v6'
 AVERAGE_TARGET=8
 PASS_PERCENT=85
+
+def select_screening_roster(qualified,manifest):
+    selected=manifest.get('dog_ids',[])
+    if len(selected)!=5 or len(set(selected))!=5 or not set(selected).issubset(qualified):
+        raise ValueError('Screening requires exactly five distinct qualifying inputs')
+    return list(selected)
+
 
 def required_passes(total):return (total*PASS_PERCENT+99)//100
 
@@ -84,7 +91,7 @@ def export_locked(state,template,graph):
     """Separate format: known-roster development evidence, never holdout proof."""
     candidate=state['candidates'][-1];roster=state['roster']
     if candidate['recipe_sha256']!=recipe_hash(candidate['recipe']):raise ValueError('Candidate recipe changed after scoring')
-    if len(roster)<7 or len(set(roster))!=len(roster):raise ValueError('Invalid roster')
+    if (len(roster)!=5 if state.get('screening_sample') else len(roster)<7) or len(set(roster))!=len(roster):raise ValueError('Invalid roster')
     if not set(candidate['checks']).issubset(roster) or not set_passes(state):raise ValueError('A complete qualifying round must average at least 8 on the same recipe')
     for dog,e in candidate['checks'].items():
         if e['assessment'].get('dog_id')!=dog or e['assessment'].get('output_sha256')!=e['output_sha256'] or not all(e.get(k) for k in ('row_id','output_sha256','prompt_id','graph_sha256')):
@@ -103,9 +110,9 @@ def export_locked(state,template,graph):
     quality=state.get('input_quality',{})
     from portrait_input_quality import eligible
     if not all(eligible(quality.get(d,{})) for d in roster):raise ValueError('Each qualifying input must score at least 7')
-    result=dict(format='consistent-pet-average-recipe-v1',template_id=template['id'],status='locked_on_average',thresholds={'round_average':AVERAGE_TARGET},
+    result=dict(format='consistent-pet-average-recipe-v2' if state.get('screening_sample') else 'consistent-pet-average-recipe-v1',template_id=template['id'],status='locked_on_average',thresholds={'round_average':AVERAGE_TARGET},
                 recipe=functional_recipe(candidate['recipe']),scene=template['scene'],clothing=template['clothing'],graph=graph,
-                evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),average_score=round_average(candidate),score_sum=sum(score_values(candidate)),score_count=len(score_values(candidate)),required_average=AVERAGE_TARGET,same_recipe_for_all=True,
+                evaluation=dict(policy=POLICY,screening_sample=bool(state.get('screening_sample')),qualified_pool_entries=state.get('qualified_pool_entries',len(roster)),untested_qualifying_entries=state.get('qualified_pool_entries',len(roster))-len(roster),roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),average_score=round_average(candidate),score_sum=sum(score_values(candidate)),score_count=len(score_values(candidate)),required_average=AVERAGE_TARGET,same_recipe_for_all=True,
                                 unseen_dog_validation=False,ai_estimate_only=True,input_minimum=7,
                                 excluded_input_entries=state.get('excluded_input_entries',0)),production_enabled=False,
                 binding='Bind original dog, real face crop, reference assets and seed through repair_graph and apply_recipe. Do not add dog-specific review corrections.')

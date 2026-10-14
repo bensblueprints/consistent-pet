@@ -63,6 +63,20 @@ class RosterTests(unittest.TestCase):
         c['checks']['a']['assessment']['fur']=True
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
 
+    def test_five_dog_selection_and_honest_screening_export(self):
+        from portrait_roster import select_screening_roster
+        self.assertEqual(select_screening_roster(list('abcdefg'),{'dog_ids':list('abcde')}),list('abcde'))
+        for ids in [list('abcd'),list('abcda'),list('abcdz')]:
+            with self.assertRaises(ValueError):select_screening_roster(list('abcdefg'),{'dog_ids':ids})
+        state,c,graph=self.fixture();state.update(roster=list('abcde'),screening_sample=True,qualified_pool_entries=17)
+        for d in 'abcd':self.check(c,d)
+        with self.assertRaises(ValueError):export_locked(state,dict(id='costume',scene='Garden',clothing='Jacket'),graph)
+        self.check(c,'e')
+        artifact=export_locked(state,dict(id='costume',scene='Garden',clothing='Jacket'),graph)
+        self.assertEqual(artifact['format'],'consistent-pet-average-recipe-v2')
+        self.assertEqual(artifact['evaluation']['score_count'],20)
+        self.assertEqual(artifact['evaluation']['untested_qualifying_entries'],12)
+
     def test_export_is_private_free_and_honest_about_development_data(self):
         state,c,graph=self.fixture()
         for d in state['roster']:self.check(c,d)

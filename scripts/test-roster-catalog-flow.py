@@ -16,7 +16,7 @@ if sys.platform!='win32':
 
 @unittest.skipIf(sys.platform=='win32','Linux controller uses flock')
 class FlowTests(unittest.TestCase):
-    def exercise(self,root,always_fail=False):
+    def exercise(self,root,always_fail=False,screening=False):
         proposal=dict(steps=40,cfg=4,grow=48,feather=12,original_megapixels=1,face_megapixels=1,
             design_megapixels=.6,strategy='fresh-latent',focus=['body'],pose_policy='reference',
             rationale='Fix posture',scene='Garden',clothing='Jacket',require_clothing=True,single_subject=True)
@@ -45,6 +45,9 @@ class FlowTests(unittest.TestCase):
                 return dict(identity=3 if failed else 9,fur=3 if failed else 9,body=3 if failed else 7,template=3 if failed else 9,confidence='high',defects=[],output_sha256=row['output_sha256'])
             def publish(self,row):pass
         plan=dict(version='fixture-costume',templates=[dict(id='costume',scene='Garden',clothing='Jacket',initial_proposal=proposal)])
+        if screening:
+            plan['screening_manifest']='selected-screening-five.json'
+            (root/plan['screening_manifest']).write_text(json.dumps({'dog_ids':list('abcde')}))
         fake=Fake(plan)
         class Catalog(module.RosterCatalog):
             def save(self):pass
@@ -67,6 +70,15 @@ class FlowTests(unittest.TestCase):
             self.assertEqual(c.state['items']['costume']['status'],'accepted')
             export=json.loads((fake.home/'accepted/costume.json').read_text())
             self.assertGreaterEqual(export['evaluation']['passing_entries'],6)
+
+    def test_selected_five_are_processed_once_per_round(self):
+        with tempfile.TemporaryDirectory() as d:
+            c,fake=self.exercise(Path(d),screening=True)
+            self.assertEqual([dog for dog,_ in fake.calls[:10]],list('abcde')*2)
+            self.assertEqual(set(d for d,_ in fake.calls),set('abcde'))
+            self.assertEqual(c.state['items']['costume']['status'],'accepted')
+            export=json.loads((fake.home/'accepted/costume.json').read_text())
+            self.assertEqual(export['evaluation']['roster_entries'],5)
 
     def test_six_failures_keep_costume_unaccepted_and_other_dogs_still_render(self):
         with tempfile.TemporaryDirectory() as d:

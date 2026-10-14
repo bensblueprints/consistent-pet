@@ -107,7 +107,7 @@ document.querySelector('.labels').insertAdjacentHTML('beforebegin',`<section id=
 $('#auto-panel').insertAdjacentHTML('afterend','<section class="stat" id="catalog-panel" hidden><strong>Costume workflow queue</strong><p id="catalog-status"></p><button id="compare-generations">Compare generations</button></section>');
 $('#summary').insertAdjacentHTML('afterend',`<section id="workflow-live" hidden aria-label="Live costume workflow progress"><h2>725 costume workflows · live progress</h2><div class="workflow-metrics">
 <div class="stat"><small>Current workflow</small><strong id="workflow-current">—</strong><p id="workflow-stage"></p></div>
-<div class="stat"><small>Dogs pictured · current workflow</small><strong id="workflow-dogs">—</strong><p>Unique qualifying source photos across old and new rounds; retries count once.</p></div>
+<div class="stat"><small>Dogs pictured · current workflow</small><strong id="workflow-dogs">—</strong><p>Unique source photos in the active test set; retries count once.</p></div>
 <div class="stat"><small>Average AI score · current workflow</small><strong id="workflow-average">—</strong><p id="workflow-score-count"></p></div>
 <div class="stat"><small>Photos generated · costume run</small><strong id="workflow-photos">—</strong><p id="workflow-photo-count"></p></div>
 <div class="stat"><small>Workflows remaining</small><strong id="workflow-remaining">—</strong><p id="workflow-accepted"></p></div>
@@ -122,10 +122,11 @@ function paintWorkflowProgress(){
  const complete=rows.filter(r=>r.output&&r.status==='Complete');
  const currentAll=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
  const qualified=(progress.policy||'').startsWith('qualified-inputs-')&&Object.keys(state.input_photo_scores||{}).length>0;
- const currentRows=qualified?currentAll.filter(r=>{const q=state.input_photo_scores?.[r.input];return q?.score>=7&&['medium','high'].includes(q.confidence)}):currentAll;
+ const screening=new Set(progress.screening_inputs||[]);
+ const currentRows=screening.size?currentAll.filter(r=>screening.has(r.input)):qualified?currentAll.filter(r=>{const q=state.input_photo_scores?.[r.input];return q?.score>=7&&['medium','high'].includes(q.confidence)}):currentAll;
  // Exact source photos are stable across old/new run IDs; count each once.
  const dogs=new Set(currentRows.map(r=>r.input).filter(Boolean)).size;
- const dogTotal=qualified?(progress.roster_total||Object.values(state.input_photo_scores||{}).filter(q=>q.score>=7&&['medium','high'].includes(q.confidence)).length):(activeMatches?active.dogs:0);
+ const dogTotal=screening.size|| (qualified?(progress.roster_total||Object.values(state.input_photo_scores||{}).filter(q=>q.score>=7&&['medium','high'].includes(q.confidence)).length):(activeMatches?active.dogs:0));
  const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
  const average=progress.required_average===8?(Number.isFinite(progress.current_recipe_average)?progress.current_recipe_average:null):(scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null);
  const activeRows=rows.filter(r=>r.auto_refine_version===active.run);

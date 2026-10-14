@@ -10,7 +10,7 @@ from pathlib import Path
 from portrait_reviews import ROOT,digest
 from portrait_autorefine import DIMENSIONS,signature
 from portrait_llm_planner import request as request_plan,recipe as make_recipe,atomic
-from portrait_roster import POLICY,THRESHOLDS,AVERAGE_TARGET,round_average,required_passes,set_passes,meets_target,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
+from portrait_roster import POLICY,THRESHOLDS,select_screening_roster,AVERAGE_TARGET,round_average,required_passes,set_passes,meets_target,new_candidate,next_dog,passing,record_check,export_locked,recipe_hash,functional_recipe
 from portrait_input_quality import eligible,read_scores,RUBRIC as INPUT_RUBRIC
 
 
@@ -26,7 +26,7 @@ class RosterCatalog(catalog_module.Catalog):
     def save(self):
         super().save()
         path=ROOT/'catalog-public-status.json';public=json.loads(path.read_text())
-        public.update(policy=POLICY,roster_total=self.state.get('roster_total',0),
+        public.update(policy=POLICY,screening_inputs=self.state.get('screening_inputs',[]),roster_total=self.state.get('roster_total',0),
                       checked_current_recipe=self.state.get('checked_current_recipe',0),current_dog=self.state.get('current_dog'),passed_current_recipe=self.state.get('passed_current_recipe',0),
                       required_average=AVERAGE_TARGET,current_recipe_average=self.state.get('current_recipe_average'),
                       note='A complete qualifying dog round must average >=8 across face, fur, body and design. Input >=7. Development checks, not unseen-dog validation.',
@@ -51,7 +51,7 @@ class RosterCatalog(catalog_module.Catalog):
         candidates=(development or {}).get('candidates',[]);current=candidates[-1] if candidates else None
         status.update(roster_entries=len((development or {}).get('roster',[])),
                       passing_current_recipe=len(passing(current)) if current else 0,required_average=AVERAGE_TARGET,current_recipe_average=round_average(current) if current else None,
-                      candidate_revisions=len(candidates),input_minimum=7,output_thresholds=THRESHOLDS,
+                      candidate_revisions=len(candidates),screening_sample=bool((development or {}).get('screening_sample')),qualified_pool_entries=(development or {}).get('qualified_pool_entries',0),input_minimum=7,output_thresholds=THRESHOLDS,
                       excluded_input_entries=(development or {}).get('excluded_input_entries',0))
         atomic(path,status)
         lines=[f"# {ref['name']} — development-roster report",'',f"Status: **{status['status']}**. Updated {status['last_updated_utc']}.",'',
@@ -124,7 +124,7 @@ class RosterCatalog(catalog_module.Catalog):
             offset=max([r.get('generation',0) for r in previous_rows if r.get('reference_id')==ref['id']]+[0])
             plan=dict(version=item['run'],dogs_manifest='selected-dogs-v3.json',stable_seeds=True,seed_namespace='roster-seed-v1',
                 max_attempts=12,patience=12,max_generations=5000,max_hours=48,
-                evaluation_policy=POLICY,templates=[dict(id=ref['id'],reference_id=ref['id'],source_row=source_row,
+                evaluation_policy=POLICY,screening_manifest='selected-screening-five.json',templates=[dict(id=ref['id'],reference_id=ref['id'],source_row=source_row,
                     clothing=proposal['clothing'],scene=proposal['scene'],require_clothing=proposal['require_clothing'],
                     initial_proposal=proposal,generation_offset=offset)])
             atomic(plan_path,plan)
@@ -156,12 +156,22 @@ class RosterCatalog(catalog_module.Catalog):
         if t.get('dog_order'):
             if set(t['dog_order'])!=set(refiner.dogs) or len(t['dog_order'])!=len(refiner.dogs):raise ValueError('Invalid dog ordering')
             roster=[d for d in t['dog_order'] if d in roster]
+        qualified_pool_count=len(roster)
+        if refiner.plan.get('screening_manifest'):
+            selection=refiner.home/'screening-roster.json'
+            if not selection.exists():atomic(selection,json.loads((ROOT/refiner.plan['screening_manifest']).read_text()))
+            selection_hash=digest(selection)
+            if refiner.state.get('screening_roster_sha256',selection_hash)!=selection_hash:raise ValueError('Pinned screening roster changed')
+            refiner.state['screening_roster_sha256']=selection_hash
+            roster=select_screening_roster(roster,json.loads(selection.read_text()))
         refiner.qualified_count=len(roster)
-        development=template.setdefault('roster_development',dict(policy=POLICY,roster=roster,candidates=[],locked=False,input_quality=quality,excluded_input_entries=len(refiner.dogs)-len(roster)))
+        self.state['screening_inputs']=[refiner.dogs[d]['input'] for d in roster] if refiner.plan.get('screening_manifest') else []
+        development=template.setdefault('roster_development',dict(policy=POLICY,roster=roster,candidates=[],locked=False,input_quality=quality,excluded_input_entries=len(refiner.dogs)-qualified_pool_count,qualified_pool_entries=qualified_pool_count,screening_sample=bool(refiner.plan.get('screening_manifest'))))
         if development['roster']!=roster:raise ValueError('Roster changed; use a new version')
         if development.get('visit')!=item['round']:
             development.update(visit=item['round'],visit_attempts={},focus_dog=None)
         if not development['candidates']:new_candidate(development,make_recipe(t['initial_proposal'],0,[]))
+        self.progress(ref,item,refiner,development)
         while True:
             if (self.home/'STOP').exists() or time.time()>=self.state['started_at']+self.state['max_hours']*3600:break
             if shutil.disk_usage(ROOT).free<10*1024**3:raise RuntimeError('Runtime storage needs attention')
