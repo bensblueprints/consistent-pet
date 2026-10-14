@@ -8,15 +8,15 @@
   "requires_design_review": true,
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
-  "last_run_version": "roster-average-v5-surreal-081-prism-wave-surfer",
-  "last_updated_utc": "2026-10-14T13:04:47Z",
+  "last_run_version": "roster-screening-v6-surreal-081-prism-wave-surfer",
+  "last_updated_utc": "2026-10-14T13:07:34Z",
   "known_roster_identity_transfer_validated": false,
-  "evaluation_policy": "qualified-inputs-average-v5",
+  "evaluation_policy": "qualified-inputs-screening-five-v6",
   "unseen_dog_validation": false,
   "ai_estimate_only": true,
   "rounds_started": 1,
-  "generation_candidates": 3,
-  "roster_entries": 17,
+  "generation_candidates": 6,
+  "roster_entries": 5,
   "passing_current_recipe": 3,
   "required_average": 8,
   "current_recipe_average": 8.583333333333334,
@@ -28,5 +28,7 @@
     "body": 7,
     "template": 8
   },
-  "excluded_input_entries": 15
+  "excluded_input_entries": 15,
+  "screening_sample": true,
+  "qualified_pool_entries": 17
 }
