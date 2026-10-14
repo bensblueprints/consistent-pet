@@ -1,8 +1,8 @@
 # The Most Wanted Sweetheart — development-roster report
 
-Status: **in_progress**. Updated 2026-10-14T11:35:10Z.
+Status: **in_progress**. Updated 2026-10-14T11:40:36Z.
 
-0 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 6 candidate recipes; 85 renders.
+4 / 17 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 6 candidate recipes; 90 renders.
 
 The independent output critic stays fixed. Acceptance: input >=7; face >=8, fur >=8, body >=7, design >=8, high output confidence and no major defects.
 Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.
@@ -16,7 +16,7 @@ All submitted photos are development data under the owner-requested policy. Hist
 | 3 | 17 | 13 | 5 | inpaint | source-compatible |
 | 4 | 17 | 13 | 5 | inpaint | source-compatible |
 | 5 | 17 | 12 | 5 | fresh-latent | source-compatible |
-| 6 | 0 | 0 | pending | fresh-latent | source-compatible |
+| 6 | 5 | 4 | 7 | fresh-latent | source-compatible |
 
 Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
 Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
