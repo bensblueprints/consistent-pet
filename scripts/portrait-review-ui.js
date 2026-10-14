@@ -99,11 +99,9 @@ for(const [id,card] of cards){const r=state.rows.find(r=>r.id===id);if(!r)contin
 // Stable cards retain review drafts and horizontal position while scores arrive.
 $('#mode').insertAdjacentHTML('beforeend','<option value="generations">Generations side by side</option>');
 document.querySelector('.labels').insertAdjacentHTML('beforebegin',`<section id="generation-view" hidden>
-<h2>Generation history</h2><p>Original pet and costume stay above. Slide across to compare each output, AI critique and the changes chosen for the next attempt.</p>
-<label>Costume and dog <select id="generation-group" aria-label="Costume and dog"></select></label>
-<p id="generation-count"></p><div id="generation-context"></div>
-<label class="generation-slider">Slide through generations <input id="generation-slider" type="range" min="0" max="0" value="0" step="1" aria-label="Slide through generations"></label>
-<div id="generation-track" tabindex="0" aria-label="Generation comparison"></div></section>`);
+<h2>Generation history</h2><p>Choose a workflow. Each dog appears below the previous one; slide across its row to compare generations, AI feedback and your reviews.</p>
+<label>Costume workflow <select id="generation-group" aria-label="Costume workflow"></select></label>
+<p id="generation-count"></p><div id="generation-dogs"></div></section>`);
 $('#auto-panel').insertAdjacentHTML('afterend','<section class="stat" id="catalog-panel" hidden><strong>Costume workflow queue</strong><p id="catalog-status"></p><button id="compare-generations">Compare generations</button></section>');
 $('#summary').insertAdjacentHTML('afterend',`<section id="workflow-live" hidden aria-label="Live costume workflow progress"><h2>725 costume workflows · live progress</h2><div class="workflow-metrics">
 <div class="stat"><small>Current workflow</small><strong id="workflow-current">—</strong><p id="workflow-stage"></p></div>
@@ -143,12 +141,24 @@ function paintWorkflowProgress(){
  $('#speed').previousElementSibling.textContent='Earlier batch render speed';
 }
 const generationStyle=document.createElement('style');generationStyle.textContent=`
-#generation-view{padding:12px 4% 30px}#generation-view h2{margin:6px 0}#generation-view>label{margin-top:15px;flex-wrap:wrap}#generation-group{max-width:100%}#generation-context{display:flex;gap:16px;margin:18px 0;flex-wrap:wrap}#generation-context figure{margin:0;flex:0 1 190px}#generation-context img{width:100%;height:175px;object-fit:contain;background:#0c110e;border-radius:8px}#generation-context figcaption{font-size:14px}.generation-slider input{flex:1;min-width:180px;accent-color:#b1dba4}#generation-track{display:flex;gap:18px;overflow-x:auto;align-items:flex-start;scroll-snap-type:x proximity;padding:16px 0 22px;scrollbar-color:#b1dba4 #26342a}.generation-card{flex:0 0 min(440px,87vw);min-width:0;scroll-snap-align:start;padding:16px;background:#18241c;border:1px solid #526c57;border-radius:12px}.generation-card>.cell:not(:last-child){display:none}.generation-card h3{margin:0 0 8px}.generation-card .cell:before{display:none}.generation-card .cell img,.generation-card .pending{height:410px}.generation-card .ai-summary{border-top:0;padding-top:0}.generation-card .rating-form{border-top:1px solid #526c57;margin-top:14px;padding-top:14px}.generation-card .star-choice span{font-size:27px}.generation-card .review-box{padding:12px}.generation-card .auto-explanation{margin:10px 0;font-size:15px}.generation-card .ai-detail{font-size:14px}#catalog-panel{margin-top:10px}`;document.head.append(generationStyle);
+#generation-view{padding:12px 4% 30px}#generation-view h2{margin:6px 0}#generation-view>label{margin-top:15px;flex-wrap:wrap}#generation-group{max-width:100%}.generation-context{display:flex;gap:16px;margin:18px 0;flex-wrap:wrap}.generation-context figure{margin:0;flex:0 1 190px}.generation-context img{width:100%;height:175px;object-fit:contain;background:#0c110e;border-radius:8px}.generation-context figcaption{font-size:14px}.generation-slider input{flex:1;min-width:180px;accent-color:#b1dba4}.generation-track{display:flex;gap:18px;overflow-x:auto;align-items:flex-start;scroll-snap-type:x proximity;padding:16px 0 22px;scrollbar-color:#b1dba4 #26342a}.generation-card{flex:0 0 min(440px,87vw);min-width:0;scroll-snap-align:start;padding:16px;background:#18241c;border:1px solid #526c57;border-radius:12px}.generation-card>.cell:not(:last-child){display:none}.generation-card h3{margin:0 0 8px}.generation-card .cell:before{display:none}.generation-card .cell img,.generation-card .pending{height:410px}.generation-card .ai-summary{border-top:0;padding-top:0}.generation-card .rating-form{border-top:1px solid #526c57;margin-top:14px;padding-top:14px}.generation-card .star-choice span{font-size:27px}.generation-card .review-box{padding:12px}.generation-card .auto-explanation{margin:10px 0;font-size:15px}.generation-card .ai-detail{font-size:14px}#catalog-panel{margin-top:10px}`;document.head.append(generationStyle);
+const dogSections=new Map();
 const generationCards=new Map();let generationKey='',generationGroupsKey='';
 $('#compare-generations').onclick=()=>{$('#pack').value='all';$('#search').value='';$('#mode').value='generations';generationKey='';draw();$('#generation-view').scrollIntoView({behavior:'smooth'})};
-$('#generation-group').onchange=()=>{generationKey=$('#generation-group').value;$('#generation-track').scrollLeft=0;draw()};
-$('#generation-slider').oninput=()=>{const card=$('#generation-track').children[Number($('#generation-slider').value)];if(card)$('#generation-track').scrollTo({left:card.offsetLeft-$('#generation-track').children[0].offsetLeft,behavior:'smooth'})};
-$('#generation-track').onscroll=()=>{const children=[...$('#generation-track').children];if(!children.length)return;const left=$('#generation-track').scrollLeft;let closest=0;children.forEach((c,i)=>{if(Math.abs(c.offsetLeft-children[0].offsetLeft-left)<Math.abs(children[closest].offsetLeft-children[0].offsetLeft-left))closest=i});$('#generation-slider').value=closest};
+$('#generation-group').onchange=()=>{generationKey=$('#generation-group').value;draw()};
+function dogSection(key,first){
+ let section=dogSections.get(key);if(section)return section;
+ section=document.createElement('section');section.className='generation-dog';
+ section.innerHTML='<h3 class="dog-heading"></h3><p class="dog-count"></p><div class="generation-context"></div><label class="generation-slider">Slide through generations for this dog <input type="range" min="0" max="0" value="0" step="1"></label><div class="generation-track" tabindex="0"></div>';
+ section.querySelector('.dog-heading').textContent=first.label||'Dog';
+ const track=section.querySelector('.generation-track'),slider=section.querySelector('input');
+ track.setAttribute('aria-label','Generations for '+(first.label||'dog'));slider.setAttribute('aria-label','Slide generations for '+(first.label||'dog'));
+ section.querySelector('.generation-context').innerHTML=[[first.input,'Original dog'],[first.prepared||first.input,'Dog reference used'],[first.reference,'Costume reference']].map(([file,label])=>`<figure><a href="${media(file)}" target="_blank" rel="noopener"><img loading="lazy" src="${media(file)}" alt="${label}"></a><figcaption>${label}</figcaption></figure>`).join('');
+ slider.oninput=()=>{const available=Math.max(0,track.scrollWidth-track.clientWidth);track.scrollTo({left:available*Number(slider.value)/Math.max(1,Number(slider.max)),behavior:'smooth'})};
+ track.onscroll=()=>{const available=track.scrollWidth-track.clientWidth;slider.value=available>0?Math.round(track.scrollLeft/available*Number(slider.max)):0};
+ dogSections.set(key,section);return section;
+}
+const dogStyle=document.createElement('style');dogStyle.textContent='.generation-dog{border-top:2px solid #526c57;margin-top:28px;padding-top:20px;min-width:0}.dog-heading{font-size:24px;margin:0 0 6px}.generation-track{position:relative}.generation-dog .generation-slider{display:flex;gap:12px;flex-wrap:wrap}';document.head.append(dogStyle);
 const drawWithReviews=draw;
 draw=function(){
 drawWithReviews();
@@ -165,20 +175,27 @@ if(progress.total&&activeRun.run&&activeRun.run.startsWith((progress.version||''
  $('#catalog-status').textContent+=` Current round: ${activeRun.generations||0} renders submitted. Stage: ${phase}.${age===null?'':` Stage updated ${age}s ago.`} Accepted counts fully validated costume workflows, not individual images.`;
 }
 const enabled=$('#mode').value==='generations';$('#generation-view').hidden=!enabled;$('#rows').hidden=enabled;document.querySelector('.labels').hidden=enabled;$('#pages').hidden=enabled;if(!enabled)return;
-const groups=new Map();for(const r of filtered().filter(r=>r.auto_refine_version)){const key=JSON.stringify([r.pack,r.template,r.input]);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r)}
+const groups=new Map();for(const r of filtered().filter(r=>r.auto_refine_version)){const key=JSON.stringify([r.pack,r.template]);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r)}
 const entries=[...groups].sort((a,b)=>Math.max(...b[1].map(r=>r.started||0))-Math.max(...a[1].map(r=>r.started||0)));
 if(!groups.has(generationKey))generationKey=entries[0]?.[0]||'';
-const optionsKey=JSON.stringify(entries.map(([k,rows])=>[k,rows.length]));if(optionsKey!==generationGroupsKey){generationGroupsKey=optionsKey;$('#generation-group').innerHTML=entries.map(([key,rows])=>`<option value="${esc(key)}">${esc(rows[0].template)} · ${esc(rows[0].label)} · ${rows.length} generations</option>`).join('')}$('#generation-group').value=generationKey;
-const rows=(groups.get(generationKey)||[]).sort((a,b)=>(a.started||a.finished_at||0)-(b.started||b.finished_at||0)||a.id.localeCompare(b.id));
-$('#generation-count').textContent=rows.length?`${rows.length} generations for this exact pet input. Earlier heuristic attempts are labeled; new LLM experiments show the local model’s chosen changes.`:'No automatic generations match these filters yet.';
-const first=rows[0],context=$('#generation-context');if(context.dataset.key!==generationKey){context.dataset.key=generationKey;context.innerHTML=first?[[first.input,'Original dog'],[first.prepared||first.input,'Dog reference used'],[first.reference,'Costume reference']].map(([file,label])=>`<figure><a href="${media(file)}" target="_blank" rel="noopener"><img src="${media(file)}" alt="${label}"></a><figcaption>${label}</figcaption></figure>`).join(''):''}
-const keep=new Set(rows.map(r=>r.id));for(const [id,card] of generationCards)if(!keep.has(id)){card.remove();generationCards.delete(id)}
-rows.forEach((r,i)=>{let card=generationCards.get(r.id);if(!card){card=document.createElement('article');card.className='generation-card';card.innerHTML='<div class="cell"></div><div class="cell"></div><div class="cell"><h3></h3><a class="generation-output" target="_blank" rel="noopener"><img hidden alt="Generated portrait"></a><div class="pending"></div><p class="generation-meta"></p></div>';makeReview(card,r);const box=card.querySelector('.review-box');box.insertBefore(card.querySelector('.ai-summary'),card.querySelector('form'));const explanation=card.querySelector('.auto-explanation');if(explanation)explanation.open=true;generationCards.set(r.id,card);$('#generation-track').append(card)}
+const optionsKey=JSON.stringify(entries.map(([k,rows])=>[k,rows.length]));if(optionsKey!==generationGroupsKey){generationGroupsKey=optionsKey;$('#generation-group').innerHTML=entries.map(([key,rows])=>`<option value="${esc(key)}">${esc(rows[0].template)} | ${new Set(rows.map(r=>r.input)).size} dogs | ${rows.length} generations</option>`).join('')}$('#generation-group').value=generationKey;
+const workflowRows=(groups.get(generationKey)||[]).sort((a,b)=>(a.started||a.finished_at||0)-(b.started||b.finished_at||0)||a.id.localeCompare(b.id));
+const dogs=new Map();for(const r of workflowRows){const key=JSON.stringify([generationKey,r.input]);if(!dogs.has(key))dogs.set(key,[]);dogs.get(key).push(r)}
+$('#generation-count').textContent=workflowRows.length?`${dogs.size} dog rows | ${workflowRows.length} generations. Each row scrolls independently. Earlier heuristic attempts are labeled.`:'No automatic generations match these filters yet.';
+for(const [key,section] of dogSections)if(!dogs.has(key))section.remove();
+let dogIndex=0;
+for(const [key,rows] of dogs){
+const section=dogSection(key,rows[0]),host=$('#generation-dogs');if(host.children[dogIndex]!==section)host.insertBefore(section,host.children[dogIndex]||null);dogIndex++;
+const track=section.querySelector('.generation-track'),slider=section.querySelector('input');section.querySelector('.dog-count').textContent=`${rows.length} generations for this dog`;
+const keep=new Set(rows.map(r=>r.id));for(const card of [...track.children])if(!keep.has(card.current?.id))card.remove();
+rows.forEach((r,i)=>{let card=generationCards.get(r.id);if(!card){card=document.createElement('article');card.className='generation-card';card.innerHTML='<div class="cell"></div><div class="cell"></div><div class="cell"><h3></h3><a class="generation-output" target="_blank" rel="noopener"><img loading="lazy" hidden alt="Generated portrait"></a><div class="pending"></div><p class="generation-meta"></p></div>';makeReview(card,r);const box=card.querySelector('.review-box');box.insertBefore(card.querySelector('.ai-summary'),card.querySelector('form'));const explanation=card.querySelector('.auto-explanation');if(explanation)explanation.open=true;generationCards.set(r.id,card);track.append(card)}
+if(track.children[i]!==card)track.insertBefore(card,track.children[i]||null);
 card.current=r;card.querySelector('h3').textContent=`Generation ${i+1}`;
 const file=r.thumbnail||r.output||r.preview,img=card.querySelector('.generation-output img'),pending=card.querySelector('.cell:last-child>.pending');img.hidden=!file;pending.hidden=!!file;pending.textContent=r.status;
 if(file){const src=media(file)+(r.output?'':'?v='+(r.progress_seq||0));if(img.getAttribute('src')!==src)img.src=src;card.querySelector('.generation-output').href=media(r.output||r.preview||file)}
 card.querySelector('.generation-meta').textContent=`${r.status} · ${r.planner==='local-vision-llm-v1'?'Local LLM planned':'Earlier heuristic workflow'} · ${r.auto_stage||'tune'}${r.seconds?' · '+r.seconds+'s':''}`;paintReview(card,r);
 });
-$('#generation-slider').max=Math.max(0,rows.length-1);$('#generation-slider').disabled=rows.length<2;
+slider.max=Math.max(0,rows.length-1);slider.disabled=rows.length<2;
+}
 };
 $('#mode').value='generations';
