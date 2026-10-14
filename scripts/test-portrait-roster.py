@@ -41,25 +41,26 @@ class RosterTests(unittest.TestCase):
         new_candidate(state,self.recipe(1))
         self.assertEqual(next_dog(state),'a')
 
-    def test_85_percent_uses_full_roster_and_requires_complete_sweep(self):
+    def test_complete_round_average_eight_passes_without_individual_minima(self):
         state,c,graph=self.fixture()
-        state['roster']=[str(n) for n in range(17)]
-        state['input_quality']={d:dict(score=7,confidence='high') for d in state['roster']}
-        for d in state['roster'][:14]:self.check(c,d)
-        for d in state['roster'][15:]:self.check(c,d,7)
+        for d in state['roster'][:-1]:self.check(c,d,9)
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
-        self.check(c,'14')
+        self.check(c,state['roster'][-1],3)
         artifact=export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
-        self.assertEqual(artifact['evaluation']['passing_entries'],15)
-        self.assertEqual(artifact['evaluation']['required_passing_entries'],15)
-        self.assertEqual(artifact['evaluation']['checked_entries'],17)
-        c2=new_candidate(state,self.recipe(1));self.check(c2,'16')
+        self.assertGreaterEqual(artifact['evaluation']['average_score'],8)
+        self.assertEqual(artifact['evaluation']['score_count'],28)
+        self.assertEqual(artifact['evaluation']['checked_entries'],7)
+        c2=new_candidate(state,self.recipe(1));self.check(c2,'g')
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
 
-    def test_fourteen_of_seventeen_fails(self):
-        state,c,graph=self.fixture();state['roster']=[str(n) for n in range(17)]
-        state['input_quality']={d:dict(score=7,confidence='high') for d in state['roster']}
-        for n,d in enumerate(state['roster']):self.check(c,d,9 if n<14 else 7)
+    def test_exact_eight_passes_and_below_eight_fails_without_rounding(self):
+        for value,passes in [(8,True),(7,False)]:
+            state,c,graph=self.fixture()
+            for d in state['roster']:self.check(c,d,value)
+            if passes:self.assertEqual(export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)['evaluation']['average_score'],8)
+            else:
+                with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
+        c['checks']['a']['assessment']['fur']=True
         with self.assertRaises(ValueError):export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
 
     def test_export_is_private_free_and_honest_about_development_data(self):
@@ -67,7 +68,7 @@ class RosterTests(unittest.TestCase):
         for d in state['roster']:self.check(c,d)
         artifact=export_locked(state,dict(id='jacket',scene='Garden',clothing='Jacket'),graph)
         self.assertNotIn('private-',str(artifact));self.assertEqual(artifact['evaluation']['passing_entries'],7)
-        self.assertFalse(artifact['evaluation']['unseen_dog_validation']);self.assertEqual(artifact['status'],'locked_on_qualified_roster')
+        self.assertFalse(artifact['evaluation']['unseen_dog_validation']);self.assertEqual(artifact['status'],'locked_on_average')
 
     def test_body_seven_passes_and_other_dimensions_require_eight(self):
         from portrait_roster import meets_target

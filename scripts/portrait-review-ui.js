@@ -127,7 +127,7 @@ function paintWorkflowProgress(){
  const dogs=new Set(currentRows.map(r=>r.input).filter(Boolean)).size;
  const dogTotal=qualified?progress.roster_total:(activeMatches?active.dogs:0);
  const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
- const average=scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null;
+ const average=progress.required_average===8?(Number.isFinite(progress.current_recipe_average)?progress.current_recipe_average:null):(scored.length?scored.reduce((sum,a)=>sum+(a.identity+a.fur+a.body+a.template)/4,0)/scored.length:null);
  const activeRows=rows.filter(r=>r.auto_refine_version===active.run);
  const rendering=activeRows.some(r=>r.status==='Rendering'),scoring=state.judge?.status==='Scoring'&&activeRows.some(r=>r.id===state.judge.active_row_id);
  const accepted=counts.accepted||0,remaining=Math.max(0,progress.total-accepted),stage=activeMatches?(rendering?'Rendering on GPU':scoring?'Scoring generated portrait':active.phase||active.status):progress.status;
@@ -135,13 +135,13 @@ function paintWorkflowProgress(){
  $('#workflow-stage').textContent=(activeMatches?active.phase:stage)||'Waiting for update';
  $('#workflow-dogs').textContent=`${dogs}${dogTotal?' / '+dogTotal:''}`;
  $('#workflow-average').textContent=average===null?'Awaiting scores':`${average.toFixed(1)} / 10`;
- $('#workflow-score-count').textContent=`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
+ $('#workflow-score-count').textContent=progress.required_average===8?`Current recipe only: ${progress.checked_current_recipe||0}/${progress.roster_total||0} dogs scored. Complete round averages of 8/10 or higher pass automatically.`:`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
  $('#workflow-photos').textContent=complete.length.toLocaleString();
  $('#workflow-photo-count').textContent=`${currentAll.length} for this workflow · includes retries; excludes the earlier batch.`;
  $('#workflow-remaining').textContent=`${remaining} / ${progress.total}`;
  $('#workflow-accepted').textContent=`${accepted} accepted · ${counts.blocked||0} need attention (included in remaining).`;
  const updated=activeMatches?active.updated_at:progress.updated_at,age=Number.isFinite(updated)?Math.max(0,Math.round(Date.now()/1000-updated)):null;
- $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.${progress.required_pass_percent===85?` Current recipe: ${progress.checked_current_recipe||0}/${progress.roster_total||0} scored; ${progress.passed_current_recipe||0} passing; ${progress.required_passing_entries||0} required (85%).`:''}`;
+ $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.${progress.required_average===8?' Acceptance: complete round average >=8/10. ':''}${progress.required_pass_percent===85?` Current recipe: ${progress.checked_current_recipe||0}/${progress.roster_total||0} scored; ${progress.passed_current_recipe||0} passing; ${progress.required_passing_entries||0} required (85%).`:''}`;
  $('#summary').textContent=`Costume workflow run: ${progress.status||'Waiting'} · ${accepted} / ${progress.total} accepted · ${remaining} remaining`;
  $('#notice').textContent=state.batch?.status==='Complete'?'The earlier image batch is finished. The 725-costume workflow refinement run is separate; see its live status above.':'This status tracks the 725-costume workflow refinement run. Earlier batch counts are separate.';
  $('#eta').previousElementSibling.textContent='Workflow completion time';$('#eta').textContent=remaining?'Depends on retries':'All accepted';

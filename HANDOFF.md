@@ -155,3 +155,5 @@ Round order: generate and score one image per qualifying dog on the same recipe 
 Off-server persistence: accepted workflows, public runner source and reference metadata mirror to GitHub and Hugging Face. Private incremental recovery archives preserve runtime/customer data outside Git. See docs/RECOVERY.md.
 
 Latest owner change: 8/10 is sufficient for face, fur and design; body remains >=7. Full-round >=85% rule and source>=7 unchanged. New v4 runs and exports use these thresholds; historical scores and approvals remain unchanged.
+
+Latest owner correction: acceptance is the completed-round arithmetic MEAN >=8/10, not 85% individually passing dogs. Average all four dimension scores across one image of each qualifying dog on one exact recipe. All roster entries must be scored; no mix of historical candidates, no separate dimension/confidence/defect veto. Source >=7 remains. New average-v5 policy, distinct export format; historical evaluations remain immutable.

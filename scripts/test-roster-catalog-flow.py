@@ -42,7 +42,7 @@ class FlowTests(unittest.TestCase):
                 return row
             def score(self,row):
                 failed=row['dog_id'] in ('b','c') and (always_fail or sum(d=='b' for d,_ in self.calls)<3)
-                return dict(identity=9,fur=9,body=6 if failed else 7,template=9,confidence='high',defects=[],output_sha256=row['output_sha256'])
+                return dict(identity=3 if failed else 9,fur=3 if failed else 9,body=3 if failed else 7,template=3 if failed else 9,confidence='high',defects=[],output_sha256=row['output_sha256'])
             def publish(self,row):pass
         plan=dict(version='fixture-costume',templates=[dict(id='costume',scene='Garden',clothing='Jacket',initial_proposal=proposal)])
         fake=Fake(plan)

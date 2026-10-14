@@ -1,15 +1,35 @@
-"""One shared recipe must pass at least 85% of the qualifying development roster before locking."""
+"""Accept one complete qualifying-dog round when its mean score is at least eight."""
 import copy
 from portrait_autorefine import signature
 from portrait_llm_planner import BOUNDS
 
-POLICY='qualified-inputs-85-percent-v4'
+POLICY='qualified-inputs-average-v5'
+AVERAGE_TARGET=8
 PASS_PERCENT=85
 
 def required_passes(total):return (total*PASS_PERCENT+99)//100
 
+def score_values(candidate):
+    values=[]
+    for evidence in candidate['checks'].values():
+        if evidence.get('recipe_sha256')!=candidate['recipe_sha256']:raise ValueError('Mixed recipe evidence')
+        for key in ('identity','fur','body','template'):
+            value=evidence['assessment'].get(key)
+            if type(value) is not int or not 1<=value<=10:raise ValueError('Missing or invalid score')
+            values.append(value)
+    return values
+
+
+def round_average(candidate):
+    values=score_values(candidate)
+    return sum(values)/len(values) if values else None
+
+
 def set_passes(state):
-    return (set(state['candidates'][-1]['checks'])==set(state['roster']) and len(passing(state['candidates'][-1]) & set(state['roster']))>=required_passes(len(state['roster'])))
+    candidate=state['candidates'][-1]
+    if set(candidate['checks'])!=set(state['roster']) or not state['roster']:return False
+    values=score_values(candidate)
+    return sum(values)>=AVERAGE_TARGET*len(values)
 
 THRESHOLDS=dict(identity=8,fur=8,body=7,template=8)
 
@@ -54,7 +74,7 @@ def next_dog(state):
     unchecked=[d for d in state['roster'] if d not in candidate['checks']]
     if unchecked:
         return next((d for d in unchecked if state.get('visit_attempts',{}).get(d,0)<6),None)
-    pending=[d for d in state['roster'] if d not in passing(candidate)]
+    pending=sorted(state['roster'],key=lambda d:sum(candidate['checks'][d]['assessment'][k] for k in ('identity','fur','body','template')))
     focus=state.get('focus_dog')
     if focus in pending:pending.remove(focus);pending.insert(0,focus)
     return next((d for d in pending if state.get('visit_attempts',{}).get(d,0)<6),None)
@@ -65,7 +85,7 @@ def export_locked(state,template,graph):
     candidate=state['candidates'][-1];roster=state['roster']
     if candidate['recipe_sha256']!=recipe_hash(candidate['recipe']):raise ValueError('Candidate recipe changed after scoring')
     if len(roster)<7 or len(set(roster))!=len(roster):raise ValueError('Invalid roster')
-    if not set(candidate['checks']).issubset(roster) or not set_passes(state):raise ValueError('At least 85% of the full qualifying roster must pass the same recipe')
+    if not set(candidate['checks']).issubset(roster) or not set_passes(state):raise ValueError('A complete qualifying round must average at least 8 on the same recipe')
     for dog,e in candidate['checks'].items():
         if e['assessment'].get('dog_id')!=dog or e['assessment'].get('output_sha256')!=e['output_sha256'] or not all(e.get(k) for k in ('row_id','output_sha256','prompt_id','graph_sha256')):
             raise ValueError('Missing bound evidence')
@@ -83,9 +103,9 @@ def export_locked(state,template,graph):
     quality=state.get('input_quality',{})
     from portrait_input_quality import eligible
     if not all(eligible(quality.get(d,{})) for d in roster):raise ValueError('Each qualifying input must score at least 7')
-    result=dict(format='consistent-pet-roster-recipe-v4',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
+    result=dict(format='consistent-pet-average-recipe-v1',template_id=template['id'],status='locked_on_average',thresholds={'round_average':AVERAGE_TARGET},
                 recipe=functional_recipe(candidate['recipe']),scene=template['scene'],clothing=template['clothing'],graph=graph,
-                evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),required_pass_percent=PASS_PERCENT,required_passing_entries=required_passes(len(roster)),same_recipe_for_all=True,
+                evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),average_score=round_average(candidate),score_sum=sum(score_values(candidate)),score_count=len(score_values(candidate)),required_average=AVERAGE_TARGET,same_recipe_for_all=True,
                                 unseen_dog_validation=False,ai_estimate_only=True,input_minimum=7,
                                 excluded_input_entries=state.get('excluded_input_entries',0)),production_enabled=False,
                 binding='Bind original dog, real face crop, reference assets and seed through repair_graph and apply_recipe. Do not add dog-specific review corrections.')
