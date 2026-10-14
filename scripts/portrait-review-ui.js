@@ -121,7 +121,7 @@ function paintWorkflowProgress(){
  const rows=[...new Map(state.rows.filter(r=>r.reference_id&&r.auto_refine_version&&r.planner==='local-vision-llm-v1').map(r=>[r.id,r])).values()];
  const complete=rows.filter(r=>r.output&&r.status==='Complete');
  const currentAll=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
- const qualified=progress.policy==='qualified-inputs-development-v2';
+ const qualified=['qualified-inputs-development-v2','qualified-inputs-85-percent-v3'].includes(progress.policy);
  const currentRows=qualified?currentAll.filter(r=>{const q=state.input_photo_scores?.[r.input];return q?.score>=7&&['medium','high'].includes(q.confidence)}):currentAll;
  const dogs=new Set(currentRows.map(r=>r.dog_id||r.input).filter(Boolean)).size;
  const scored=currentRows.map(r=>r.ai_review).filter(a=>a&&['identity','fur','body','template'].every(k=>Number.isFinite(a[k])&&a[k]>=1&&a[k]<=10));
@@ -130,7 +130,7 @@ function paintWorkflowProgress(){
  const rendering=activeRows.some(r=>r.status==='Rendering'),scoring=state.judge?.status==='Scoring'&&activeRows.some(r=>r.id===state.judge.active_row_id);
  const accepted=counts.accepted||0,remaining=Math.max(0,progress.total-accepted),stage=activeMatches?(rendering?'Rendering on GPU':scoring?'Scoring generated portrait':active.phase||active.status):progress.status;
  $('#workflow-current').textContent=(activeMatches?active.current_template:progress.current_reference)||'Preparing next workflow';
- $('#workflow-stage').textContent=stage||'Waiting for update';
+ $('#workflow-stage').textContent=(activeMatches?active.phase:stage)||'Waiting for update';
  $('#workflow-dogs').textContent=`${dogs}${activeMatches&&active.dogs?' / '+active.dogs:''}`;
  $('#workflow-average').textContent=average===null?'Awaiting scores':`${average.toFixed(1)} / 10`;
  $('#workflow-score-count').textContent=`${scored.length} scored photos${qualified?' from qualifying inputs':''} · average of face, fur, body and costume across all attempts; not a pass verdict.`;
@@ -139,7 +139,7 @@ function paintWorkflowProgress(){
  $('#workflow-remaining').textContent=`${remaining} / ${progress.total}`;
  $('#workflow-accepted').textContent=`${accepted} accepted · ${counts.blocked||0} need attention (included in remaining).`;
  const updated=activeMatches?active.updated_at:progress.updated_at,age=Number.isFinite(updated)?Math.max(0,Math.round(Date.now()/1000-updated)):null;
- $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.`;
+ $('#workflow-freshness').textContent=`Live status refreshes automatically.${age===null?'':` Worker last reported ${age}s ago.`} ${qualified?'Dog count includes only input photos scoring 7+. ':''}Dogs processed does not mean all passed.${progress.required_pass_percent===85?` Current recipe: ${progress.checked_current_recipe||0}/${progress.roster_total||0} scored; ${progress.passed_current_recipe||0} passing; ${progress.required_passing_entries||0} required (85%).`:''}`;
  $('#summary').textContent=`Costume workflow run: ${progress.status||'Waiting'} · ${accepted} / ${progress.total} accepted · ${remaining} remaining`;
  $('#notice').textContent=state.batch?.status==='Complete'?'The earlier image batch is finished. The 725-costume workflow refinement run is separate; see its live status above.':'This status tracks the 725-costume workflow refinement run. Earlier batch counts are separate.';
  $('#eta').previousElementSibling.textContent='Workflow completion time';$('#eta').textContent=remaining?'Depends on retries':'All accepted';
