@@ -9,14 +9,14 @@
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
   "last_run_version": "roster-six-v1-mobsters-014-the-bank-job-darling",
-  "last_updated_utc": "2026-10-14T08:40:19Z",
+  "last_updated_utc": "2026-10-14T08:45:00Z",
   "ai_estimate_only": true,
   "rounds_started": 1,
-  "generation_candidates": 3,
+  "generation_candidates": 6,
   "known_roster_identity_transfer_validated": false,
   "evaluation_policy": "all-submitted-dogs-development-v1",
   "unseen_dog_validation": false,
   "roster_entries": 32,
   "passing_current_recipe": 0,
-  "candidate_revisions": 4
+  "candidate_revisions": 6
 }
