@@ -3,7 +3,7 @@ import copy
 from portrait_autorefine import signature
 from portrait_llm_planner import BOUNDS
 
-POLICY='qualified-inputs-85-percent-v3'
+POLICY='qualified-inputs-85-percent-v4'
 PASS_PERCENT=85
 
 def required_passes(total):return (total*PASS_PERCENT+99)//100
@@ -11,7 +11,7 @@ def required_passes(total):return (total*PASS_PERCENT+99)//100
 def set_passes(state):
     return (set(state['candidates'][-1]['checks'])==set(state['roster']) and len(passing(state['candidates'][-1]) & set(state['roster']))>=required_passes(len(state['roster'])))
 
-THRESHOLDS=dict(identity=9,fur=9,body=7,template=9)
+THRESHOLDS=dict(identity=8,fur=8,body=7,template=8)
 
 
 def meets_target(assessment):
@@ -83,7 +83,7 @@ def export_locked(state,template,graph):
     quality=state.get('input_quality',{})
     from portrait_input_quality import eligible
     if not all(eligible(quality.get(d,{})) for d in roster):raise ValueError('Each qualifying input must score at least 7')
-    result=dict(format='consistent-pet-roster-recipe-v3',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
+    result=dict(format='consistent-pet-roster-recipe-v4',template_id=template['id'],status='locked_on_qualified_roster',thresholds=THRESHOLDS,
                 recipe=functional_recipe(candidate['recipe']),scene=template['scene'],clothing=template['clothing'],graph=graph,
                 evaluation=dict(policy=POLICY,roster_entries=len(roster),passing_entries=len(passing(candidate)),checked_entries=len(candidate['checks']),required_pass_percent=PASS_PERCENT,required_passing_entries=required_passes(len(roster)),same_recipe_for_all=True,
                                 unseen_dog_validation=False,ai_estimate_only=True,input_minimum=7,

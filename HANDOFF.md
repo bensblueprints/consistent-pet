@@ -153,3 +153,5 @@ Latest owner update: accept a costume when at least 85% of the FULL qualifying i
 Round order: generate and score one image per qualifying dog on the same recipe before any revision. Evaluate the complete round; >=85% locks and advances to the next costume. Otherwise the LLM revises once, then runs another complete dog sweep, up to six rounds per catalog visit. Never combine passes from different recipes.
 
 Off-server persistence: accepted workflows, public runner source and reference metadata mirror to GitHub and Hugging Face. Private incremental recovery archives preserve runtime/customer data outside Git. See docs/RECOVERY.md.
+
+Latest owner change: 8/10 is sufficient for face, fur and design; body remains >=7. Full-round >=85% rule and source>=7 unchanged. New v4 runs and exports use these thresholds; historical scores and approvals remain unchanged.

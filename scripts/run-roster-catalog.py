@@ -29,7 +29,7 @@ class RosterCatalog(catalog_module.Catalog):
         public.update(policy=POLICY,roster_total=self.state.get('roster_total',0),
                       checked_current_recipe=self.state.get('checked_current_recipe',0),current_dog=self.state.get('current_dog'),passed_current_recipe=self.state.get('passed_current_recipe',0),
                       required_pass_percent=85,required_passing_entries=required_passes(self.state.get('roster_total',0)),
-                      note='At least 85% of qualifying dogs must pass one recipe. Qualifying input >=7; output face >=9, fur >=9, body >=7, design >=9. Development checks, not unseen-dog validation.',
+                      note='At least 85% of qualifying dogs must pass one recipe. Qualifying input >=7; output face >=8, fur >=8, body >=7, design >=8. Development checks, not unseen-dog validation.',
                       submission_deadline=self.state['started_at']+self.state['max_hours']*3600)
         atomic(path,public)
 
@@ -56,7 +56,7 @@ class RosterCatalog(catalog_module.Catalog):
         atomic(path,status)
         lines=[f"# {ref['name']} — development-roster report",'',f"Status: **{status['status']}**. Updated {status['last_updated_utc']}.",'',
             f"{status['passing_current_recipe']} / {status['roster_entries']} qualifying input records pass the current shared recipe. {status['excluded_input_entries']} source photos excluded by the input-quality gate. {len(candidates)} candidate recipes; {item.get('generations',0)} renders.",'',
-            'The independent output critic stays fixed. Acceptance: input >=7; face >=9, fur >=9, body >=7, design >=9, high output confidence and no major defects.',
+            'The independent output critic stays fixed. Acceptance: input >=7; face >=8, fur >=8, body >=7, design >=8, high output confidence and no major defects.',
             'Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must pass at least 85% of the full qualifying roster to lock this costume; untested dogs do not count as passes.','',
             'All submitted photos are development data under the owner-requested policy. Historical holdout runs remain immutable; this new result is not independent validation on unseen dogs. AI estimates do not establish universal or perfect performance.','',
             '| Candidate | Dogs checked | Dogs passing | Lowest body | Strategy | Pose policy |',
@@ -134,7 +134,7 @@ class RosterCatalog(catalog_module.Catalog):
         original_save=refiner.save
         def save():
             original_save()
-            p=ROOT/'auto-refine-status.json';s=json.loads(p.read_text());s['target']='Set >=85%; input >=7; face >=9, fur >=9, body >=7, design >=9';s['dogs']=getattr(refiner,'qualified_count',len(refiner.dogs));atomic(p,s)
+            p=ROOT/'auto-refine-status.json';s=json.loads(p.read_text());s['target']='Set >=85%; input >=7; face >=8, fur >=8, body >=7, design >=8';s['dogs']=getattr(refiner,'qualified_count',len(refiner.dogs));atomic(p,s)
         refiner.save=save
         refiner.state.update(current_template=ref['name'],phase='Preparing costume workflow')
         template=refiner.state['templates'].setdefault(t['id'],{'attempts':[]});source,base=refiner.prepare(t,template)

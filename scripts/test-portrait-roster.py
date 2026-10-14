@@ -69,11 +69,11 @@ class RosterTests(unittest.TestCase):
         self.assertNotIn('private-',str(artifact));self.assertEqual(artifact['evaluation']['passing_entries'],7)
         self.assertFalse(artifact['evaluation']['unseen_dog_validation']);self.assertEqual(artifact['status'],'locked_on_qualified_roster')
 
-    def test_body_seven_passes_but_face_fur_design_still_require_nine(self):
+    def test_body_seven_passes_and_other_dimensions_require_eight(self):
         from portrait_roster import meets_target
-        a=dict(identity=9,fur=9,body=7,template=9,confidence='high',defects=[])
+        a=dict(identity=8,fur=8,body=7,template=8,confidence='high',defects=[])
         self.assertTrue(meets_target(a))
-        for key,value in [('identity',8),('fur',8),('body',6),('template',8)]:self.assertFalse(meets_target({**a,key:value}))
+        for key,value in [('identity',7),('fur',7),('body',6),('template',7)]:self.assertFalse(meets_target({**a,key:value}))
 
     def test_low_quality_input_cannot_lock(self):
         state,c,graph=self.fixture()

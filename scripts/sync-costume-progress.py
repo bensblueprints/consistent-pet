@@ -49,12 +49,14 @@ def run(args):
             roster=data.get('status')=='locked_on_development_roster' and data.get('format')=='consistent-pet-roster-recipe-v1'
             qualified=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v2'
             majority=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v3'
+            eights=data.get('status')=='locked_on_qualified_roster' and data.get('format')=='consistent-pet-roster-recipe-v4'
+            if eights and (data.get('thresholds')!=dict(identity=8,fur=8,body=7,template=8) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong eight-point thresholds')
             if (qualified or majority) and (data.get('thresholds')!=dict(identity=9,fur=9,body=7,template=9) or data.get('evaluation',{}).get('input_minimum')!=7):raise ValueError('Wrong quality thresholds')
             owner=data.get('format')=='consistent-pet-owner-approved-recipe-v1' and data.get('status')=='owner_approved' and data.get('acceptance_basis')=='explicit_owner_override' and data.get('ai_acceptance_claim') is False
-            if not (historical or roster or qualified or majority or owner):raise ValueError('Unaccepted workflow export')
-            if roster or qualified or majority:
+            if not (historical or roster or qualified or majority or eights or owner):raise ValueError('Unaccepted workflow export')
+            if roster or qualified or majority or eights:
                 e=data.get('evaluation',{})
-                if not (e.get('roster_entries',0)>=7 and (e.get('roster_entries')==e.get('passing_entries') if not majority else (type(e.get('roster_entries')) is int and type(e.get('passing_entries')) is int and e.get('required_pass_percent')==85 and e.get('required_passing_entries')==(85*e['roster_entries']+99)//100 and e['required_passing_entries']<=e['passing_entries']<=e.get('checked_entries',0)==e['roster_entries'])) and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
+                if not (e.get('roster_entries',0)>=7 and (e.get('roster_entries')==e.get('passing_entries') if not (majority or eights) else (type(e.get('roster_entries')) is int and type(e.get('passing_entries')) is int and e.get('required_pass_percent')==85 and e.get('required_passing_entries')==(85*e['roster_entries']+99)//100 and e['required_passing_entries']<=e['passing_entries']<=e.get('checked_entries',0)==e['roster_entries'])) and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
             unsigned={k:v for k,v in data.items() if k!='sha256'}
             from portrait_autorefine import signature
             if data['sha256']!=signature(unsigned):raise ValueError('Export checksum differs')

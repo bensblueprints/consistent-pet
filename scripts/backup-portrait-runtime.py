@@ -10,12 +10,12 @@ archive=Path('/workspace/fpg-private-recovery.tar.gz'); dbcopy=Path('/workspace/
 with sqlite3.connect(root/'reviews.sqlite3') as source,sqlite3.connect(dbcopy) as target:source.backup(target)
 allowed={'.json','.png','.jpg','.jpeg','.webp','.sqlite3','.py','.js','.html','.md'}
 with tarfile.open(archive,'w:gz',compresslevel=1) as tar:
- for folder in [root,Path('/workspace/fpg-rounds-runner-v3'),Path('/workspace/fpg-benchmark')]:
+ for folder in [root,*Path('/workspace').glob('fpg-*-runner-v*'),Path('/workspace/fpg-benchmark')]:
   for path in folder.rglob('*'):
    if not path.is_file() or path.is_symlink() or path.suffix.lower() not in allowed:continue
    if any(word in path.name.lower() for word in ('token','secret','credential')):continue
    if path.name=='reviews.sqlite3' or '__pycache__' in path.parts:continue
-   if path.stat().st_mtime<since-2:continue
+   if folder==root and path.stat().st_mtime<since-2:continue
    tar.add(path,arcname=str(path.relative_to('/workspace')),recursive=False)
  tar.add(dbcopy,arcname='fpg-validation/reviews.sqlite3')
  # Keep only the relevant service configuration; no tunnel credentials.
