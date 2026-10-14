@@ -1,0 +1,18 @@
+{
+  "id": "heaven-016-male-angel-beagle",
+  "name": "Male Angel Beagle",
+  "sex": "male",
+  "category": "angel-dogs",
+  "collection": "heaven24",
+  "reference_path": "reference-library/references/male/angel-dogs/heaven-016-male-angel-beagle.png",
+  "preview_path": "reference-library/previews/male/angel-dogs/heaven-016-male-angel-beagle.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261014_185912_db8f6cc4-9f87-414f-9da8-fe0031f44ff1.png",
+  "reference_sha256": "a4ec913c99b2cd92ca5783b54bf5053ea239967d98cce26f75266319b5e513e0",
+  "workflow_folder": "workflows/portraits/heaven-016-male-angel-beagle",
+  "description": "male angel beagle",
+  "source_generation_prompt": "Premium pet memorial fine-art portrait, realistic anatomy and expressive natural eyes, exquisite detailed fur, painterly realism with subtle oil brushwork, tasteful luminous atmosphere, refined restrained color palette. Portrait 4:5 full-bleed standalone artwork, NOT a framed mockup. Entire face, ears and important limbs comfortably inside the canvas, generous safe margins. One dog only, no text, letters, logos or watermarks, no extra limbs. One male beagle as a beloved angel dog: soft white wings spread gently, muted sage collar, white wildflower meadow above clouds. Exactly two feathered wings attached naturally at the shoulders and fully within the image. The dog remains an ordinary four-legged canine with natural body proportions; no human torso, breasts, hands, dress or human anatomy. No people. Face is the clear emotional focal point.",
+  "qa_flags": [
+    "preserve-wings"
+  ],
+  "customer_identity_transfer_validated": false
+}

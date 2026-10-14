@@ -1,0 +1,18 @@
+{
+  "id": "heaven-005-jesus-and-cavalier-king-charles-spaniel",
+  "name": "Jesus And Cavalier King Charles Spaniel",
+  "sex": "unisex",
+  "category": "jesus-with-dogs",
+  "collection": "heaven24",
+  "reference_path": "reference-library/references/unisex/jesus-with-dogs/heaven-005-jesus-and-cavalier-king-charles-spaniel.png",
+  "preview_path": "reference-library/previews/unisex/jesus-with-dogs/heaven-005-jesus-and-cavalier-king-charles-spaniel.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261014_185859_4acfd3cf-f5de-431b-a318-0981a416b638.png",
+  "reference_sha256": "d753fb69d0dbdb322baa2266b8927d5ba02ac5ce6ebd0981d0ff6a2c0877fa75",
+  "workflow_folder": "workflows/portraits/heaven-005-jesus-and-cavalier-king-charles-spaniel",
+  "description": "Jesus and cavalier King Charles spaniel",
+  "source_generation_prompt": "Premium pet memorial fine-art portrait, realistic anatomy and expressive natural eyes, exquisite detailed fur, painterly realism with subtle oil brushwork, tasteful luminous atmosphere, refined restrained color palette. Portrait 4:5 full-bleed standalone artwork, NOT a framed mockup. Entire face, ears and important limbs comfortably inside the canvas, generous safe margins. One dog only, no text, letters, logos or watermarks, no extra limbs. Depict a respectful traditional portrayal of Jesus with shoulder-length dark hair, beard, compassionate expression and modest flowing robes with one cavalier King Charles spaniel. Jesus seated beneath an ancient olive tree with the dog resting beside him, dappled golden light. The dog has natural canine anatomy, no wings. Dog's face prominent and recognizable, both subjects clearly visible.",
+  "qa_flags": [
+    "preserve-human-companion"
+  ],
+  "customer_identity_transfer_validated": false
+}

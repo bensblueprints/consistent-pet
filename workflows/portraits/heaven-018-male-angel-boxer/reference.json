@@ -1,0 +1,18 @@
+{
+  "id": "heaven-018-male-angel-boxer",
+  "name": "Male Angel Boxer",
+  "sex": "male",
+  "category": "angel-dogs",
+  "collection": "heaven24",
+  "reference_path": "reference-library/references/male/angel-dogs/heaven-018-male-angel-boxer.png",
+  "preview_path": "reference-library/previews/male/angel-dogs/heaven-018-male-angel-boxer.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261014_185912_6fd6b284-a07f-4f62-8daa-cbb59ef13a68.png",
+  "reference_sha256": "e0c1cb70b7d891422df3c7af6d91ddf14aa30004424b7458ff1c68df8184bab5",
+  "workflow_folder": "workflows/portraits/heaven-018-male-angel-boxer",
+  "description": "male angel boxer",
+  "source_generation_prompt": "Premium pet memorial fine-art portrait, realistic anatomy and expressive natural eyes, exquisite detailed fur, painterly realism with subtle oil brushwork, tasteful luminous atmosphere, refined restrained color palette. Portrait 4:5 full-bleed standalone artwork, NOT a framed mockup. Entire face, ears and important limbs comfortably inside the canvas, generous safe margins. One dog only, no text, letters, logos or watermarks, no extra limbs. One male boxer as a beloved angel dog: cream feather wings, bronze collar detail, sunlight through heavenly olive branches. Exactly two feathered wings attached naturally at the shoulders and fully within the image. The dog remains an ordinary four-legged canine with natural body proportions; no human torso, breasts, hands, dress or human anatomy. No people. Face is the clear emotional focal point.",
+  "qa_flags": [
+    "preserve-wings"
+  ],
+  "customer_identity_transfer_validated": false
+}

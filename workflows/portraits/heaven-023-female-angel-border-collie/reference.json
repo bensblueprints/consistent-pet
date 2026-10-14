@@ -1,0 +1,18 @@
+{
+  "id": "heaven-023-female-angel-border-collie",
+  "name": "Female Angel Border Collie",
+  "sex": "female",
+  "category": "angel-dogs",
+  "collection": "heaven24",
+  "reference_path": "reference-library/references/female/angel-dogs/heaven-023-female-angel-border-collie.png",
+  "preview_path": "reference-library/previews/female/angel-dogs/heaven-023-female-angel-border-collie.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261014_185916_19b53c05-0b35-42b7-b1af-a0e6d0122bd6.png",
+  "reference_sha256": "ffb05db509775f00e2bdd3a02558b89b61032d92d2bcdf23c5f1f4f01e2ccce5",
+  "workflow_folder": "workflows/portraits/heaven-023-female-angel-border-collie",
+  "description": "female angel border collie",
+  "source_generation_prompt": "Premium pet memorial fine-art portrait, realistic anatomy and expressive natural eyes, exquisite detailed fur, painterly realism with subtle oil brushwork, tasteful luminous atmosphere, refined restrained color palette. Portrait 4:5 full-bleed standalone artwork, NOT a framed mockup. Entire face, ears and important limbs comfortably inside the canvas, generous safe margins. One dog only, no text, letters, logos or watermarks, no extra limbs. One female border collie as a beloved angel dog: white feather wings, tiny pale blue silk collar bow, celestial garden beside a tranquil lake. Exactly two feathered wings attached naturally at the shoulders and fully within the image. The dog remains an ordinary four-legged canine with natural body proportions; no human torso, breasts, hands, dress or human anatomy. No people. Face is the clear emotional focal point.",
+  "qa_flags": [
+    "preserve-wings"
+  ],
+  "customer_identity_transfer_validated": false
+}

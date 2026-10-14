@@ -1,0 +1,18 @@
+{
+  "id": "heaven-006-jesus-and-white-poodle",
+  "name": "Jesus And White Poodle",
+  "sex": "unisex",
+  "category": "jesus-with-dogs",
+  "collection": "heaven24",
+  "reference_path": "reference-library/references/unisex/jesus-with-dogs/heaven-006-jesus-and-white-poodle.png",
+  "preview_path": "reference-library/previews/unisex/jesus-with-dogs/heaven-006-jesus-and-white-poodle.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261014_185859_4bc8a49d-365b-4399-8d41-bc0ba535380c.png",
+  "reference_sha256": "391bc41b2a39c16552e2334636a54f3b1e0be44eac14f1decd860c6b4603d051",
+  "workflow_folder": "workflows/portraits/heaven-006-jesus-and-white-poodle",
+  "description": "Jesus and white poodle",
+  "source_generation_prompt": "Premium pet memorial fine-art portrait, realistic anatomy and expressive natural eyes, exquisite detailed fur, painterly realism with subtle oil brushwork, tasteful luminous atmosphere, refined restrained color palette. Portrait 4:5 full-bleed standalone artwork, NOT a framed mockup. Entire face, ears and important limbs comfortably inside the canvas, generous safe margins. One dog only, no text, letters, logos or watermarks, no extra limbs. Depict a respectful traditional portrayal of Jesus with shoulder-length dark hair, beard, compassionate expression and modest flowing robes with one white poodle. Jesus welcoming the dog at an open pearl-colored garden gate, bright peaceful clouds beyond. The dog has natural canine anatomy, no wings. Dog's face prominent and recognizable, both subjects clearly visible.",
+  "qa_flags": [
+    "preserve-human-companion"
+  ],
+  "customer_identity_transfer_validated": false
+}
