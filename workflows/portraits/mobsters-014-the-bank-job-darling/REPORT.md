@@ -1,6 +1,6 @@
 # The Bank Job Darling — refinement report
 
-Status: **in_progress**. Updated 2026-10-14T07:52:31Z.
+Status: **in_progress**. Updated 2026-10-14T08:19:36Z.
 
 Queue `catalog-llm-v3`; run `catalog-llm-v3-mobsters-014-the-bank-job-darling-round-2`; 2 rounds started; 8 generated candidates.
 

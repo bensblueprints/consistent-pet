@@ -1,6 +1,6 @@
 # Bonnie the Getaway Queen — refinement report
 
-Status: **blocked**. Updated 2026-10-14T07:39:36Z.
+Status: **blocked**. Updated 2026-10-14T08:19:26Z.
 
 Queue `catalog-llm-v3`; run `catalog-llm-v3-mobsters-011-bonnie-the-getaway-queen-round-3`; 3 rounds started; 16 generated candidates.
 
