@@ -1,0 +1,8 @@
+# Install into your existing ComfyUI/Blackwell-compatible PyTorch environment.
+# Torch/CUDA and model weights are intentionally not installed by this file.
+Pillow>=11
+numpy>=2
+requests>=2.32
+websocket-client>=1.8
+transformers>=5.17
+accelerate>=1
