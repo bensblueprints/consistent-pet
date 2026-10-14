@@ -68,7 +68,9 @@ def main():
         if not resume['complete']:
             for identifier in resume['ids']:
                 if catalog.state['items'][identifier]['status'] not in ('accepted', 'blocked'):
-                    catalog.process(catalog.by_id[identifier])
+                    with (base.ROOT / 'auto-refinement.lock').open('a') as render_lock:
+                        fcntl.flock(render_lock, fcntl.LOCK_EX)
+                        catalog.process(catalog.by_id[identifier])
             base.atomic(marker, {**resume, 'complete': True})
         catalog.run()
 
