@@ -1,8 +1,8 @@
 # The Bank Job Darling — development-roster report
 
-Status: **in_progress**. Updated 2026-10-14T08:45:00Z.
+Status: **provisional**. Updated 2026-10-14T08:50:34Z.
 
-0 / 32 input records pass the current shared recipe. 6 candidate recipes; 6 renders.
+0 / 32 input records pass the current shared recipe. 9 candidate recipes; 10 renders.
 
 The local Qwen vision LLM inspects failures and proposes bounded workflow changes. FLUX.2 Klein base 4B renders; SAM3.1 creates whole-subject masks. The critic prompt, model and 9/10 threshold stay fixed.
 Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. Only one exact recipe passing the entire roster can lock this costume.
@@ -16,7 +16,10 @@ All submitted photos are development data under the owner-requested policy. Hist
 | 3 | 1 | 0 | 7 | inpaint | source-compatible |
 | 4 | 1 | 0 | 5 | fresh-latent | source-compatible |
 | 5 | 1 | 0 | 5 | inpaint | natural-sitting |
-| 6 | 1 | 0 | 7 | fresh-latent | source-compatible |
+| 6 | 2 | 0 | 7 | fresh-latent | source-compatible |
+| 7 | 1 | 0 | 7 | fresh-latent | natural-sitting |
+| 8 | 1 | 0 | 7 | fresh-latent | natural-sitting |
+| 9 | 1 | 0 | 7 | fresh-latent | source-compatible |
 
 Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
 Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
