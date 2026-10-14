@@ -115,7 +115,8 @@ function paintWorkflowProgress(){
  const progress=state.catalog_progress||{},active=state.auto_refine||{},counts=progress.counts||{};
  $('#workflow-live').hidden=!progress.total;if(!progress.total)return;
  const prefix=(progress.version||'')+'-',activeMatches=!!progress.version&&!!active.run&&active.run.startsWith(prefix);
- const rows=[...new Map(state.rows.filter(r=>progress.version&&r.auto_refine_version?.startsWith(prefix)).map(r=>[r.id,r])).values()];
+ // Preserve totals when a new queue policy resumes the same 725-reference project.
+ const rows=[...new Map(state.rows.filter(r=>r.reference_id&&r.auto_refine_version&&r.planner==='local-vision-llm-v1').map(r=>[r.id,r])).values()];
  const complete=rows.filter(r=>r.output&&r.status==='Complete');
  const currentRows=complete.filter(r=>r.template===(activeMatches?active.current_template:progress.current_reference));
  const dogs=new Set(currentRows.map(r=>r.dog_id||r.input).filter(Boolean)).size;
