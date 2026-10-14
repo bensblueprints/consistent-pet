@@ -1,6 +1,6 @@
 {
   "reference_id": "mobsters-052-the-razor-street-duchess",
-  "status": "pending_gpu_refinement",
+  "status": "in_progress",
   "target_hardware": "RTX PRO 6000 Blackwell 96 GB",
   "baseline_sha256": "fb4d6d0e6fa230cad49dd67a9dcd02825668549273a00de8810b368240cbd525",
   "baseline_is_reference_specific": false,
@@ -8,6 +8,25 @@
   "requires_design_review": false,
   "accepted_workflow": null,
   "latest_provisional_workflow": null,
-  "last_run_version": null,
-  "last_updated_utc": null
+  "last_run_version": "roster-average-v5-mobsters-052-the-razor-street-duchess",
+  "last_updated_utc": "2026-10-14T11:50:59Z",
+  "known_roster_identity_transfer_validated": false,
+  "evaluation_policy": "qualified-inputs-average-v5",
+  "unseen_dog_validation": false,
+  "ai_estimate_only": true,
+  "rounds_started": 1,
+  "generation_candidates": 7,
+  "roster_entries": 17,
+  "passing_current_recipe": 7,
+  "required_average": 8,
+  "current_recipe_average": 8.464285714285714,
+  "candidate_revisions": 1,
+  "input_minimum": 7,
+  "output_thresholds": {
+    "identity": 8,
+    "fur": 8,
+    "body": 7,
+    "template": 8
+  },
+  "excluded_input_entries": 15
 }
