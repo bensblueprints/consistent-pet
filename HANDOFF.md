@@ -2,6 +2,14 @@
 
 Updated: 2026-10-14. **Start here, then read AGENTS.md and the operational documents linked below.**
 
+Latest owner-requested policy: `scripts/run-roster-catalog.py` gives each submitted
+dog up to six scored generations per costume per catalog visit, stopping that dog
+early when it passes. The resident LLM revises failures immediately. Earlier dogs
+must be rechecked whenever the shared recipe changes. Unresolved costumes return
+to the queue; they are never accepted merely because six attempts were used.
+This new development-roster policy is separate from the immutable historical
+holdout runs. See the six-attempt section in `docs/WORKFLOW.md`.
+
 Implementation update: `scripts/run-costume-catalog.py` now provides the persistent
 725-reference queue with resident-LLM planning. See [the workflow guide](docs/WORKFLOW.md)
 for bounded retries, frozen cross-dog checks, resource limits and report publishing.

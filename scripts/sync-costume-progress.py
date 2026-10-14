@@ -18,7 +18,7 @@ for ref in json.loads((repo/'workflows/portraits/index.json').read_text()):
     folder=repo/ref['workflow_folder']
     if not (folder/'REPORT.md').exists():continue
     status=json.loads((folder/'status.json').read_text())
-    for name in ('status.json','REPORT.md')+ (('workflow.json',) if status.get('customer_identity_transfer_validated') else ()):
+    for name in ('status.json','REPORT.md')+ (('workflow.json',) if status.get('customer_identity_transfer_validated') or status.get('known_roster_identity_transfer_validated') else ()):
         files[ref['workflow_folder']+'/'+name]=(folder/name).read_text()
 print(json.dumps(files))
 '''
@@ -45,7 +45,12 @@ def run(args):
         if git('status','--porcelain','--',relative):raise ValueError('Local report has uncommitted changes; inspect before syncing')
         if path.name=='workflow.json':
             data=json.loads(text)
-            if data.get('status')!='AI target met across dogs' or data.get('format')!='consistent-pet-api-recipe-v1':raise ValueError('Unaccepted workflow export')
+            historical=data.get('status')=='AI target met across dogs' and data.get('format')=='consistent-pet-api-recipe-v1'
+            roster=data.get('status')=='locked_on_development_roster' and data.get('format')=='consistent-pet-roster-recipe-v1'
+            if not (historical or roster):raise ValueError('Unaccepted workflow export')
+            if roster:
+                e=data.get('evaluation',{})
+                if not (e.get('roster_entries',0)>=7 and e.get('roster_entries')==e.get('passing_entries') and e.get('same_recipe_for_all') is True and e.get('unseen_dog_validation') is False):raise ValueError('Incomplete roster export')
             unsigned={k:v for k,v in data.items() if k!='sha256'}
             from portrait_autorefine import signature
             if data['sha256']!=signature(unsigned):raise ValueError('Export checksum differs')

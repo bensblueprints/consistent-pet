@@ -12,8 +12,15 @@ Git. Use explicit file lists when publishing from another workspace.
 
 Keep the independent visual reviewer fixed while optimizing generation. Acceptance
 requires every dimension to reach at least 9/10, high confidence and no major
-defects. Never label a budget-limited or failed workflow accepted. Do not train on
-held-out dog identities or use their results to select another candidate.
+defects. Never label a budget-limited or failed workflow accepted. Historical
+held-out evaluations must remain immutable and must not be relabeled as passes.
+
+Owner update, 2026-10-14: the new roster policy explicitly refines on every
+submitted dog. Treat the entire roster as development data in that new policy;
+never claim those identities are still unseen holdouts. Lock one shared costume
+recipe only after every roster entry passes that exact recipe. Any recipe change
+invalidates earlier passes until rechecked. Export this separately identified
+roster-validation format; retain the historical holdout exporter unchanged.
 
 Use a new run version and a frozen runner directory when changing active policies.
 Preserve native ComfyUI job IDs on resume. Never restart an existing sharing tunnel

@@ -192,7 +192,7 @@ class Refiner:
             if digest(M/name)!=sha:raise ValueError('Attempt input changed')
         graph=repair_graph(base,original=dog['input'],face=dog['crop'],design=assets['design'],baseline=assets['layout'],mask=mask_name,
                            prefix='fpg-private-validation/'+key,identity='Original dog description: '+dog['label']+'. '+dog_instruction(recipe,dog_id,stage),
-                           scene=t['scene'],seed=seed_for(self.run,t['id'],recipe['version'],dog_id))
+                           scene=t['scene'],seed=seed_for(self.plan.get('seed_namespace',self.run),t['id'],0 if self.plan.get('stable_seeds') else recipe['version'],dog_id))
         apply_recipe(graph,recipe)
         history=self.execute(key,graph,row);output=key+'.png';self.fetch(history,'9',M/output)
         im=Image.open(M/output).convert('RGB');prior=Image.open(M/assets['layout']).convert('RGB')

@@ -133,3 +133,39 @@ No claim that all templates reach the target is made by this repository.
 
 Optional human-review export/report tools retain human and AI evidence separately.
 They prepare data for future evaluation; they do not train or deploy new weights.
+# Six-attempt refinement on every submitted dog
+
+Owner update, 2026-10-14: the previous catalog worker tuned two dogs and evaluated
+the remaining dogs once. The new `run-roster-catalog.py` policy makes the entire
+submitted roster available for development. Historical evaluations are preserved.
+
+Each failing dog gets up to six completed, independently scored renders per
+costume visit. The local vision LLM inspects the original, costume, failed output,
+and critiques before proposing a changed recipe. A passing dog stops early.
+After six unsuccessful attempts, other dogs still get a turn and the costume
+remains provisional for another catalog pass. Technical faults remain visible.
+The score threshold stays at 9 in every dimension, with high confidence and no
+major defects. Passing a mean score is insufficient.
+
+The recipe is shared within the costume. Any change clears the current recipe's
+previous pass evidence and requires rechecking earlier dogs. Only one exact
+recipe passing every roster entry can produce a locked export. Separate per-dog
+passes from different recipes cannot be combined into acceptance. Native prompt
+IDs, output hashes, every failed generation, pass checkpoints and review history
+remain private and durable. Fixed per-dog seeds make recipe comparisons controlled.
+
+These are development results on known dogs, not independent unseen-dog tests or
+a guarantee of perfect results. Accepted exports use
+`consistent-pet-roster-recipe-v1` and explicitly state this distinction. The
+historical exporter remains unchanged. The sanitized progress publisher supports
+both formats and checks their acceptance fields and checksum.
+
+Deployment uses a new frozen runner directory and queue version. Finish any
+in-flight native job before switching; retain the original submission deadline.
+Do not restart the sharing tunnel or ComfyUI. The viewer groups generations by
+costume and exact input, so new attempts appear in the existing dog's row.
+
+Validation: `test-portrait-roster.py` tests immutable evidence and full-roster
+acceptance; `test-roster-catalog-flow.py` runs the actual controller with simulated
+generation/scoring to verify immediate retries, earlier-dog rechecks, the six-try
+limit and continued processing of other dogs. Run controller tests on Linux.

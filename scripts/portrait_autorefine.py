@@ -143,7 +143,7 @@ def validate_plan(plan):
     if 'dogs_manifest' in plan and (not isinstance(plan['dogs_manifest'],str) or not re.fullmatch(r'[a-z0-9-]+\.json',plan['dogs_manifest'])):
         raise ValueError('Dog registry must be a private JSON basename')
     if 'validate_all_dogs' in plan and type(plan['validate_all_dogs']) is not bool:raise ValueError('Invalid validate_all_dogs')
-    for flag in ('use_llm_planner','validate_provisional'):
+    for flag in ('use_llm_planner','validate_provisional','stable_seeds'):
         if flag in plan and type(plan[flag]) is not bool:raise ValueError('Invalid '+flag)
     if not plan.get('templates') or len({t['id'] for t in plan['templates']})!=len(plan['templates']):raise ValueError('Missing or duplicate templates')
     for template in plan['templates']:
