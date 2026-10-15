@@ -14,7 +14,11 @@ import time
 COLLECT='''import json,sys
 from pathlib import Path
 repo=Path(sys.argv[1]);files={}
-for ref in json.loads((repo/'workflows/portraits/index.json').read_text()):
+index=json.loads((repo/'workflows/portraits/index.json').read_text())
+priority=repo/'workflows/portraits/priority-heaven24.json'
+if priority.exists():index+=json.loads(priority.read_text())
+if len({r['id'] for r in index})!=len(index):raise ValueError('Duplicate workflow IDs')
+for ref in index:
     folder=repo/ref['workflow_folder']
     if not (folder/'REPORT.md').exists():continue
     status=json.loads((folder/'status.json').read_text())
@@ -30,6 +34,9 @@ def run(args):
     if git('branch','--show-current')!='main':raise ValueError('Progress publisher requires main')
     if 'bensblueprints/consistent-pet' not in git('remote','get-url','origin'):raise ValueError('Unexpected publishing destination')
     index=json.loads((repo/'workflows/portraits/index.json').read_text())
+    priority=repo/'workflows/portraits/priority-heaven24.json'
+    if priority.exists():index+=json.loads(priority.read_text())
+    if len({r['id'] for r in index})!=len(index):raise ValueError('Duplicate workflow IDs')
     allowed={ref['workflow_folder']+'/'+name for ref in index for name in ('status.json','REPORT.md','workflow.json')}
     ssh=['ssh','-o','BatchMode=yes','-o','IdentitiesOnly=yes','-o','ConnectTimeout=20','-i',str(args.identity),'-p',str(args.port),args.host,
          '/venv/main/bin/python - '+shlex.quote(args.remote_repo)]
