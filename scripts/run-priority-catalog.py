@@ -8,6 +8,7 @@ import fcntl
 import importlib.util
 import json
 import sys
+import time
 from pathlib import Path
 
 
@@ -18,6 +19,7 @@ def main():
     p.add_argument('--priority-index', type=Path, required=True)
     p.add_argument('--version', required=True)
     p.add_argument('--hours', type=float, default=48)
+    p.add_argument('--deadline', type=float, help='Explicit owner-authorized UTC epoch deadline for a resumed run')
     p.add_argument('--attempts-per-dog', type=int, default=6, choices=[6])
     a = p.parse_args()
     sys.path.insert(0, str(a.runner))
@@ -37,6 +39,11 @@ def main():
     class PriorityCatalog(base.RosterCatalog):
         def __init__(self):
             super().__init__(a.repo, a.version, a.hours, a.attempts_per_dog)
+            if a.deadline is not None:
+                if a.deadline > time.time() + 48 * 3600 + 60:
+                    raise ValueError('Resume deadline exceeds 48 hours')
+                self.state['max_hours'] = (a.deadline - self.state['started_at']) / 3600
+                self.state['authorized_resume_deadline'] = a.deadline
             overlap = set(ids) & set(self.by_id)
             if overlap:
                 raise ValueError('Priority IDs overlap original catalog')
