@@ -1,8 +1,8 @@
 # Cloud Colossus — development-roster report
 
-Status: **in_progress**. Updated 2026-10-16T03:09:58Z.
+Status: **accepted**. Updated 2026-10-16T03:12:51Z.
 
-0 / 5 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 3 candidate recipes; 13 renders.
+2 / 5 qualifying input records pass the current shared recipe. 15 source photos excluded by the input-quality gate. 3 candidate recipes; 15 renders.
 
 The independent output critic stays fixed. Acceptance: original input >=7; complete round arithmetic mean >=8 across all four scores for every qualifying dog. Individual dimension minima and the 85% pass fraction do not gate this policy.
 Each successful dog check is checkpointed privately. A recipe change invalidates earlier passes until those dogs are checked again. One exact recipe must be checked on the full qualifying roster and average >=8 to lock this costume. Incomplete rounds cannot pass.
@@ -13,7 +13,7 @@ All submitted photos are development data under the owner-requested policy. Hist
 | --- | ---: | ---: | ---: | --- | --- |
 | 1 | 5 | 2 | 5 | fresh-latent | source-compatible |
 | 2 | 5 | 2 | 5 | inpaint | natural-sitting |
-| 3 | 3 | 0 | 5 | fresh-latent | source-compatible |
+| 3 | 5 | 2 | 5 | fresh-latent | source-compatible |
 
 Exact images, per-dog checkpoints, native job IDs, critiques and unsuccessful graphs remain private. Accepted exports are parameterized and omit customer identities and media paths.
 Difficult references remain provisional for another catalog pass; technical failures require inspection. The submission deadline does not become an acceptance shortcut.
