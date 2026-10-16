@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-074-portrait-of-stefano-colonna",
+  "name": "Portrait of Stefano Colonna — Dog Portrait",
+  "sex": "unisex",
+  "category": "mannerism",
+  "art_movement": "Mannerism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/mannerism/masterpieces-074-portrait-of-stefano-colonna.png",
+  "preview_path": "reference-library/previews/unisex/mannerism/masterpieces-074-portrait-of-stefano-colonna.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054320_858cbbab-518c-4302-a6fa-8d160c572d1c.png",
+  "reference_sha256": "bb61c7d363f81af3a5a05bc88c690e61f6758f75b9ddd8e524022a695a0b6e2f",
+  "workflow_folder": "workflows/portraits/masterpieces-074-portrait-of-stefano-colonna",
+  "description": "Dog interpretation of Portrait of Stefano Colonna by Agnolo Bronzino. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Stefano Colonna",
+    "artist": "Agnolo Bronzino",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Stefano_Colonna"
+  },
+  "width": 1792,
+  "height": 2304,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

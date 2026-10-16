@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-090-self-portrait-in-a-straw-hat",
+  "name": "Self-Portrait in a Straw Hat — Dog Portrait",
+  "sex": "unisex",
+  "category": "neoclassicism",
+  "art_movement": "Neoclassicism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/neoclassicism/masterpieces-090-self-portrait-in-a-straw-hat.png",
+  "preview_path": "reference-library/previews/unisex/neoclassicism/masterpieces-090-self-portrait-in-a-straw-hat.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054324_5bfc58d9-65d4-465a-930d-1198b0c53488.png",
+  "reference_sha256": "ad0b6890e660f99b859a9a827b0f9388e5979bb8b6399b03a67b883500fc30eb",
+  "workflow_folder": "workflows/portraits/masterpieces-090-self-portrait-in-a-straw-hat",
+  "description": "Dog interpretation of Self-Portrait in a Straw Hat by Élisabeth Louise Vigée Le Brun. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Self-Portrait in a Straw Hat",
+    "artist": "Élisabeth Louise Vigée Le Brun",
+    "source_page": "https://en.wikipedia.org/wiki/Self-Portrait_in_a_Straw_Hat"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

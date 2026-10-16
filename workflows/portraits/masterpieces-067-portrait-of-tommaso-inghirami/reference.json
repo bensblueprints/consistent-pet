@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-067-portrait-of-tommaso-inghirami",
+  "name": "Portrait of Tommaso Inghirami — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-067-portrait-of-tommaso-inghirami.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-067-portrait-of-tommaso-inghirami.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054316_ac08ebc1-76de-46d0-b4c1-141c09bbde00.png",
+  "reference_sha256": "97b925d748d7670b8764a0007569e4a143079a3ee6ab00773b47f7dbe0cff31c",
+  "workflow_folder": "workflows/portraits/masterpieces-067-portrait-of-tommaso-inghirami",
+  "description": "Dog interpretation of Portrait of Tommaso Inghirami by Raphael. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Tommaso Inghirami",
+    "artist": "Raphael",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Tommaso_Inghirami"
+  },
+  "width": 1360,
+  "height": 2048,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

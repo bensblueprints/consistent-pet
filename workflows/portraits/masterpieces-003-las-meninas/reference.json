@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-003-las-meninas",
+  "name": "Las Meninas — Dog Portrait",
+  "sex": "unisex",
+  "category": "baroque",
+  "art_movement": "Baroque",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/baroque/masterpieces-003-las-meninas.png",
+  "preview_path": "reference-library/previews/unisex/baroque/masterpieces-003-las-meninas.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053811_2f76ecba-2720-4578-9db8-a945b613dba4.png",
+  "reference_sha256": "0ea5b0cf4ab0aaf81c655a5b3bb3ed4c0cb28c8700d7668348815669e284b9af",
+  "workflow_folder": "workflows/portraits/masterpieces-003-las-meninas",
+  "description": "Dog interpretation of Las Meninas by Diego Velázquez. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Las Meninas",
+    "artist": "Diego Velázquez",
+    "source_page": "https://en.wikipedia.org/wiki/Las_Meninas"
+  },
+  "width": 1824,
+  "height": 2128,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

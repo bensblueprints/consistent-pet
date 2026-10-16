@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-048-self-portrait-with-beret-1659",
+  "name": "Self-Portrait with Beret (1659) — Dog Portrait",
+  "sex": "unisex",
+  "category": "baroque",
+  "art_movement": "Baroque",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/baroque/masterpieces-048-self-portrait-with-beret-1659.png",
+  "preview_path": "reference-library/previews/unisex/baroque/masterpieces-048-self-portrait-with-beret-1659.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054249_dc99a146-3782-4e54-838e-c90d629069af.png",
+  "reference_sha256": "0403717ec1510dc1884e294532458c6fa5b8f446d6a71889a19a42dba68cd375",
+  "workflow_folder": "workflows/portraits/masterpieces-048-self-portrait-with-beret-1659",
+  "description": "Dog interpretation of Self-Portrait with Beret (1659) by Rembrandt. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Self-Portrait with Beret (1659)",
+    "artist": "Rembrandt",
+    "source_page": "https://en.wikipedia.org/wiki/Self-Portrait_with_Beret_and_Turned-Up_Collar"
+  },
+  "width": 1792,
+  "height": 2304,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

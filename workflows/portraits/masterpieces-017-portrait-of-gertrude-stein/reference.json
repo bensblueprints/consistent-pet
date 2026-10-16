@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-017-portrait-of-gertrude-stein",
+  "name": "Portrait of Gertrude Stein — Dog Portrait",
+  "sex": "unisex",
+  "category": "early-modernism",
+  "art_movement": "Early Modernism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/early-modernism/masterpieces-017-portrait-of-gertrude-stein.png",
+  "preview_path": "reference-library/previews/unisex/early-modernism/masterpieces-017-portrait-of-gertrude-stein.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053849_a19120a0-936b-4f26-9fc5-b675c9eb68a1.png",
+  "reference_sha256": "486eaec7215fd367e6d3bdb6f8d08bcdc32799548a1b20d4f1feb4104f9abaa5",
+  "workflow_folder": "workflows/portraits/masterpieces-017-portrait-of-gertrude-stein",
+  "description": "Dog interpretation of Portrait of Gertrude Stein by Pablo Picasso. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Gertrude Stein",
+    "artist": "Pablo Picasso",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Gertrude_Stein"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

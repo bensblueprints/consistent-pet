@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-049-portrait-of-dr-pozzi-at-home",
+  "name": "Portrait of Dr. Pozzi at Home — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-049-portrait-of-dr-pozzi-at-home.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-049-portrait-of-dr-pozzi-at-home.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054249_94912e90-e4c8-48a5-b811-23a1e29d6586.png",
+  "reference_sha256": "a404bbd3878c729dd5205a59c86159c659005ebfea1ba8e4e6186e0fe72a572e",
+  "workflow_folder": "workflows/portraits/masterpieces-049-portrait-of-dr-pozzi-at-home",
+  "description": "Dog interpretation of Portrait of Dr. Pozzi at Home by John Singer Sargent. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Dr. Pozzi at Home",
+    "artist": "John Singer Sargent",
+    "source_page": "https://en.wikipedia.org/wiki/Dr._Pozzi_at_Home"
+  },
+  "width": 1408,
+  "height": 2816,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

@@ -1,0 +1,9 @@
+{
+  "reference_id": "masterpieces-034-napoleon-crossing-the-alps",
+  "status": "not_started",
+  "accepted_workflow": null,
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "queue_registration": "pending_gpu_connection",
+  "last_run_version": null
+}

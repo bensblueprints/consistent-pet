@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-040-the-gleaners",
+  "name": "The Gleaners — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-040-the-gleaners.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-040-the-gleaners.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054245_6a3411df-91d3-4617-8428-34dba811786c.png",
+  "reference_sha256": "c6f139ba6e5ef636eb43ff944222ab7a17713fd7fd265bf91f53d6240dd08de3",
+  "workflow_folder": "workflows/portraits/masterpieces-040-the-gleaners",
+  "description": "Dog interpretation of The Gleaners by Jean-François Millet. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "The Gleaners",
+    "artist": "Jean-François Millet",
+    "source_page": "https://en.wikipedia.org/wiki/The_Gleaners"
+  },
+  "width": 2336,
+  "height": 1744,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

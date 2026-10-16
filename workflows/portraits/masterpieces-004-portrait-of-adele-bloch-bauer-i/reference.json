@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-004-portrait-of-adele-bloch-bauer-i",
+  "name": "Portrait of Adele Bloch-Bauer I — Dog Portrait",
+  "sex": "unisex",
+  "category": "art-nouveau",
+  "art_movement": "Art Nouveau",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/art-nouveau/masterpieces-004-portrait-of-adele-bloch-bauer-i.png",
+  "preview_path": "reference-library/previews/unisex/art-nouveau/masterpieces-004-portrait-of-adele-bloch-bauer-i.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053812_66d2244f-4b97-4412-ad3d-20470e14e2a9.png",
+  "reference_sha256": "761ebb15e925fc0c92f26f789febafbfd98225c95b6815796c4cd60a07569d98",
+  "workflow_folder": "workflows/portraits/masterpieces-004-portrait-of-adele-bloch-bauer-i",
+  "description": "Dog interpretation of Portrait of Adele Bloch-Bauer I by Gustav Klimt. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Adele Bloch-Bauer I",
+    "artist": "Gustav Klimt",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I"
+  },
+  "width": 2048,
+  "height": 2048,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

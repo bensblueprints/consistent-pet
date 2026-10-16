@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-071-portrait-of-a-man-1433",
+  "name": "Portrait of a Man (1433) — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-071-portrait-of-a-man-1433.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-071-portrait-of-a-man-1433.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053853_7d68ed91-bec5-418e-b98b-e2d7d01b2a9f.png",
+  "reference_sha256": "3ff21788db3bbda7f0f39ffcf345dd09636979a60fa02b7e59438a60446c8a91",
+  "workflow_folder": "workflows/portraits/masterpieces-071-portrait-of-a-man-1433",
+  "description": "Dog interpretation of Portrait of a Man (1433) by Jan van Eyck. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of a Man (1433)",
+    "artist": "Jan van Eyck",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_a_Man_%28Self_Portrait%3F%29"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

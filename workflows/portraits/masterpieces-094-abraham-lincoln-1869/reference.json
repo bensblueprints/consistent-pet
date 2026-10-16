@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-094-abraham-lincoln-1869",
+  "name": "Abraham Lincoln (1869) — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-094-abraham-lincoln-1869.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-094-abraham-lincoln-1869.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054326_fe0b0b0a-ac90-4935-8d4c-096d7fca21c2.png",
+  "reference_sha256": "cbe3f44c37183d27391a6104a6ecd5b8fa025a38316d1d9e42762bbde1a29ee3",
+  "workflow_folder": "workflows/portraits/masterpieces-094-abraham-lincoln-1869",
+  "description": "Dog interpretation of Abraham Lincoln (1869) by George Peter Alexander Healy. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Abraham Lincoln (1869)",
+    "artist": "George Peter Alexander Healy",
+    "source_page": "https://en.wikipedia.org/wiki/Abraham_Lincoln_%28Healy%29"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

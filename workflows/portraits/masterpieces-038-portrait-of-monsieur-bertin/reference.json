@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-038-portrait-of-monsieur-bertin",
+  "name": "Portrait of Monsieur Bertin — Dog Portrait",
+  "sex": "unisex",
+  "category": "neoclassicism",
+  "art_movement": "Neoclassicism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/neoclassicism/masterpieces-038-portrait-of-monsieur-bertin.png",
+  "preview_path": "reference-library/previews/unisex/neoclassicism/masterpieces-038-portrait-of-monsieur-bertin.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054244_f11b6fdf-eb1b-419d-8d61-6123abfa1da1.png",
+  "reference_sha256": "7f7bd4d42da0983b3798275f55e841de87cdd0e99fcb0988afac5cee491332a1",
+  "workflow_folder": "workflows/portraits/masterpieces-038-portrait-of-monsieur-bertin",
+  "description": "Dog interpretation of Portrait of Monsieur Bertin by Jean-Auguste-Dominique Ingres. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Monsieur Bertin",
+    "artist": "Jean-Auguste-Dominique Ingres",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Monsieur_Bertin"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

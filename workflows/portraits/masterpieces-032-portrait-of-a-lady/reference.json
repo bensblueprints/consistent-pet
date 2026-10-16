@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-032-portrait-of-a-lady",
+  "name": "Portrait of a Lady — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-032-portrait-of-a-lady.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-032-portrait-of-a-lady.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054240_75875428-db43-486c-bbf7-626302b99097.png",
+  "reference_sha256": "f978d9264d0aa717fe8d4839692e68a287996d1c3e66408e3d8e9d4ce43cb9df",
+  "workflow_folder": "workflows/portraits/masterpieces-032-portrait-of-a-lady",
+  "description": "Dog interpretation of Portrait of a Lady by Rogier van der Weyden. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of a Lady",
+    "artist": "Rogier van der Weyden",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_a_Lady_%28van_der_Weyden%29"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

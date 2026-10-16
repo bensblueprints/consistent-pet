@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-044-child-with-a-dove",
+  "name": "Child with a Dove — Dog Portrait",
+  "sex": "unisex",
+  "category": "early-modernism",
+  "art_movement": "Early Modernism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/early-modernism/masterpieces-044-child-with-a-dove.png",
+  "preview_path": "reference-library/previews/unisex/early-modernism/masterpieces-044-child-with-a-dove.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054245_f7c73646-d44e-4234-b729-a54f1db56f56.png",
+  "reference_sha256": "006ad99827d5c3cae3a2411519783f44d165c2186f7dbf462722c6e50abbf668",
+  "workflow_folder": "workflows/portraits/masterpieces-044-child-with-a-dove",
+  "description": "Dog interpretation of Child with a Dove by Pablo Picasso. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Child with a Dove",
+    "artist": "Pablo Picasso",
+    "source_page": "https://en.wikipedia.org/wiki/Child_with_a_Dove"
+  },
+  "width": 1360,
+  "height": 2048,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

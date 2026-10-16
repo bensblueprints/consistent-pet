@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-095-portrait-of-john-ruskin",
+  "name": "Portrait of John Ruskin — Dog Portrait",
+  "sex": "unisex",
+  "category": "pre-raphaelite",
+  "art_movement": "Pre-Raphaelite",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/pre-raphaelite/masterpieces-095-portrait-of-john-ruskin.png",
+  "preview_path": "reference-library/previews/unisex/pre-raphaelite/masterpieces-095-portrait-of-john-ruskin.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054325_6dc7f099-2f34-4246-a3e8-099aaaca8d1f.png",
+  "reference_sha256": "8a0c45c114e1d2509325c2ddffebe4d098e102cdb83909a4a25931a842490f7d",
+  "workflow_folder": "workflows/portraits/masterpieces-095-portrait-of-john-ruskin",
+  "description": "Dog interpretation of Portrait of John Ruskin by John Everett Millais. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of John Ruskin",
+    "artist": "John Everett Millais",
+    "source_page": "https://en.wikipedia.org/wiki/John_Ruskin_%28painting%29"
+  },
+  "width": 1824,
+  "height": 2128,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

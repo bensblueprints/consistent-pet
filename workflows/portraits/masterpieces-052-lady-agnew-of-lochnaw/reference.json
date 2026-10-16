@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-052-lady-agnew-of-lochnaw",
+  "name": "Lady Agnew of Lochnaw — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-052-lady-agnew-of-lochnaw.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-052-lady-agnew-of-lochnaw.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054248_83a0c37f-4041-44df-8e14-99d3ce2292a3.png",
+  "reference_sha256": "a3256b117f67dcea32d9ee9f87c6e5cdd0c874ffc4ab6338b5fd43ed57eb9bff",
+  "workflow_folder": "workflows/portraits/masterpieces-052-lady-agnew-of-lochnaw",
+  "description": "Dog interpretation of Lady Agnew of Lochnaw by John Singer Sargent. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Lady Agnew of Lochnaw",
+    "artist": "John Singer Sargent",
+    "source_page": "https://en.wikipedia.org/wiki/Lady_Agnew_of_Lochnaw"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

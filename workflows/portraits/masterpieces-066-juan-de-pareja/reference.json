@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-066-juan-de-pareja",
+  "name": "Juan de Pareja — Dog Portrait",
+  "sex": "unisex",
+  "category": "baroque",
+  "art_movement": "Baroque",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/baroque/masterpieces-066-juan-de-pareja.png",
+  "preview_path": "reference-library/previews/unisex/baroque/masterpieces-066-juan-de-pareja.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054317_3bcade3b-fef9-44ad-ac85-e14ab0e13ce1.png",
+  "reference_sha256": "db2cd588aba8fb26a44f5aaa757baeea4a195a034715fb718ba40d21994e9a47",
+  "workflow_folder": "workflows/portraits/masterpieces-066-juan-de-pareja",
+  "description": "Dog interpretation of Juan de Pareja by Diego Velázquez. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Juan de Pareja",
+    "artist": "Diego Velázquez",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Juan_de_Pareja"
+  },
+  "width": 1824,
+  "height": 2128,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

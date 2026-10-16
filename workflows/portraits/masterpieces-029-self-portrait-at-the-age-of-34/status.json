@@ -1,0 +1,9 @@
+{
+  "reference_id": "masterpieces-029-self-portrait-at-the-age-of-34",
+  "status": "not_started",
+  "accepted_workflow": null,
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "queue_registration": "pending_gpu_connection",
+  "last_run_version": null
+}

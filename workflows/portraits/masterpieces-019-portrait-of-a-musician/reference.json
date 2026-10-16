@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-019-portrait-of-a-musician",
+  "name": "Portrait of a Musician — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-019-portrait-of-a-musician.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-019-portrait-of-a-musician.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053847_0bbbdeb9-a5db-44db-b334-d36ac88f5615.png",
+  "reference_sha256": "ce0cfb3b7f2d8d0d6cf2ae8c1f63cc4bb6613fa82c306402217eeea2bdb667aa",
+  "workflow_folder": "workflows/portraits/masterpieces-019-portrait-of-a-musician",
+  "description": "Dog interpretation of Portrait of a Musician by Leonardo da Vinci. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of a Musician",
+    "artist": "Leonardo da Vinci",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_a_Musician"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

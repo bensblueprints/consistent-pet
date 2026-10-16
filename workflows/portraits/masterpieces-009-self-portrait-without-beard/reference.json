@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-009-self-portrait-without-beard",
+  "name": "Self-Portrait without Beard — Dog Portrait",
+  "sex": "unisex",
+  "category": "post-impressionism",
+  "art_movement": "Post-Impressionism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/post-impressionism/masterpieces-009-self-portrait-without-beard.png",
+  "preview_path": "reference-library/previews/unisex/post-impressionism/masterpieces-009-self-portrait-without-beard.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053843_45efa91c-528b-4be2-9415-704a8ac10361.png",
+  "reference_sha256": "d122f654cc5102d53441e2356748095bf5d98cd0c3b74ed0f8d69182e83ce66b",
+  "workflow_folder": "workflows/portraits/masterpieces-009-self-portrait-without-beard",
+  "description": "Dog interpretation of Self-Portrait without Beard by Vincent van Gogh. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Self-Portrait without Beard",
+    "artist": "Vincent van Gogh",
+    "source_page": "https://en.wikipedia.org/wiki/Self-portrait_without_beard"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

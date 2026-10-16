@@ -17,6 +17,7 @@ def main():
     p.add_argument('--runner', type=Path, required=True)
     p.add_argument('--repo', type=Path, required=True)
     p.add_argument('--priority-index', type=Path, required=True)
+    p.add_argument('--append-index', type=Path, action='append', default=[], help='Additional references after the existing catalog, preserving existing queue entries')
     p.add_argument('--version', required=True)
     p.add_argument('--hours', type=float, default=48)
     p.add_argument('--deadline', type=float, help='Explicit owner-authorized UTC epoch deadline for a resumed run')
@@ -27,10 +28,12 @@ def main():
     base = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(base)
     priority = json.loads(a.priority_index.read_text())
+    appended = [row for path in a.append_index for row in json.loads(path.read_text())]
     ids = [r['id'] for r in priority]
-    if not ids or len(ids) != len(set(ids)):
-        raise ValueError('Priority references must have unique IDs')
-    for r in priority:
+    supplemental_ids = ids + [r['id'] for r in appended]
+    if not ids or len(supplemental_ids) != len(set(supplemental_ids)):
+        raise ValueError('Supplemental references must have unique IDs')
+    for r in priority + appended:
         if base.digest(a.repo / r['reference_path']) != r['reference_sha256']:
             raise ValueError('Priority reference hash differs')
         if not (a.repo / r['workflow_folder'] / 'status.json').is_file():
@@ -44,14 +47,15 @@ def main():
                     raise ValueError('Resume deadline exceeds 48 hours')
                 self.state['max_hours'] = (a.deadline - self.state['started_at']) / 3600
                 self.state['authorized_resume_deadline'] = a.deadline
-            overlap = set(ids) & set(self.by_id)
+            overlap = set(supplemental_ids) & set(self.by_id)
             if overlap:
                 raise ValueError('Priority IDs overlap original catalog')
-            self.index = priority + self.index
+            self.index = priority + self.index + appended
             self.by_id = {r['id']: r for r in self.index}
-            for r in priority:
+            for r in priority + appended:
                 self.state['items'].setdefault(r['id'], dict(status='pending', round=0, generations=0, errors=0))
             self.state['priority_references'] = ids
+            self.state['appended_references'] = [r['id'] for r in appended]
             self.save()
 
         def save(self):

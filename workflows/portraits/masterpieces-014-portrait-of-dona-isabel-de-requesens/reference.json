@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-014-portrait-of-dona-isabel-de-requesens",
+  "name": "Portrait of Doña Isabel de Requesens — Dog Portrait",
+  "sex": "unisex",
+  "category": "mannerism",
+  "art_movement": "Mannerism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/mannerism/masterpieces-014-portrait-of-dona-isabel-de-requesens.png",
+  "preview_path": "reference-library/previews/unisex/mannerism/masterpieces-014-portrait-of-dona-isabel-de-requesens.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053847_79e48707-8f14-47e8-a3d8-ce9f8b5fb439.png",
+  "reference_sha256": "9f2427d8da67916aee7c48cd291a30c84a4af47f16d1e8c622a351d1add514ee",
+  "workflow_folder": "workflows/portraits/masterpieces-014-portrait-of-dona-isabel-de-requesens",
+  "description": "Dog interpretation of Portrait of Doña Isabel de Requesens by Raphael and Giulio Romano. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Doña Isabel de Requesens",
+    "artist": "Raphael and Giulio Romano",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Do%C3%B1a_Isabel_de_Requesens_y_Enr%C3%ADquez_de_Cardona-Anglesola"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

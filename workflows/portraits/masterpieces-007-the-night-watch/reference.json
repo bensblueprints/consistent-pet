@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-007-the-night-watch",
+  "name": "The Night Watch — Dog Portrait",
+  "sex": "unisex",
+  "category": "baroque",
+  "art_movement": "Baroque",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/baroque/masterpieces-007-the-night-watch.png",
+  "preview_path": "reference-library/previews/unisex/baroque/masterpieces-007-the-night-watch.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053811_45f4b029-7382-4e1d-a7c7-b1d7bfc23760.png",
+  "reference_sha256": "f8b399896d7b31f87d94c5446489829a33785762db8bed7bd0c5a7b512ad067f",
+  "workflow_folder": "workflows/portraits/masterpieces-007-the-night-watch",
+  "description": "Dog interpretation of The Night Watch by Rembrandt. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "The Night Watch",
+    "artist": "Rembrandt",
+    "source_page": "https://en.wikipedia.org/wiki/The_Night_Watch"
+  },
+  "width": 2240,
+  "height": 1792,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

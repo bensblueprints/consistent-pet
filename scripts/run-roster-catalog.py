@@ -96,6 +96,7 @@ class RosterCatalog(catalog_module.Catalog):
             self.check_window()
             proposal=request_plan(ROOT,f"{refiner.run}-visit-{development['visit']}-candidate-{len(candidates)+1}-proposal-{attempt+1}",dict(images=images,context=dict(
                 reference=ref['name'],scene=t['scene'],development_history=history,
+                reference_requirements=ref.get('refinement_instructions',''),
                 instruction='All shown dogs are development examples. Correct the failing dog without losing earlier successes. A complete shared-recipe round must average at least 8 across all qualifying dogs and all four score dimensions. Do not copy a specific dog color or anatomy into generic instructions. If steps or mask growth failed repeatedly, change pose policy, conditioning balance or latent strategy. Avoid prior identical recipes.',
                 retry='An identical functional recipe is not a new experiment.' if attempt else '')))
             if not proposal['single_subject']:raise ValueError('Reference requires multi-subject handling')
@@ -118,14 +119,14 @@ class RosterCatalog(catalog_module.Catalog):
         if not plan_path.exists():
             dogs,tune=self.tuning_dogs()
             proposal=request_plan(ROOT,item['run']+'-initial',dict(images=[dict(file=reference,label='Costume reference'),dict(file=dogs[tune[0]]['input'],label='First original dog')],
-                context=dict(instruction='First experiment: no generated output has been inspected. Describe a pet-neutral costume scene and choose an initial workflow.')))
+                context=dict(reference_requirements=ref.get('refinement_instructions',''),instruction='First experiment: no generated output has been inspected. Describe a pet-neutral costume scene and choose an initial workflow.')))
             if not proposal['single_subject']:raise ValueError('Reference requires multi-subject handling')
             previous_rows=json.loads((ROOT/'dog-revisions.json').read_text())['rows'] if (ROOT/'dog-revisions.json').exists() else []
             offset=max([r.get('generation',0) for r in previous_rows if r.get('reference_id')==ref['id']]+[0])
             plan=dict(version=item['run'],dogs_manifest='selected-dogs-v3.json',stable_seeds=True,seed_namespace='roster-seed-v1',
                 max_attempts=12,patience=12,max_generations=5000,max_hours=48,
                 evaluation_policy=POLICY,screening_manifest='selected-screening-five.json',templates=[dict(id=ref['id'],reference_id=ref['id'],source_row=source_row,
-                    clothing=proposal['clothing'],scene=proposal['scene'],require_clothing=proposal['require_clothing'],
+                    clothing=proposal['clothing'],scene=proposal['scene']+' '+ref.get('refinement_instructions',''),require_clothing=proposal['require_clothing'],
                     initial_proposal=proposal,generation_offset=offset)])
             atomic(plan_path,plan)
         refiner=core.Refiner(json.loads(plan_path.read_text()));t=refiner.plan['templates'][0]

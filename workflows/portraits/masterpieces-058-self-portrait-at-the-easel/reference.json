@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-058-self-portrait-at-the-easel",
+  "name": "Self-Portrait at the Easel — Dog Portrait",
+  "sex": "unisex",
+  "category": "baroque",
+  "art_movement": "Baroque",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/baroque/masterpieces-058-self-portrait-at-the-easel.png",
+  "preview_path": "reference-library/previews/unisex/baroque/masterpieces-058-self-portrait-at-the-easel.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054316_ab3a1b9f-0a8f-4331-941c-f4b1a133d15a.png",
+  "reference_sha256": "49dd65102d498a2d17a280494d22135516da34e09ed7f17165fc8abb9d3b7386",
+  "workflow_folder": "workflows/portraits/masterpieces-058-self-portrait-at-the-easel",
+  "description": "Dog interpretation of Self-Portrait at the Easel by Artemisia Gentileschi. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Self-Portrait at the Easel",
+    "artist": "Artemisia Gentileschi",
+    "source_page": "https://en.wikipedia.org/wiki/Self-Portrait_as_the_Allegory_of_Painting"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-075-portrait-of-an-unknown-woman",
+  "name": "Portrait of an Unknown Woman — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-075-portrait-of-an-unknown-woman.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-075-portrait-of-an-unknown-woman.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054320_5adb8a1e-1fe9-4868-9843-1ffd1958a51c.png",
+  "reference_sha256": "cd3505e7516cc7744ed218682e9c5b5cbd3e4c50811da0dae694a4cde686c862",
+  "workflow_folder": "workflows/portraits/masterpieces-075-portrait-of-an-unknown-woman",
+  "description": "Dog interpretation of Portrait of an Unknown Woman by Ivan Kramskoi. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of an Unknown Woman",
+    "artist": "Ivan Kramskoi",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_an_Unknown_Woman"
+  },
+  "width": 2336,
+  "height": 1744,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

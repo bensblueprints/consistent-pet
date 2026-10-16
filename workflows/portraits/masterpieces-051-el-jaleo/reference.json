@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-051-el-jaleo",
+  "name": "El Jaleo — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-051-el-jaleo.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-051-el-jaleo.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053852_f3b317d4-a74e-4308-ae0d-0837258f4bf9.png",
+  "reference_sha256": "b7cae8eaa724adec9e87531b1b2fbef9dea5b7b09c93ab0d87f49a75a9e041e5",
+  "workflow_folder": "workflows/portraits/masterpieces-051-el-jaleo",
+  "description": "Dog interpretation of El Jaleo by John Singer Sargent. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "El Jaleo",
+    "artist": "John Singer Sargent",
+    "source_page": "https://en.wikipedia.org/wiki/El_Jaleo"
+  },
+  "width": 2048,
+  "height": 1360,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

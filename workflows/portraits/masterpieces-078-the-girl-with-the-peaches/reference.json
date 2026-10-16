@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-078-the-girl-with-the-peaches",
+  "name": "The Girl with the Peaches — Dog Portrait",
+  "sex": "unisex",
+  "category": "impressionism",
+  "art_movement": "Impressionism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/impressionism/masterpieces-078-the-girl-with-the-peaches.png",
+  "preview_path": "reference-library/previews/unisex/impressionism/masterpieces-078-the-girl-with-the-peaches.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054325_95b7a3fc-2ef8-4782-91e4-9d8948aabd11.png",
+  "reference_sha256": "7169ce7fd07942013963158ced7d5a5fb2eace0935a951260d4cecfd53a274d0",
+  "workflow_folder": "workflows/portraits/masterpieces-078-the-girl-with-the-peaches",
+  "description": "Dog interpretation of The Girl with the Peaches by Valentin Serov. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "The Girl with the Peaches",
+    "artist": "Valentin Serov",
+    "source_page": "https://en.wikipedia.org/wiki/Girl_with_Peaches"
+  },
+  "width": 1920,
+  "height": 2160,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

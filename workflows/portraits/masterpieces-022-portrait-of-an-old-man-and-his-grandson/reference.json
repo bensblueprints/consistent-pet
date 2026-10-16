@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-022-portrait-of-an-old-man-and-his-grandson",
+  "name": "Portrait of an Old Man and his Grandson — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-022-portrait-of-an-old-man-and-his-grandson.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-022-portrait-of-an-old-man-and-his-grandson.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054235_7ae17a9c-6f07-4edc-ac42-f071b00b57c0.png",
+  "reference_sha256": "c55bbd02c13b1b409ab10392583cf41c76e2af8223bb6ec8ce375be93338d4bf",
+  "workflow_folder": "workflows/portraits/masterpieces-022-portrait-of-an-old-man-and-his-grandson",
+  "description": "Dog interpretation of Portrait of an Old Man and his Grandson by Domenico Ghirlandaio. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of an Old Man and his Grandson",
+    "artist": "Domenico Ghirlandaio",
+    "source_page": "https://en.wikipedia.org/wiki/An_Old_Man_and_his_Grandson"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

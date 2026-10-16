@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-056-emilie-floge",
+  "name": "Emilie Flöge — Dog Portrait",
+  "sex": "unisex",
+  "category": "art-nouveau",
+  "art_movement": "Art Nouveau",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/art-nouveau/masterpieces-056-emilie-floge.png",
+  "preview_path": "reference-library/previews/unisex/art-nouveau/masterpieces-056-emilie-floge.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054249_05108274-cb89-46c9-8f1e-851c2521358a.png",
+  "reference_sha256": "9bde224ee3eeee5c48b0cb94add6925011d00f15f3007f9977d3bd65356ca30f",
+  "workflow_folder": "workflows/portraits/masterpieces-056-emilie-floge",
+  "description": "Dog interpretation of Emilie Flöge by Gustav Klimt. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Emilie Flöge",
+    "artist": "Gustav Klimt",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Emilie_Fl%C3%B6ge"
+  },
+  "width": 1152,
+  "height": 2592,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

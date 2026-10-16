@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-026-portrait-of-a-halberdier",
+  "name": "Portrait of a Halberdier — Dog Portrait",
+  "sex": "unisex",
+  "category": "mannerism",
+  "art_movement": "Mannerism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/mannerism/masterpieces-026-portrait-of-a-halberdier.png",
+  "preview_path": "reference-library/previews/unisex/mannerism/masterpieces-026-portrait-of-a-halberdier.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054235_7dbda81e-d571-4847-b480-6d7433323483.png",
+  "reference_sha256": "aa2a6c111823aedc309d35022de76da002c5c346ebd8dd552bbe7699bbee6a84",
+  "workflow_folder": "workflows/portraits/masterpieces-026-portrait-of-a-halberdier",
+  "description": "Dog interpretation of Portrait of a Halberdier by Pontormo. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of a Halberdier",
+    "artist": "Pontormo",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_a_Halberdier"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

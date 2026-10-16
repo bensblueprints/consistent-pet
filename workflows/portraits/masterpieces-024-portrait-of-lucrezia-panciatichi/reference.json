@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-024-portrait-of-lucrezia-panciatichi",
+  "name": "Portrait of Lucrezia Panciatichi — Dog Portrait",
+  "sex": "unisex",
+  "category": "mannerism",
+  "art_movement": "Mannerism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/mannerism/masterpieces-024-portrait-of-lucrezia-panciatichi.png",
+  "preview_path": "reference-library/previews/unisex/mannerism/masterpieces-024-portrait-of-lucrezia-panciatichi.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054236_633bf084-fe21-46b5-b2ea-d4634fabb65c.png",
+  "reference_sha256": "6fcce24a1f8d0bb406e4feaefaf50922d72a400df92ed6a572d41fb6f8b84dd1",
+  "workflow_folder": "workflows/portraits/masterpieces-024-portrait-of-lucrezia-panciatichi",
+  "description": "Dog interpretation of Portrait of Lucrezia Panciatichi by Agnolo Bronzino. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Lucrezia Panciatichi",
+    "artist": "Agnolo Bronzino",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Lucrezia_Panciatichi"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

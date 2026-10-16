@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-085-three-studies-of-lucian-freud",
+  "name": "Three Studies of Lucian Freud — Dog Portrait",
+  "sex": "unisex",
+  "category": "expressionism",
+  "art_movement": "Expressionism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/expressionism/masterpieces-085-three-studies-of-lucian-freud.png",
+  "preview_path": "reference-library/previews/unisex/expressionism/masterpieces-085-three-studies-of-lucian-freud.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053857_ae794e1a-a3a6-4f39-954c-d2afe74554a9.png",
+  "reference_sha256": "dcb5e3aec50b0bb1f237e91d8b000d8dbaaa4230d4ac0359eab3c6222824377b",
+  "workflow_folder": "workflows/portraits/masterpieces-085-three-studies-of-lucian-freud",
+  "description": "Dog interpretation of Three Studies of Lucian Freud by Francis Bacon. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Three Studies of Lucian Freud",
+    "artist": "Francis Bacon",
+    "source_page": "https://en.wikipedia.org/wiki/Three_Studies_of_Lucian_Freud"
+  },
+  "width": 2688,
+  "height": 1152,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

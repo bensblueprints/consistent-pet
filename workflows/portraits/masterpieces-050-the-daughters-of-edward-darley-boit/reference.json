@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-050-the-daughters-of-edward-darley-boit",
+  "name": "The Daughters of Edward Darley Boit — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-050-the-daughters-of-edward-darley-boit.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-050-the-daughters-of-edward-darley-boit.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054249_5b2ca427-6b03-4ce6-817b-689901571e6e.png",
+  "reference_sha256": "ab83257ef754e7982db126c40f3395b3b57ba9760763ddcc34f05687373c0a73",
+  "workflow_folder": "workflows/portraits/masterpieces-050-the-daughters-of-edward-darley-boit",
+  "description": "Dog interpretation of The Daughters of Edward Darley Boit by John Singer Sargent. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "The Daughters of Edward Darley Boit",
+    "artist": "John Singer Sargent",
+    "source_page": "https://en.wikipedia.org/wiki/The_Daughters_of_Edward_Darley_Boit"
+  },
+  "width": 2048,
+  "height": 2048,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

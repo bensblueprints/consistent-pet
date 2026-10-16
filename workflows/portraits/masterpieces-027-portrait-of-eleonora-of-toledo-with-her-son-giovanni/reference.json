@@ -1,0 +1,30 @@
+{
+  "id": "masterpieces-027-portrait-of-eleonora-of-toledo-with-her-son-giovanni",
+  "name": "Portrait of Eleonora of Toledo with her Son Giovanni — Dog Portrait",
+  "sex": "unisex",
+  "category": "mannerism",
+  "art_movement": "Mannerism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/mannerism/masterpieces-027-portrait-of-eleonora-of-toledo-with-her-son-giovanni.png",
+  "preview_path": "reference-library/previews/unisex/mannerism/masterpieces-027-portrait-of-eleonora-of-toledo-with-her-son-giovanni.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_054236_850216ab-ad17-4e86-a59e-671c997f7d23.png",
+  "reference_sha256": "c9e438e39b03a8d4170de44ba6f4fa95e9dc84b567033c17943ad189d67cfb9f",
+  "workflow_folder": "workflows/portraits/masterpieces-027-portrait-of-eleonora-of-toledo-with-her-son-giovanni",
+  "description": "Dog interpretation of Portrait of Eleonora of Toledo with her Son Giovanni by Agnolo Bronzino. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Eleonora of Toledo with her Son Giovanni",
+    "artist": "Agnolo Bronzino",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_Eleanor_of_Toledo"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated",
+    "multiple-figures-require-explicit-identity-mapping"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

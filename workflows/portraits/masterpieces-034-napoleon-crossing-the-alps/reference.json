@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-034-napoleon-crossing-the-alps",
+  "name": "Napoleon Crossing the Alps — Dog Portrait",
+  "sex": "unisex",
+  "category": "neoclassicism",
+  "art_movement": "Neoclassicism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/neoclassicism/masterpieces-034-napoleon-crossing-the-alps.png",
+  "preview_path": "reference-library/previews/unisex/neoclassicism/masterpieces-034-napoleon-crossing-the-alps.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053852_0078be38-61c4-4a63-9b07-acc2f5b67461.png",
+  "reference_sha256": "72a43e5da8fb6e66167d6cef5efbc5448650dbf3c140761c8705cb6edc0aae5f",
+  "workflow_folder": "workflows/portraits/masterpieces-034-napoleon-crossing-the-alps",
+  "description": "Dog interpretation of Napoleon Crossing the Alps by Jacques-Louis David. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Napoleon Crossing the Alps",
+    "artist": "Jacques-Louis David",
+    "source_page": "https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps"
+  },
+  "width": 1792,
+  "height": 2240,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

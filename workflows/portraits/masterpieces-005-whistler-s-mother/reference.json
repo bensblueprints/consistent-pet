@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-005-whistler-s-mother",
+  "name": "Whistler's Mother — Dog Portrait",
+  "sex": "unisex",
+  "category": "realism",
+  "art_movement": "Realism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/realism/masterpieces-005-whistler-s-mother.png",
+  "preview_path": "reference-library/previews/unisex/realism/masterpieces-005-whistler-s-mother.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053810_c3800208-d915-4d32-bfa5-ae4aea07af09.png",
+  "reference_sha256": "bc02de1152f216cda7b2b1cc2cd25964002b66a63b9cc7539ecb11f1a07fe0bd",
+  "workflow_folder": "workflows/portraits/masterpieces-005-whistler-s-mother",
+  "description": "Dog interpretation of Whistler's Mother by James McNeill Whistler. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Whistler's Mother",
+    "artist": "James McNeill Whistler",
+    "source_page": "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+  },
+  "width": 2160,
+  "height": 1920,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

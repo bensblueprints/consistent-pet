@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-083-portrait-of-winston-churchill",
+  "name": "Portrait of Winston Churchill — Dog Portrait",
+  "sex": "unisex",
+  "category": "expressionism",
+  "art_movement": "Expressionism",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/expressionism/masterpieces-083-portrait-of-winston-churchill.png",
+  "preview_path": "reference-library/previews/unisex/expressionism/masterpieces-083-portrait-of-winston-churchill.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053858_de15e694-26f8-4d6f-ba01-82de5f0c06bc.png",
+  "reference_sha256": "98a0b7e5d91c591fe115c8741906f9173fb61b4938965e98808bcc002bf31e8f",
+  "workflow_folder": "workflows/portraits/masterpieces-083-portrait-of-winston-churchill",
+  "description": "Dog interpretation of Portrait of Winston Churchill by Graham Sutherland. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of Winston Churchill",
+    "artist": "Graham Sutherland",
+    "source_page": "https://en.wikipedia.org/wiki/Sutherland%27s_Portrait_of_Winston_Churchill"
+  },
+  "width": 1824,
+  "height": 2128,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}

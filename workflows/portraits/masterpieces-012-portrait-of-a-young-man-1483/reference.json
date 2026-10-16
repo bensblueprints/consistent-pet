@@ -1,0 +1,29 @@
+{
+  "id": "masterpieces-012-portrait-of-a-young-man-1483",
+  "name": "Portrait of a Young Man (1483) — Dog Portrait",
+  "sex": "unisex",
+  "category": "renaissance",
+  "art_movement": "Renaissance",
+  "collection": "masterpieces75",
+  "reference_path": "reference-library/references/unisex/renaissance/masterpieces-012-portrait-of-a-young-man-1483.png",
+  "preview_path": "reference-library/previews/unisex/renaissance/masterpieces-012-portrait-of-a-young-man-1483.webp",
+  "reference_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3FexRxU2V7FefQUvOnG7eFCKfmw/hf_20261016_053842_dc2e72fc-e4de-4413-8813-727ce3de5c05.png",
+  "reference_sha256": "704c8de0f2b51e384d7bdc075b30b03e162cb2f32086dc758457ccc66c6a1379",
+  "workflow_folder": "workflows/portraits/masterpieces-012-portrait-of-a-young-man-1483",
+  "description": "Dog interpretation of Portrait of a Young Man (1483) by Sandro Botticelli. Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe.",
+  "original_artwork": {
+    "title": "Portrait of a Young Man (1483)",
+    "artist": "Sandro Botticelli",
+    "source_page": "https://en.wikipedia.org/wiki/Portrait_of_a_Young_Man_%28Botticelli%2C_London%29"
+  },
+  "width": 1744,
+  "height": 2336,
+  "qa_flags": [
+    "preserve-original-painting-style",
+    "preserve-source-aspect-ratio",
+    "identity-transfer-not-validated"
+  ],
+  "customer_identity_transfer_validated": false,
+  "production_enabled": false,
+  "refinement_instructions": "Preserve the original painting's composition, clothing, accessories, pose, background, palette, lighting, brushwork and surface texture. Transfer the uploaded pet's recognizable face, muzzle, ear shape, coat markings and fur pattern into the painted figure. Render the pet using the painting's own visual language, never a photographic face pasted onto a painting. Do not inherit the reference dog's breed, identity or markings. Keep the body clothed, without human breasts. Preserve original aspect ratio and important scene elements; no automatic portrait crop. Review both identity preservation and fidelity to the original artwork before accepting the reusable recipe."
+}
