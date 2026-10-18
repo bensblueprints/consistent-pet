@@ -1,9 +1,32 @@
 {
   "reference_id": "masterpieces-059-judith-slaying-holofernes-1620",
-  "status": "not_started",
-  "accepted_workflow": null,
+  "status": "accepted",
+  "accepted_workflow": "workflow.json",
   "customer_identity_transfer_validated": false,
   "production_enabled": false,
   "queue_registration": "pending_gpu_connection",
-  "last_run_version": null
+  "last_run_version": "roster-screening-v6-masterpieces-059-judith-slaying-holofernes-1620",
+  "last_updated_utc": "2026-10-18T11:45:23Z",
+  "known_roster_identity_transfer_validated": true,
+  "evaluation_policy": "qualified-inputs-screening-five-v6",
+  "unseen_dog_validation": false,
+  "ai_estimate_only": true,
+  "latest_provisional_workflow": null,
+  "rounds_started": 1,
+  "generation_candidates": 15,
+  "roster_entries": 5,
+  "passing_current_recipe": 3,
+  "required_average": 8,
+  "current_recipe_average": 8.15,
+  "candidate_revisions": 3,
+  "screening_sample": true,
+  "qualified_pool_entries": 17,
+  "input_minimum": 7,
+  "output_thresholds": {
+    "identity": 8,
+    "fur": 8,
+    "body": 7,
+    "template": 8
+  },
+  "excluded_input_entries": 15
 }
