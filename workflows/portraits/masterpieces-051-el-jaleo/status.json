@@ -1,9 +1,32 @@
 {
   "reference_id": "masterpieces-051-el-jaleo",
-  "status": "not_started",
+  "status": "provisional",
   "accepted_workflow": null,
   "customer_identity_transfer_validated": false,
   "production_enabled": false,
   "queue_registration": "pending_gpu_connection",
-  "last_run_version": null
+  "last_run_version": "roster-screening-v6-masterpieces-051-el-jaleo",
+  "last_updated_utc": "2026-10-18T11:04:02Z",
+  "known_roster_identity_transfer_validated": false,
+  "evaluation_policy": "qualified-inputs-screening-five-v6",
+  "unseen_dog_validation": false,
+  "ai_estimate_only": true,
+  "latest_provisional_workflow": null,
+  "rounds_started": 1,
+  "generation_candidates": 0,
+  "roster_entries": 0,
+  "passing_current_recipe": 0,
+  "required_average": 8,
+  "current_recipe_average": null,
+  "candidate_revisions": 0,
+  "screening_sample": false,
+  "qualified_pool_entries": 0,
+  "input_minimum": 7,
+  "output_thresholds": {
+    "identity": 8,
+    "fur": 8,
+    "body": 7,
+    "template": 8
+  },
+  "excluded_input_entries": 0
 }
