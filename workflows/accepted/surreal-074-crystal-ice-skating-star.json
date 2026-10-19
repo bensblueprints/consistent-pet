@@ -1,0 +1,415 @@
+{
+ "binding": "Bind original dog, real face crop, reference assets and seed through repair_graph and apply_recipe. Do not add dog-specific review corrections.",
+ "clothing": "sparkling ice princess gown with crystal tiara and white ice skates",
+ "evaluation": {
+  "ai_estimate_only": true,
+  "average_score": 8.4,
+  "checked_entries": 5,
+  "excluded_input_entries": 15,
+  "input_minimum": 7,
+  "passing_entries": 4,
+  "policy": "qualified-inputs-screening-five-v6",
+  "qualified_pool_entries": 17,
+  "required_average": 8,
+  "roster_entries": 5,
+  "same_recipe_for_all": true,
+  "score_count": 20,
+  "score_sum": 168,
+  "screening_sample": true,
+  "unseen_dog_validation": false,
+  "untested_qualifying_entries": 12
+ },
+ "format": "consistent-pet-average-recipe-v2",
+ "graph": {
+  "76": {
+   "class_type": "LoadImage",
+   "inputs": {
+    "image": "__DOG_ORIGINAL__"
+   }
+  },
+  "81": {
+   "class_type": "LoadImage",
+   "inputs": {
+    "image": "__COSTUME_REFERENCE__"
+   }
+  },
+  "9": {
+   "class_type": "SaveImage",
+   "inputs": {
+    "filename_prefix": "__OUTPUT_PREFIX__",
+    "images": [
+     "repair-composite",
+     0
+    ]
+   }
+  },
+  "92:102": {
+   "class_type": "KSamplerSelect",
+   "inputs": {
+    "sampler_name": "euler"
+   }
+  },
+  "92:103": {
+   "class_type": "SamplerCustomAdvanced",
+   "inputs": {
+    "guider": [
+     "92:114",
+     0
+    ],
+    "latent_image": [
+     "92:109",
+     0
+    ],
+    "noise": [
+     "92:105",
+     0
+    ],
+    "sampler": [
+     "92:102",
+     0
+    ],
+    "sigmas": [
+     "92:115",
+     0
+    ]
+   }
+  },
+  "92:104": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "92:103",
+     0
+    ],
+    "vae": [
+     "92:107",
+     0
+    ]
+   }
+  },
+  "92:105": {
+   "class_type": "RandomNoise",
+   "inputs": {
+    "noise_seed": "__DOG_SEED__"
+   }
+  },
+  "92:106": {
+   "class_type": "UNETLoader",
+   "inputs": {
+    "unet_name": "flux-2-klein-base-4b-fp8.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "92:107": {
+   "class_type": "VAELoader",
+   "inputs": {
+    "vae_name": "full_encoder_small_decoder.safetensors"
+   }
+  },
+  "92:108": {
+   "class_type": "GetImageSize",
+   "inputs": {
+    "image": [
+     "92:110",
+     0
+    ]
+   }
+  },
+  "92:109": {
+   "class_type": "EmptyFlux2LatentImage",
+   "inputs": {
+    "batch_size": 1,
+    "height": 1040,
+    "width": 832
+   }
+  },
+  "92:110": {
+   "class_type": "ImageScaleToTotalPixels",
+   "inputs": {
+    "image": [
+     "76",
+     0
+    ],
+    "megapixels": 1.2,
+    "resolution_steps": 1,
+    "upscale_method": "lanczos"
+   }
+  },
+  "92:111": {
+   "class_type": "CLIPLoader",
+   "inputs": {
+    "clip_name": "qwen_3_4b.safetensors",
+    "device": "default",
+    "type": "flux2"
+   }
+  },
+  "92:113": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "92:111",
+     0
+    ],
+    "text": "__DOG_NEUTRAL_REPAIR_PROMPT__"
+   }
+  },
+  "92:114": {
+   "class_type": "CFGGuider",
+   "inputs": {
+    "cfg": 4.5,
+    "model": [
+     "92:106",
+     0
+    ],
+    "negative": [
+     "92:128",
+     0
+    ],
+    "positive": [
+     "92:130",
+     0
+    ]
+   }
+  },
+  "92:115": {
+   "class_type": "Flux2Scheduler",
+   "inputs": {
+    "height": 1040,
+    "steps": 48,
+    "width": 832
+   }
+  },
+  "92:125": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "92:87",
+     0
+    ],
+    "latent": [
+     "92:126",
+     0
+    ]
+   }
+  },
+  "92:126": {
+   "class_type": "VAEEncode",
+   "inputs": {
+    "pixels": [
+     "92:110",
+     0
+    ],
+    "vae": [
+     "92:107",
+     0
+    ]
+   }
+  },
+  "92:127": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "92:113",
+     0
+    ],
+    "latent": [
+     "92:126",
+     0
+    ]
+   }
+  },
+  "92:128": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "detailnegative",
+     0
+    ],
+    "latent": [
+     "92:129",
+     0
+    ]
+   }
+  },
+  "92:129": {
+   "class_type": "VAEEncode",
+   "inputs": {
+    "pixels": [
+     "92:85",
+     0
+    ],
+    "vae": [
+     "92:107",
+     0
+    ]
+   }
+  },
+  "92:130": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "detailpositive",
+     0
+    ],
+    "latent": [
+     "92:129",
+     0
+    ]
+   }
+  },
+  "92:85": {
+   "class_type": "ImageScaleToTotalPixels",
+   "inputs": {
+    "image": [
+     "81",
+     0
+    ],
+    "megapixels": 0.8,
+    "resolution_steps": 1,
+    "upscale_method": "lanczos"
+   }
+  },
+  "92:87": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "92:111",
+     0
+    ],
+    "text": ""
+   }
+  },
+  "detailimage": {
+   "class_type": "LoadImage",
+   "inputs": {
+    "image": "__DOG_FACE__"
+   }
+  },
+  "detaillatent": {
+   "class_type": "VAEEncode",
+   "inputs": {
+    "pixels": [
+     "detailscale",
+     0
+    ],
+    "vae": [
+     "92:107",
+     0
+    ]
+   }
+  },
+  "detailnegative": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "92:125",
+     0
+    ],
+    "latent": [
+     "detaillatent",
+     0
+    ]
+   }
+  },
+  "detailpositive": {
+   "class_type": "ReferenceLatent",
+   "inputs": {
+    "conditioning": [
+     "92:127",
+     0
+    ],
+    "latent": [
+     "detaillatent",
+     0
+    ]
+   }
+  },
+  "detailscale": {
+   "class_type": "ImageScaleToTotalPixels",
+   "inputs": {
+    "image": [
+     "detailimage",
+     0
+    ],
+    "megapixels": 1.0,
+    "resolution_steps": 1,
+    "upscale_method": "lanczos"
+   }
+  },
+  "repair-base": {
+   "class_type": "LoadImage",
+   "inputs": {
+    "image": "__TEMPLATE_LAYOUT__"
+   }
+  },
+  "repair-composite": {
+   "class_type": "ImageCompositeMasked",
+   "inputs": {
+    "destination": [
+     "repair-base",
+     0
+    ],
+    "mask": [
+     "repair-mask",
+     0
+    ],
+    "resize_source": false,
+    "source": [
+     "92:104",
+     0
+    ],
+    "x": 0,
+    "y": 0
+   }
+  },
+  "repair-latent": {
+   "class_type": "VAEEncodeForInpaint",
+   "inputs": {
+    "grow_mask_by": 0,
+    "mask": [
+     "repair-mask",
+     0
+    ],
+    "pixels": [
+     "repair-base",
+     0
+    ],
+    "vae": [
+     "92:107",
+     0
+    ]
+   }
+  },
+  "repair-mask": {
+   "class_type": "LoadImageMask",
+   "inputs": {
+    "channel": "red",
+    "image": "__SUBJECT_MASK__"
+   }
+  }
+ },
+ "recipe": {
+  "cfg": 4.5,
+  "design_megapixels": 0.8,
+  "face_megapixels": 1.0,
+  "feather": 12,
+  "focus": [
+   "identity",
+   "fur",
+   "body"
+  ],
+  "grow": 48,
+  "instruction": "Match the original individual face exactly: muzzle length, skull, eye shape, ears, age and asymmetric markings. Keep the face naturally lit and attached to its own neck. Every visible animal surface must use the ORIGINAL dog coat distribution and texture, including forelegs, paws, hindquarters and tail. The erased template animal contributes no coat information. Rebuild a connected body at the original dog's breed, age and build. Fit the costume to that body. Use compact rounded canine paws with short grouped toes, no long fingers or human hands. Respect perspective and genuinely hidden limbs. Preserve the intended reference pose with this dog's own natural limb proportions and posture.",
+  "original_megapixels": 1.2,
+  "pose_policy": "reference",
+  "steps": 48,
+  "strategy": "fresh-latent"
+ },
+ "scene": "Dog in a sparkling ice princess gown with crystal tiara and white ice skates, sitting on a reflective ice rink under a starry galaxy sky with floating ice castles. Costume features sheer sleeves, sequined bodice, and flowing tulle skirt. Pose is seated with front paws forward, medium shot, digital painting style.",
+ "sha256": "52896cf04a1ccbbf4f5b69b9972496b95be23605077eb6eedbc5eb0b0fc58060",
+ "status": "locked_on_average",
+ "template_id": "surreal-074-crystal-ice-skating-star",
+ "thresholds": {
+  "round_average": 8
+ }
+}

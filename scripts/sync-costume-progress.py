@@ -17,6 +17,8 @@ repo=Path(sys.argv[1]);files={}
 index=json.loads((repo/'workflows/portraits/index.json').read_text())
 priority=repo/'workflows/portraits/priority-heaven24.json'
 if priority.exists():index+=json.loads(priority.read_text())
+appended=repo/'workflows/portraits/append-masterpieces75.json'
+if appended.exists():index+=json.loads(appended.read_text())
 if len({r['id'] for r in index})!=len(index):raise ValueError('Duplicate workflow IDs')
 for ref in index:
     folder=repo/ref['workflow_folder']
@@ -36,6 +38,8 @@ def run(args):
     index=json.loads((repo/'workflows/portraits/index.json').read_text())
     priority=repo/'workflows/portraits/priority-heaven24.json'
     if priority.exists():index+=json.loads(priority.read_text())
+    appended=repo/'workflows/portraits/append-masterpieces75.json'
+    if appended.exists():index+=json.loads(appended.read_text())
     if len({r['id'] for r in index})!=len(index):raise ValueError('Duplicate workflow IDs')
     allowed={ref['workflow_folder']+'/'+name for ref in index for name in ('status.json','REPORT.md','workflow.json')}
     ssh=['ssh','-o','BatchMode=yes','-o','IdentitiesOnly=yes','-o','ConnectTimeout=20','-i',str(args.identity),'-p',str(args.port),args.host,
@@ -89,6 +93,12 @@ def run(args):
         spec=importlib.util.spec_from_file_location('hf_mirror',Path(__file__).with_name('mirror-workflows-hf.py'));mirror=importlib.util.module_from_spec(spec);spec.loader.exec_module(mirror)
         revision=mirror.mirror(repo,args.hf_dataset)
         print(json.dumps(dict(hugging_face_revision=revision)),flush=True)
+        secondary=Path.home()/'.cache/huggingface/token-secondary'
+        if args.hf_dataset=='bensblueprints/consistent-pet' and secondary.exists():
+            backup=mirror.mirror(repo,'benjithedeveloper/consistent-pet',secondary.read_text().strip())
+            print(json.dumps(dict(hugging_face_revision_backup=backup)),flush=True)
+        spec=importlib.util.spec_from_file_location('hf_refs',Path(__file__).with_name('mirror-references-hf.py'));refs=importlib.util.module_from_spec(spec);spec.loader.exec_module(refs)
+        print(json.dumps(dict(reference_images=refs.sync(repo))),flush=True)
     print(json.dumps(dict(changed_files=len(changed),published=bool(changed and args.publish))),flush=True)
 
 

@@ -1,0 +1,84 @@
+{
+ "average_score": 8.0,
+ "category": "Surrealism",
+ "collection": "masterpieces75",
+ "description": "A dog seated on a yellow wooden chair, wearing a dark suit, red shirt, and black shoes, holding scissors. The background features a textured wall with musical notation and a ground covered in dark roots and earthy tones. The medium is paint",
+ "format": "pawtography-higgsfield-recipe-v1",
+ "group": "Fine Art Masterpieces",
+ "higgsfield": {
+  "customer_generation": {
+   "aspect_ratio": "3:4",
+   "enable_thinking": true,
+   "image_slots": [
+    "identity: customer dog photo",
+    "design: reference_url"
+   ],
+   "model": "alibaba/qwen-image-3/edit",
+   "prompt": "Create a polished, portrait-oriented pet portrait featuring the exact same dog from reference image 1, named {dog_name}. Image 1 is the identity source of truth: preserve this dog's recognizable face, muzzle, eyes, natural ears, coat colors, markings, fur length, and age. Image 2 is the selected artwork design reference. Recreate its costume, props, color palette, artistic medium, lighting, and scene as closely as practical, adapting everything to a real dog's anatomy and proportions. Style: Self-Portrait with Cropped Hair - Dog Portrait. Design notes: A dog seated on a yellow wooden chair, wearing a dark suit, red shirt, and black shoes, holding scissors. The background features a textured wall with musical notation and a ground covered in dark roots and earthy tones. The medium is paint. Show one complete dog with a natural canine head and body, no humans, no second animal, no text, no watermark.",
+   "prompt_extend": true,
+   "prompt_extend_mode": "direct",
+   "provider": "Higgsfield",
+   "resolution": "1k"
+  },
+  "source_art": {
+   "model": null,
+   "prompt": null,
+   "provider": null,
+   "source_known": false,
+   "variant": null
+  },
+  "template_regeneration": {
+   "aspect_ratio": "3:4",
+   "image_slots": [
+    "design: reference_url"
+   ],
+   "prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural texture, beautifully art-directed for a framed print. Use the reference dog's natural face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO human characters, NO lettering, NO watermark, NO frame mockup. Category: Surrealism. Scene: A dog seated on a yellow wooden chair, wearing a dark suit, red shirt, and black shoes, holding scissors. The background features a textured wall with musical notation and a ground covered in dark roots and earthy tones. The medium is painterly with visible brushwork and watercolor effects.. Costume: dark suit with red shirt and black shoes. Natural dog anatomy under the outfit.",
+   "resolution": "1k"
+  }
+ },
+ "id": "masterpieces-088-self-portrait-with-cropped-hair",
+ "local_refinement": {
+  "evaluation": {
+   "ai_estimate_only": true,
+   "average_score": 8.0,
+   "checked_entries": 5,
+   "excluded_input_entries": 15,
+   "input_minimum": 7,
+   "passing_entries": 2,
+   "policy": "qualified-inputs-screening-five-v6",
+   "qualified_pool_entries": 17,
+   "required_average": 8,
+   "roster_entries": 5,
+   "same_recipe_for_all": true,
+   "score_count": 20,
+   "score_sum": 160,
+   "screening_sample": true,
+   "unseen_dog_validation": false,
+   "untested_qualifying_entries": 12
+  },
+  "format": "consistent-pet-average-recipe-v2",
+  "note": null,
+  "recipe": {
+   "cfg": 4.5,
+   "design_megapixels": 0.8,
+   "face_megapixels": 1.0,
+   "feather": 12,
+   "focus": [
+    "identity",
+    "fur"
+   ],
+   "grow": 48,
+   "instruction": "Match the original individual face exactly: muzzle length, skull, eye shape, ears, age and asymmetric markings. Keep the face naturally lit and attached to its own neck. Every visible animal surface must use the ORIGINAL dog coat distribution and texture, including forelegs, paws, hindquarters and tail. The erased template animal contributes no coat information. Preserve the intended reference pose with this dog's own natural limb proportions and posture.",
+   "original_megapixels": 1.2,
+   "pose_policy": "reference",
+   "steps": 48,
+   "strategy": "fresh-latent"
+  },
+  "workflow_file": "workflows/accepted/masterpieces-088-self-portrait-with-cropped-hair.json"
+ },
+ "name": "Self-Portrait with Cropped Hair - Dog Portrait",
+ "preview_url": "https://pawtography.ai/previews/unisex/surrealism/masterpieces-088-self-portrait-with-cropped-hair.webp",
+ "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/surrealism/masterpieces-088-self-portrait-with-cropped-hair.png",
+ "sex": "unisex",
+ "workflow_sha256": "fcea8fb2ee023ac0abf5002d6f44c9e2e86bb9fe23b311ec77eb0c7298037e71"
+}

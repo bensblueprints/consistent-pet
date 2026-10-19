@@ -1,0 +1,85 @@
+{
+ "average_score": 8.65,
+ "category": "Elemental Heroes",
+ "collection": "superheroes",
+ "description": "distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Scene: Firestorm Pup; atop a stone skyscraper with cinematic searchlights and a distant gothic city",
+ "format": "pawtography-higgsfield-recipe-v1",
+ "group": "Heroes & Space",
+ "higgsfield": {
+  "customer_generation": {
+   "aspect_ratio": "3:4",
+   "enable_thinking": true,
+   "image_slots": [
+    "identity: customer dog photo",
+    "design: reference_url"
+   ],
+   "model": "alibaba/qwen-image-3/edit",
+   "prompt": "Create a polished, portrait-oriented pet portrait featuring the exact same dog from reference image 1, named {dog_name}. Image 1 is the identity source of truth: preserve this dog's recognizable face, muzzle, eyes, natural ears, coat colors, markings, fur length, and age. Image 2 is the selected artwork design reference. Recreate its costume, props, color palette, artistic medium, lighting, and scene as closely as practical, adapting everything to a real dog's anatomy and proportions. Style: Firestorm Pup. Design notes: distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Scene: Firestorm Pup; atop a stone skyscraper with cinematic searchlights and a distant gothic city. Show one complete dog with a natural canine head and body, no humans, no second animal, no text, no watermark.",
+   "prompt_extend": true,
+   "prompt_extend_mode": "direct",
+   "provider": "Higgsfield",
+   "resolution": "1k"
+  },
+  "source_art": {
+   "model": "gpt_image_2_5",
+   "prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural fur, beautifully art-directed for a framed print. Use the reference golden retriever's natural canine face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO breasts, cleavage, corset, human hips or human musculature; female only means feminine clothing accessories. Keep recognizable face unobscured for later pet identity replacement. No other animals, no human characters, no lettering, no captions, no watermark, no frame mockup. Balanced realistic scene, premium warm and dramatic lighting, not a busy collage. Collection: superhero dog portraits. Firestorm Pup. Costume direction: distinct elemental superhero canine outfit corresponding to the concept, tasteful elemental energy surrounding but never hiding the pet. Adapt the setting specifically to the named concept: Firestorm Pup; atop a stone skyscraper with cinematic searchlights and a distant gothic city. Exciting heroic pose on four paws or naturally sitting; cloak moves around actual dog anatomy. No lettering or comic-panel speech bubbles.",
+   "provider": "Higgsfield",
+   "source_known": true,
+   "variant": "flare"
+  },
+  "template_regeneration": {
+   "aspect_ratio": "3:4",
+   "image_slots": [
+    "design: reference_url"
+   ],
+   "prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural texture, beautifully art-directed for a framed print. Use the reference dog's natural face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO human characters, NO lettering, NO watermark, NO frame mockup. Category: Elemental Heroes. Scene: Dog in heroic pose atop stone battlement, wearing fiery red and gold armor with flowing cape, surrounded by glowing embers and dramatic sunset over gothic cityscape, digital painting style, cinematic lighting. Costume: flaming red and gold superhero armor with flowing cape. Natural dog anatomy under the outfit.",
+   "resolution": "1k"
+  }
+ },
+ "id": "superheroes-161-firestorm-pup",
+ "local_refinement": {
+  "evaluation": {
+   "ai_estimate_only": true,
+   "average_score": 8.65,
+   "checked_entries": 5,
+   "excluded_input_entries": 15,
+   "input_minimum": 7,
+   "passing_entries": 5,
+   "policy": "qualified-inputs-screening-five-v6",
+   "qualified_pool_entries": 17,
+   "required_average": 8,
+   "roster_entries": 5,
+   "same_recipe_for_all": true,
+   "score_count": 20,
+   "score_sum": 173,
+   "screening_sample": true,
+   "unseen_dog_validation": false,
+   "untested_qualifying_entries": 12
+  },
+  "format": "consistent-pet-average-recipe-v2",
+  "note": null,
+  "recipe": {
+   "cfg": 4.5,
+   "design_megapixels": 0.8,
+   "face_megapixels": 1.0,
+   "feather": 12,
+   "focus": [
+    "identity",
+    "fur",
+    "body"
+   ],
+   "grow": 48,
+   "instruction": "Match the original individual face exactly: muzzle length, skull, eye shape, ears, age and asymmetric markings. Keep the face naturally lit and attached to its own neck. Every visible animal surface must use the ORIGINAL dog coat distribution and texture, including forelegs, paws, hindquarters and tail. The erased template animal contributes no coat information. Rebuild a connected body at the original dog's breed, age and build. Fit the costume to that body. Use compact rounded canine paws with short grouped toes, no long fingers or human hands. Respect perspective and genuinely hidden limbs. Use a relaxed natural canine sitting posture with the front paws under the shoulders, bent hindquarters, and proportions matching the source dog. Preserve the costume and scene.",
+   "original_megapixels": 1.2,
+   "pose_policy": "natural-sitting",
+   "steps": 48,
+   "strategy": "fresh-latent"
+  },
+  "workflow_file": "workflows/accepted/superheroes-161-firestorm-pup.json"
+ },
+ "name": "Firestorm Pup",
+ "preview_url": "https://pawtography.ai/previews/unisex/elemental-heroes/superheroes-161-firestorm-pup.webp",
+ "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/elemental-heroes/superheroes-161-firestorm-pup.png",
+ "sex": "unisex",
+ "workflow_sha256": "b989834088de24d0bdadbbcc8f7aa1382d35c808907801d553e397782e15d455"
+}

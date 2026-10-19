@@ -115,6 +115,26 @@ Tests cover the per-dimension 9/10 gate, critique-driven edits, identity isolati
 frozen cross-dog validation, failure/budget behavior, masks, durable reviews and
 private-runtime initialization.
 
+## Accepted catalog export (2026-10-19)
+
+The RTX 6000 catalog run was stopped at **749 accepted images** (751 queue
+acceptances; two owner-overridden mobster entries have no re-exported graph) and
+**43 blocked** entries. The export is reproducible with
+`scripts/export-catalog-package.py` from the pulled run state:
+
+- `workflows/accepted/` — 748 sanitized accepted recipes (graph, recipe, scores, checksum).
+- `workflows/higgsfield/` — one regeneration package per accepted image: reference URL,
+  original Higgsfield source prompt where known, the customer edit prompt, and the
+  accepted local recipe. `index.json` is the manifest.
+- `workflows/backlog/unfinished-jobs.json` — 24 `retry_pending`, 5 `pending`,
+  1 `in_progress` and 43 `blocked` jobs with their base ComfyUI graphs under
+  `workflows/backlog/jobs/` for a later run.
+- `workflows/catalog-export.json` — merged storefront metadata.
+
+`scripts/push-higgsfield-recipes.py` validates all 749 packages and is a dry run by
+default. `--submit-and-pay` submits them to Higgsfield; it costs one generation per
+image and requires `HF_KEY`.
+
 ## Repository contents
 
 This repository contains the implementation, tests and generic workflow/config

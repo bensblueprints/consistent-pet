@@ -1,0 +1,85 @@
+{
+ "average_score": 8.5,
+ "category": "Super Dog",
+ "collection": "superheroes",
+ "description": "Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Scene: Daily News Hero; against dynamic painterly energy streaks and architectural silhouettes",
+ "format": "pawtography-higgsfield-recipe-v1",
+ "group": "Heroes & Space",
+ "higgsfield": {
+  "customer_generation": {
+   "aspect_ratio": "3:4",
+   "enable_thinking": true,
+   "image_slots": [
+    "identity: customer dog photo",
+    "design: reference_url"
+   ],
+   "model": "alibaba/qwen-image-3/edit",
+   "prompt": "Create a polished, portrait-oriented pet portrait featuring the exact same dog from reference image 1, named {dog_name}. Image 1 is the identity source of truth: preserve this dog's recognizable face, muzzle, eyes, natural ears, coat colors, markings, fur length, and age. Image 2 is the selected artwork design reference. Recreate its costume, props, color palette, artistic medium, lighting, and scene as closely as practical, adapting everything to a real dog's anatomy and proportions. Style: Daily News Hero. Design notes: Super Dog inspired by Superman: cobalt blue canine superhero suit, flowing red cape, gold-and-red chest shield emblem, classic hopeful hero aesthetic. Scene: Daily News Hero; against dynamic painterly energy streaks and architectural silhouettes. Show one complete dog with a natural canine head and body, no humans, no second animal, no text, no watermark.",
+   "prompt_extend": true,
+   "prompt_extend_mode": "direct",
+   "provider": "Higgsfield",
+   "resolution": "1k"
+  },
+  "source_art": {
+   "model": "gpt_image_2_5",
+   "prompt": "A charming premium realistic portrait of the reference golden retriever wearing a comfortable dog superhero costume. Daily News Hero. Super Dog, cobalt blue dog costume, red flowing cape, heroic red and gold chest shield, sunny city newspaper office exterior.. One actual dog naturally seated, canine paws and proportions, expressive recognizable golden retriever face clearly visible. Tasteful cinematic photographic lighting, detailed soft fur. Vertical 4:5 artwork, comfortable headroom, uncluttered detailed setting. No people, words, border or watermark.",
+   "provider": "Higgsfield",
+   "source_known": true,
+   "variant": "flare"
+  },
+  "template_regeneration": {
+   "aspect_ratio": "3:4",
+   "image_slots": [
+    "design: reference_url"
+   ],
+   "prompt": "Create one premium full-bleed pet portrait template, vertical 4:5, cinematic fine-art realism and detailed natural texture, beautifully art-directed for a framed print. Use the reference dog's natural face and markings. Exactly ONE dog in the scene. Dog face large, clearly visible, front or three-quarter view, eyes sharp; entire ears inside the image with comfortable 12% top breathing room. A real dog wearing dog-tailored costume, natural canine shoulders, chest, body and paws. NO human body, NO human hands, NO human characters, NO lettering, NO watermark, NO frame mockup. Category: Super Dog. Scene: Dog in superhero costume sitting on city sidewalk, red cape flowing, blue tunic with gold trim and paw emblem, urban background with buildings, streetlamp, and greenery, photorealistic, bright daylight, shallow depth of field. Costume: Superhero costume with blue tunic, red cape, gold trim, and paw emblem. Natural dog anatomy under the outfit.",
+   "resolution": "1k"
+  }
+ },
+ "id": "superheroes-116-daily-news-hero",
+ "local_refinement": {
+  "evaluation": {
+   "ai_estimate_only": true,
+   "average_score": 8.5,
+   "checked_entries": 5,
+   "excluded_input_entries": 15,
+   "input_minimum": 7,
+   "passing_entries": 4,
+   "policy": "qualified-inputs-screening-five-v6",
+   "qualified_pool_entries": 17,
+   "required_average": 8,
+   "roster_entries": 5,
+   "same_recipe_for_all": true,
+   "score_count": 20,
+   "score_sum": 170,
+   "screening_sample": true,
+   "unseen_dog_validation": false,
+   "untested_qualifying_entries": 12
+  },
+  "format": "consistent-pet-average-recipe-v2",
+  "note": null,
+  "recipe": {
+   "cfg": 4.5,
+   "design_megapixels": 0.75,
+   "face_megapixels": 1.0,
+   "feather": 12,
+   "focus": [
+    "identity",
+    "fur",
+    "body"
+   ],
+   "grow": 48,
+   "instruction": "Match the original individual face exactly: muzzle length, skull, eye shape, ears, age and asymmetric markings. Keep the face naturally lit and attached to its own neck. Every visible animal surface must use the ORIGINAL dog coat distribution and texture, including forelegs, paws, hindquarters and tail. The erased template animal contributes no coat information. Rebuild a connected body at the original dog's breed, age and build. Fit the costume to that body. Use compact rounded canine paws with short grouped toes, no long fingers or human hands. Respect perspective and genuinely hidden limbs. Use a relaxed natural canine sitting posture with the front paws under the shoulders, bent hindquarters, and proportions matching the source dog. Preserve the costume and scene.",
+   "original_megapixels": 1.0,
+   "pose_policy": "natural-sitting",
+   "steps": 40,
+   "strategy": "fresh-latent"
+  },
+  "workflow_file": "workflows/accepted/superheroes-116-daily-news-hero.json"
+ },
+ "name": "Daily News Hero",
+ "preview_url": "https://pawtography.ai/previews/unisex/super-dog/superheroes-116-daily-news-hero.webp",
+ "reference_url": "https://huggingface.co/datasets/bensblueprints/consistent-pet/resolve/main/references/unisex/super-dog/superheroes-116-daily-news-hero.png",
+ "sex": "unisex",
+ "workflow_sha256": "35c064fbfe84faca4d6f67981cf8fabccfcce61c08c07615e7c24661c54e68ff"
+}
