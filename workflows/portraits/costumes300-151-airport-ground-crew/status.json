@@ -1,13 +1,34 @@
 {
   "reference_id": "costumes300-151-airport-ground-crew",
-  "status": "pending_gpu_refinement",
+  "status": "accepted",
   "target_hardware": "RTX PRO 6000 Blackwell 96 GB",
   "baseline_sha256": "fb4d6d0e6fa230cad49dd67a9dcd02825668549273a00de8810b368240cbd525",
   "baseline_is_reference_specific": false,
   "customer_identity_transfer_validated": false,
   "requires_design_review": false,
-  "accepted_workflow": null,
+  "accepted_workflow": "workflow.json",
   "latest_provisional_workflow": null,
-  "last_run_version": null,
-  "last_updated_utc": null
+  "last_run_version": "roster-screening-v6-costumes300-151-airport-ground-crew",
+  "last_updated_utc": "2026-10-19T04:24:03Z",
+  "known_roster_identity_transfer_validated": true,
+  "evaluation_policy": "qualified-inputs-screening-five-v6",
+  "unseen_dog_validation": false,
+  "ai_estimate_only": true,
+  "rounds_started": 1,
+  "generation_candidates": 5,
+  "roster_entries": 5,
+  "passing_current_recipe": 5,
+  "required_average": 8,
+  "current_recipe_average": 8.75,
+  "candidate_revisions": 1,
+  "screening_sample": true,
+  "qualified_pool_entries": 17,
+  "input_minimum": 7,
+  "output_thresholds": {
+    "identity": 8,
+    "fur": 8,
+    "body": 7,
+    "template": 8
+  },
+  "excluded_input_entries": 15
 }
