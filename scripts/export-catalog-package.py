@@ -145,21 +145,15 @@ def main() -> None:
             or by_ready.get(image_id, {}).get('average')
 
         if record:
-            sanitized = {
-                'format': record.get('format'),
-                'template_id': record.get('template_id', image_id),
-                'status': record.get('status'),
-                'scene': record.get('scene', ''),
-                'clothing': record.get('clothing', ''),
-                'recipe': record.get('recipe', {}),
-                'graph': record.get('graph', {}),
-                'evaluation': record.get('evaluation', {}),
-                'thresholds': record.get('thresholds'),
-                'binding': record.get('binding'),
-                'sha256': sha,
-            }
+            for node in (record.get('graph') or {}).values():
+                if node.get('class_type') in ('LoadImage', 'LoadImageMask'):
+                    value = node.get('inputs', {}).get('image')
+                    if not (isinstance(value, str) and value.startswith('__') and value.endswith('__')):
+                        raise ValueError(f'{image_id} binds a private image')
+            # Keep the accepted record byte-equivalent to its canonical checksum;
+            # the renderer recomputes sha256 over every field except sha256 itself.
             (out_accepted / f'{image_id}.json').write_text(
-                json.dumps(sanitized, indent=1, sort_keys=True) + '\n', encoding='utf-8')
+                json.dumps(record, indent=1, sort_keys=True) + '\n', encoding='utf-8')
         else:
             skipped.append(image_id)
 

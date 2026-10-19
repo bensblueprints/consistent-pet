@@ -388,6 +388,7 @@
    }
   }
  },
+ "production_enabled": false,
  "recipe": {
   "cfg": 5.0,
   "design_megapixels": 0.9,
